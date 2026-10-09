@@ -1,0 +1,91 @@
+{
+    "format": {
+        "bit_rate": "563848",
+        "duration": "2.966667",
+        "filename": "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/pinned/synthetic-rotation90-h264.mp4",
+        "format_long_name": "QuickTime / MOV",
+        "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+        "nb_programs": 0,
+        "nb_stream_groups": 0,
+        "nb_streams": 1,
+        "probe_score": 100,
+        "size": "209094",
+        "start_time": "0.000000",
+        "tags": {
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf63.1.102",
+            "major_brand": "isom",
+            "minor_version": "512"
+        }
+    },
+    "streams": [
+        {
+            "avg_frame_rate": "2100/89",
+            "bit_rate": "560758",
+            "bits_per_raw_sample": "8",
+            "chroma_location": "left",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "codec_name": "h264",
+            "codec_tag": "0x31637661",
+            "codec_tag_string": "avc1",
+            "codec_type": "video",
+            "coded_height": 180,
+            "coded_width": 320,
+            "display_aspect_ratio": "16:9",
+            "disposition": {
+                "attached_pic": 0,
+                "captions": 0,
+                "clean_effects": 0,
+                "comment": 0,
+                "default": 1,
+                "dependent": 0,
+                "descriptions": 0,
+                "dub": 0,
+                "forced": 0,
+                "hearing_impaired": 0,
+                "karaoke": 0,
+                "lyrics": 0,
+                "metadata": 0,
+                "multilayer": 0,
+                "non_diegetic": 0,
+                "original": 0,
+                "still_image": 0,
+                "timed_thumbnails": 0,
+                "visual_impaired": 0
+            },
+            "duration": "2.966667",
+            "duration_ts": 178000,
+            "extradata_size": 38,
+            "field_order": "progressive",
+            "has_b_frames": 0,
+            "height": 180,
+            "id": "0x1",
+            "index": 0,
+            "is_avc": "true",
+            "level": 21,
+            "mime_codec_string": "avc1.42c015",
+            "nal_length_size": "4",
+            "nb_frames": "70",
+            "pix_fmt": "yuv420p",
+            "profile": "Constrained Baseline",
+            "r_frame_rate": "60/1",
+            "sample_aspect_ratio": "1:1",
+            "side_data_list": [
+                {
+                    "displaymatrix": "\n00000000:            0      -65536           0\n00000001:        65536           0           0\n00000002:            0           0  1073741824\n",
+                    "rotation": 90,
+                    "side_data_type": "Display Matrix"
+                }
+            ],
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "tags": {
+                "encoder": "Lavc63.1.102 libx264",
+                "handler_name": "VideoHandler",
+                "language": "und"
+            },
+            "time_base": "1/60000",
+            "width": 320
+        }
+    ]
+}

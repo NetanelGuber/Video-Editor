@@ -1,0 +1,11 @@
+{
+  "session": 8,
+  "version": "0.8.0",
+  "date": "2026-10-07",
+  "passed": true,
+  "evidenceLevel": "User-reported Session 8 acceptance",
+  "checklist": "docs/session-8.md#human-windows-checklist",
+  "scope": "The user tested Session 8, confirmed it works and explicitly authorized completion; individual checklist outcomes were not separately reported",
+  "userConfirmation": "I tested it and it works, you can mark as complete.",
+  "agentComputerUsePerformed": false
+}

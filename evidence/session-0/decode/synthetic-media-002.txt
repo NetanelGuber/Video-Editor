@@ -1,0 +1,3 @@
+Input: B:\Coding\02-Projects\Tools\Video-Editor\fixtures\generated\pinned\synthetic-4k-hevc10-aac.mp4
+Scope: first 5 seconds (whole file for shorter fixtures); CPU video and all audio streams
+Exit code: 0

@@ -1,0 +1,32 @@
+-- The CXX compiler identification is MSVC 19.51.36244.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (5.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: B:/Coding/02-Projects/Tools/Video-Editor/build/session-0-dependency-check
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/evidence/session-0/toolchain-check/CMakeLists.txt
+  Scanning sources for module dependencies...
+  main.cpp
+  Compiling...
+  main.cpp
+  dependency-check.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-0-dependency-check\Release\dependency-check.exe
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/evidence/session-0/toolchain-check/CMakeLists.txt
+Qt 6.11.3; widget QWidget; FFmpeg 9.0.2-full_build-www.gyan.dev
+libavcodec 4129126; libavformat 4129126

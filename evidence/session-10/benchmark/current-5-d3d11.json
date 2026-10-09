@@ -1,0 +1,123 @@
+{
+    "cpuOneCorePercent": 57.05,
+    "decoder": {
+        "conversionUs": 1270571,
+        "decoded": 726,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 65,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 22118400,
+        "queueBytesHighWater": 22118400,
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 4993056,
+    "meanPresentationUs": 327.0097222222222,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 112807936,
+        "privateBytes": 125263872,
+        "workingSetBytes": 112807936
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 35442688,
+        "privateBytes": 23339008,
+        "workingSetBytes": 35442688
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 2,
+            "peakWorkingSetBytes": 77946880,
+            "privateBytes": 91578368,
+            "workingSetBytes": 77590528
+        },
+        {
+            "elapsedMs": 500,
+            "peakWorkingSetBytes": 107798528,
+            "privateBytes": 119357440,
+            "workingSetBytes": 107708416
+        },
+        {
+            "elapsedMs": 1000,
+            "peakWorkingSetBytes": 107798528,
+            "privateBytes": 119365632,
+            "workingSetBytes": 107712512
+        },
+        {
+            "elapsedMs": 1500,
+            "peakWorkingSetBytes": 107814912,
+            "privateBytes": 120193024,
+            "workingSetBytes": 107745280
+        },
+        {
+            "elapsedMs": 2001,
+            "peakWorkingSetBytes": 108482560,
+            "privateBytes": 120827904,
+            "workingSetBytes": 108400640
+        },
+        {
+            "elapsedMs": 2501,
+            "peakWorkingSetBytes": 108482560,
+            "privateBytes": 120827904,
+            "workingSetBytes": 108384256
+        },
+        {
+            "elapsedMs": 3000,
+            "peakWorkingSetBytes": 109137920,
+            "privateBytes": 121536512,
+            "workingSetBytes": 109137920
+        },
+        {
+            "elapsedMs": 3500,
+            "peakWorkingSetBytes": 109137920,
+            "privateBytes": 121536512,
+            "workingSetBytes": 109023232
+        },
+        {
+            "elapsedMs": 4001,
+            "peakWorkingSetBytes": 109137920,
+            "privateBytes": 121532416,
+            "workingSetBytes": 109064192
+        },
+        {
+            "elapsedMs": 4500,
+            "peakWorkingSetBytes": 109137920,
+            "privateBytes": 121536512,
+            "workingSetBytes": 109023232
+        },
+        {
+            "elapsedMs": 5000,
+            "peakWorkingSetBytes": 109137920,
+            "privateBytes": 121565184,
+            "workingSetBytes": 109113344
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+    "playbackWallMs": 5000,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 720,
+    "requestedDecode": "d3d11",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 3582,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 216,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 0,
+        "queueBytesHighWater": 3686400,
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 216,
+    "startupMs": 66
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "architecture": "windows-x64",
+  "cxxStandard": 20,
+  "targetWindows": "Windows 11 Pro 26H2 26300.9550",
+  "buildTools": {
+    "visualStudio": {
+      "version": "18.6.1",
+      "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community"
+    },
+    "msvc": {
+      "toolsetDirectoryVersion": "14.51.36231",
+      "compilerVersion": "19.51.36244",
+      "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe"
+    },
+    "windowsSdkVersion": "10.0.26100.0",
+    "cmake": {
+      "version": "4.2.3-msvc3",
+      "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe"
+    },
+    "ninja": {
+      "version": "1.13.2",
+      "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe"
+    }
+  },
+  "packages": [
+    {
+      "name": "Qt base (Core/Gui/Widgets)",
+      "version": "6.11.3",
+      "build": "6.11.3-0-202609240253",
+      "abi": "msvc2022_64",
+      "url": "https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_6113/qt6_6113_msvc2022_64/qt.qt6.6113.win64_msvc2022_64/6.11.3-0-202609240253qtbase-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-X86_64.7z",
+      "archiveName": "6.11.3-0-202609240253qtbase-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-X86_64.7z",
+      "sha256": "3ddf0017b4b67cb56018ed5a6af6a54865a40bdc735111a50e5e169e893558e5",
+      "publisherSha1": "fed33357645f1a562c5c9790fcee23ab16d7d313",
+      "extractDirectory": "qt",
+      "prefix": ".tools/qt",
+      "license": "LGPL-3.0 or GPL/commercial; see Qt module and third-party notices"
+    },
+    {
+      "name": "FFmpeg full shared",
+      "version": "9.0.2",
+      "supplier": "Gyan",
+      "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build-shared.7z",
+      "archiveName": "ffmpeg-9.0.2-full_build-shared.7z",
+      "sha256": "4d2060a8b34a940aa47d785142055bb92a63053781e55f2ace4546edd519a8f5",
+      "extractDirectory": "ffmpeg",
+      "prefix": ".tools/ffmpeg/ffmpeg-9.0.2-full_build-shared",
+      "license": "GPL-3.0-or-later; personal development selection, distribution review required"
+    }
+  ]
+}

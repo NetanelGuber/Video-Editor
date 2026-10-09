@@ -1,0 +1,81 @@
+{
+    "cpuOneCorePercent": 10.93,
+    "decoder": {
+        "conversionUs": 12384,
+        "decoded": 52,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 56,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 1382400,
+        "queueBytesHighWater": 1382400,
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 1750000,
+    "meanPresentationUs": 842.4782608695652,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 68018176,
+        "privateBytes": 73334784,
+        "workingSetBytes": 68018176
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 35344384,
+        "privateBytes": 23199744,
+        "workingSetBytes": 35344384
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 2,
+            "peakWorkingSetBytes": 63033344,
+            "privateBytes": 68280320,
+            "workingSetBytes": 63033344
+        },
+        {
+            "elapsedMs": 500,
+            "peakWorkingSetBytes": 64323584,
+            "privateBytes": 69431296,
+            "workingSetBytes": 64184320
+        },
+        {
+            "elapsedMs": 1001,
+            "peakWorkingSetBytes": 64323584,
+            "privateBytes": 69636096,
+            "workingSetBytes": 64311296
+        },
+        {
+            "elapsedMs": 1501,
+            "peakWorkingSetBytes": 64323584,
+            "privateBytes": 69636096,
+            "workingSetBytes": 64319488
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-rotation90-h264.mp4",
+    "playbackWallMs": 1800,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 46,
+    "requestedDecode": "d3d11",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 378,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 65,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 0,
+        "queueBytesHighWater": 230400,
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 65,
+    "startupMs": 58
+}

@@ -1,0 +1,41 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2
+      Start  1: project-persistence
+ 1/18 Test  #1: project-persistence ..............   Passed    0.24 sec
+      Start  2: application-shell
+ 2/18 Test  #2: application-shell ................   Passed    0.20 sec
+      Start  3: media-import-inspection
+ 3/18 Test  #3: media-import-inspection ..........   Passed    2.41 sec
+      Start  4: timeline-editing
+ 4/18 Test  #4: timeline-editing .................   Passed    1.06 sec
+      Start  5: playback-decode-render
+ 5/18 Test  #5: playback-decode-render ...........   Passed   13.75 sec
+      Start  6: timeline-interface
+ 6/18 Test  #6: timeline-interface ...............   Passed    0.48 sec
+      Start  7: audio-title-basics
+ 7/18 Test  #7: audio-title-basics ...............   Passed    4.45 sec
+      Start  8: sequence-export
+ 8/18 Test  #8: sequence-export ..................   Passed   10.69 sec
+      Start  9: project-recovery-relink
+ 9/18 Test  #9: project-recovery-relink ..........   Passed    0.93 sec
+      Start 10: performance-4k-cache
+10/18 Test #10: performance-4k-cache .............   Passed   51.99 sec
+      Start 11: effects-keyframes-fades
+11/18 Test #11: effects-keyframes-fades ..........   Passed    3.53 sec
+      Start 12: color-speed-masks
+12/18 Test #12: color-speed-masks ................   Passed    6.71 sec
+      Start 13: nested-multicamera
+13/18 Test #13: nested-multicamera ...............   Passed    8.36 sec
+      Start 14: export-device-compatibility
+14/18 Test #14: export-device-compatibility ......   Passed   12.16 sec
+      Start 15: export-encoder-catalog
+15/18 Test #15: export-encoder-catalog ...........   Passed   18.67 sec
+      Start 16: export-capability-cache
+16/18 Test #16: export-capability-cache ..........   Passed    0.10 sec
+      Start 17: workspace-organization
+17/18 Test #17: workspace-organization ...........   Passed    2.61 sec
+      Start 18: export-simple-advanced
+18/18 Test #18: export-simple-advanced ...........   Passed    3.67 sec
+
+100% tests passed, 0 tests failed out of 18
+
+Total Test time (real) = 142.20 sec

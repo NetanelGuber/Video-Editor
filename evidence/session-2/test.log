@@ -1,0 +1,9 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/session-2-clean
+    Start 1: project-persistence
+1/2 Test #1: project-persistence ..............   Passed    0.22 sec
+    Start 2: application-shell
+2/2 Test #2: application-shell ................   Passed    0.12 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   0.36 sec

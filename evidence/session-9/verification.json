@@ -1,0 +1,473 @@
+{
+  "passed": true,
+  "collectedAtUtc": "2026-10-07T22:09:37.4878777Z",
+  "version": "0.9.0",
+  "buildDirectory": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\session-9",
+  "automatedSuites": [
+    "project-persistence",
+    "application-shell",
+    "media-import-inspection",
+    "timeline-editing",
+    "playback-decode-render",
+    "timeline-interface",
+    "audio-title-basics",
+    "sequence-export",
+    "project-recovery-relink"
+  ],
+  "recoveryCheckCount": 76,
+  "autosaveSeconds": 120,
+  "retainedBackups": 2,
+  "schemaVersion": 3,
+  "evidenceLevel": "Native build/tests, killed/restarted production MainWindow processes and offscreen Qt dialogs/painter; no computer use or human visual acceptance",
+  "artifacts": [
+    {
+      "name": "VideoEditor.exe",
+      "sha256": "380140956d8c451b0f972f80c7ee127105102ce86fbe954759f11a7939bb5ab2"
+    },
+    {
+      "name": "RecoveryTests.exe",
+      "sha256": "3ae7819f6e2471c507c82ac2fcd90e41cd8086d1456cd9527c202754ae5439fb"
+    },
+    {
+      "name": "editor_project.lib",
+      "sha256": "873f016b113bb91c772d4440eeab90aa28664e94029efe3f3232b82f050b2799"
+    },
+    {
+      "name": "editor_media.lib",
+      "sha256": "63c2a3c5144bca7e39208657867ece757abae02d49d30aa9787edd6775b65702"
+    },
+    {
+      "name": "editor_timeline_ui.lib",
+      "sha256": "88fbe90df927a73db13648cd41555cd2fbc387467b434a434d9d56a6aff920d1"
+    }
+  ],
+  "sources": [
+    {
+      "path": "src\\BuildInfo.h.in",
+      "sha256": "5fb666d437aa7263a9f55cfb7e5d19d8006cd34230aa097e2d2b882ba168d0e8"
+    },
+    {
+      "path": "src\\Diagnostics.cpp",
+      "sha256": "8a01a9adfdaa7a7ba85120ac1f26bf343a3b4ac9773e586e1e5e2494313adcfb"
+    },
+    {
+      "path": "src\\Diagnostics.h",
+      "sha256": "9dff7a9b64de3072909466a47d13841876c4860fbf6a4a3853455920aeb1c580"
+    },
+    {
+      "path": "src\\main.cpp",
+      "sha256": "7d9b7965fca164e3f46c758a343094329ef810997726ec5ab1419a24b6dfa11a"
+    },
+    {
+      "path": "src\\MainWindow.cpp",
+      "sha256": "3ede0faad5eda11711532d60dad98c37cba750be18b47d357b9917f490f1c10d"
+    },
+    {
+      "path": "src\\MainWindow.h",
+      "sha256": "2a7cf10c61fb0924378d049d160d2d1eddca7a020d0c8e2de991011f46667605"
+    },
+    {
+      "path": "src\\export\\ExportDialog.cpp",
+      "sha256": "2ac5af4c3dd77506ad10df30b755825c1633084cdb0b46684df9af2e69cc5d1d"
+    },
+    {
+      "path": "src\\export\\ExportDialog.h",
+      "sha256": "3b6bba87c1ce097bf20f9ca41bde6cb0d2fd51aabdda9d99ebf134c9599a15eb"
+    },
+    {
+      "path": "src\\export\\ExportWorker.cpp",
+      "sha256": "cbacc65b51b400f3321894968f773406bf28c808c545eb7c58caa1d788a75d8c"
+    },
+    {
+      "path": "src\\export\\ExportWorker.h",
+      "sha256": "69684bd1fde7ce7f2223f9d7927fc613753f601fc3614542dcf75327f501d0d4"
+    },
+    {
+      "path": "src\\export\\presets.json",
+      "sha256": "5dfe0c74c0bcd927750c75ba240920415e0213a2d98f67a03c364c8c56805e28"
+    },
+    {
+      "path": "src\\media\\Inspection.cpp",
+      "sha256": "0387deccb0d61705085786d25a85149e0ff54255960b59d98daf74dfafb0e0f3"
+    },
+    {
+      "path": "src\\media\\Inspection.h",
+      "sha256": "27bde8c697753d169467a4e4c1799300c4b39006c6df6e706344c25e42051596"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.cpp",
+      "sha256": "ecd4ee948b54270c3931d8f18ec9cbe0c2dbf462758b0235e690c82dc2714136"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.h",
+      "sha256": "6ff7476effafdfb50eaf02964d636aad5d6b446de04eecf6e5c6fdb85c5ce0bb"
+    },
+    {
+      "path": "src\\media\\WaveformWidget.h",
+      "sha256": "10022b6d3172a5fa76cea4b9d3712e082fe7cce194b5d639f5ac423e441d7467"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.cpp",
+      "sha256": "d2032a85261145bcf9b9ad293fd78c9c56885c6020e6150c7348f2135ce4d917"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.h",
+      "sha256": "7a5c397721e35405aada4c2dec5606078cc036a0d656b326ee36a97e1af55297"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.cpp",
+      "sha256": "9d163081d19cc4ac8a5d94af82d5aea5852734ecb039083021144f4a02319f36"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.h",
+      "sha256": "dc1c42f4fe1e287c8b5cc1604443ce9e5369a30bc4831d23f4db6b8e12ce8632"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.cpp",
+      "sha256": "e183abde92737e5ac817496b376e13b6bb782f67402257cbd8c1679d16fcc5d7"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.h",
+      "sha256": "f70e35d8d72e1395bbdcec77f9627c302a80ffa1ef1eb5d3ec22a2d4c5efce96"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.cpp",
+      "sha256": "460f1fd27e8736970cba885f8947fb5e72e9a039fbc4e37ef5b9304d71610817"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.h",
+      "sha256": "a5ea666e8f4f03f3eb090d4ca2cfb6a9bb79b4acc129a524ef991787ad1ef2b4"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.cpp",
+      "sha256": "e995801265db418256650817d3be80ebfc77b7c461980199ef08b07703f0abc3"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.h",
+      "sha256": "3dc1c0e6d17f20400a012bf7b537b1c4ca9a38360ffd2441227a2fded1aa3bc3"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.cpp",
+      "sha256": "3db673725736ff9350c251b5fa29328e2182d07fcbf1cd576ad479e92d2360ea"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.h",
+      "sha256": "0a4c9711fdbbe66d848a448f3d4d52ff0e4490f89dcc3816e5f2f84870132e4b"
+    },
+    {
+      "path": "src\\project\\Project.cpp",
+      "sha256": "52a92e117c4f36fef7181718deef268cc5cd1c07e8f6dfacb8113a285f394732"
+    },
+    {
+      "path": "src\\project\\Project.h",
+      "sha256": "2760a6f0269b58ca6bcbda14afbb91e83d44ecbb9a31f7b6117c131e18e9bc56"
+    },
+    {
+      "path": "src\\project\\ProjectStore.cpp",
+      "sha256": "9033a7893e2e2f9eb4876661a71b3db51bc1cafaaa22d8a78fc481b90bcfa826"
+    },
+    {
+      "path": "src\\project\\ProjectStore.h",
+      "sha256": "37eacebeed2771ad6bd84aa15b90e329578de55360475710bc4fc53f7e95b772"
+    },
+    {
+      "path": "src\\project\\Recovery.cpp",
+      "sha256": "d95fb18581acba49cae1026e5fc5091205378d1cc78aac3bb596bac6a71bab82"
+    },
+    {
+      "path": "src\\project\\Recovery.h",
+      "sha256": "0ad761cd07b13691a3386ad7e5129e4de02e8392431253e1655012579dc03aff"
+    },
+    {
+      "path": "src\\project\\Time.cpp",
+      "sha256": "26209eab4671fbed9670eec3320a1cc41e953e3f46a690bc6daadb1616c10c90"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.cpp",
+      "sha256": "a4377af056bd5c46bcde37b2bbca41a72c640a89ff613e080d7cdc81720cca19"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.h",
+      "sha256": "6a47c065aaa2495deade9dac67047a6fbb3be0f7b0dbb86ddaaa41c63b3d5bf1"
+    },
+    {
+      "path": "src\\timeline\\Timeline.cpp",
+      "sha256": "b0d1e74df18d30f19729ed552b755b5aaa1967c774b203e22f8e632dfe6af96a"
+    },
+    {
+      "path": "src\\timeline\\Timeline.h",
+      "sha256": "d11b2866d46b798fa889c7e2de29ba4d4c4ce14432e5c2b2b8ff8bfda3a51e4d"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.cpp",
+      "sha256": "1c45c982ba13700370db04a56ddb47cd92adfcae654b88713fb616bc6971d880"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.h",
+      "sha256": "60f503dd534ff3c3b8dc4bb118bd77e6697d9387ae9bd81943e6ddb4aa932d54"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.cpp",
+      "sha256": "3aaca1fc8baab87398a5321bcb64c08f197ea8c2e539a3ccdc73b56a886e8577"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.h",
+      "sha256": "2c1d1a8460d472fba094723d1359726da30477821eac998ec46151f99d259bcd"
+    },
+    {
+      "path": "tests\\AudioTitleTests.cpp",
+      "sha256": "f125493598cf8d34a2f07100dfdec6adb3c1b4d1896312c3213b700b7d3a983a"
+    },
+    {
+      "path": "tests\\ExportTests.cpp",
+      "sha256": "c4b3db5df925697e334e97d33da954b02359b2776c8f5d3756888774c38d2ff1"
+    },
+    {
+      "path": "tests\\MediaTests.cpp",
+      "sha256": "81f925b4208bde9e8aff96932cb94deaefd78ed0dd5992fae56a3fd3a1897d59"
+    },
+    {
+      "path": "tests\\PlaybackBenchmark.cpp",
+      "sha256": "c6b5fb1ea7b326b9c3ce524d9f54de09bdba8458ae191939bb157bbb6e91f08b"
+    },
+    {
+      "path": "tests\\PlaybackTests.cpp",
+      "sha256": "46f0070956f154564d7b2de96cfb2651250079e2054bb04ce80830e4f5910ad1"
+    },
+    {
+      "path": "tests\\ProjectTests.cpp",
+      "sha256": "2f4331f71b133e9062bd027ea7c493cf73223db6842ca411a32ceaeccb8e0844"
+    },
+    {
+      "path": "tests\\RecoveryTests.cpp",
+      "sha256": "8b64ac37e47bfc46188d50ca4ddac954c6c9667cd301d675221724234cb259c0"
+    },
+    {
+      "path": "tests\\TimelineTests.cpp",
+      "sha256": "0db684133dbfe57ef3540d991caca94333c46e0272caf619855c46f2b427fc65"
+    },
+    {
+      "path": "tests\\TimelineUiTests.cpp",
+      "sha256": "9e5a61bf350d8910bdb7505d9afc3a8c86de0f90968aa6bff4f9f1479cd4b23f"
+    }
+  ],
+  "originals": [
+    {
+      "path": "B:\\Videos\\Acu - 100% Clicks.mkv",
+      "sizeBytes": 364130642,
+      "lastWriteTimeUtc": "2026-02-16T20:11:06.9301901Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 100%.mkv",
+      "sizeBytes": 373827119,
+      "lastWriteTimeUtc": "2026-02-03T22:11:26.5838809Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 38% to 100%.mkv",
+      "sizeBytes": 227894614,
+      "lastWriteTimeUtc": "2026-01-31T18:19:11.1418226Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "sizeBytes": 121576575,
+      "lastWriteTimeUtc": "2026-01-30T23:54:38.1969532Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 88%.mkv",
+      "sizeBytes": 348821371,
+      "lastWriteTimeUtc": "2026-02-01T17:02:24.2150807Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Bloodbath - 54% to 100%.mp4",
+      "sizeBytes": 203017843,
+      "lastWriteTimeUtc": "2026-09-22T23:22:07.4450633Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 100%.mp4",
+      "sizeBytes": 1461796138,
+      "lastWriteTimeUtc": "2025-12-24T18:24:38.4631578Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "sizeBytes": 390903672,
+      "lastWriteTimeUtc": "2025-12-24T17:06:17.3937812Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "sizeBytes": 188404410,
+      "lastWriteTimeUtc": "2025-12-23T20:01:41.3818787Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 91%.mp4",
+      "sizeBytes": 1329124022,
+      "lastWriteTimeUtc": "2025-12-24T17:47:33.4411327Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 100%.mkv",
+      "sizeBytes": 1098511320,
+      "lastWriteTimeUtc": "2026-01-04T18:34:29.3836472Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 28% to 100%.mkv",
+      "sizeBytes": 729751046,
+      "lastWriteTimeUtc": "2026-01-02T17:19:12.4219285Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 45% to 100%.mkv",
+      "sizeBytes": 590643388,
+      "lastWriteTimeUtc": "2026-01-01T20:12:09.7362071Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Map packs.mp4",
+      "sizeBytes": 8483364,
+      "lastWriteTimeUtc": "2026-03-22T23:45:07.5462511Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 100%.mp4",
+      "sizeBytes": 672937391,
+      "lastWriteTimeUtc": "2026-02-24T23:30:53.4744149Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 26% to 100%.mkv",
+      "sizeBytes": 582295598,
+      "lastWriteTimeUtc": "2026-02-18T22:58:06.7046533Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 56% to 100%.mkv",
+      "sizeBytes": 332912747,
+      "lastWriteTimeUtc": "2026-02-17T23:50:39.0640053Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Swords & Souls End.mp4",
+      "sizeBytes": 389243182,
+      "lastWriteTimeUtc": "2026-03-30T21:05:52.7545435Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 100%.mkv",
+      "sizeBytes": 399206430,
+      "lastWriteTimeUtc": "2026-01-21T22:16:40.2338547Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 50% to 100%.mkv",
+      "sizeBytes": 159699022,
+      "lastWriteTimeUtc": "2026-01-15T16:53:41.1089380Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100% Clicks.mkv",
+      "sizeBytes": 151002301,
+      "lastWriteTimeUtc": "2026-02-11T00:19:43.9020943Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100%.mkv",
+      "sizeBytes": 153254415,
+      "lastWriteTimeUtc": "2026-02-10T22:45:14.2017486Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 58% to 100%.mp4",
+      "sizeBytes": 60971478,
+      "lastWriteTimeUtc": "2026-07-15T22:51:09.1418508Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 67% to 100%.mp4",
+      "sizeBytes": 37840519,
+      "lastWriteTimeUtc": "2026-07-13T17:20:38.1047895Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 2.mp4",
+      "sizeBytes": 1015093,
+      "lastWriteTimeUtc": "2026-03-22T23:56:53.8229502Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 3.mp4",
+      "sizeBytes": 3537016,
+      "lastWriteTimeUtc": "2026-03-23T00:00:52.4189192Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "sizeBytes": 5978512,
+      "lastWriteTimeUtc": "2026-03-23T00:17:58.5936732Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato.mp4",
+      "sizeBytes": 831837,
+      "lastWriteTimeUtc": "2026-03-22T23:53:54.2458652Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "sizeBytes": 925480314,
+      "lastWriteTimeUtc": "2026-05-04T23:46:36.1253964Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tung Tung Sahurcles Macro.mp4",
+      "sizeBytes": 635403463,
+      "lastWriteTimeUtc": "2026-08-06T21:28:52.1794247Z",
+      "matchesSession0": true
+    }
+  ],
+  "deployedFfmpeg": [
+    {
+      "name": "avformat-63.dll",
+      "sha256": "360e66109b2ce3f02d56cd940e625a6909304eea1f4d0fcbbbb2d40d74308ee0",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "avcodec-63.dll",
+      "sha256": "4d458a276fda363709ed2ac4ad14aea122c536e61919feebd919d5f8490be7a9",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "avutil-61.dll",
+      "sha256": "9230e42b6b8e1fa20ec83af1eb4c4b2ae90b0c8d7c29093369250eed562372df",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "swscale-10.dll",
+      "sha256": "af91db7f45644157469a110438a8c648314927ec83e334d4cacac3870d99fabe",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "swresample-7.dll",
+      "sha256": "1f2a0bdca315f1a05fe398e7a0d97db8d0e34ba2a86ec59303bf32bbd9430123",
+      "matchesPinnedFile": true
+    }
+  ],
+  "scriptsParsed": true,
+  "documentationLinksChecked": true,
+  "limitations": [
+    "latest two-minute snapshot is recovery boundary",
+    "no power-loss or storage corruption simulation",
+    "Windows appearance/display scaling unverified",
+    "large-project and slow-storage performance remains Session 10",
+    "metadata compatibility is not cryptographic source identity"
+  ],
+  "failures": []
+}

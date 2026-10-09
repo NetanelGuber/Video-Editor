@@ -1,0 +1,204 @@
+{
+    "audioRmsError": 0.00011497104908340323,
+    "checkCount": 160,
+    "exports": [
+        {
+            "cancelled": false,
+            "elapsedMs": 284,
+            "error": "",
+            "frames": 180,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/reference.mp4",
+            "samples": 288000
+        },
+        {
+            "cancelled": true,
+            "elapsedMs": 35,
+            "error": "Export cancelled.",
+            "frames": 2,
+            "passed": false,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/cancelled.mp4",
+            "samples": 3072
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 257,
+            "error": "",
+            "frames": 180,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/cancelled.mp4",
+            "samples": 288000
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 159,
+            "error": "",
+            "frames": 180,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/video-only.mp4",
+            "samples": 0
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 23,
+            "error": "",
+            "frames": 73,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/fractional.mp4",
+            "samples": 145746
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 698,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-0.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 588,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-1.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 402,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-2.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 133,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-3.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 531,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-4.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 249,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-5.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 233,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-6.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 614,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-7.mp4",
+            "samples": 19200
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 17,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-8.mp4",
+            "samples": 0
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 25,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/sample-9.mp4",
+            "samples": 0
+        },
+        {
+            "cancelled": false,
+            "elapsedMs": 47,
+            "error": "",
+            "frames": 3,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-9/export-test-data/full-resolution.mp4",
+            "samples": 0
+        }
+    ],
+    "failures": [
+    ],
+    "limits": "RGB mean error <8/255; AAC RMS error <0.012; AAC tail <1024 samples; duration <2 ms at matching rate or <1 output frame when converting fps; human separate-player check pending",
+    "passed": true,
+    "pixelComparisons": [
+        {
+            "frame": 0,
+            "meanRgbError": 3.108136574074074
+        },
+        {
+            "frame": 29,
+            "meanRgbError": 3.763935185185185
+        },
+        {
+            "frame": 30,
+            "meanRgbError": 3.7113657407407405
+        },
+        {
+            "frame": 59,
+            "meanRgbError": 3.996377314814815
+        },
+        {
+            "frame": 60,
+            "meanRgbError": 0.5285069444444445
+        },
+        {
+            "frame": 89,
+            "meanRgbError": 0.5285069444444445
+        },
+        {
+            "frame": 90,
+            "meanRgbError": 3.7363773148148147
+        },
+        {
+            "frame": 119,
+            "meanRgbError": 4.374114583333333
+        },
+        {
+            "frame": 120,
+            "meanRgbError": 0.0014351851851851852
+        },
+        {
+            "frame": 149,
+            "meanRgbError": 0.0014351851851851852
+        },
+        {
+            "frame": 150,
+            "meanRgbError": 3.7977777777777777
+        },
+        {
+            "frame": 179,
+            "meanRgbError": 4.299351851851852
+        }
+    ]
+}

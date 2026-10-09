@@ -1,0 +1,4 @@
+[aac @ 0000029514a4a8c0] Could not update timestamps for discarded samples.
+FAIL: Advertised pixel format compatibility is checked
+FAIL: Save explicit hardware intent
+FAIL: Unavailable driver assumptions are not serialized; choices round-trip exactly

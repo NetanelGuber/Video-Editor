@@ -1,0 +1,118 @@
+{
+  "cpuOneCorePercent": 42.85,
+  "decoder": {
+    "conversionUs": 218419,
+    "decoded": 60,
+    "error": "",
+    "fallback": "",
+    "firstFrameMs": 22,
+    "path": "CPU",
+    "queueHighWater": 6,
+    "queueLimit": 6
+  },
+  "dropped": 0,
+  "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+  "glRenderer": "AMD Radeon RX 9070",
+  "lastPresentedPtsUs": 1766667,
+  "meanPresentationUs": 1405.8333333333333,
+  "memoryAfter": {
+    "peakWorkingSetBytes": 188768256,
+    "privateBytes": 266280960,
+    "workingSetBytes": 132820992
+  },
+  "memoryBefore": {
+    "peakWorkingSetBytes": 137564160,
+    "privateBytes": 189423616,
+    "workingSetBytes": 74518528
+  },
+  "memorySamples": [
+    {
+      "elapsedMs": 10,
+      "peakWorkingSetBytes": 158199808,
+      "privateBytes": 298975232,
+      "workingSetBytes": 157806592
+    },
+    {
+      "elapsedMs": 501,
+      "peakWorkingSetBytes": 188465152,
+      "privateBytes": 322347008,
+      "workingSetBytes": 188465152
+    },
+    {
+      "elapsedMs": 1001,
+      "peakWorkingSetBytes": 188600320,
+      "privateBytes": 322347008,
+      "workingSetBytes": 188600320
+    },
+    {
+      "elapsedMs": 1501,
+      "peakWorkingSetBytes": 188768256,
+      "privateBytes": 322347008,
+      "workingSetBytes": 188768256
+    }
+  ],
+  "passed": true,
+  "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-h264-aac.mp4",
+  "playbackWallMs": 1800,
+  "presentation": "OpenGL FBO / QPainter",
+  "presentationFallback": "",
+  "presentationPixelMeanAbsoluteDifference": 0,
+  "presented": 54,
+  "requestedDecode": "cpu",
+  "requestedPresentation": "gl",
+  "seekDecoder": {
+    "conversionUs": 6770,
+    "decoded": 1,
+    "error": "",
+    "fallback": "",
+    "firstFrameMs": 104,
+    "path": "CPU",
+    "queueHighWater": 1,
+    "queueLimit": 6
+  },
+  "seekMs": 106,
+  "startupMs": 23,
+  "gpuSamples": [
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_0_engtype_3d",
+      "percent": 0.12030421222177917
+    },
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_1_engtype_copy",
+      "percent": 0.0
+    },
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_2_engtype_compute 0",
+      "percent": 0.0
+    },
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_3_engtype_copy",
+      "percent": 0.0
+    },
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_4_engtype_timer 0",
+      "percent": 0.0
+    },
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_5_engtype_security 1",
+      "percent": 0.0
+    },
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_6_engtype_video jpeg 0",
+      "percent": 0.0
+    },
+    {
+      "timeUtc": "2026-10-06T20:52:40.6839100Z",
+      "instance": "pid_20152_luid_0x00000000_0x00013b9c_phys_0_eng_7_engtype_video codec engine",
+      "percent": 0.0
+    }
+  ],
+  "gpuCountersAvailable": true
+}

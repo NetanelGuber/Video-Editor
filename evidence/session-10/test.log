@@ -1,0 +1,25 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/session-10
+      Start  1: project-persistence
+ 1/10 Test  #1: project-persistence ..............   Passed    0.24 sec
+      Start  2: application-shell
+ 2/10 Test  #2: application-shell ................   Passed    0.18 sec
+      Start  3: media-import-inspection
+ 3/10 Test  #3: media-import-inspection ..........   Passed    4.20 sec
+      Start  4: timeline-editing
+ 4/10 Test  #4: timeline-editing .................   Passed    0.99 sec
+      Start  5: playback-decode-render
+ 5/10 Test  #5: playback-decode-render ...........   Passed   14.13 sec
+      Start  6: timeline-interface
+ 6/10 Test  #6: timeline-interface ...............   Passed    0.25 sec
+      Start  7: audio-title-basics
+ 7/10 Test  #7: audio-title-basics ...............   Passed    4.36 sec
+      Start  8: sequence-export
+ 8/10 Test  #8: sequence-export ..................   Passed    6.76 sec
+      Start  9: project-recovery-relink
+ 9/10 Test  #9: project-recovery-relink ..........   Passed    0.85 sec
+      Start 10: performance-4k-cache
+10/10 Test #10: performance-4k-cache .............   Passed   49.43 sec
+
+100% tests passed, 0 tests failed out of 10
+
+Total Test time (real) =  81.53 sec

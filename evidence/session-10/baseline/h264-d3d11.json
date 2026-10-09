@@ -1,0 +1,75 @@
+{
+    "cpuOneCorePercent": 26.58,
+    "decoder": {
+        "conversionUs": 192636,
+        "decoded": 60,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 79,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 1766667,
+    "meanPresentationUs": 514.0925925925926,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 141864960,
+        "privateBytes": 204922880,
+        "workingSetBytes": 86433792
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 75821056,
+        "privateBytes": 24186880,
+        "workingSetBytes": 36229120
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 2,
+            "peakWorkingSetBytes": 105791488,
+            "privateBytes": 228368384,
+            "workingSetBytes": 97861632
+        },
+        {
+            "elapsedMs": 501,
+            "peakWorkingSetBytes": 141864960,
+            "privateBytes": 259944448,
+            "workingSetBytes": 141824000
+        },
+        {
+            "elapsedMs": 1001,
+            "peakWorkingSetBytes": 141864960,
+            "privateBytes": 259936256,
+            "workingSetBytes": 141832192
+        },
+        {
+            "elapsedMs": 1501,
+            "peakWorkingSetBytes": 141864960,
+            "privateBytes": 259940352,
+            "workingSetBytes": 141844480
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-h264-aac.mp4",
+    "playbackWallMs": 1800,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 54,
+    "requestedDecode": "d3d11",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 7059,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 131,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 133,
+    "startupMs": 81
+}

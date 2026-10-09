@@ -1,0 +1,117 @@
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  ProjectStore.cpp
+  Time.cpp
+  Project.cpp
+  Compiling...
+  Project.cpp
+  ProjectStore.cpp
+  Time.cpp
+  editor_project.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\editor_project.lib
+  Automatic MOC for target editor_playback
+  Automatic MOC for target editor_media
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Timeline.cpp
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Compiling...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Timeline.cpp
+  RuntimeInfo.cpp
+  Inspection.cpp
+  DecodeWorker.cpp
+  PlaybackController.cpp
+  AudioOutput.cpp
+  MonitorWidget.cpp
+  RenderDescription.cpp
+  Compiling...
+  RuntimeInfo.cpp
+  Inspection.cpp
+  Compiling...
+  PlaybackController.cpp
+  DecodeWorker.cpp
+  AudioOutput.cpp
+  RenderDescription.cpp
+  MonitorWidget.cpp
+  editor_timeline.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\editor_timeline.lib
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  editor_media.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\editor_media.lib
+  editor_playback.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\editor_playback.lib
+  Automatic MOC for target VideoEditor
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  main.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  mocs_compilation_Release.cpp
+  Generating Code...
+  VideoEditor.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\VideoEditor.exe
+EXEC : warning : Translations will not be available due to the following error. [B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\VideoEditor.vcxproj]
+  Cannot open B:/Coding/02-Projects/Tools/Video-Editor/.tools/qt/translations/catalogs.json
+  B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\VideoEditor.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Skipping plugin qtuiotouchplugin.dll due to skipped plugin type generic
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Direct dependencies: Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  Skipping system library C:/WINDOWS/system32/icuuc.dll
+  Updating Qt6Core.dll.
+  Updating Qt6Gui.dll.
+  Updating Qt6OpenGL.dll.
+  Updating Qt6OpenGLWidgets.dll.
+  Updating Qt6Widgets.dll.
+  Updating dxcompiler.dll.
+  Updating dxil.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-5-clean/Release/imageformats.
+  Updating qgif.dll.
+  Updating qico.dll.
+  Updating qjpeg.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-5-clean/Release/platforms.
+  Updating qwindows.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-5-clean/Release/styles.
+  Updating qmodernwindowsstyle.dll.
+  Automatic MOC for target MediaTests
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  ProjectTests.cpp
+  PlaybackTests.cpp
+  PlaybackBenchmark.cpp
+  TimelineTests.cpp
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Compiling...
+  Compiling...
+  Compiling...
+  Scanning sources for module dependencies...
+  ProjectTests.cpp
+  TimelineTests.cpp
+  PlaybackTests.cpp
+  MainWindow.cpp
+  Diagnostics.cpp
+  MediaTests.cpp
+  Compiling...
+  PlaybackBenchmark.cpp
+  Compiling...
+  MediaTests.cpp
+  MainWindow.cpp
+  Diagnostics.cpp
+  ProjectTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\ProjectTests.exe
+  PlaybackBenchmark.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\PlaybackBenchmark.exe
+  TimelineTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\TimelineTests.exe
+  PlaybackTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\PlaybackTests.exe
+  mocs_compilation_Release.cpp
+  MediaTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5-clean\Release\MediaTests.exe
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt

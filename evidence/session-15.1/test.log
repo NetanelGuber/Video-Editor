@@ -1,0 +1,37 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1
+      Start  1: project-persistence
+ 1/16 Test  #1: project-persistence ..............   Passed    0.24 sec
+      Start  2: application-shell
+ 2/16 Test  #2: application-shell ................   Passed    0.21 sec
+      Start  3: media-import-inspection
+ 3/16 Test  #3: media-import-inspection ..........   Passed    2.47 sec
+      Start  4: timeline-editing
+ 4/16 Test  #4: timeline-editing .................   Passed    1.06 sec
+      Start  5: playback-decode-render
+ 5/16 Test  #5: playback-decode-render ...........   Passed   14.04 sec
+      Start  6: timeline-interface
+ 6/16 Test  #6: timeline-interface ...............   Passed    0.49 sec
+      Start  7: audio-title-basics
+ 7/16 Test  #7: audio-title-basics ...............   Passed    4.43 sec
+      Start  8: sequence-export
+ 8/16 Test  #8: sequence-export ..................   Passed   11.24 sec
+      Start  9: project-recovery-relink
+ 9/16 Test  #9: project-recovery-relink ..........   Passed    0.98 sec
+      Start 10: performance-4k-cache
+10/16 Test #10: performance-4k-cache .............   Passed   51.99 sec
+      Start 11: effects-keyframes-fades
+11/16 Test #11: effects-keyframes-fades ..........   Passed    3.53 sec
+      Start 12: color-speed-masks
+12/16 Test #12: color-speed-masks ................   Passed    6.97 sec
+      Start 13: nested-multicamera
+13/16 Test #13: nested-multicamera ...............   Passed    8.38 sec
+      Start 14: export-device-compatibility
+14/16 Test #14: export-device-compatibility ......   Passed   19.53 sec
+      Start 15: export-encoder-catalog
+15/16 Test #15: export-encoder-catalog ...........   Passed   29.85 sec
+      Start 16: workspace-organization
+16/16 Test #16: workspace-organization ...........   Passed    2.87 sec
+
+100% tests passed, 0 tests failed out of 16
+
+Total Test time (real) = 158.41 sec

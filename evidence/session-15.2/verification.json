@@ -1,0 +1,471 @@
+{
+  "passed": true,
+  "version": "0.15.4",
+  "schemaVersion": 11,
+  "collectedAtUtc": "2026-10-09T11:45:02.5292571Z",
+  "automatedSuiteCount": 18,
+  "exportTabChecks": 82,
+  "concept": {
+    "path": "docs/session-15.2-concept.md",
+    "completedBeforeImplementation": true,
+    "sha256": "3B28272AF8BD848FE679EB123853DC96E80453688E876B87D57A345A2754EAD8",
+    "chronologyEvidence": "Concept-writing tool call completed before first source edit in this chat"
+  },
+  "executableSha256": "170E5DA9709E2801B840DA24000AD2024AFECBC50B3DC9BBC87EE383C3EF28BD",
+  "sources": [
+    {
+      "path": "src\\BuildInfo.h.in",
+      "sha256": "5FB666D437AA7263A9F55CFB7E5D19D8006CD34230AA097E2D2B882BA168D0E8"
+    },
+    {
+      "path": "src\\Diagnostics.cpp",
+      "sha256": "94F35ADE5990A19A2F52B3A31229B24847A08322E31B64928EA965C1CED7ABD4"
+    },
+    {
+      "path": "src\\Diagnostics.h",
+      "sha256": "2FAA8CCE759134DD19F933041631FFA961E962E08E5534D6728BF0439CB21D1D"
+    },
+    {
+      "path": "src\\main.cpp",
+      "sha256": "55926A2DDFD3063912F4F1FD3364B78F4EE8CD3A74028E64BBC5FBFCE70548A2"
+    },
+    {
+      "path": "src\\MainWindow.cpp",
+      "sha256": "4636858F12EE5E078DEE00E0BC463DCBBCF8A5253072D02737F1F6187BABEAEB"
+    },
+    {
+      "path": "src\\MainWindow.h",
+      "sha256": "2564C867B315770413404589CAAB1F254BAFDF875CDB8412CBCFE485A06069DB"
+    },
+    {
+      "path": "src\\export\\Capabilities.cpp",
+      "sha256": "5BAD756A8569E39385DEBACD5BDED1144A6D1F85BF89EE1600A57D7CF539B569"
+    },
+    {
+      "path": "src\\export\\Capabilities.h",
+      "sha256": "28F328E4DD9D441ADA6032EDAB393CB101F76E3B404D059FB7279630AFB0D449"
+    },
+    {
+      "path": "src\\export\\CapabilityProbeMain.cpp",
+      "sha256": "1D9FF7D443589BDFCDC24B93A0FD71395E9E980DA96A190F5A46AE5A1531BAC0"
+    },
+    {
+      "path": "src\\export\\EncoderConfig.cpp",
+      "sha256": "3DAF49F5C9D638FAB6FDFAAEF651E2A8B11E889BD4B841674D4E082BF03DC25F"
+    },
+    {
+      "path": "src\\export\\EncoderConfig.h",
+      "sha256": "692DA7896CB2679619A306CEA5A2BB7BEED8E89AA184F9D36306C3525AE2274D"
+    },
+    {
+      "path": "src\\export\\EncoderControls.cpp",
+      "sha256": "AB71EE3ECE4EA6F2249F998689A6D26F0EC3BBEFACF6D4198F0CE53D6F8B8A3E"
+    },
+    {
+      "path": "src\\export\\ExportDialog.cpp",
+      "sha256": "D2C8C67D15BEF548C314AA8F28D6D065ABB69E77C86B8D319C9826CCFF02645B"
+    },
+    {
+      "path": "src\\export\\ExportDialog.h",
+      "sha256": "E0ACFC814E200953160A949FF9CB05ACF3B4FBAF7186BA093D2C70AEF9A8CF1E"
+    },
+    {
+      "path": "src\\export\\ExportWorker.cpp",
+      "sha256": "54DA568AEC200A2A76A757B473F3EA46F306671B993AEF50CAF37CC49A657069"
+    },
+    {
+      "path": "src\\export\\ExportWorker.h",
+      "sha256": "067FAC6895E137A1E3B3DE6AB998DD728465EBECCE85B315BAFDB814C0391B81"
+    },
+    {
+      "path": "src\\export\\presets.json",
+      "sha256": "D69588C97302026A682ECA00496744BDC95D7D06B7D1D0579A2485F05C8B7D54"
+    },
+    {
+      "path": "src\\media\\AidCache.cpp",
+      "sha256": "E9C5D9D4DB23E51BEC48D1EE0A5403F3D20163A26E992619A236BB671267AD17"
+    },
+    {
+      "path": "src\\media\\AidCache.h",
+      "sha256": "E49AE987754614AD24C2C940E3582E9B36BC2DFF6D4D199F41B9023589026A9F"
+    },
+    {
+      "path": "src\\media\\Inspection.cpp",
+      "sha256": "93DA659EA3BF480521907B6AD14D094C3553959457EB5B1EA37C77801B709982"
+    },
+    {
+      "path": "src\\media\\Inspection.h",
+      "sha256": "98E8C32078DBEB8981002BDF3DF00BFEF360B6E29278D180D9BB1C1D3DF111D4"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.cpp",
+      "sha256": "ECD4EE948B54270C3931D8F18EC9CBE0C2DBF462758B0235E690C82DC2714136"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.h",
+      "sha256": "6FF7476EFFAFDFB50EAF02964D636AAD5D6B446DE04EECF6E5C6FDB85C5CE0BB"
+    },
+    {
+      "path": "src\\media\\WaveformWidget.h",
+      "sha256": "10022B6D3172A5FA76CEA4B9D3712E082FE7CCE194B5D639F5AC423E441D7467"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.cpp",
+      "sha256": "698B817D482AFAA7A5A8B8170C68D1F7D532448E8F7480786A9C765C063C3625"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.h",
+      "sha256": "CA9C190C137F75015CAA3B75ACF8F91DF9AB206AB300E6D9753D6EC2B819543D"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.cpp",
+      "sha256": "9D163081D19CC4AC8A5D94AF82D5AEA5852734ECB039083021144F4A02319F36"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.h",
+      "sha256": "DC1C42F4FE1E287C8B5CC1604443CE9E5369A30BC4831D23F4DB6B8E12CE8632"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.cpp",
+      "sha256": "77AEE2D3AA302852DB2174A35131A315A1B25B8BF56A9B15D11F04BE1A3E7592"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.h",
+      "sha256": "10241623561E224518BD018F2C872D8A193F52C466FD60F574DA90DF6C3B7E42"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.cpp",
+      "sha256": "8A5DE850E56354C20803D20BD2597CFBA3C21498BF6234B6B6F3AB8940541C41"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.h",
+      "sha256": "D24B34974FEE0ACA7291F7E066C0582020608D8F2522BDE65F8FA555CEFA0E39"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.cpp",
+      "sha256": "414E64121967A7D995E97DFD3264C85C4A9AC285442100831DD847BA71E68350"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.h",
+      "sha256": "DF1808CCE748473DCF69241FE18BC0AF2CBD157E636D39EE06310BFE07C2B808"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.cpp",
+      "sha256": "BB2464F0881E61C16FD51AB714509416F6A8125E9F9C95224AFB9238DE167AB2"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.h",
+      "sha256": "786D9148C9EB28C467F88850822F753713CDDDAA98F4296C99E8A005339FBCD5"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.cpp",
+      "sha256": "E6AA61ADA11291AAB9D2570BC8FA36E5FD25F2D804F5192A6E471A539A566425"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.h",
+      "sha256": "68094643D37E911DDF63B8AF3893C55603884507BD92E0BF1A90B66228FF488C"
+    },
+    {
+      "path": "src\\project\\Effects.cpp",
+      "sha256": "D8B80E588B66286FE1F1FBB9817EF9CAA85644809438D78E06B440F1E34E10A7"
+    },
+    {
+      "path": "src\\project\\Effects.h",
+      "sha256": "4CFD9DCF0A6D854EFACBBA3B955D70D85DD4694F7E7F83BB01DD23D430B38BBE"
+    },
+    {
+      "path": "src\\project\\Project.cpp",
+      "sha256": "5DACD0254D85C327265783AE15CBC87055FE0C24DB354B01023EA5B411B1974E"
+    },
+    {
+      "path": "src\\project\\Project.h",
+      "sha256": "145AF4E956509DD5F453AB8529A54A9ABCCBAFC37CA2AE51A88C405844B1EF1C"
+    },
+    {
+      "path": "src\\project\\ProjectStore.cpp",
+      "sha256": "9033A7893E2E2F9EB4876661A71B3DB51BC1CAFAAA22D8A78FC481B90BCFA826"
+    },
+    {
+      "path": "src\\project\\ProjectStore.h",
+      "sha256": "37EACEBEED2771AD6BD84AA15B90E329578DE55360475710BC4FC53F7E95B772"
+    },
+    {
+      "path": "src\\project\\Recovery.cpp",
+      "sha256": "D95FB18581ACBA49CAE1026E5FC5091205378D1CC78AAC3BB596BAC6A71BAB82"
+    },
+    {
+      "path": "src\\project\\Recovery.h",
+      "sha256": "0AD761CD07B13691A3386AD7E5129E4DE02E8392431253E1655012579DC03AFF"
+    },
+    {
+      "path": "src\\project\\Time.cpp",
+      "sha256": "26209EAB4671FBED9670EEC3320A1CC41E953E3F46A690BC6DAADB1616C10C90"
+    },
+    {
+      "path": "src\\timeline\\EffectDialog.cpp",
+      "sha256": "E6F3015B4D3A4B2DC9424C4890D4A2652A12A798F8E81FC57A8AA48D2F59E941"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.cpp",
+      "sha256": "29DEF7377F3F905AC87B5E84E99F70C31098D816F709E5A4B1DD27818E9B3BA2"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.h",
+      "sha256": "133A10B60628D0A4E13C2656720D0CFF0A3B6A7C377823ACA7FEF9CC9DEDD9B9"
+    },
+    {
+      "path": "src\\timeline\\Timeline.cpp",
+      "sha256": "DB32493B1EDE2BBD9A159E464DC914DBE52E6F90D76F7D7EC7545A842A19291D"
+    },
+    {
+      "path": "src\\timeline\\Timeline.h",
+      "sha256": "86A0C396281066F3BB1FABBF485688A65A9D78D7DBAE6686EADBEC7727344BA4"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.cpp",
+      "sha256": "130C6EBB82438D902C1888A691A8D0299F0509139FBBADF296AC5B0978319BF2"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.h",
+      "sha256": "46F1ED63E3FCCFE7BC8108B68BB468A294C9B92931CA0AAE480C36B0979EF41A"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.cpp",
+      "sha256": "A89B081AE3AE35A7AEA6F89A384316D26D583796C791B07F814520B9DFF28036"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.h",
+      "sha256": "73E5E66C825ADBD024A74EDDDCCEEE724E8920000535D63E0F0DC7333E360007"
+    },
+    {
+      "path": "src\\ui\\InspectorWidget.cpp",
+      "sha256": "2A8F333C7A6CF78ADCDF8BE3B3C9478B9A94A8A2A5164F19CAF2AB7701FC8E5E"
+    },
+    {
+      "path": "src\\ui\\InspectorWidget.h",
+      "sha256": "89A1756836601818DD36390CDC23853E2F0000F3256D21160BBFC9A43E918AD3"
+    },
+    {
+      "path": "src\\ui\\TimeDisplay.h",
+      "sha256": "25AC02D9C0547058108F70C572388E0BEF897F4ABC1FBF89B744254C01B3DAA8"
+    },
+    {
+      "path": "tests\\AdvancedEffectsTests.cpp",
+      "sha256": "D08CAE567CC334821D76B5540CAC7202580F769260DD135000C46674C95DAB52"
+    },
+    {
+      "path": "tests\\AudioTitleTests.cpp",
+      "sha256": "EFE13EEBE28292DEFC4522E610E5D315969FD99EDE6B2C9635064BE71A04B01F"
+    },
+    {
+      "path": "tests\\CapabilityCacheTests.cpp",
+      "sha256": "FDFB51193D4B110654499267062E727F7E381F98CAEEA6220DED2FFCA9BDA86C"
+    },
+    {
+      "path": "tests\\CapabilityTests.cpp",
+      "sha256": "D5AE12C402485EA78FD7CD02A326B736DF855D8BECD3E515425104CB922AFA73"
+    },
+    {
+      "path": "tests\\EffectsTests.cpp",
+      "sha256": "F55C136A5F99A32FB71E94E0D5BBD13FC9AEE80BB68B2DC9BEE68B3F30D743ED"
+    },
+    {
+      "path": "tests\\EncoderCatalogTests.cpp",
+      "sha256": "43D7D62D561A92EDCC3B769FDAE32C067D45505F33666E6AAA0A83B0071B1DC0"
+    },
+    {
+      "path": "tests\\ExportTabsTests.cpp",
+      "sha256": "D3BB9945F2D19C2C1F3BCD55E3BEA4925620B5896327617538E627A7536E6E1D"
+    },
+    {
+      "path": "tests\\ExportTests.cpp",
+      "sha256": "AAC5D54742BDDDBB994F1BB22DEFB04EA2F11FCD19EF7554ECACD68BA4D71BCC"
+    },
+    {
+      "path": "tests\\MediaTests.cpp",
+      "sha256": "81F925B4208BDE9E8AFF96932CB94DEAEFD78ED0DD5992FAE56A3FD3A1897D59"
+    },
+    {
+      "path": "tests\\PerformanceTests.cpp",
+      "sha256": "F766697C9D442A02C824DF8A0FED340D10682706390BBBA602D4C6B3830DD949"
+    },
+    {
+      "path": "tests\\PlaybackBenchmark.cpp",
+      "sha256": "C6B5FB1EA7B326B9C3CE524D9F54DE09BDBA8458AE191939BB157BBB6E91F08B"
+    },
+    {
+      "path": "tests\\PlaybackTests.cpp",
+      "sha256": "46F0070956F154564D7B2DE96CFB2651250079E2054BB04CE80830E4F5910AD1"
+    },
+    {
+      "path": "tests\\ProjectTests.cpp",
+      "sha256": "4B41E4D4506F742275E60CCE4A5EE9995C80ACCB71F1C0B48E894E7E1918FB55"
+    },
+    {
+      "path": "tests\\RecoveryTests.cpp",
+      "sha256": "457A2F0531DF8A78AA5A735944665922C1521B5416E07F039E50FF805037873F"
+    },
+    {
+      "path": "tests\\SequenceTests.cpp",
+      "sha256": "DE9CCF3FD76A8FD2C9844798CC3C960F327C0A67799A17762FAEFA44510C8197"
+    },
+    {
+      "path": "tests\\TimelineTests.cpp",
+      "sha256": "4C80EBEAC8768A20F955069D42B2C4E2DA65DCB195F5E859CD235EF7A69858B5"
+    },
+    {
+      "path": "tests\\TimelineUiTests.cpp",
+      "sha256": "3A628ACFCCA804622965070B308088A6E85A10FDCA932FDCA593423414B79E0C"
+    },
+    {
+      "path": "tests\\WorkspaceTests.cpp",
+      "sha256": "7E4B2FF076AB7348FCB393CAD39C10968CAF32B8D02BA38DE02869E213EE5DB7"
+    }
+  ],
+  "originals": [
+    {
+      "path": "B:\\Videos\\Acu - 100% Clicks.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 38% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 88%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Bloodbath - 54% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 91%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 28% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 45% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Map packs.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 26% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 56% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Swords & Souls End.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 50% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100% Clicks.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 58% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 67% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 2.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 3.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tung Tung Sahurcles Macro.mp4",
+      "unchanged": true
+    }
+  ],
+  "evidenceLevel": "Pinned native Windows Release build; eighteen automated production/model/media/export suites; independent export inspection/decode; offscreen widget layout captures",
+  "userAcceptance": {
+    "session": "15.2",
+    "status": "complete",
+    "acceptedAtUtc": "2026-10-09T11:45:01.4854392Z",
+    "acceptedBy": "user",
+    "userStatement": "Ok, good, mark 15.2 as complete",
+    "acceptanceScope": "Explicit acceptance of the implemented Simple/Advanced export dialog and authorization to mark Session 15.2 complete. Individual Windows appearance-check outcomes were not separately reported.",
+    "retainedLimits": [
+      "Other Windows display scales/screens remain untested",
+      "Physical playback devices and long hardware stability retain existing limits",
+      "Subjective encoded quality and audible sync remain unmeasured",
+      "BT.709 SDR and 8-bit composition; 10-bit storage does not provide HDR",
+      "Packaging/redistribution remains Session 16"
+    ]
+  },
+  "nativeVisualReview": "Session accepted by user; individual Windows appearance-check outcomes not separately reported. No agent computer use performed.",
+  "limits": [
+    "Other Windows display scales/screens remain untested",
+    "Physical playback devices and long hardware stability retain existing limits",
+    "BT.709 SDR and 8-bit composition; 10-bit storage does not provide HDR",
+    "Audio mixer remains 48 kHz stereo",
+    "Packaging/redistribution remains Session 16"
+  ]
+}

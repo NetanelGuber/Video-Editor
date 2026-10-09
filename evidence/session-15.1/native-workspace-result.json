@@ -1,0 +1,242 @@
+{
+    "checkCount": 58,
+    "checks": [
+        {
+            "description": "Six task menus route the existing production actions",
+            "passed": true
+        },
+        {
+            "description": "Media lives in Media; test error command is absent from production",
+            "passed": true
+        },
+        {
+            "description": "Project Media and optional Inspector use the concept names",
+            "passed": true
+        },
+        {
+            "description": "Export video is prominent and retains Ctrl+E",
+            "passed": true
+        },
+        {
+            "description": "Import and editing shortcuts stay stable",
+            "passed": true
+        },
+        {
+            "description": "Empty workspace provides Import media and New/Open without a menu",
+            "passed": true
+        },
+        {
+            "description": "Single Import media menu exposes Files and Folder",
+            "passed": true
+        },
+        {
+            "description": "Empty selection disables placement, properties, audio and preview",
+            "passed": true
+        },
+        {
+            "description": "Occasional sequence tools and selection forms no longer crowd the timeline",
+            "passed": true
+        },
+        {
+            "description": "Production import starts",
+            "passed": true
+        },
+        {
+            "description": "Inline import state offers Cancel and blocks duplicate work",
+            "passed": true
+        },
+        {
+            "description": "Completed import updates state and keeps a next action",
+            "passed": true
+        },
+        {
+            "description": "Online media permits placement and hides the offline Locate action",
+            "passed": true
+        },
+        {
+            "description": "Search filters production rows",
+            "passed": true
+        },
+        {
+            "description": "Search survives project and media refresh",
+            "passed": true
+        },
+        {
+            "description": "Preview source explicitly switches to Source",
+            "passed": true
+        },
+        {
+            "description": "Placement returns to Sequence and uses existing insertion",
+            "passed": true
+        },
+        {
+            "description": "Effects command selects Inspector without modal hopping",
+            "passed": true
+        },
+        {
+            "description": "Inspector follows selected clip identity",
+            "passed": true
+        },
+        {
+            "description": "Inline effect toggle uses production command",
+            "passed": true
+        },
+        {
+            "description": "Effect toggle undo restores complete state",
+            "passed": true
+        },
+        {
+            "description": "Undo returns exactly to original clip state",
+            "passed": true
+        },
+        {
+            "description": "Locked track disables action and Inspector editing",
+            "passed": true
+        },
+        {
+            "description": "Hidden Inspector routes same Effects action to focused dialog",
+            "passed": true
+        },
+        {
+            "description": "Edit menu Split follows normal timeline path",
+            "passed": true
+        },
+        {
+            "description": "Edit menu Undo restores split exactly",
+            "passed": true
+        },
+        {
+            "description": "Track audio selects Audio / Track context",
+            "passed": true
+        },
+        {
+            "description": "Untouched Inspector forms preserve full precision, fades, routing and automation",
+            "passed": true
+        },
+        {
+            "description": "Inline track mute retains existing automation",
+            "passed": true
+        },
+        {
+            "description": "Ctrl+Z from Inspector restores complete track audio state",
+            "passed": true
+        },
+        {
+            "description": "Inline title edit updates live project via UpsertTitle",
+            "passed": true
+        },
+        {
+            "description": "Inline title undo retains styling and clip timing",
+            "passed": true
+        },
+        {
+            "description": "Save edited workspace fixture",
+            "passed": true
+        },
+        {
+            "description": "Inspector edits survive atomic save/reopen",
+            "passed": true
+        },
+        {
+            "description": "Narrow workspace retains usable viewer and timeline, hiding Inspector",
+            "passed": true
+        },
+        {
+            "description": "Narrow Project Media keeps a complete row visible",
+            "passed": true
+        },
+        {
+            "description": "Automatically hidden Inspector returns when space permits",
+            "passed": true
+        },
+        {
+            "description": "Seek returns to Sequence with position summary",
+            "passed": true
+        },
+        {
+            "description": "Export summary explains destination; raw options start collapsed",
+            "passed": true
+        },
+        {
+            "description": "Expandable details reveal existing encoder controls",
+            "passed": true
+        },
+        {
+            "description": "Conflicts remain immediate and block export",
+            "passed": true
+        },
+        {
+            "description": "Only successful exact-settings check enables Export",
+            "passed": true
+        },
+        {
+            "description": "Ready feedback names validated encoder",
+            "passed": true
+        },
+        {
+            "description": "Remove only this suite's disposable export before repeat verification",
+            "passed": true
+        },
+        {
+            "description": "Export progress disables repeat start",
+            "passed": true
+        },
+        {
+            "description": "Completion identifies destination and actual encoder",
+            "passed": true
+        },
+        {
+            "description": "Prepare production Offline state",
+            "passed": true
+        },
+        {
+            "description": "Offline item has a direct Locate file action and cannot preview",
+            "passed": true
+        },
+        {
+            "description": "Folder relink reports remaining offline references",
+            "passed": true
+        },
+        {
+            "description": "Create disposable invalid media fixture",
+            "passed": true
+        },
+        {
+            "description": "Failed import preserves project and provides an inline retry action",
+            "passed": true
+        },
+        {
+            "description": "Failed file details explain preservation and recovery",
+            "passed": true
+        },
+        {
+            "description": "Recover a disposable snapshot through production recovery path",
+            "passed": true
+        },
+        {
+            "description": "Recovery keeps a persistent review and save-working-copy notice",
+            "passed": true
+        },
+        {
+            "description": "Reset workspace restores native docks",
+            "passed": true
+        },
+        {
+            "description": "Save test state before close",
+            "passed": true
+        },
+        {
+            "description": "Successful save resolves recovery notice",
+            "passed": true
+        },
+        {
+            "description": "Inspector visibility persists under the new layout key",
+            "passed": true
+        }
+    ],
+    "evidenceLevel": "Production Qt Widgets automated routing/state/edits/export and raster layout; physical scaling and subjective appearance require visual review",
+    "failures": [
+    ],
+    "passed": true,
+    "platform": "windows"
+}

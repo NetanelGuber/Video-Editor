@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "scriptSyntaxErrors": [],
+  "localDocumentationLinksChecked": 49,
+  "brokenLinks": [],
+  "browserUiSourceMatches": [],
+  "cleanBuildDirectory": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\session-1",
+  "automatedShellPassed": true,
+  "humanUiAcceptance": "Passed; user confirmed the full manual checklist on 2026-10-06; see manual-acceptance.json",
+  "timestampUtc": "2026-10-06T19:21:47.2390901Z",
+  "manualAcceptanceEvidence": "evidence/session-1/manual-acceptance.json",
+  "session1Complete": true
+}

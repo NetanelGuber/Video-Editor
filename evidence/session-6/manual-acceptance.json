@@ -1,0 +1,11 @@
+{
+  "session": 6,
+  "version": "0.6.1",
+  "date": "2026-10-06",
+  "passed": true,
+  "evidenceLevel": "User-reported Session 6 acceptance",
+  "checklist": "docs/session-6.md#human-windows-checklist",
+  "scope": "Session 6 accepted after the manual Windows checklist and 0.6.1 drag-entry fix were provided; individual checklist outcomes were not separately reported",
+  "userConfirmation": "You can mark session 6 as complete",
+  "agentComputerUsePerformed": false
+}

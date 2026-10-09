@@ -1,0 +1,15 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/session-5
+    Start 1: project-persistence
+1/5 Test #1: project-persistence ..............   Passed    0.22 sec
+    Start 2: application-shell
+2/5 Test #2: application-shell ................   Passed    0.16 sec
+    Start 3: media-import-inspection
+3/5 Test #3: media-import-inspection ..........   Passed    4.85 sec
+    Start 4: timeline-editing
+4/5 Test #4: timeline-editing .................   Passed    0.84 sec
+    Start 5: playback-decode-render
+5/5 Test #5: playback-decode-render ...........   Passed   14.73 sec
+
+100% tests passed, 0 tests failed out of 5
+
+Total Test time (real) =  20.84 sec

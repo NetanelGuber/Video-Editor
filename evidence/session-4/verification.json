@@ -1,0 +1,248 @@
+{
+  "passed": true,
+  "collectedAtUtc": "2026-10-06T20:36:37.7260252Z",
+  "version": "0.4.0",
+  "buildDirectory": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\session-4",
+  "buildEvidence": "clean pinned MSVC/CMake Release configure and build; subsequent incremental UI text update",
+  "automatedSuites": [
+    "project-persistence",
+    "application-shell (offscreen)",
+    "media-import-inspection (offscreen and real sources)",
+    "timeline-editing (native model/filesystem)"
+  ],
+  "timelineCheckCount": 261,
+  "fixtureSha256": "7752db95aa4dc9d1754a41910b8f91355234acc82368e155cf15294f0b0e0c4f",
+  "artifacts": [
+    {
+      "name": "VideoEditor.exe",
+      "sha256": "efb481044dd2922e2303b396915d694c8f17333e24b3e1c59c48f3096a492e61"
+    },
+    {
+      "name": "TimelineTests.exe",
+      "sha256": "6b26301ac75880f41536c98986a370486a5bcf48197a5e9540a3d32b20af72dc"
+    },
+    {
+      "name": "editor_timeline.lib",
+      "sha256": "07a6ccd02c626a87abe576a4753d7ff53e16d84669a6d6e05f3f73ea40ae991d"
+    }
+  ],
+  "originals": [
+    {
+      "path": "B:\\Videos\\Acu - 100% Clicks.mkv",
+      "sizeBytes": 364130642,
+      "lastWriteTimeUtc": "2026-02-16T20:11:06.9301901Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 100%.mkv",
+      "sizeBytes": 373827119,
+      "lastWriteTimeUtc": "2026-02-03T22:11:26.5838809Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 38% to 100%.mkv",
+      "sizeBytes": 227894614,
+      "lastWriteTimeUtc": "2026-01-31T18:19:11.1418226Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "sizeBytes": 121576575,
+      "lastWriteTimeUtc": "2026-01-30T23:54:38.1969532Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 88%.mkv",
+      "sizeBytes": 348821371,
+      "lastWriteTimeUtc": "2026-02-01T17:02:24.2150807Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Bloodbath - 54% to 100%.mp4",
+      "sizeBytes": 203017843,
+      "lastWriteTimeUtc": "2026-09-22T23:22:07.4450633Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 100%.mp4",
+      "sizeBytes": 1461796138,
+      "lastWriteTimeUtc": "2025-12-24T18:24:38.4631578Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "sizeBytes": 390903672,
+      "lastWriteTimeUtc": "2025-12-24T17:06:17.3937812Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "sizeBytes": 188404410,
+      "lastWriteTimeUtc": "2025-12-23T20:01:41.3818787Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 91%.mp4",
+      "sizeBytes": 1329124022,
+      "lastWriteTimeUtc": "2025-12-24T17:47:33.4411327Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 100%.mkv",
+      "sizeBytes": 1098511320,
+      "lastWriteTimeUtc": "2026-01-04T18:34:29.3836472Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 28% to 100%.mkv",
+      "sizeBytes": 729751046,
+      "lastWriteTimeUtc": "2026-01-02T17:19:12.4219285Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 45% to 100%.mkv",
+      "sizeBytes": 590643388,
+      "lastWriteTimeUtc": "2026-01-01T20:12:09.7362071Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Map packs.mp4",
+      "sizeBytes": 8483364,
+      "lastWriteTimeUtc": "2026-03-22T23:45:07.5462511Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 100%.mp4",
+      "sizeBytes": 672937391,
+      "lastWriteTimeUtc": "2026-02-24T23:30:53.4744149Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 26% to 100%.mkv",
+      "sizeBytes": 582295598,
+      "lastWriteTimeUtc": "2026-02-18T22:58:06.7046533Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 56% to 100%.mkv",
+      "sizeBytes": 332912747,
+      "lastWriteTimeUtc": "2026-02-17T23:50:39.0640053Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Swords & Souls End.mp4",
+      "sizeBytes": 389243182,
+      "lastWriteTimeUtc": "2026-03-30T21:05:52.7545435Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 100%.mkv",
+      "sizeBytes": 399206430,
+      "lastWriteTimeUtc": "2026-01-21T22:16:40.2338547Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 50% to 100%.mkv",
+      "sizeBytes": 159699022,
+      "lastWriteTimeUtc": "2026-01-15T16:53:41.1089380Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100% Clicks.mkv",
+      "sizeBytes": 151002301,
+      "lastWriteTimeUtc": "2026-02-11T00:19:43.9020943Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100%.mkv",
+      "sizeBytes": 153254415,
+      "lastWriteTimeUtc": "2026-02-10T22:45:14.2017486Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 58% to 100%.mp4",
+      "sizeBytes": 60971478,
+      "lastWriteTimeUtc": "2026-07-15T22:51:09.1418508Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 67% to 100%.mp4",
+      "sizeBytes": 37840519,
+      "lastWriteTimeUtc": "2026-07-13T17:20:38.1047895Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 2.mp4",
+      "sizeBytes": 1015093,
+      "lastWriteTimeUtc": "2026-03-22T23:56:53.8229502Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 3.mp4",
+      "sizeBytes": 3537016,
+      "lastWriteTimeUtc": "2026-03-23T00:00:52.4189192Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "sizeBytes": 5978512,
+      "lastWriteTimeUtc": "2026-03-23T00:17:58.5936732Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato.mp4",
+      "sizeBytes": 831837,
+      "lastWriteTimeUtc": "2026-03-22T23:53:54.2458652Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "sizeBytes": 925480314,
+      "lastWriteTimeUtc": "2026-05-04T23:46:36.1253964Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tung Tung Sahurcles Macro.mp4",
+      "sizeBytes": 635403463,
+      "lastWriteTimeUtc": "2026-08-06T21:28:52.1794247Z",
+      "matchesSession0": true
+    }
+  ],
+  "deployedFfmpeg": [
+    {
+      "name": "avformat-63.dll",
+      "sha256": "360e66109b2ce3f02d56cd940e625a6909304eea1f4d0fcbbbb2d40d74308ee0",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "avcodec-63.dll",
+      "sha256": "4d458a276fda363709ed2ac4ad14aea122c536e61919feebd919d5f8490be7a9",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "avutil-61.dll",
+      "sha256": "9230e42b6b8e1fa20ec83af1eb4c4b2ae90b0c8d7c29093369250eed562372df",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "swscale-10.dll",
+      "sha256": "af91db7f45644157469a110438a8c648314927ec83e334d4cacac3870d99fabe",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "swresample-7.dll",
+      "sha256": "1f2a0bdca315f1a05fe398e7a0d97db8d0e34ba2a86ec59303bf32bbd9430123",
+      "matchesPinnedFile": true
+    }
+  ],
+  "scriptsParsed": true,
+  "documentationLinksChecked": true,
+  "humanAcceptance": "not required for model-only Session 4; no visual acceptance claimed",
+  "limitations": [
+    "no interactive timeline controls (Session 6)",
+    "no playback/rendering/GPU validation (Session 5)",
+    "source endpoints round to integer ticks; no hidden sub-tick anchor",
+    "history snapshots have not been performance benchmarked"
+  ],
+  "failures": []
+}

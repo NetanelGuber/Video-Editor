@@ -1,0 +1,37 @@
+{
+  "reviewedAtUtc": "2026-10-08T23:00:54.7339282Z",
+  "reviewer": "Codex agent",
+  "platform": "Qt windows on the current Windows computer",
+  "automatedProductionWidgetChecks": 58,
+  "nativeSuitePassed": true,
+  "logicalWorkspaceSizes": [
+    {
+      "width": 1400,
+      "height": 900
+    },
+    {
+      "width": 850,
+      "height": 700
+    }
+  ],
+  "observed": [
+    "Live Windows frame and production workspace inspected using computer-use skill",
+    "Clip selection updates Inspector context and Clip section",
+    "Sequence preview visible above timeline",
+    "Narrow workspace hides Inspector and retains complete media row",
+    "Empty workspace exposes Import media and New/Open",
+    "Offline workspace exposes Locate file and disables preview",
+    "Export-ready layout keeps validated encoder, destination, progress and start action visible"
+  ],
+  "screenshotDirectory": "native-screenshots",
+  "automatedReport": "native-workspace-result.json",
+  "interactionLimits": [
+    "Project opening tested through production API; native file picker selection not established by computer-use run",
+    "Narrow geometry exercised by native Qt test rather than successful manual resize drag"
+  ],
+  "visualLimits": [
+    "Other display scales/screens not reviewed",
+    "Scaling percentage not independently measured",
+    "Subjective playback smoothness and perceived AV sync not established"
+  ]
+}

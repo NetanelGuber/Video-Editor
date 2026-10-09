@@ -1,0 +1,449 @@
+{
+  "schemaVersion": 1,
+  "collectedAtUtc": "2026-10-06T19:05:47.3051166Z",
+  "ffprobePath": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\ffprobe.exe",
+  "ffprobeVersion": "ffprobe version 9.0.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+  "files": [
+    {
+      "id": "media-001",
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "sizeBytes": 121576575,
+      "lastWriteTimeUtc": "2026-01-30T23:54:38.1969532Z",
+      "sha256": "e58a34287628eac7171fbce5d493689211bd8bbe6185f9645d1ca6a078952199",
+      "container": "matroska,webm",
+      "durationSeconds": "29.181000",
+      "video": [
+        {
+          "index": 0,
+          "codec": "hevc",
+          "profile": "Main",
+          "width": 1920,
+          "height": 1080,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": null,
+          "nominalFrameRate": "144/1",
+          "averageFrameRate": "144/1",
+          "timeBase": "1/1000",
+          "frameCount": null,
+          "colorRange": "tv",
+          "colorSpace": "bt709",
+          "colorTransfer": "bt709",
+          "colorPrimaries": "bt709",
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "flac",
+          "profile": null,
+          "sampleRate": "48000",
+          "channels": 2,
+          "channelLayout": "stereo",
+          "timeBase": "1/1000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 720,
+          "intervalCount": 719,
+          "minSeconds": 0.005999999999999783,
+          "maxSeconds": 0.007000000000000561,
+          "averageSeconds": 0.006944367176634215,
+          "toleranceSeconds": 0.001002,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 4202,
+          "intervalCount": 4201,
+          "minTicks": 6.0,
+          "maxTicks": 7.0,
+          "averageTicks": 6.944537014996429,
+          "timeBase": "1/1000",
+          "toleranceTicks": 1.00001,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-001.probe.json"
+    },
+    {
+      "id": "media-002",
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "sizeBytes": 390903672,
+      "lastWriteTimeUtc": "2025-12-24T17:06:17.3937812Z",
+      "sha256": "3e7f63ba79149317ad5e35f606ad0f3f71fb65b040aeccfae29d16d7a6ecc7fb",
+      "container": "matroska,webm",
+      "durationSeconds": "152.000000",
+      "video": [
+        {
+          "index": 0,
+          "codec": "h264",
+          "profile": "High",
+          "width": 1920,
+          "height": 1080,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": "8",
+          "nominalFrameRate": "144/1",
+          "averageFrameRate": "144/1",
+          "timeBase": "1/1000",
+          "frameCount": null,
+          "colorRange": "tv",
+          "colorSpace": "bt709",
+          "colorTransfer": "bt709",
+          "colorPrimaries": "bt709",
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "flac",
+          "profile": null,
+          "sampleRate": "48000",
+          "channels": 2,
+          "channelLayout": "stereo",
+          "timeBase": "1/1000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 719,
+          "intervalCount": 718,
+          "minSeconds": 0.005999999999999783,
+          "maxSeconds": 0.007000000000000561,
+          "averageSeconds": 0.006944289693593314,
+          "toleranceSeconds": 0.001002,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 21888,
+          "intervalCount": 21887,
+          "minTicks": 6.0,
+          "maxTicks": 7.0,
+          "averageTicks": 6.9444419061543385,
+          "timeBase": "1/1000",
+          "toleranceTicks": 1.00001,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-002.probe.json"
+    },
+    {
+      "id": "media-003",
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "sizeBytes": 188404410,
+      "lastWriteTimeUtc": "2025-12-23T20:01:41.3818787Z",
+      "sha256": "c6eb3c45bfad1767ea4b7e7f8ea242a6758daf65165f90b64a3818d384eb61a2",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "72.500000",
+      "video": [
+        {
+          "index": 0,
+          "codec": "h264",
+          "profile": "High",
+          "width": 1920,
+          "height": 1080,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": "8",
+          "nominalFrameRate": "144/1",
+          "averageFrameRate": "144/1",
+          "timeBase": "1/18432",
+          "frameCount": "10440",
+          "colorRange": "tv",
+          "colorSpace": "bt709",
+          "colorTransfer": "bt709",
+          "colorPrimaries": "bt709",
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "profile": "LC",
+          "sampleRate": "48000",
+          "channels": 2,
+          "channelLayout": "stereo",
+          "timeBase": "1/48000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 720,
+          "intervalCount": 719,
+          "minSeconds": 0.006943999999999839,
+          "maxSeconds": 0.00694500000000009,
+          "averageSeconds": 0.006944445062586927,
+          "toleranceSeconds": 5.625347222222222E-05,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 10440,
+          "intervalCount": 10439,
+          "minTicks": 128.0,
+          "maxTicks": 128.0,
+          "averageTicks": 128.0,
+          "timeBase": "1/18432",
+          "toleranceTicks": 1.00001,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-003.probe.json"
+    },
+    {
+      "id": "media-004",
+      "path": "B:\\Videos\\Map packs.mp4",
+      "sizeBytes": 8483364,
+      "lastWriteTimeUtc": "2026-03-22T23:45:07.5462511Z",
+      "sha256": "44bc87fa69e1cfe3b2f33b850995c390b6ebaf322f0b9c44f839c2d30c68b542",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "27.904000",
+      "video": [
+        {
+          "index": 0,
+          "codec": "h264",
+          "profile": "High",
+          "width": 1920,
+          "height": 1080,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": "8",
+          "nominalFrameRate": "60/1",
+          "averageFrameRate": "60/1",
+          "timeBase": "1/15360",
+          "frameCount": "1674",
+          "colorRange": "tv",
+          "colorSpace": "bt709",
+          "colorTransfer": "bt709",
+          "colorPrimaries": "bt709",
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "profile": "LC",
+          "sampleRate": "48000",
+          "channels": 2,
+          "channelLayout": "stereo",
+          "timeBase": "1/48000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 297,
+          "intervalCount": 296,
+          "minSeconds": 0.016665999999999848,
+          "maxSeconds": 0.0166670000000001,
+          "averageSeconds": 0.01666666554054054,
+          "toleranceSeconds": 6.710416666666666E-05,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 1674,
+          "intervalCount": 1673,
+          "minTicks": 256.0,
+          "maxTicks": 256.0,
+          "averageTicks": 256.0,
+          "timeBase": "1/15360",
+          "toleranceTicks": 1.00001,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-004.probe.json"
+    },
+    {
+      "id": "media-005",
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "sizeBytes": 5978512,
+      "lastWriteTimeUtc": "2026-03-23T00:17:58.5936732Z",
+      "sha256": "79d046f41bcb5d9a2d6c116ce3120cce6617259052f8999fdacf589f6c825471",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "5.236111",
+      "video": [
+        {
+          "index": 0,
+          "codec": "hevc",
+          "profile": "Main",
+          "width": 1920,
+          "height": 1080,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": null,
+          "nominalFrameRate": "144/1",
+          "averageFrameRate": "144/1",
+          "timeBase": "1/144",
+          "frameCount": "754",
+          "colorRange": "tv",
+          "colorSpace": "bt709",
+          "colorTransfer": "bt709",
+          "colorPrimaries": "bt709",
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "profile": "LC",
+          "sampleRate": "48000",
+          "channels": 2,
+          "channelLayout": "stereo",
+          "timeBase": "1/48000"
+        },
+        {
+          "index": 2,
+          "codec": "aac",
+          "profile": "LC",
+          "sampleRate": "48000",
+          "channels": 2,
+          "channelLayout": "stereo",
+          "timeBase": "1/48000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 720,
+          "intervalCount": 719,
+          "minSeconds": 0.006943999999999839,
+          "maxSeconds": 0.00694500000000009,
+          "averageSeconds": 0.006944445062586927,
+          "toleranceSeconds": 0.0017381112656467317,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 754,
+          "intervalCount": 753,
+          "minTicks": 1.0,
+          "maxTicks": 1.0,
+          "averageTicks": 1.0,
+          "timeBase": "1/144",
+          "toleranceTicks": 0.25,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-005.probe.json"
+    },
+    {
+      "id": "media-006",
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "sizeBytes": 925480314,
+      "lastWriteTimeUtc": "2026-05-04T23:46:36.1253964Z",
+      "sha256": "cc5fe51c0d195c5a66f57a1c338f17ea310789809f3f3281230b51193c73df3e",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "127.993056",
+      "video": [
+        {
+          "index": 0,
+          "codec": "hevc",
+          "profile": "Main",
+          "width": 1920,
+          "height": 1080,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": null,
+          "nominalFrameRate": "144/1",
+          "averageFrameRate": "144/1",
+          "timeBase": "1/18432",
+          "frameCount": "18431",
+          "colorRange": "tv",
+          "colorSpace": "bt709",
+          "colorTransfer": "bt709",
+          "colorPrimaries": "bt709",
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "alac",
+          "profile": null,
+          "sampleRate": "48000",
+          "channels": 2,
+          "channelLayout": "stereo",
+          "timeBase": "1/48000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 720,
+          "intervalCount": 719,
+          "minSeconds": 0.006943999999999839,
+          "maxSeconds": 0.00694500000000009,
+          "averageSeconds": 0.006944445062586927,
+          "toleranceSeconds": 5.625347222222222E-05,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 18431,
+          "intervalCount": 18430,
+          "minTicks": 128.0,
+          "maxTicks": 128.0,
+          "averageTicks": 128.0,
+          "timeBase": "1/18432",
+          "toleranceTicks": 1.00001,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-006.probe.json"
+    }
+  ]
+}

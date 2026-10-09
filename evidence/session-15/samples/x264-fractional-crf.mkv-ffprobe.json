@@ -1,0 +1,79 @@
+{
+  "format": {
+    "bit_rate": "444000",
+    "duration": "0.200000",
+    "filename": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15/encoder-catalog-test-data/x264-fractional-crf.mkv",
+    "format_long_name": "Matroska / WebM",
+    "format_name": "matroska,webm",
+    "nb_programs": 0,
+    "nb_stream_groups": 0,
+    "nb_streams": 1,
+    "probe_score": 100,
+    "size": "11100",
+    "tags": {
+      "ENCODER": "Lavf63.1.102"
+    }
+  },
+  "streams": [
+    {
+      "avg_frame_rate": "30/1",
+      "bits_per_raw_sample": "8",
+      "chroma_location": "left",
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "codec_name": "h264",
+      "codec_tag": "0x0000",
+      "codec_tag_string": "[0][0][0][0]",
+      "codec_type": "video",
+      "coded_height": 192,
+      "coded_width": 320,
+      "color_primaries": "bt709",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "color_transfer": "bt709",
+      "display_aspect_ratio": "16:9",
+      "disposition": {
+        "attached_pic": 0,
+        "captions": 0,
+        "clean_effects": 0,
+        "comment": 0,
+        "default": 0,
+        "dependent": 0,
+        "descriptions": 0,
+        "dub": 0,
+        "forced": 0,
+        "hearing_impaired": 0,
+        "karaoke": 0,
+        "lyrics": 0,
+        "metadata": 0,
+        "multilayer": 0,
+        "non_diegetic": 0,
+        "original": 0,
+        "still_image": 0,
+        "timed_thumbnails": 0,
+        "visual_impaired": 0
+      },
+      "duration": "0.200000",
+      "duration_ts": 200,
+      "extradata_size": 50,
+      "field_order": "progressive",
+      "has_b_frames": 0,
+      "height": 180,
+      "index": 0,
+      "is_avc": "true",
+      "level": 13,
+      "mime_codec_string": "avc1.64000d",
+      "nal_length_size": "4",
+      "nb_read_frames": "6",
+      "pix_fmt": "yuv420p",
+      "profile": "High",
+      "r_frame_rate": "30/1",
+      "refs": 3,
+      "sample_aspect_ratio": "1:1",
+      "tags": {
+        "DURATION": "00:00:00.200000000"
+      },
+      "time_base": "1/1000",
+      "width": 320
+    }
+  ]
+}

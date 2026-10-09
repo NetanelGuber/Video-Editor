@@ -1,0 +1,408 @@
+{
+    "audioMeasurements": [
+        {
+            "pitchHz": 440,
+            "rate": 0.125,
+            "samples": 1536000
+        },
+        {
+            "pitchHz": 440,
+            "rate": 0.5,
+            "samples": 384000
+        },
+        {
+            "pitchHz": 440,
+            "rate": 2,
+            "samples": 96000
+        },
+        {
+            "pitchHz": 440,
+            "rate": 8,
+            "samples": 24000
+        },
+        {
+            "pitchHz": 439,
+            "rampStartSample": 12000
+        },
+        {
+            "pitchHz": 440,
+            "rampStartSample": 48000
+        },
+        {
+            "pitchHz": 440,
+            "rampStartSample": 90000
+        },
+        {
+            "actualSample": 50985.035135819555,
+            "differenceMs": 41.26750765065981,
+            "energy": 948.4794009129515,
+            "expectedSample": 52965.875503051226,
+            "sourceTransientSecond": 1
+        },
+        {
+            "actualSample": 82109.06085091773,
+            "differenceMs": 35.65604171972851,
+            "energy": 371.3630199646592,
+            "expectedSample": 83820.5508534647,
+            "sourceTransientSecond": 2
+        },
+        {
+            "actualSample": 107041.44815680721,
+            "differenceMs": 32.469830066516806,
+            "energy": 181.7541771217168,
+            "expectedSample": 108600.00000000001,
+            "sourceTransientSecond": 3
+        },
+        {
+            "maximumRampTransientErrorMs": 41.26750765065981
+        }
+    ],
+    "checks": 613,
+    "evidence": "Native model, analytical SDR/time references, production Qt offscreen controls/preview, bounded streaming audio with spectral pitch and seek equivalence, independently decoded MP4/AAC. No computer use or human visual acceptance.",
+    "exports": [
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 151,
+            "error": "",
+            "frames": 120,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/speed-2x.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 120,
+            "error": "",
+            "frames": 120,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/speed-ramp.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1001,
+                "rateNum": 30000,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 145,
+            "error": "",
+            "frames": 60,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/fractional-speed.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 251,
+            "error": "",
+            "frames": 120,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/split-ramp.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 107,
+            "error": "",
+            "frames": 120,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/trim-ramp.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 1326,
+            "error": "",
+            "frames": 120,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/color-mask-key-lut.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.08836318552494049,
+                "mixedSamples": 96000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "6783f58d-94ad-4a46-a52e-448e439c8529": 0.08836318552494049
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 104,
+            "error": "",
+            "frames": 60,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/pitch-preserved.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 96000
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 78,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 399.77252197265625,
+                "mixedSamples": 132800,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 6,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "6783f58d-94ad-4a46-a52e-448e439c8529": 399.77252197265625
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 168,
+            "error": "",
+            "frames": 83,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/advanced-effects-test-data/pitch-preserved-ramp.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 132800
+        }
+    ],
+    "failures": [
+    ],
+    "passed": true,
+    "worstExportMeanRgbError": 1.6726793981481483
+}

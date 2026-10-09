@@ -1,0 +1,6 @@
+#pragma once
+#define EDITOR_VERSION "@PROJECT_VERSION@"
+#define EDITOR_COMPILER_VERSION "@pinned_compiler@"
+#define EDITOR_SDK_VERSION "@pinned_sdk@"
+#define EDITOR_QT_VERSION "@pinned_qt@"
+#define EDITOR_FFMPEG_VERSION "@pinned_ffmpeg@"

@@ -1,0 +1,643 @@
+{
+    "activeSequenceId": "3e1b8570-a5c7-4307-86ee-594a9bb99810",
+    "exportSettings": {
+        "audioCodec": "aac",
+        "audioEnabled": true,
+        "channels": 2,
+        "container": "mp4",
+        "frameRate": {
+            "denominator": "1",
+            "numerator": "30"
+        },
+        "height": 180,
+        "outputPath": "",
+        "preset": "medium",
+        "quality": 20,
+        "sampleRate": 48000,
+        "videoCodec": "h264",
+        "width": 320
+    },
+    "format": "LocalVideoTools.VideoEditor",
+    "id": "3f8b5c7c-ab7a-4df7-a4d5-9e12fa41591b",
+    "media": [
+        {
+            "container": "mov,mp4,m4a,3gp,3g2,mj2",
+            "id": "e262a3f3-3dd4-4ad7-a1b4-7409006cf6a0",
+            "name": "blue.mp4",
+            "path": "Z:/offline-session-11/blue.mp4",
+            "sizeBytes": "10540",
+            "streams": [
+                {
+                    "bitDepth": 8,
+                    "channels": 0,
+                    "codec": "h264",
+                    "durationTicks": "184320",
+                    "frameRate": {
+                        "denominator": "1",
+                        "numerator": "30"
+                    },
+                    "height": 180,
+                    "index": 0,
+                    "kind": "video",
+                    "rotation": 0,
+                    "sampleRate": 0,
+                    "startTicks": "0",
+                    "timeBase": {
+                        "denominator": "15360",
+                        "numerator": "1"
+                    },
+                    "variableFrameRate": false,
+                    "width": 320
+                }
+            ]
+        },
+        {
+            "container": "mov,mp4,m4a,3gp,3g2,mj2",
+            "id": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+            "name": "red.mp4",
+            "path": "Z:/offline-session-11/red.mp4",
+            "sizeBytes": "10596",
+            "streams": [
+                {
+                    "bitDepth": 8,
+                    "channels": 0,
+                    "codec": "h264",
+                    "durationTicks": "184320",
+                    "frameRate": {
+                        "denominator": "1",
+                        "numerator": "30"
+                    },
+                    "height": 180,
+                    "index": 0,
+                    "kind": "video",
+                    "rotation": 0,
+                    "sampleRate": 0,
+                    "startTicks": "0",
+                    "timeBase": {
+                        "denominator": "15360",
+                        "numerator": "1"
+                    },
+                    "variableFrameRate": false,
+                    "width": 320
+                }
+            ]
+        }
+    ],
+    "name": "Session 11 — effects and fades reference",
+    "schemaVersion": 4,
+    "sequences": [
+        {
+            "durationFrames": "360",
+            "frameRate": {
+                "denominator": "1",
+                "numerator": "30"
+            },
+            "height": 180,
+            "id": "3e1b8570-a5c7-4307-86ee-594a9bb99810",
+            "name": "Sequence 1",
+            "sampleRate": 48000,
+            "tracks": [
+                {
+                    "clips": [
+                        {
+                            "durationFrames": "300",
+                            "effects": [
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "220b7e06-d076-4076-b060-358be0a6d033",
+                            "kind": "video",
+                            "mediaId": "e262a3f3-3dd4-4ad7-a1b4-7409006cf6a0",
+                            "muted": false,
+                            "name": "blue.mp4",
+                            "sourceDurationTicks": "153600",
+                            "sourceInTicks": "0",
+                            "startFrame": "0",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        }
+                    ],
+                    "enabled": true,
+                    "gain": 1,
+                    "id": "ac23278d-6e94-4d31-87e4-b8343ec8b6b5",
+                    "kind": "video",
+                    "locked": false,
+                    "muted": false,
+                    "name": "Video 1",
+                    "solo": false
+                },
+                {
+                    "clips": [
+                    ],
+                    "enabled": true,
+                    "gain": 1,
+                    "id": "763987fc-3ef8-4830-93d3-21f543d6c9b0",
+                    "kind": "audio",
+                    "locked": false,
+                    "muted": false,
+                    "name": "Audio 1",
+                    "solo": false
+                },
+                {
+                    "clips": [
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "e6236d01-d3c6-4b59-bacf-45f7f31f8a36",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff000000",
+                                        "inCurve": "linear",
+                                        "inFrames": "10",
+                                        "inMode": "opacity",
+                                        "outColor": "#ff000000",
+                                        "outCurve": "linear",
+                                        "outFrames": "10",
+                                        "outMode": "opacity"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "309deae5-67f8-476b-b825-081bfcf8cc66",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 1",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "0",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "d36e73cf-3cc9-469c-875e-8cfdc5e5515b",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff000000",
+                                        "inCurve": "linear",
+                                        "inFrames": "10",
+                                        "inMode": "color",
+                                        "outColor": "#ffffffff",
+                                        "outCurve": "linear",
+                                        "outFrames": "10",
+                                        "outMode": "color"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "360472cf-6cbe-411b-a0e7-ba68f0643be3",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 2",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "30",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "66556efb-21b2-4a03-932f-fbf6eff80502",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ffffffff",
+                                        "inCurve": "linear",
+                                        "inFrames": "10",
+                                        "inMode": "color",
+                                        "outColor": "#ff000000",
+                                        "outCurve": "linear",
+                                        "outFrames": "10",
+                                        "outMode": "color"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "4a4aa0c8-a313-42c2-b866-43a0b71ed2c2",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 3",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "60",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "5d227f75-88b7-4e15-a339-6a438ad19e76",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff12a4c8",
+                                        "inCurve": "eased",
+                                        "inFrames": "10",
+                                        "inMode": "color",
+                                        "outColor": "#ff8030d0",
+                                        "outCurve": "linear",
+                                        "outFrames": "6",
+                                        "outMode": "color"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "5dbe5bfa-1d94-422a-bcdf-36cf98af1660",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 4",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "90",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "bfb9dee3-eea5-418e-8394-ac7e24c63890",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff000000",
+                                        "inCurve": "linear",
+                                        "inFrames": "30",
+                                        "inMode": "color",
+                                        "outColor": "#ff8030d0",
+                                        "outCurve": "linear",
+                                        "outFrames": "30",
+                                        "outMode": "color"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "3dc08b91-8a6d-44cb-b3a8-1a8bc71d0186",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 5",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "120",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "bc1b9903-9df7-4051-ab37-3738ca27147c",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff000000",
+                                        "inCurve": "linear",
+                                        "inFrames": "30",
+                                        "inMode": "opacity",
+                                        "outColor": "#ff000000",
+                                        "outCurve": "linear",
+                                        "outFrames": "30",
+                                        "outMode": "opacity"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "b1c0ce76-58a3-4898-81a7-bf508e804501",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 6",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "150",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "7bb40d1f-1a1d-4621-afb1-a840b963f8fb",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "bottom": 0,
+                                        "left": 0.2,
+                                        "right": 0,
+                                        "top": 0
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "crop",
+                                    "version": 1
+                                },
+                                {
+                                    "enabled": true,
+                                    "id": "a72c36c5-6aef-4af9-af85-816e176c7422",
+                                    "keyframes": {
+                                        "x": [
+                                            {
+                                                "curve": "eased",
+                                                "frame": "0",
+                                                "value": -0.25
+                                            },
+                                            {
+                                                "curve": "linear",
+                                                "frame": "29",
+                                                "value": 0.25
+                                            }
+                                        ]
+                                    },
+                                    "parameters": {
+                                        "rotation": 0,
+                                        "scaleX": 0.6,
+                                        "scaleY": 0.6,
+                                        "x": 0,
+                                        "y": 0
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "transform",
+                                    "version": 1
+                                },
+                                {
+                                    "enabled": true,
+                                    "id": "cb4b7f4b-dd3e-47d2-9d47-954d68d81ee1",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff000000",
+                                        "inCurve": "eased",
+                                        "inFrames": "10",
+                                        "inMode": "opacity",
+                                        "outColor": "#ff000000",
+                                        "outCurve": "linear",
+                                        "outFrames": "6",
+                                        "outMode": "opacity"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "a21407af-780e-4593-a892-58e2728fb29e",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 7",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "180",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "0bfd692e-e877-4236-a793-5d33de180f61",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "mode": "multiply"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "composite",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "0c7d6373-b238-4f95-8e68-c69ca197ed71",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 8",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "210",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "c3c3eb2b-cbef-454d-9f32-540715c64ba4",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "mode": "screen"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "composite",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "337f2998-f3aa-4766-8313-3cd44d80ffe2",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 9",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "240",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "7ddccac4-2866-41ae-b97d-3532b2182279",
+                                    "keyframes": {
+                                        "value": [
+                                            {
+                                                "curve": "hold",
+                                                "frame": "0",
+                                                "value": 0
+                                            },
+                                            {
+                                                "curve": "linear",
+                                                "frame": "10",
+                                                "value": 0.5
+                                            },
+                                            {
+                                                "curve": "linear",
+                                                "frame": "29",
+                                                "value": 1
+                                            }
+                                        ]
+                                    },
+                                    "parameters": {
+                                        "value": 1
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "opacity",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "80a23001-19fd-49df-a123-96ab8989957e",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 10",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "270",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "ddedf203-23bc-42af-89be-e9f5f2a167c9",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff000000",
+                                        "inCurve": "linear",
+                                        "inFrames": "10",
+                                        "inMode": "opacity",
+                                        "outColor": "#ff000000",
+                                        "outCurve": "linear",
+                                        "outFrames": "10",
+                                        "outMode": "opacity"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "0c93913e-eddc-4947-a572-0d3f033ee166",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 11",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "300",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        },
+                        {
+                            "durationFrames": "30",
+                            "effects": [
+                                {
+                                    "enabled": true,
+                                    "id": "37fbbc9d-b93e-44a4-a959-8525e7c23f24",
+                                    "keyframes": {
+                                    },
+                                    "parameters": {
+                                        "inColor": "#ff000000",
+                                        "inCurve": "hold",
+                                        "inFrames": "10",
+                                        "inMode": "color",
+                                        "outColor": "#ff8030d0",
+                                        "outCurve": "eased",
+                                        "outFrames": "10",
+                                        "outMode": "color"
+                                    },
+                                    "timeOffsetFrames": "0",
+                                    "type": "videoFade",
+                                    "version": 1
+                                }
+                            ],
+                            "fadeInFrames": "0",
+                            "fadeOutFrames": "0",
+                            "gain": 1,
+                            "id": "1e5aba52-aef6-48a3-824e-160a8fb14b08",
+                            "kind": "video",
+                            "mediaId": "8b7289f3-fa73-4292-a269-8ad0ca3a7d24",
+                            "muted": false,
+                            "name": "Reference 12",
+                            "sourceDurationTicks": "15360",
+                            "sourceInTicks": "0",
+                            "startFrame": "330",
+                            "streamIndex": 0,
+                            "titleId": ""
+                        }
+                    ],
+                    "enabled": true,
+                    "gain": 1,
+                    "id": "41b43283-f722-4bb0-9223-a020fc41c029",
+                    "kind": "video",
+                    "locked": false,
+                    "muted": false,
+                    "name": "Effects reference",
+                    "solo": false
+                }
+            ],
+            "width": 320
+        }
+    ],
+    "titles": [
+    ]
+}

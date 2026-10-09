@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-06T19:06:41.9126804Z",
+  "ffmpegPath": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\ffmpeg.exe",
+  "ffmpegVersion": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "results": [
+    {
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "test-set-media-001.txt"
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "test-set-media-002.txt"
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "test-set-media-003.txt"
+    },
+    {
+      "path": "B:\\Videos\\Map packs.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "test-set-media-004.txt"
+    },
+    {
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "test-set-media-005.txt"
+    },
+    {
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "test-set-media-006.txt"
+    },
+    {
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-h264-aac.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "synthetic-media-001.txt"
+    },
+    {
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-hevc10-aac.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "synthetic-media-002.txt"
+    },
+    {
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-rotation90-h264.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "synthetic-media-003.txt"
+    },
+    {
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-vfr-h264.mp4",
+      "scope": "first 5 seconds or EOF; CPU video and all audio streams",
+      "exitCode": 0,
+      "log": "synthetic-media-004.txt"
+    }
+  ]
+}

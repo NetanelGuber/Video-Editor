@@ -1,0 +1,14 @@
+Input #0, lavfi, from 'anullsrc=r=48000:cl=stereo':
+  Duration: N/A, start: 0.000000, bitrate: 768 kb/s
+  Stream #0:0: Audio: pcm_u8, 48000 Hz, stereo, u8, 768 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_u8 (native) -> ac3 (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'NUL':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0: Audio: ac3, 48000 Hz, stereo, fltp, 512 kb/s
+    Metadata:
+      encoder         : Lavc63.1.102 ac3
+[out#0/null @ 00000210c35773c0] video:0KiB audio:8KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:00.10 bitrate=N/A speed=  50x elapsed=0:00:00.00    

@@ -1,0 +1,11 @@
+{
+  "status": "session_accepted",
+  "reportedOn": "2026-10-06",
+  "manualStep": 4,
+  "userReport": "Dragging media into Video 2 does not work",
+  "reproduced": "Offscreen entry through track headers and ruler rejected in 0.6.0; direct-body drop test missed this path",
+  "fixVersion": "0.6.1",
+  "humanAcceptance": "User accepted Session 6 after the 0.6.1 fix; individual checklist outcomes were not separately reported",
+  "automatedVerification": "Pinned 0.6.1 build and all six suites pass; regression uses real bin MIME, header/ruler entry, Video 2 placement, undo and rejected invalid destinations",
+  "acceptanceRecord": "evidence/session-6/manual-acceptance.json"
+}

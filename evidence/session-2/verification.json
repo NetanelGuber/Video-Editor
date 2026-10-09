@@ -1,0 +1,113 @@
+{
+  "powershellScriptsParse": true,
+  "projectChecks": 63,
+  "offscreenLifecyclePassed": true,
+  "sources": [
+    {
+      "sha256": "5fb666d437aa7263a9f55cfb7e5d19d8006cd34230aa097e2d2b882ba168d0e8",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\BuildInfo.h.in"
+    },
+    {
+      "sha256": "8a01a9adfdaa7a7ba85120ac1f26bf343a3b4ac9773e586e1e5e2494313adcfb",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\Diagnostics.cpp"
+    },
+    {
+      "sha256": "9dff7a9b64de3072909466a47d13841876c4860fbf6a4a3853455920aeb1c580",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\Diagnostics.h"
+    },
+    {
+      "sha256": "6ae4f56d3d82bc628585bd258c000c4a9010d45a7db507b14d9dca7981cd471f",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\main.cpp"
+    },
+    {
+      "sha256": "892a478b4b010e0b6fb1553bf64b82689ec51ba0c48a0537c3e02aaec1feeba3",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\MainWindow.cpp"
+    },
+    {
+      "sha256": "fda63d46ec672ab654fc2dd1f89912438ed4d71996084f04fb83833bf1f879e9",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\MainWindow.h"
+    },
+    {
+      "sha256": "ecd4ee948b54270c3931d8f18ec9cbe0c2dbf462758b0235e690c82dc2714136",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\media\\RuntimeInfo.cpp"
+    },
+    {
+      "sha256": "6ff7476effafdfb50eaf02964d636aad5d6b446de04eecf6e5c6fdb85c5ce0bb",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\media\\RuntimeInfo.h"
+    },
+    {
+      "sha256": "6c674fbe3361f67cba0c5e7baf24d45b4a927e107fdc369a272644d5c8dcf14f",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\project\\Project.cpp"
+    },
+    {
+      "sha256": "2a04dd88fd40bf0059ee5973818271143e22285373c0d3c02c83f37e465b0b2b",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\project\\Project.h"
+    },
+    {
+      "sha256": "69c0b3e8a1cfeb49946666851f166505145c26db81a73ec6f1dc42c02640e4b0",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\project\\ProjectStore.cpp"
+    },
+    {
+      "sha256": "3d06ffb0507206670bfec9ac967bb0285d3287558c08a87929025a87c52fe5b1",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\project\\ProjectStore.h"
+    },
+    {
+      "sha256": "134c530b83bf3e58413244b966f7e7c29aead74e6b7b8d2b1a699778842eadac",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\project\\Time.cpp"
+    },
+    {
+      "sha256": "0c003e76eb755303dd5979c516a58f6a7fc1b79e71b9ecabbacb48581d97f409",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\CMakeLists.txt"
+    },
+    {
+      "sha256": "6e9b5e2940b6b3e3a24ef1df15b2b28626868683887f2bcd66c5de5e3d0d57ab",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\Build.ps1"
+    },
+    {
+      "sha256": "f3b17af9de2eeccfb9c760285d038b6ffd05e8c80b9e0cf904b4dcab31d6aaca",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\Install-Dependencies.ps1"
+    },
+    {
+      "sha256": "11c7a7f69afa758809b1c57bf4b499fbb3d68d1d6f77fa5dbfeae59c6f50dcb7",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\Measure-Environment.ps1"
+    },
+    {
+      "sha256": "8aa2423cf90d869a47215fc83236e3a6dfc528242ffcb0d5051fb25383a73844",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\Measure-Media.ps1"
+    },
+    {
+      "sha256": "845aba506cc72721ccc759208dfd6e35f4db84bde004ee950406e772f40e63d7",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\New-MediaFixtures.ps1"
+    },
+    {
+      "sha256": "1374c45cde037a3659e0338c3dc516623a13da5d829f80b2f3deab3177d30eca",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\Test-Application.ps1"
+    },
+    {
+      "sha256": "68782e72dfab514bc97cb7a77a609686409468e55e3d171dc181371ee8901b5e",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\Test-Dependencies.ps1"
+    },
+    {
+      "sha256": "51cea71b332d3a0fcdac6ccc1e06096275ffaefb2baa9f0917240b4fcb14fa99",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\scripts\\Test-MediaDecode.ps1"
+    },
+    {
+      "sha256": "62699b7fdff80164123d4204808cd58dcebfc23620b1aa5b6d70461302c3ecaf",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\projects\\multitrack-v1.veproject"
+    },
+    {
+      "sha256": "24b02b1a1734f41669cd95d700622fa2a8fbec31185937747bd702e831eecc3e",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\projects\\multitrack-v2.veproject"
+    }
+  ],
+  "executable": {
+    "sha256": "40ef57b252825fabda2d8ff54082892b6f55722f89b4e0dcacd37f1979fd38e4",
+    "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\session-2\\Release\\VideoEditor.exe"
+  },
+  "cleanBuildAndTestsPassed": true,
+  "date": "2026-10-06",
+  "localDocumentationLinksValid": true,
+  "nativeProjectTestsPassed": true,
+  "version": "0.2.0",
+  "humanWindowsAcceptance": "passed, reported by the user on 2026-10-06; see manual-acceptance.json"
+}

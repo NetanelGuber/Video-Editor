@@ -1,0 +1,84 @@
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  editor_export_resources_1.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\editor_export_resources_1.dir\Release\editor_export_resources_1.lib
+  Scanning sources for module dependencies...
+  editor_project.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\editor_project.lib
+  Automatic MOC for target editor_media
+  Automatic MOC for target editor_playback
+  Scanning sources for module dependencies...
+  editor_timeline.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\editor_timeline.lib
+  Automatic MOC for target editor_timeline_ui
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  editor_media.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\editor_media.lib
+  editor_playback.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\editor_playback.lib
+  Scanning sources for module dependencies...
+  Automatic MOC for target editor_export
+  TimelineWidget.cpp
+  Scanning sources for module dependencies...
+  editor_export.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\editor_export.lib
+  Compiling...
+  TimelineWidget.cpp
+  editor_timeline_ui.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\editor_timeline_ui.lib
+  Automatic MOC for target VideoEditor
+  VideoEditor.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\VideoEditor.exe
+EXEC : warning : Translations will not be available due to the following error. [B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\VideoEditor.vcxproj]
+  Cannot open B:/Coding/02-Projects/Tools/Video-Editor/.tools/qt/translations/catalogs.json
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-14/Release/swresample-7.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-14/Release/avfilter-12.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-14/Release/avutil-61.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-14/Release/avformat-63.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-14/Release/avcodec-63.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-14/Release/swscale-10.dll
+  B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\VideoEditor.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Skipping plugin qtuiotouchplugin.dll due to skipped plugin type generic
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Direct dependencies: Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  Skipping system library C:/WINDOWS/system32/icuuc.dll
+  Qt6Core.dll is up to date.
+  Qt6Gui.dll is up to date.
+  Qt6OpenGL.dll is up to date.
+  Qt6OpenGLWidgets.dll is up to date.
+  Qt6Widgets.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  Automatic MOC for target TimelineUiTests
+  Automatic MOC for target MediaTests
+  Automatic MOC for target ExportTests
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  TimelineTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\TimelineTests.exe
+  ProjectTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\ProjectTests.exe
+  PlaybackTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\PlaybackTests.exe
+  Scanning sources for module dependencies...
+  PerformanceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\PerformanceTests.exe
+  PlaybackBenchmark.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\PlaybackBenchmark.exe
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  EffectsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\EffectsTests.exe
+  AdvancedEffectsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\AdvancedEffectsTests.exe
+  SequenceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\SequenceTests.exe
+  TimelineUiTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\TimelineUiTests.exe
+  ExportTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\ExportTests.exe
+  MediaTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\MediaTests.exe
+  AudioTitleTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\AudioTitleTests.exe
+  Automatic MOC for target RecoveryTests
+  Scanning sources for module dependencies...
+  RecoveryTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-14\Release\RecoveryTests.exe

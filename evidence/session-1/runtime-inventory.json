@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "0.1.0",
+  "architecture": "Windows x64",
+  "runtimeDirectory": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\session-1\\Release",
+  "directImports": [
+    "Qt6Widgets.dll",
+    "Qt6Gui.dll",
+    "Qt6Core.dll",
+    "avutil-61.dll",
+    "MSVCP140.dll",
+    "VCRUNTIME140.dll",
+    "VCRUNTIME140_1.dll",
+    "api-ms-win-crt-heap-l1-1-0.dll",
+    "api-ms-win-crt-string-l1-1-0.dll",
+    "api-ms-win-crt-stdio-l1-1-0.dll",
+    "api-ms-win-crt-runtime-l1-1-0.dll",
+    "api-ms-win-crt-math-l1-1-0.dll",
+    "api-ms-win-crt-locale-l1-1-0.dll",
+    "SHELL32.dll",
+    "KERNEL32.dll"
+  ],
+  "files": [
+    {
+      "path": "avutil-61.dll",
+      "bytes": 3157504,
+      "sha256": "9230e42b6b8e1fa20ec83af1eb4c4b2ae90b0c8d7c29093369250eed562372df"
+    },
+    {
+      "path": "dxcompiler.dll",
+      "bytes": 14317000,
+      "sha256": "97abd3b3083607dc29cc3f8eae56c39c349b76ee3c20deeb2f66258708e55bd8"
+    },
+    {
+      "path": "dxil.dll",
+      "bytes": 1509800,
+      "sha256": "fda4dde92222ddb8564c3173ce48faa56f7e1c7b46b0b67dada1182ee07a4123"
+    },
+    {
+      "path": "Qt6Core.dll",
+      "bytes": 10370872,
+      "sha256": "b20757be279b4e074c89be1f183a40975bf867b9a2a4e0ca4ea34a95fe2bb39e"
+    },
+    {
+      "path": "Qt6Gui.dll",
+      "bytes": 9576248,
+      "sha256": "695ee5e5a7ac83b7a1f7d397ccb0dda39b84f8369fd2237d90c1229b78af0cd5"
+    },
+    {
+      "path": "Qt6Widgets.dll",
+      "bytes": 6501176,
+      "sha256": "16e181e86e4084ca26de4daaf9a32ab61c1eed9c4649e6176dbddc7849ea1e06"
+    },
+    {
+      "path": "VideoEditor.exe",
+      "bytes": 104960,
+      "sha256": "649b0df545ceaa1cca4e0a8a996e6fb565c7ca451819151455dadf2747930228"
+    },
+    {
+      "path": "imageformats\\qgif.dll",
+      "bytes": 47928,
+      "sha256": "ab27920999dbe30c8b49ebdaefcc4740f931afc23f137ee9c77822d9069c4e59"
+    },
+    {
+      "path": "imageformats\\qico.dll",
+      "bytes": 46904,
+      "sha256": "9cb3025a26c2e5a6225b601ca89c62bfa4dffc17f258cc10d439b1c3ac6d6256"
+    },
+    {
+      "path": "imageformats\\qjpeg.dll",
+      "bytes": 592184,
+      "sha256": "efa72d5df5eafac48021b2e7ab501668989944b1fd84e902e21f17ddeac4bdfb"
+    },
+    {
+      "path": "platforms\\qoffscreen.dll",
+      "bytes": 110904,
+      "sha256": "1b0b08da8de36bfc12ac8c6ad394ada12595de4f2d1d5e5d3c893198258009ae"
+    },
+    {
+      "path": "platforms\\qwindows.dll",
+      "bytes": 992056,
+      "sha256": "e8c633f1c5054ec2972ea5dd85062d1078a6b1011cbeb3dd1fb6ed954da78765"
+    },
+    {
+      "path": "styles\\qmodernwindowsstyle.dll",
+      "bytes": 240952,
+      "sha256": "180d8c0b5cdce42ebaf26cd96f2582200784cde069dac487534e755eb6b581fb"
+    }
+  ],
+  "deployment": "Local development output; Microsoft runtimes/system DLLs supplied by target PC; Qt6Core may be patched by windeployqt",
+  "licenseInventory": "docs/dependencies.md and Session 0 Qt SPDX/FFmpeg binary evidence",
+  "noBrowserImports": true
+}

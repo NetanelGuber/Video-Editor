@@ -1,0 +1,66 @@
+[
+  {
+    "id": "compatible-mp4",
+    "label": "Desktop MP4 — H.264 / AAC",
+    "container": "mp4",
+    "videoEncoder": "libx264",
+    "audioEncoder": "aac",
+    "speeds": [
+      "ultrafast",
+      "veryfast",
+      "fast",
+      "medium",
+      "slow"
+    ],
+    "quality": 20,
+    "audioBitrate": 192000
+  },
+  {
+    "id": "desktop-mkv",
+    "label": "Desktop Matroska — H.264 / AAC",
+    "container": "matroska",
+    "videoEncoder": "libx264",
+    "audioEncoder": "aac",
+    "speeds": [
+      "ultrafast",
+      "veryfast",
+      "fast",
+      "medium",
+      "slow"
+    ],
+    "quality": 20,
+    "audioBitrate": 192000
+  },
+  {
+    "id": "broad-mp4",
+    "label": "Broad MP4 — up to 1080p / 30 fps",
+    "container": "mp4",
+    "videoEncoder": "libx264",
+    "audioEncoder": "aac",
+    "speeds": [
+      "ultrafast",
+      "veryfast",
+      "fast",
+      "medium",
+      "slow"
+    ],
+    "quality": 20,
+    "audioBitrate": 192000
+  },
+  {
+    "id": "hevc-mp4",
+    "label": "HEVC MP4 — newer devices / desktop",
+    "container": "mp4",
+    "videoEncoder": "libx265",
+    "audioEncoder": "aac",
+    "speeds": [
+      "ultrafast",
+      "veryfast",
+      "fast",
+      "medium",
+      "slow"
+    ],
+    "quality": 20,
+    "audioBitrate": 192000
+  }
+]

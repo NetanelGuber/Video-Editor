@@ -1,0 +1,10 @@
+{
+  "version": "6.11.3",
+  "packageVersion": "6.11.3-0-202609240253",
+  "component": "qtbase",
+  "architecture": "msvc2022_64",
+  "url": "https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_6113/qt6_6113_msvc2022_64/qt.qt6.6113.win64_msvc2022_64/6.11.3-0-202609240253qtbase-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-X86_64.7z",
+  "publisherSha1": "fed33357645f1a562c5c9790fcee23ab16d7d313",
+  "sha256": "3ddf0017b4b67cb56018ed5a6af6a54865a40bdc735111a50e5e169e893558e5",
+  "sizeBytes": 39643659
+}

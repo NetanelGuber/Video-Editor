@@ -1,0 +1,560 @@
+[
+  {
+    "component": "amf",
+    "configurationFlag": "--enable-amf",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "avisynth",
+    "configurationFlag": "--enable-avisynth",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "bzlib",
+    "configurationFlag": "--enable-bzlib",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "chromaprint",
+    "configurationFlag": "--enable-chromaprint",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "cuda-llvm",
+    "configurationFlag": "--enable-cuda-llvm",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "cuvid",
+    "configurationFlag": "--enable-cuvid",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "d3d11va",
+    "configurationFlag": "--enable-d3d11va",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "d3d12va",
+    "configurationFlag": "--enable-d3d12va",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "dxva2",
+    "configurationFlag": "--enable-dxva2",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "ffnvcodec",
+    "configurationFlag": "--enable-ffnvcodec",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "frei0r",
+    "configurationFlag": "--enable-frei0r",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "gmp",
+    "configurationFlag": "--enable-gmp",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "gnutls",
+    "configurationFlag": "--enable-gnutls",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "iconv",
+    "configurationFlag": "--enable-iconv",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "ladspa",
+    "configurationFlag": "--enable-ladspa",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libaom",
+    "configurationFlag": "--enable-libaom",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libaribb24",
+    "configurationFlag": "--enable-libaribb24",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libaribcaption",
+    "configurationFlag": "--enable-libaribcaption",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libass",
+    "configurationFlag": "--enable-libass",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libbluray",
+    "configurationFlag": "--enable-libbluray",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libbs2b",
+    "configurationFlag": "--enable-libbs2b",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libcaca",
+    "configurationFlag": "--enable-libcaca",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libcdio",
+    "configurationFlag": "--enable-libcdio",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libcodec2",
+    "configurationFlag": "--enable-libcodec2",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libdav1d",
+    "configurationFlag": "--enable-libdav1d",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libdavs2",
+    "configurationFlag": "--enable-libdavs2",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libdvdnav",
+    "configurationFlag": "--enable-libdvdnav",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libdvdread",
+    "configurationFlag": "--enable-libdvdread",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libflite",
+    "configurationFlag": "--enable-libflite",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libfreetype",
+    "configurationFlag": "--enable-libfreetype",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libfribidi",
+    "configurationFlag": "--enable-libfribidi",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libgme",
+    "configurationFlag": "--enable-libgme",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libgsm",
+    "configurationFlag": "--enable-libgsm",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libharfbuzz",
+    "configurationFlag": "--enable-libharfbuzz",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libilbc",
+    "configurationFlag": "--enable-libilbc",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libjxl",
+    "configurationFlag": "--enable-libjxl",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "liblc3",
+    "configurationFlag": "--enable-liblc3",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "liblensfun",
+    "configurationFlag": "--enable-liblensfun",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libmodplug",
+    "configurationFlag": "--enable-libmodplug",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libmp3lame",
+    "configurationFlag": "--enable-libmp3lame",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libmysofa",
+    "configurationFlag": "--enable-libmysofa",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "liboapv",
+    "configurationFlag": "--enable-liboapv",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libopencore-amrnb",
+    "configurationFlag": "--enable-libopencore-amrnb",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libopencore-amrwb",
+    "configurationFlag": "--enable-libopencore-amrwb",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libopenjpeg",
+    "configurationFlag": "--enable-libopenjpeg",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libopenmpt",
+    "configurationFlag": "--enable-libopenmpt",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libopus",
+    "configurationFlag": "--enable-libopus",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libplacebo",
+    "configurationFlag": "--enable-libplacebo",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libqrencode",
+    "configurationFlag": "--enable-libqrencode",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libquirc",
+    "configurationFlag": "--enable-libquirc",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "librav1e",
+    "configurationFlag": "--enable-librav1e",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "librist",
+    "configurationFlag": "--enable-librist",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "librubberband",
+    "configurationFlag": "--enable-librubberband",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libshine",
+    "configurationFlag": "--enable-libshine",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libsnappy",
+    "configurationFlag": "--enable-libsnappy",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libsoxr",
+    "configurationFlag": "--enable-libsoxr",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libspeex",
+    "configurationFlag": "--enable-libspeex",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libsrt",
+    "configurationFlag": "--enable-libsrt",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libssh",
+    "configurationFlag": "--enable-libssh",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libsvtav1",
+    "configurationFlag": "--enable-libsvtav1",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libsvtjpegxs",
+    "configurationFlag": "--enable-libsvtjpegxs",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libtheora",
+    "configurationFlag": "--enable-libtheora",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libtwolame",
+    "configurationFlag": "--enable-libtwolame",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libuavs3d",
+    "configurationFlag": "--enable-libuavs3d",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libvidstab",
+    "configurationFlag": "--enable-libvidstab",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libvmaf",
+    "configurationFlag": "--enable-libvmaf",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libvo-amrwbenc",
+    "configurationFlag": "--enable-libvo-amrwbenc",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libvorbis",
+    "configurationFlag": "--enable-libvorbis",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libvpl",
+    "configurationFlag": "--enable-libvpl",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libvpx",
+    "configurationFlag": "--enable-libvpx",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libvvenc",
+    "configurationFlag": "--enable-libvvenc",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libwebp",
+    "configurationFlag": "--enable-libwebp",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libx264",
+    "configurationFlag": "--enable-libx264",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libx265",
+    "configurationFlag": "--enable-libx265",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libxavs2",
+    "configurationFlag": "--enable-libxavs2",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libxevd",
+    "configurationFlag": "--enable-libxevd",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libxeve",
+    "configurationFlag": "--enable-libxeve",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libxml2",
+    "configurationFlag": "--enable-libxml2",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libxvid",
+    "configurationFlag": "--enable-libxvid",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libzimg",
+    "configurationFlag": "--enable-libzimg",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libzmq",
+    "configurationFlag": "--enable-libzmq",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "libzvbi",
+    "configurationFlag": "--enable-libzvbi",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "lzma",
+    "configurationFlag": "--enable-lzma",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "mediafoundation",
+    "configurationFlag": "--enable-mediafoundation",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "nvdec",
+    "configurationFlag": "--enable-nvdec",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "nvenc",
+    "configurationFlag": "--enable-nvenc",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "openal",
+    "configurationFlag": "--enable-openal",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "opencl",
+    "configurationFlag": "--enable-opencl",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "sdl2",
+    "configurationFlag": "--enable-sdl2",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "vaapi",
+    "configurationFlag": "--enable-vaapi",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "vulkan",
+    "configurationFlag": "--enable-vulkan",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "whisper",
+    "configurationFlag": "--enable-whisper",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "zlib",
+    "configurationFlag": "--enable-zlib",
+    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "externalDistributionApproved": false
+  }
+]

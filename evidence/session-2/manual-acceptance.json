@@ -1,0 +1,10 @@
+{
+  "session": 2,
+  "date": "2026-10-06",
+  "passed": true,
+  "evidenceLevel": "Human target-PC acceptance, reported by the user",
+  "checklist": "docs/session-2.md#human-windows-checklist",
+  "scope": "Full Session 2 manual Windows checklist",
+  "userConfirmation": "I have tested everything, mark session 2 as complete.",
+  "agentComputerUsePerformed": false
+}

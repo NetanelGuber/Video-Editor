@@ -1,0 +1,32 @@
+2026-10-09T12:09:23.183Z [INFO] [default] Startup Video Editor 0.16.0 pid 22664
+2026-10-09T12:09:23.183Z [INFO] [default] Qt runtime: 6.11.3 FFmpeg runtime: 9.0.2-full_build-www.gyan.dev
+2026-10-09T12:09:23.183Z [INFO] [default] Build: Windows x64; C++20; MSVC 19.51.36244 ; SDK 10.0.26100.0
+2026-10-09T12:09:23.183Z [INFO] [default] Platform: offscreen Settings: B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/settings.ini
+2026-10-09T12:09:23.183Z [INFO] [default] Log: B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/logs/video-editor-20261009-120923-183-22664.log
+2026-10-09T12:09:23.185Z [WARNING] [default] QFontDatabase: Cannot find font directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/VideoEditor-0.16.0-windows-x64-local/lib/fonts.\nNote that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+2026-10-09T12:09:23.190Z [INFO] [default] Workspace created: media bin, sequence viewer, timeline, toolbar, status/progress
+2026-10-09T12:09:23.196Z [INFO] [default] Workspace reset to default layout
+2026-10-09T12:09:23.198Z [INFO] [default] New project "32234179-0a5f-4e17-b0a1-78361eb52589"
+2026-10-09T12:09:23.207Z [INFO] [default] Autosaved "B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/recovery/32234179-0a5f-4e17-b0a1-78361eb52589.veproject.autosave"
+2026-10-09T12:09:23.211Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-09T12:09:23.230Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/ui-project.veproject" id "32234179-0a5f-4e17-b0a1-78361eb52589"
+2026-10-09T12:09:23.240Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/projects/multitrack-v2.veproject" id "00000000-0000-4000-8000-000000000001" migratedFrom 2 offline media 2
+2026-10-09T12:09:23.250Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/ui-project.veproject" id "00000000-0000-4000-8000-000000000001"
+2026-10-09T12:09:23.259Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/ui-project.veproject" id "00000000-0000-4000-8000-000000000001" migratedFrom 0 offline media 2
+2026-10-09T12:09:23.266Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/projects/multitrack-v1.veproject" id "00000000-0000-4000-8000-000000000001" migratedFrom 1 offline media 2
+2026-10-09T12:09:23.281Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/ui-project.veproject" id "00000000-0000-4000-8000-000000000001"
+2026-10-09T12:09:23.284Z [ERROR] [default] Could not open project: Your current project is unchanged. Choose a valid project or a recovery copy.
+2026-10-09T12:09:23.284Z [ERROR] [default] B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/invalid.veproject: JSON byte 2: unterminated object
+2026-10-09T12:09:23.286Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-09T12:09:23.296Z [WARNING] [default] Got unexpected locking error 3
+2026-10-09T12:09:23.296Z [ERROR] [default] Could not save project: Your edits remain open and the last saved project was preserved. Use Save project as… in a writable folder, then retry.
+2026-10-09T12:09:23.297Z [ERROR] [default] Project is locked or its directory is not writable: B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/nonexistent/project.veproject
+2026-10-09T12:09:23.299Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-09T12:09:23.299Z [ERROR] [default] Intentional diagnostic error: This error was requested by the offscreen smoke test. No project or media was changed.
+2026-10-09T12:09:23.301Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-09T12:09:23.306Z [INFO] [default] Workspace settings saved: B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/settings.ini
+2026-10-09T12:09:23.310Z [INFO] [default] Workspace created: media bin, sequence viewer, timeline, toolbar, status/progress
+2026-10-09T12:09:23.319Z [INFO] [default] Workspace settings saved: B:/Coding/02-Projects/Tools/Video-Editor/build/session-16-release-final-test/fresh-profile/shell/settings.ini
+2026-10-09T12:09:23.324Z [INFO] [default] Application shell smoke test PASSED QJsonArray()
+2026-10-09T12:09:23.330Z [INFO] [default] Shutdown exit code 0
+

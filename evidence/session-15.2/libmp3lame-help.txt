@@ -1,0 +1,15 @@
+Encoder libmp3lame [libmp3lame MP3 (MPEG audio layer 3)]:
+    General capabilities: dr1 delay small 
+    Threading capabilities: none
+    Supported sample rates: 44100 48000 32000 22050 24000 16000 11025 12000 8000
+    Supported sample formats: s32p fltp s16p
+    Supported channel layouts: mono stereo
+libmp3lame encoder AVOptions:
+  -reservoir         <boolean>    E...A...... use bit reservoir (default true)
+  -joint_stereo      <boolean>    E...A...... use joint stereo (default true)
+  -abr               <boolean>    E...A...... use ABR (default false)
+  -copyright         <boolean>    E...A...... set copyright flag (default false)
+  -original          <boolean>    E...A...... set original flag (default true)
+
+
+Exiting with exit code 0

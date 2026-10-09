@@ -1,0 +1,11 @@
+{
+  "session": 7,
+  "version": "0.7.0",
+  "date": "2026-10-07",
+  "passed": true,
+  "evidenceLevel": "User-reported Session 7 acceptance",
+  "checklist": "docs/session-7.md#human-windows-checklist",
+  "scope": "Session 7 accepted after the audio/title implementation and manual Windows checklist were provided; individual checklist outcomes were not separately reported",
+  "userConfirmation": "I have confirmed that it works",
+  "agentComputerUsePerformed": false
+}

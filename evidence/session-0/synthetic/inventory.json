@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "collectedAtUtc": "2026-10-06T19:06:25.1335576Z",
+  "ffprobePath": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\ffprobe.exe",
+  "ffprobeVersion": "ffprobe version 9.0.2-full_build-www.gyan.dev Copyright (c) 2007-2026 the FFmpeg developers",
+  "files": [
+    {
+      "id": "media-001",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-h264-aac.mp4",
+      "sizeBytes": 11452410,
+      "lastWriteTimeUtc": "2026-10-06T19:06:20.8511148Z",
+      "sha256": "3bddeff6351bd8d4d33e601b0f996f62d519a298324cf5455f41940fd059278c",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "2.000000",
+      "video": [
+        {
+          "index": 0,
+          "codec": "h264",
+          "profile": "Constrained Baseline",
+          "width": 3840,
+          "height": 2160,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": "8",
+          "nominalFrameRate": "30/1",
+          "averageFrameRate": "30/1",
+          "timeBase": "1/15360",
+          "frameCount": "60",
+          "colorRange": null,
+          "colorSpace": null,
+          "colorTransfer": null,
+          "colorPrimaries": null,
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "profile": "LC",
+          "sampleRate": "48000",
+          "channels": 1,
+          "channelLayout": "mono",
+          "timeBase": "1/48000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 60,
+          "intervalCount": 59,
+          "minSeconds": 0.033332999999999835,
+          "maxSeconds": 0.033334000000000086,
+          "averageSeconds": 0.033333338983050846,
+          "toleranceSeconds": 6.710416666666666E-05,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 60,
+          "intervalCount": 59,
+          "minTicks": 512.0,
+          "maxTicks": 512.0,
+          "averageTicks": 512.0,
+          "timeBase": "1/15360",
+          "toleranceTicks": 1.00001,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-001.probe.json"
+    },
+    {
+      "id": "media-002",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-hevc10-aac.mp4",
+      "sizeBytes": 2453978,
+      "lastWriteTimeUtc": "2026-10-06T19:06:22.9564093Z",
+      "sha256": "7336b09638117da46afb8e1bd20be7db3591a6fa3d569fde538f2ff3728a9445",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "2.000000",
+      "video": [
+        {
+          "index": 0,
+          "codec": "hevc",
+          "profile": "Main 10",
+          "width": 3840,
+          "height": 2160,
+          "pixelFormat": "yuv420p10le",
+          "componentBitDepth": [
+            10
+          ],
+          "declaredRawBitDepth": null,
+          "nominalFrameRate": "30/1",
+          "averageFrameRate": "30/1",
+          "timeBase": "1/15360",
+          "frameCount": "60",
+          "colorRange": "tv",
+          "colorSpace": null,
+          "colorTransfer": null,
+          "colorPrimaries": null,
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [
+        {
+          "index": 1,
+          "codec": "aac",
+          "profile": "LC",
+          "sampleRate": "48000",
+          "channels": 1,
+          "channelLayout": "mono",
+          "timeBase": "1/48000"
+        }
+      ],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 60,
+          "intervalCount": 59,
+          "minSeconds": 0.033332999999999835,
+          "maxSeconds": 0.033334000000000086,
+          "averageSeconds": 0.033333338983050846,
+          "toleranceSeconds": 6.710416666666666E-05,
+          "classification": "constant intervals within time-base rounding in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 60,
+          "intervalCount": 59,
+          "minTicks": 512.0,
+          "maxTicks": 512.0,
+          "averageTicks": 512.0,
+          "timeBase": "1/15360",
+          "toleranceTicks": 1.00001,
+          "classification": "constant presentation intervals within time-base rounding across full file"
+        }
+      ],
+      "rawProbeFile": "media-002.probe.json"
+    },
+    {
+      "id": "media-003",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-rotation90-h264.mp4",
+      "sizeBytes": 209094,
+      "lastWriteTimeUtc": "2026-10-06T19:06:23.1335295Z",
+      "sha256": "2ef9ae22865a1c56f8d74f669feaf494fc10fca0147a6ecc448ede25645a736e",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "2.966667",
+      "video": [
+        {
+          "index": 0,
+          "codec": "h264",
+          "profile": "Constrained Baseline",
+          "width": 320,
+          "height": 180,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": "8",
+          "nominalFrameRate": "60/1",
+          "averageFrameRate": "2100/89",
+          "timeBase": "1/60000",
+          "frameCount": "70",
+          "colorRange": null,
+          "colorSpace": null,
+          "colorTransfer": null,
+          "colorPrimaries": null,
+          "rotationTag": null,
+          "rotationSideData": [
+            90
+          ]
+        }
+      ],
+      "audio": [],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 70,
+          "intervalCount": 69,
+          "minSeconds": 0.033332999999999946,
+          "maxSeconds": 0.050000000000000266,
+          "averageSeconds": 0.0427536231884058,
+          "toleranceSeconds": 1.866666666666667E-05,
+          "classification": "variable intervals observed in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 70,
+          "intervalCount": 69,
+          "minTicks": 2000.0,
+          "maxTicks": 3000.0,
+          "averageTicks": 2565.217391304348,
+          "timeBase": "1/60000",
+          "toleranceTicks": 1.00001,
+          "classification": "variable presentation intervals observed across full file"
+        }
+      ],
+      "rawProbeFile": "media-003.probe.json"
+    },
+    {
+      "id": "media-004",
+      "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-vfr-h264.mp4",
+      "sizeBytes": 209094,
+      "lastWriteTimeUtc": "2026-10-06T19:06:23.0964942Z",
+      "sha256": "17c151800caf473012799c5f6a5680b158af2d92298913cd8b0dc2efc0edaa18",
+      "container": "mov,mp4,m4a,3gp,3g2,mj2",
+      "durationSeconds": "2.966667",
+      "video": [
+        {
+          "index": 0,
+          "codec": "h264",
+          "profile": "Constrained Baseline",
+          "width": 320,
+          "height": 180,
+          "pixelFormat": "yuv420p",
+          "componentBitDepth": [
+            8
+          ],
+          "declaredRawBitDepth": "8",
+          "nominalFrameRate": "60/1",
+          "averageFrameRate": "2100/89",
+          "timeBase": "1/60000",
+          "frameCount": "70",
+          "colorRange": null,
+          "colorSpace": null,
+          "colorTransfer": null,
+          "colorPrimaries": null,
+          "rotationTag": null,
+          "rotationSideData": []
+        }
+      ],
+      "audio": [],
+      "timing": [
+        {
+          "streamIndex": 0,
+          "scope": "first 5 seconds only",
+          "frameCount": 70,
+          "intervalCount": 69,
+          "minSeconds": 0.033332999999999946,
+          "maxSeconds": 0.050000000000000266,
+          "averageSeconds": 0.0427536231884058,
+          "toleranceSeconds": 1.866666666666667E-05,
+          "classification": "variable intervals observed in first 5 seconds"
+        }
+      ],
+      "fullTiming": [
+        {
+          "streamIndex": 0,
+          "scope": "all video packet PTS sorted into presentation order; not a full decode",
+          "packetCount": 70,
+          "intervalCount": 69,
+          "minTicks": 2000.0,
+          "maxTicks": 3000.0,
+          "averageTicks": 2565.217391304348,
+          "timeBase": "1/60000",
+          "toleranceTicks": 1.00001,
+          "classification": "variable presentation intervals observed across full file"
+        }
+      ],
+      "rawProbeFile": "media-004.probe.json"
+    }
+  ]
+}

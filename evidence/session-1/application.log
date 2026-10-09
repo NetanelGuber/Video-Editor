@@ -1,0 +1,15 @@
+2026-10-06T19:20:32.477Z [INFO] [default] Startup Video Editor 0.1.0 pid 16624
+2026-10-06T19:20:32.477Z [INFO] [default] Qt runtime: 6.11.3 FFmpeg runtime: 9.0.2-full_build-www.gyan.dev
+2026-10-06T19:20:32.477Z [INFO] [default] Build: Windows x64; C++20; MSVC 19.51.36244 ; SDK 10.0.26100.0
+2026-10-06T19:20:32.477Z [INFO] [default] Platform: offscreen Settings: B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/smoke-data/settings.ini
+2026-10-06T19:20:32.477Z [INFO] [default] Log: B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/smoke-data/logs/video-editor-20261006-192032-477-16624.log
+2026-10-06T19:20:32.512Z [WARNING] [default] QFontDatabase: Cannot find font directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/Release/lib/fonts.\nNote that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+2026-10-06T19:20:32.513Z [INFO] [default] Workspace created: media bin, sequence viewer, timeline, toolbar, status/progress
+2026-10-06T19:20:32.515Z [INFO] [default] Workspace reset to default layout
+2026-10-06T19:20:32.515Z [ERROR] [default] Intentional diagnostic error: This error was requested to verify error reporting. No project or media was changed.
+2026-10-06T19:20:32.518Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-06T19:20:32.529Z [INFO] [default] Workspace settings saved: B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/smoke-data/settings.ini
+2026-10-06T19:20:32.530Z [INFO] [default] Workspace created: media bin, sequence viewer, timeline, toolbar, status/progress
+2026-10-06T19:20:32.533Z [INFO] [default] Workspace settings saved: B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/smoke-data/settings.ini
+2026-10-06T19:20:32.539Z [INFO] [default] Application shell smoke test PASSED QJsonArray()
+2026-10-06T19:20:32.540Z [INFO] [default] Shutdown exit code 0

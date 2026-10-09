@@ -1,0 +1,117 @@
+{
+    "cpuOneCorePercent": 69.65,
+    "decoder": {
+        "conversionUs": 1210247,
+        "decoded": 726,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 23,
+        "path": "CPU",
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 4993056,
+    "meanPresentationUs": 344.5513888888889,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 90251264,
+        "privateBytes": 77062144,
+        "workingSetBytes": 90251264
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 47681536,
+        "privateBytes": 23650304,
+        "workingSetBytes": 36417536
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 2,
+            "peakWorkingSetBytes": 64217088,
+            "privateBytes": 50950144,
+            "workingSetBytes": 64217088
+        },
+        {
+            "elapsedMs": 500,
+            "peakWorkingSetBytes": 86474752,
+            "privateBytes": 73240576,
+            "workingSetBytes": 86474752
+        },
+        {
+            "elapsedMs": 1000,
+            "peakWorkingSetBytes": 86474752,
+            "privateBytes": 73248768,
+            "workingSetBytes": 86474752
+        },
+        {
+            "elapsedMs": 1501,
+            "peakWorkingSetBytes": 86515712,
+            "privateBytes": 73285632,
+            "workingSetBytes": 86515712
+        },
+        {
+            "elapsedMs": 2000,
+            "peakWorkingSetBytes": 86552576,
+            "privateBytes": 73367552,
+            "workingSetBytes": 86552576
+        },
+        {
+            "elapsedMs": 2500,
+            "peakWorkingSetBytes": 86552576,
+            "privateBytes": 73359360,
+            "workingSetBytes": 86552576
+        },
+        {
+            "elapsedMs": 3000,
+            "peakWorkingSetBytes": 86552576,
+            "privateBytes": 73367552,
+            "workingSetBytes": 86552576
+        },
+        {
+            "elapsedMs": 3500,
+            "peakWorkingSetBytes": 86552576,
+            "privateBytes": 73359360,
+            "workingSetBytes": 86552576
+        },
+        {
+            "elapsedMs": 4000,
+            "peakWorkingSetBytes": 86552576,
+            "privateBytes": 73359360,
+            "workingSetBytes": 86552576
+        },
+        {
+            "elapsedMs": 4500,
+            "peakWorkingSetBytes": 86552576,
+            "privateBytes": 73363456,
+            "workingSetBytes": 86552576
+        },
+        {
+            "elapsedMs": 5001,
+            "peakWorkingSetBytes": 86552576,
+            "privateBytes": 73363456,
+            "workingSetBytes": 86552576
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Videos\\Tomato 4.mp4",
+    "playbackWallMs": 5000,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 720,
+    "requestedDecode": "cpu",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 3937,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 399,
+        "path": "CPU",
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 400,
+    "startupMs": 25
+}

@@ -1,0 +1,77 @@
+{
+  "cpuOneCorePercent": 65.41,
+  "decoder": {
+    "conversionUs": 232455,
+    "decoded": 60,
+    "error": "",
+    "fallback": "",
+    "firstFrameMs": 61,
+    "path": "CPU",
+    "queueHighWater": 6,
+    "queueLimit": 6
+  },
+  "dropped": 0,
+  "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+  "glRenderer": "",
+  "lastPresentedPtsUs": 1766667,
+  "meanPresentationUs": 590.0370370370371,
+  "memoryAfter": {
+    "peakWorkingSetBytes": 284749824,
+    "privateBytes": 53129216,
+    "workingSetBytes": 66355200
+  },
+  "memoryBefore": {
+    "peakWorkingSetBytes": 164814848,
+    "privateBytes": 23695360,
+    "workingSetBytes": 36442112
+  },
+  "memorySamples": [
+    {
+      "elapsedMs": 3,
+      "peakWorkingSetBytes": 195747840,
+      "privateBytes": 187662336,
+      "workingSetBytes": 195747840
+    },
+    {
+      "elapsedMs": 501,
+      "peakWorkingSetBytes": 284741632,
+      "privateBytes": 271921152,
+      "workingSetBytes": 284741632
+    },
+    {
+      "elapsedMs": 1000,
+      "peakWorkingSetBytes": 284741632,
+      "privateBytes": 271925248,
+      "workingSetBytes": 284741632
+    },
+    {
+      "elapsedMs": 1501,
+      "peakWorkingSetBytes": 284749824,
+      "privateBytes": 271929344,
+      "workingSetBytes": 284749824
+    }
+  ],
+  "passed": true,
+  "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-hevc10-aac.mp4",
+  "playbackWallMs": 1800,
+  "presentation": "CPU QImage / QPainter",
+  "presentationFallback": "",
+  "presentationPixelMeanAbsoluteDifference": 0,
+  "presented": 54,
+  "requestedDecode": "cpu",
+  "requestedPresentation": "cpu",
+  "seekDecoder": {
+    "conversionUs": 3733,
+    "decoded": 1,
+    "error": "",
+    "fallback": "",
+    "firstFrameMs": 251,
+    "path": "CPU",
+    "queueHighWater": 1,
+    "queueLimit": 6
+  },
+  "seekMs": 252,
+  "startupMs": 63,
+  "gpuSamples": [],
+  "gpuCountersAvailable": false
+}

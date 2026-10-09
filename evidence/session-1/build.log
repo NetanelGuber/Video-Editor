@@ -1,0 +1,43 @@
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  RuntimeInfo.cpp
+  Compiling...
+  RuntimeInfo.cpp
+  editor_media.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-1\Release\editor_media.lib
+  Automatic MOC for target VideoEditor
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  main.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  mocs_compilation_Release.cpp
+  Generating Code...
+  VideoEditor.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-1\Release\VideoEditor.exe
+EXEC : warning : Translations will not be available due to the following error. [B:\Coding\02-Projects\Tools\Video-Editor\build\session-1\VideoEditor.vcxproj]
+  Cannot open B:/Coding/02-Projects/Tools/Video-Editor/.tools/qt/translations/catalogs.json
+  B:\Coding\02-Projects\Tools\Video-Editor\build\session-1\Release\VideoEditor.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Skipping plugin qtuiotouchplugin.dll due to skipped plugin type generic
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Direct dependencies: Qt6Core Qt6Gui Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6Widgets
+  Skipping system library C:/WINDOWS/system32/icuuc.dll
+  Updating Qt6Core.dll.
+  Updating Qt6Gui.dll.
+  Updating Qt6Widgets.dll.
+  Updating dxcompiler.dll.
+  Updating dxil.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/Release/imageformats.
+  Updating qgif.dll.
+  Updating qico.dll.
+  Updating qjpeg.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/Release/platforms.
+  Updating qwindows.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/Release/styles.
+  Updating qmodernwindowsstyle.dll.
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt

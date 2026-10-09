@@ -1,0 +1,311 @@
+{
+    "checks": 37,
+    "evidenceLevel": "Target-PC four distinct 1080p real sources, concurrent native decoders and production 720p/30fps controller; offscreen raster presentation",
+    "failures": [
+    ],
+    "measurements": [
+        {
+            "controller": {
+                "buffering": false,
+                "dropped": 1329,
+                "maxUiTickGapMs": 32,
+                "pipelineStarts": 3,
+                "playing": false,
+                "positionUs": 6000000,
+                "presented": 182,
+                "previewFpsLimit": 30,
+                "previewHeight": 720,
+                "previewWidth": 1280,
+                "synchronizedBufferWaits": 16,
+                "video": {
+                    "conversionUs": 1798867,
+                    "decoded": 863,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 7,
+                    "path": "CPU",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 3686400,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                "videoBudgetBytes": 33554432,
+                "videoLayers": [
+                    {
+                        "conversionUs": 1798867,
+                        "decoded": 863,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 7,
+                        "path": "CPU",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 3686400,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    },
+                    {
+                        "conversionUs": 1776851,
+                        "decoded": 864,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 11,
+                        "path": "CPU",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 2764800,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    },
+                    {
+                        "conversionUs": 1787248,
+                        "decoded": 864,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 13,
+                        "path": "CPU",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 2764800,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    },
+                    {
+                        "conversionUs": 762428,
+                        "decoded": 360,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 39,
+                        "path": "CPU",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 921600,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    }
+                ],
+                "videoPtsUs": {
+                },
+                "visualError": ""
+            },
+            "decode": "CPU",
+            "lastVideoLayers": [
+                {
+                    "conversionUs": 1798867,
+                    "decoded": 863,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 7,
+                    "path": "CPU",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 3686400,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                {
+                    "conversionUs": 1776851,
+                    "decoded": 864,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 11,
+                    "path": "CPU",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 2764800,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                {
+                    "conversionUs": 1787248,
+                    "decoded": 864,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 13,
+                    "path": "CPU",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 2764800,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                {
+                    "conversionUs": 762428,
+                    "decoded": 360,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 39,
+                    "path": "CPU",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 921600,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                }
+            ],
+            "maxCameraSkewUs": 23667,
+            "peakWorkingSetBytes": 191746048,
+            "presented": 179,
+            "seekMs": [
+                730,
+                76
+            ],
+            "startupMs": 58,
+            "synchronizedSamples": 861,
+            "wallMs": 6435
+        },
+        {
+            "controller": {
+                "buffering": false,
+                "dropped": 1755,
+                "maxUiTickGapMs": 32,
+                "pipelineStarts": 3,
+                "playing": false,
+                "positionUs": 6000000,
+                "presented": 182,
+                "previewFpsLimit": 30,
+                "previewHeight": 720,
+                "previewWidth": 1280,
+                "synchronizedBufferWaits": 6,
+                "video": {
+                    "conversionUs": 2286507,
+                    "decoded": 864,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 73,
+                    "path": "D3D11VA + CPU transfer/conversion",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 3686400,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                "videoBudgetBytes": 33554432,
+                "videoLayers": [
+                    {
+                        "conversionUs": 2286507,
+                        "decoded": 864,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 73,
+                        "path": "D3D11VA + CPU transfer/conversion",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 3686400,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    },
+                    {
+                        "conversionUs": 2243427,
+                        "decoded": 864,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 113,
+                        "path": "D3D11VA + CPU transfer/conversion",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 1843200,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    },
+                    {
+                        "conversionUs": 2214447,
+                        "decoded": 864,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 152,
+                        "path": "D3D11VA + CPU transfer/conversion",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 1843200,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    },
+                    {
+                        "conversionUs": 907803,
+                        "decoded": 360,
+                        "error": "",
+                        "fallback": "",
+                        "firstFrameMs": 181,
+                        "path": "D3D11VA + CPU transfer/conversion",
+                        "queueBudgetBytes": 8388608,
+                        "queueBytes": 921600,
+                        "queueBytesHighWater": 5529600,
+                        "queueHighWater": 6,
+                        "queueLimit": 6
+                    }
+                ],
+                "videoPtsUs": {
+                },
+                "visualError": ""
+            },
+            "decode": "D3D11VA",
+            "lastVideoLayers": [
+                {
+                    "conversionUs": 2286507,
+                    "decoded": 864,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 73,
+                    "path": "D3D11VA + CPU transfer/conversion",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 3686400,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                {
+                    "conversionUs": 2243427,
+                    "decoded": 864,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 113,
+                    "path": "D3D11VA + CPU transfer/conversion",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 1843200,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                {
+                    "conversionUs": 2214447,
+                    "decoded": 864,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 152,
+                    "path": "D3D11VA + CPU transfer/conversion",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 1843200,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                },
+                {
+                    "conversionUs": 907803,
+                    "decoded": 360,
+                    "error": "",
+                    "fallback": "",
+                    "firstFrameMs": 181,
+                    "path": "D3D11VA + CPU transfer/conversion",
+                    "queueBudgetBytes": 8388608,
+                    "queueBytes": 921600,
+                    "queueBytesHighWater": 5529600,
+                    "queueHighWater": 6,
+                    "queueLimit": 6
+                }
+            ],
+            "maxCameraSkewUs": 21222,
+            "peakWorkingSetBytes": 267812864,
+            "presented": 179,
+            "seekMs": [
+                482,
+                263
+            ],
+            "startupMs": 237,
+            "synchronizedSamples": 287,
+            "wallMs": 6197
+        }
+    ],
+    "passed": true
+}

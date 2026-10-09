@@ -1,0 +1,75 @@
+{
+    "checkCount": 66,
+    "evidenceLevel": "Native PCM sample oracle, rational scheduling, queue/cancellation, undo/persistence and offscreen production property dialogs/title pixels; human audibility/display acceptance pending",
+    "failures": [
+    ],
+    "humanFixture": "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-7/audio-titles.veproject",
+    "mixes": [
+        {
+            "firstMismatch": -1,
+            "maxSampleError": 4.6491622912592234e-09,
+            "mismatches": 0,
+            "stats": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 2,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.09375,
+                "mixedSamples": 288000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "2d4fcd0c-4bcd-4100-b5c3-02227ae26733": 0.03125,
+                    "bdad3863-53ed-46c2-a826-7dfe3a11dc19": 0.0625
+                }
+            }
+        },
+        {
+            "controller": {
+                "audioDecode": {
+                    "busPeaks": {
+                    },
+                    "clippedSamples": 0,
+                    "decoderHighWater": 2,
+                    "decoderLimit": 64,
+                    "error": "",
+                    "masterPeak": 0,
+                    "mixedSamples": 144000,
+                    "path": "48 kHz stereo sequence mixer",
+                    "queueHighWater": 8,
+                    "queueLimit": 8,
+                    "trackPeaks": {
+                    }
+                },
+                "audioOutput": {
+                    "available": true,
+                    "backend": "WASAPI shared / 48 kHz float stereo",
+                    "error": "",
+                    "positionUs": 3000000,
+                    "underruns": 0
+                },
+                "buffering": false,
+                "dropped": 0,
+                "maxUiTickGapMs": 8,
+                "pipelineStarts": 1,
+                "playing": false,
+                "positionUs": 3000000,
+                "presented": 90,
+                "previewFpsLimit": 30,
+                "previewHeight": 720,
+                "previewWidth": 1280,
+                "synchronizedBufferWaits": 0,
+                "videoBudgetBytes": 33554432,
+                "videoLayers": [
+                ],
+                "videoPtsUs": {
+                },
+                "visualError": ""
+            }
+        }
+    ],
+    "passed": true
+}

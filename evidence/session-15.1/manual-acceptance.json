@@ -1,0 +1,14 @@
+{
+  "session": "15.1",
+  "status": "complete",
+  "acceptedAtUtc": "2026-10-08T23:07:22.1587512Z",
+  "acceptedBy": "user",
+  "userStatement": "I love it, mark 15.1 as complete and delete the old ui backup and the rollback instructions.",
+  "acceptanceScope": "Explicit acceptance of the implemented workspace and authorization to mark Session 15.1 complete.",
+  "retainedLimits": [
+    "Other display scales/screens remain untested",
+    "Subjective playback smoothness and perceived AV sync remain unmeasured",
+    "Physical playback devices and long hardware stability retain existing limits",
+    "Simple/Advanced export tabs remain Session 15.2"
+  ]
+}

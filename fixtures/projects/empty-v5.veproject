@@ -1,0 +1,97 @@
+{
+    "activeSequenceId": "497ddd14-3657-4c5a-ba64-8e3364401994",
+    "exportSettings": {
+        "audioBitrate": 192000,
+        "audioCodec": "aac",
+        "audioEnabled": true,
+        "audioEncoder": "aac",
+        "channels": 2,
+        "compatibilityProfile": "compatible-mp4",
+        "container": "mp4",
+        "encoderOptions": {
+        },
+        "frameRate": {
+            "denominator": "1",
+            "numerator": "30"
+        },
+        "frameRateCustomized": false,
+        "height": 1080,
+        "outputPath": "",
+        "pixelFormat": "auto",
+        "preset": "medium",
+        "quality": 20,
+        "qualityMode": "native",
+        "sampleRate": 48000,
+        "videoCodec": "h264",
+        "videoEncoder": "software",
+        "width": 1920
+    },
+    "format": "LocalVideoTools.VideoEditor",
+    "id": "b17362a5-3afc-4739-bec7-16bf057aa56c",
+    "media": [
+    ],
+    "name": "Legacy schema 5",
+    "schemaVersion": 5,
+    "sequences": [
+        {
+            "audioBuses": [
+            ],
+            "durationFrames": "0",
+            "frameRate": {
+                "denominator": "1",
+                "numerator": "30"
+            },
+            "height": 1080,
+            "id": "497ddd14-3657-4c5a-ba64-8e3364401994",
+            "name": "Sequence 1",
+            "sampleRate": 48000,
+            "tracks": [
+                {
+                    "audioAutomation": {
+                        "pan": [
+                        ],
+                        "timeOffsetFrames": "0",
+                        "volume": [
+                        ]
+                    },
+                    "audioBusId": "",
+                    "clips": [
+                    ],
+                    "enabled": true,
+                    "gain": 1,
+                    "id": "6e0cc634-5655-413a-b25c-9884c906b329",
+                    "kind": "video",
+                    "locked": false,
+                    "muted": false,
+                    "name": "Video 1",
+                    "pan": 0,
+                    "solo": false
+                },
+                {
+                    "audioAutomation": {
+                        "pan": [
+                        ],
+                        "timeOffsetFrames": "0",
+                        "volume": [
+                        ]
+                    },
+                    "audioBusId": "",
+                    "clips": [
+                    ],
+                    "enabled": true,
+                    "gain": 1,
+                    "id": "963163ff-afea-4a47-863f-08dc1aa7ce4d",
+                    "kind": "audio",
+                    "locked": false,
+                    "muted": false,
+                    "name": "Audio 1",
+                    "pan": 0,
+                    "solo": false
+                }
+            ],
+            "width": 1920
+        }
+    ],
+    "titles": [
+    ]
+}

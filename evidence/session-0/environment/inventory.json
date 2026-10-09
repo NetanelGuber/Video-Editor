@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "collectedAtUtc": "2026-10-06T19:02:42.4743604Z",
+  "windows": {
+    "caption": "Microsoft Windows 11 Pro",
+    "displayVersion": "26H2",
+    "version": "10.0.26300",
+    "fullBuild": "26300.9550",
+    "architecture": "64-bit",
+    "registryProductName": "Windows 10 Pro"
+  },
+  "cpu": [
+    "13th Gen Intel(R) Core(TM) i7-13700F"
+  ],
+  "ramBytes": 34180284416,
+  "gpu": [
+    {
+      "Name": "AMD Radeon RX 9070",
+      "DriverVersion": "32.0.31041.3013",
+      "DriverDate": "2026-09-01T20:00:00-04:00",
+      "VideoModeDescription": "2560 x 1440 x 4294967296 colors",
+      "CurrentHorizontalResolution": 2560,
+      "CurrentVerticalResolution": 1440,
+      "CurrentRefreshRate": 144
+    }
+  ],
+  "display": {
+    "systemDpi": 96,
+    "systemScalePercent": 100,
+    "monitorDpi": [
+      96,
+      96
+    ],
+    "monitorScalePercent": [
+      100,
+      100
+    ]
+  },
+  "disks": [
+    {
+      "DeviceID": "B:",
+      "VolumeName": "Personal",
+      "Size": 1000203087872,
+      "FreeSpace": 933597147136
+    },
+    {
+      "DeviceID": "C:",
+      "VolumeName": "",
+      "Size": 998995128320,
+      "FreeSpace": 644215603200
+    }
+  ],
+  "visualStudio": [
+    {
+      "name": "Visual Studio Community 2026",
+      "version": "18.6.1",
+      "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community",
+      "msvc": [
+        {
+          "toolsetDirectoryVersion": "14.51.36231",
+          "compilerPath": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe",
+          "compilerFileVersion": "19.51.36244.0"
+        }
+      ],
+      "cmakePath": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe",
+      "ninjaPath": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe"
+    }
+  ],
+  "windowsSdk": {
+    "installationFolder": "C:\\Program Files (x86)\\Windows Kits\\10\\",
+    "version": "10.0.26100",
+    "includeVersions": [
+      "10.0.26100.0"
+    ]
+  },
+  "pathTools": [
+    {
+      "Name": "ffmpeg.exe",
+      "Source": "C:\\Users\\Netanel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\yt-dlp.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-N-121938-g2456a39581-win64-gpl/bin\\ffmpeg.exe"
+    },
+    {
+      "Name": "ffprobe.exe",
+      "Source": "C:\\Users\\Netanel\\AppData\\Local\\Microsoft\\WinGet\\Packages\\yt-dlp.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe\\ffmpeg-N-121938-g2456a39581-win64-gpl/bin\\ffprobe.exe"
+    },
+    {
+      "Name": "git.exe",
+      "Source": "C:\\Program Files\\Git\\cmd\\git.exe"
+    }
+  ]
+}

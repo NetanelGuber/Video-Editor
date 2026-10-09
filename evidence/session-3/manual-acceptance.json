@@ -1,0 +1,11 @@
+{
+  "session": 3,
+  "version": "0.3.0",
+  "date": "2026-10-06",
+  "passed": true,
+  "evidenceLevel": "User-reported Session 3 acceptance",
+  "checklist": "docs/session-3.md#human-windows-checklist",
+  "scope": "Session 3 accepted after the manual Windows checklist was provided; individual checklist outcomes were not separately reported",
+  "userConfirmation": "It's good, you may mark session 3 as complete",
+  "agentComputerUsePerformed": false
+}

@@ -1,0 +1,75 @@
+{
+    "cpuOneCorePercent": 13.49,
+    "decoder": {
+        "conversionUs": 13490,
+        "decoded": 52,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 50,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 1750000,
+    "meanPresentationUs": 725.6521739130435,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 67772416,
+        "privateBytes": 73187328,
+        "workingSetBytes": 67772416
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 35467264,
+        "privateBytes": 23355392,
+        "workingSetBytes": 35467264
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 2,
+            "peakWorkingSetBytes": 62791680,
+            "privateBytes": 68128768,
+            "workingSetBytes": 62791680
+        },
+        {
+            "elapsedMs": 501,
+            "peakWorkingSetBytes": 64061440,
+            "privateBytes": 69423104,
+            "workingSetBytes": 64061440
+        },
+        {
+            "elapsedMs": 1000,
+            "peakWorkingSetBytes": 64122880,
+            "privateBytes": 69488640,
+            "workingSetBytes": 64073728
+        },
+        {
+            "elapsedMs": 1501,
+            "peakWorkingSetBytes": 64122880,
+            "privateBytes": 69488640,
+            "workingSetBytes": 64073728
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-rotation90-h264.mp4",
+    "playbackWallMs": 1800,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 46,
+    "requestedDecode": "d3d11",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 412,
+        "decoded": 2,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 64,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueHighWater": 2,
+        "queueLimit": 6
+    },
+    "seekMs": 65,
+    "startupMs": 52
+}

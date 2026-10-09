@@ -1,0 +1,97 @@
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  editor_export_resources_1.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\editor_export_resources_1.dir\Release\editor_export_resources_1.lib
+  Scanning sources for module dependencies...
+  editor_project.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\editor_project.lib
+  Automatic MOC for target editor_media
+  Automatic MOC for target editor_playback
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  editor_media.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\editor_media.lib
+  editor_playback.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\editor_playback.lib
+  editor_timeline.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\editor_timeline.lib
+  Automatic MOC for target editor_export
+  Automatic MOC for target editor_timeline_ui
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  editor_timeline_ui.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\editor_timeline_ui.lib
+  editor_export.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\editor_export.lib
+  Scanning sources for module dependencies...
+  ExportCapabilityProbe.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\ExportCapabilityProbe.exe
+  Automatic MOC for target VideoEditor
+  VideoEditor.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\VideoEditor.exe
+EXEC : warning : Translations will not be available due to the following error. [B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\VideoEditor.vcxproj]
+  Cannot open B:/Coding/02-Projects/Tools/Video-Editor/.tools/qt/translations/catalogs.json
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/Release/avfilter-12.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/Release/avutil-61.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/Release/avformat-63.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/Release/avcodec-63.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/Release/swscale-10.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-15.2/Release/swresample-7.dll
+  B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\VideoEditor.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Skipping plugin qtuiotouchplugin.dll due to skipped plugin type generic
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Direct dependencies: Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  Skipping system library C:/WINDOWS/system32/icuuc.dll
+  Qt6Core.dll is up to date.
+  Qt6Gui.dll is up to date.
+  Qt6OpenGL.dll is up to date.
+  Qt6OpenGLWidgets.dll is up to date.
+  Qt6Widgets.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  Automatic MOC for target ExportTests
+  Automatic MOC for target MediaTests
+  Automatic MOC for target TimelineUiTests
+  Automatic MOC for target WorkspaceTests
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  CapabilityCacheTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\CapabilityCacheTests.exe
+  TimelineTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\TimelineTests.exe
+  ProjectTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\ProjectTests.exe
+  EffectsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\EffectsTests.exe
+  CapabilityTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\CapabilityTests.exe
+  PerformanceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\PerformanceTests.exe
+  PlaybackBenchmark.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\PlaybackBenchmark.exe
+  SequenceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\SequenceTests.exe
+  AdvancedEffectsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\AdvancedEffectsTests.exe
+  EncoderCatalogTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\EncoderCatalogTests.exe
+  PlaybackTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\PlaybackTests.exe
+  AudioTitleTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\AudioTitleTests.exe
+  ExportTabsTests.cpp
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  ExportTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\ExportTests.exe
+  WorkspaceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\WorkspaceTests.exe
+  TimelineUiTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\TimelineUiTests.exe
+  MediaTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\MediaTests.exe
+  Automatic MOC for target RecoveryTests
+  Scanning sources for module dependencies...
+  RecoveryTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\RecoveryTests.exe
+  Compiling...
+  ExportTabsTests.cpp
+  ExportTabsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-15.2\Release\ExportTabsTests.exe

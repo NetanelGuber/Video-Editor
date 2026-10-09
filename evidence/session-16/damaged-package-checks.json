@@ -1,0 +1,10 @@
+[
+  {
+    "passed": true,
+    "test": "Archive with incorrect checksum rejected before launch"
+  },
+  {
+    "passed": true,
+    "test": "Missing runtime DLL rejected even when archive checksum was recomputed"
+  }
+]

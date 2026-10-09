@@ -1,0 +1,285 @@
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  qrc_export_presets_init.cpp
+  editor_export_resources_1.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\editor_export_resources_1.dir\Release\editor_export_resources_1.lib
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Recovery.cpp
+  ProjectStore.cpp
+  Time.cpp
+  Project.cpp
+  Effects.cpp
+  Compiling...
+  Effects.cpp
+  Time.cpp
+  ProjectStore.cpp
+  Recovery.cpp
+  Project.cpp
+  editor_project.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\editor_project.lib
+  Automatic MOC for target editor_media
+  Automatic MOC for target editor_playback
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Timeline.cpp
+  Compiling...
+  Timeline.cpp
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Inspection.cpp
+  RuntimeInfo.cpp
+  AidCache.cpp
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  AudioOutput.cpp
+  MonitorWidget.cpp
+  DecodeWorker.cpp
+  AudioMixer.cpp
+  PlaybackController.cpp
+  VisualEffects.cpp
+  RenderDescription.cpp
+  Compiling...
+  AidCache.cpp
+  RuntimeInfo.cpp
+  Inspection.cpp
+  Compiling...
+  AudioOutput.cpp
+  MonitorWidget.cpp
+  RenderDescription.cpp
+  PlaybackController.cpp
+  AudioMixer.cpp
+  VisualEffects.cpp
+  DecodeWorker.cpp
+  editor_timeline.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\editor_timeline.lib
+  Automatic MOC for target editor_timeline_ui
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  PropertyDialogs.cpp
+  TimelineWidget.cpp
+  EffectDialog.cpp
+  InspectorWidget.cpp
+  TimelineCanvas.cpp
+  Compiling...
+  TimelineWidget.cpp
+  PropertyDialogs.cpp
+  InspectorWidget.cpp
+  EffectDialog.cpp
+  TimelineCanvas.cpp
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  editor_media.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\editor_media.lib
+  editor_playback.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\editor_playback.lib
+  Automatic MOC for target editor_export
+  Running rcc for resource export_presets
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  ExportDialog.cpp
+  EncoderControls.cpp
+  Capabilities.cpp
+  EncoderConfig.cpp
+  qrc_export_presets.cpp
+  ExportWorker.cpp
+  Compiling...
+  ExportDialog.cpp
+  Capabilities.cpp
+  ExportWorker.cpp
+  EncoderConfig.cpp
+  EncoderControls.cpp
+  qrc_export_presets.cpp
+  mocs_compilation_Release.cpp
+  editor_timeline_ui.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\editor_timeline_ui.lib
+  mocs_compilation_Release.cpp
+  editor_export.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\editor_export.lib
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  CapabilityProbeMain.cpp
+  Compiling...
+  CapabilityProbeMain.cpp
+  ExportCapabilityProbe.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\ExportCapabilityProbe.exe
+  Automatic MOC for target VideoEditor
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  main.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  mocs_compilation_Release.cpp
+  Generating Code...
+  VideoEditor.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\VideoEditor.exe
+EXEC : warning : Translations will not be available due to the following error. [B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\VideoEditor.vcxproj]
+  Cannot open B:/Coding/02-Projects/Tools/Video-Editor/.tools/qt/translations/catalogs.json
+  B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\VideoEditor.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Skipping plugin qtuiotouchplugin.dll due to skipped plugin type generic
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Direct dependencies: Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  Skipping system library C:/WINDOWS/system32/icuuc.dll
+  Updating Qt6Core.dll.
+  Updating Qt6Gui.dll.
+  Updating Qt6OpenGL.dll.
+  Updating Qt6OpenGLWidgets.dll.
+  Updating Qt6Widgets.dll.
+  Updating dxcompiler.dll.
+  Updating dxil.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/Release/imageformats.
+  Updating qgif.dll.
+  Updating qico.dll.
+  Updating qjpeg.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/Release/platforms.
+  Updating qwindows.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/Release/styles.
+  Updating qmodernwindowsstyle.dll.
+  Automatic MOC for target PackageWorkflowTests
+  Automatic MOC for target ExportTests
+  Automatic MOC for target TimelineUiTests
+  Automatic MOC for target WorkspaceTests
+  Automatic MOC for target MediaTests
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  AudioTitleTests.cpp
+  AdvancedEffectsTests.cpp
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  CapabilityTests.cpp
+  EffectsTests.cpp
+  SequenceTests.cpp
+  TimelineTests.cpp
+  PlaybackTests.cpp
+  ProjectTests.cpp
+  EncoderCatalogTests.cpp
+  CapabilityCacheTests.cpp
+  PerformanceTests.cpp
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Compiling...
+  Compiling...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  AdvancedEffectsTests.cpp
+  AudioTitleTests.cpp
+  Scanning sources for module dependencies...
+  Compiling...
+  Compiling...
+  Compiling...
+  Compiling...
+  Compiling...
+  Diagnostics.cpp
+  Diagnostics.cpp
+  MediaTests.cpp
+  Compiling...
+  Diagnostics.cpp
+  MainWindow.cpp
+  MainWindow.cpp
+  MainWindow.cpp
+  Compiling...
+  ExportTests.cpp
+  TimelineUiTests.cpp
+  Diagnostics.cpp
+  WorkspaceTests.cpp
+  MainWindow.cpp
+  PackageWorkflowTests.cpp
+  MainWindow.cpp
+  ProjectTests.cpp
+  TimelineTests.cpp
+  Diagnostics.cpp
+  CapabilityTests.cpp
+  PlaybackTests.cpp
+  CapabilityCacheTests.cpp
+  EncoderCatalogTests.cpp
+  PlaybackBenchmark.cpp
+  EffectsTests.cpp
+  Scanning sources for module dependencies...
+  Compiling...
+  SequenceTests.cpp
+  Compiling...
+  ExportTabsTests.cpp
+  PerformanceTests.cpp
+  Compiling...
+  Compiling...
+  Compiling...
+  TimelineUiTests.cpp
+  MainWindow.cpp
+  Diagnostics.cpp
+  MediaTests.cpp
+  Compiling...
+  MainWindow.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  ExportTests.cpp
+  Diagnostics.cpp
+  WorkspaceTests.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  Compiling...
+  PackageWorkflowTests.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  Compiling...
+  ExportTabsTests.cpp
+  Compiling...
+  PlaybackBenchmark.cpp
+  CapabilityCacheTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\CapabilityCacheTests.exe
+  ProjectTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\ProjectTests.exe
+  TimelineTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\TimelineTests.exe
+  PlaybackBenchmark.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\PlaybackBenchmark.exe
+  PlaybackTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\PlaybackTests.exe
+  EncoderCatalogTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\EncoderCatalogTests.exe
+  AdvancedEffectsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\AdvancedEffectsTests.exe
+  ExportTabsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\ExportTabsTests.exe
+  EffectsTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\EffectsTests.exe
+  CapabilityTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\CapabilityTests.exe
+  AudioTitleTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\AudioTitleTests.exe
+  PerformanceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\PerformanceTests.exe
+  SequenceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\SequenceTests.exe
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  WorkspaceTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\WorkspaceTests.exe
+  TimelineUiTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\TimelineUiTests.exe
+  Automatic MOC for target RecoveryTests
+  ExportTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\ExportTests.exe
+  PackageWorkflowTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\PackageWorkflowTests.exe
+  MediaTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\MediaTests.exe
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  MainWindow.cpp
+  Diagnostics.cpp
+  RecoveryTests.cpp
+  Compiling...
+  RecoveryTests.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  mocs_compilation_Release.cpp
+  RecoveryTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\1.0.0\Release\RecoveryTests.exe
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt

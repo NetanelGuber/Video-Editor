@@ -1,0 +1,29 @@
+2026-10-06T20:18:02.401Z [INFO] [default] Startup Video Editor 0.3.0 pid 25668
+2026-10-06T20:18:02.402Z [INFO] [default] Qt runtime: 6.11.3 FFmpeg runtime: 9.0.2-full_build-www.gyan.dev
+2026-10-06T20:18:02.402Z [INFO] [default] Build: Windows x64; C++20; MSVC 19.51.36244 ; SDK 10.0.26100.0
+2026-10-06T20:18:02.402Z [INFO] [default] Platform: offscreen Settings: B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/settings.ini
+2026-10-06T20:18:02.402Z [INFO] [default] Log: B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/logs/video-editor-20261006-201802-394-25668.log
+2026-10-06T20:18:02.403Z [WARNING] [default] QFontDatabase: Cannot find font directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/Release/lib/fonts.\nNote that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+2026-10-06T20:18:02.404Z [INFO] [default] Workspace created: media bin, sequence viewer, timeline, toolbar, status/progress
+2026-10-06T20:18:02.406Z [INFO] [default] Workspace reset to default layout
+2026-10-06T20:18:02.406Z [INFO] [default] New project "bb69780c-13a7-4df9-b4a4-6a2cf65bb94d"
+2026-10-06T20:18:02.409Z [INFO] [default] Autosaved "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/recovery/bb69780c-13a7-4df9-b4a4-6a2cf65bb94d.veproject.autosave"
+2026-10-06T20:18:02.416Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-06T20:18:02.430Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/ui-project.veproject" id "bb69780c-13a7-4df9-b4a4-6a2cf65bb94d"
+2026-10-06T20:18:02.433Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/projects/multitrack-v2.veproject" id "00000000-0000-4000-8000-000000000001" migratedFrom 0 offline media 2
+2026-10-06T20:18:02.440Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/ui-project.veproject" id "00000000-0000-4000-8000-000000000001"
+2026-10-06T20:18:02.446Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/ui-project.veproject" id "00000000-0000-4000-8000-000000000001" migratedFrom 0 offline media 2
+2026-10-06T20:18:02.449Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/projects/multitrack-v1.veproject" id "00000000-0000-4000-8000-000000000001" migratedFrom 1 offline media 2
+2026-10-06T20:18:02.457Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/ui-project.veproject" id "00000000-0000-4000-8000-000000000001"
+2026-10-06T20:18:02.460Z [ERROR] [default] Could not open project: B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/invalid.veproject: JSON byte 2: unterminated object
+2026-10-06T20:18:02.461Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-06T20:18:02.464Z [WARNING] [default] Got unexpected locking error 3
+2026-10-06T20:18:02.464Z [ERROR] [default] Could not save project: Project is locked or its directory is not writable: B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/nonexistent/project.veproject
+2026-10-06T20:18:02.466Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-06T20:18:02.467Z [ERROR] [default] Intentional diagnostic error: This error was requested to verify error reporting. No project or media was changed.
+2026-10-06T20:18:02.468Z [WARNING] [default] This plugin does not support propagateSizeHints()
+2026-10-06T20:18:02.473Z [INFO] [default] Workspace settings saved: B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/settings.ini
+2026-10-06T20:18:02.474Z [INFO] [default] Workspace created: media bin, sequence viewer, timeline, toolbar, status/progress
+2026-10-06T20:18:02.478Z [INFO] [default] Workspace settings saved: B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/smoke-data/settings.ini
+2026-10-06T20:18:02.482Z [INFO] [default] Application shell smoke test PASSED QJsonArray()
+2026-10-06T20:18:02.483Z [INFO] [default] Shutdown exit code 0

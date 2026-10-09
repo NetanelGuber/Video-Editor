@@ -1,0 +1,11 @@
+{
+  "session": 5,
+  "version": "0.5.0",
+  "date": "2026-10-06",
+  "passed": true,
+  "evidenceLevel": "User-reported Session 5 acceptance",
+  "checklist": "docs/session-5.md#human-windows-checklist",
+  "scope": "Session 5 accepted after the manual Windows checklist was provided; individual checklist outcomes were not separately reported",
+  "userConfirmation": "You can mark session 5 as complete.",
+  "agentComputerUsePerformed": false
+}

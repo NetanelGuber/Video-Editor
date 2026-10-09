@@ -1,0 +1,123 @@
+{
+    "cpuOneCorePercent": 53.29,
+    "decoder": {
+        "conversionUs": 1240305,
+        "decoded": 726,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 41,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 22118400,
+        "queueBytesHighWater": 22118400,
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 3,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "AMD Radeon RX 9070",
+    "lastPresentedPtsUs": 4993000,
+    "meanPresentationUs": 950.186889818689,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 194994176,
+        "privateBytes": 336764928,
+        "workingSetBytes": 194994176
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 137162752,
+        "privateBytes": 189108224,
+        "workingSetBytes": 74252288
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 34,
+            "peakWorkingSetBytes": 171474944,
+            "privateBytes": 328478720,
+            "workingSetBytes": 167272448
+        },
+        {
+            "elapsedMs": 501,
+            "peakWorkingSetBytes": 179027968,
+            "privateBytes": 333352960,
+            "workingSetBytes": 179019776
+        },
+        {
+            "elapsedMs": 1001,
+            "peakWorkingSetBytes": 179400704,
+            "privateBytes": 333414400,
+            "workingSetBytes": 179400704
+        },
+        {
+            "elapsedMs": 1501,
+            "peakWorkingSetBytes": 179949568,
+            "privateBytes": 333570048,
+            "workingSetBytes": 179924992
+        },
+        {
+            "elapsedMs": 2001,
+            "peakWorkingSetBytes": 180514816,
+            "privateBytes": 333697024,
+            "workingSetBytes": 180514816
+        },
+        {
+            "elapsedMs": 2501,
+            "peakWorkingSetBytes": 180781056,
+            "privateBytes": 333692928,
+            "workingSetBytes": 180690944
+        },
+        {
+            "elapsedMs": 3001,
+            "peakWorkingSetBytes": 181149696,
+            "privateBytes": 333561856,
+            "workingSetBytes": 181092352
+        },
+        {
+            "elapsedMs": 3501,
+            "peakWorkingSetBytes": 181567488,
+            "privateBytes": 333672448,
+            "workingSetBytes": 181567488
+        },
+        {
+            "elapsedMs": 4002,
+            "peakWorkingSetBytes": 181956608,
+            "privateBytes": 322924544,
+            "workingSetBytes": 181866496
+        },
+        {
+            "elapsedMs": 4500,
+            "peakWorkingSetBytes": 182251520,
+            "privateBytes": 322924544,
+            "workingSetBytes": 182185984
+        },
+        {
+            "elapsedMs": 5000,
+            "peakWorkingSetBytes": 182657024,
+            "privateBytes": 323166208,
+            "workingSetBytes": 182632448
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+    "playbackWallMs": 5000,
+    "presentation": "OpenGL FBO / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 717,
+    "requestedDecode": "d3d11",
+    "requestedPresentation": "gl",
+    "seekDecoder": {
+        "conversionUs": 3518,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 232,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 0,
+        "queueBytesHighWater": 3686400,
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 234,
+    "startupMs": 43
+}

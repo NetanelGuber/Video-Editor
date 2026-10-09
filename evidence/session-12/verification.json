@@ -1,0 +1,624 @@
+{
+  "passed": true,
+  "collectedAtUtc": "2026-10-08T18:54:48.7836519Z",
+  "version": "0.12.0",
+  "schemaVersion": 4,
+  "buildDirectory": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\session-12",
+  "automatedSuiteCount": 12,
+  "advancedCheckCount": 613,
+  "worstExportMeanRgbError": 1.6950694444444445,
+  "newEffectTypes": [
+    "color",
+    "lut",
+    "speed",
+    "mask",
+    "chromaKey"
+  ],
+  "audioPolicy": "Preserve pitch, user-selected",
+  "audioMeasurements": [
+    {
+      "pitchHz": 440,
+      "rate": 0.125,
+      "samples": 1536000
+    },
+    {
+      "pitchHz": 440,
+      "rate": 0.5,
+      "samples": 384000
+    },
+    {
+      "pitchHz": 440,
+      "rate": 2,
+      "samples": 96000
+    },
+    {
+      "pitchHz": 440,
+      "rate": 8,
+      "samples": 24000
+    },
+    {
+      "pitchHz": 439,
+      "rampStartSample": 12000
+    },
+    {
+      "pitchHz": 440,
+      "rampStartSample": 48000
+    },
+    {
+      "pitchHz": 440,
+      "rampStartSample": 90000
+    },
+    {
+      "actualSample": 50985.035135819555,
+      "differenceMs": 41.26750765065981,
+      "energy": 948.4794009129515,
+      "expectedSample": 52965.875503051226,
+      "sourceTransientSecond": 1
+    },
+    {
+      "actualSample": 82109.06085091773,
+      "differenceMs": 35.65604171972851,
+      "energy": 371.3630199646592,
+      "expectedSample": 83820.5508534647,
+      "sourceTransientSecond": 2
+    },
+    {
+      "actualSample": 107041.44815680721,
+      "differenceMs": 32.469830066516806,
+      "energy": 181.7541771217168,
+      "expectedSample": 108600.00000000001,
+      "sourceTransientSecond": 3
+    },
+    {
+      "maximumRampTransientErrorMs": 41.26750765065981
+    }
+  ],
+  "speedRange": [
+    0.125,
+    8
+  ],
+  "maximumSpeedKeys": 256,
+  "maximumConcurrentVideoLayers": 8,
+  "maximumEffectsPerClip": 64,
+  "evidenceLevel": "Native build/twelve suites, analytical pixel/time references, production Qt offscreen dialogs/preview, independent MP4/AAC and spectral pitch/transient measurements. No computer use or human visual acceptance.",
+  "artifacts": [
+    {
+      "name": "VideoEditor.exe",
+      "sha256": "758678108147d8d3d54a928b50a4994579e04b013e4d4bb6bff589b31c3a0565"
+    },
+    {
+      "name": "AdvancedEffectsTests.exe",
+      "sha256": "ecf298940ec825a9d516320eb9fd7547a7ad39a83e32db3ad43d392d53f16992"
+    },
+    {
+      "name": "EffectsTests.exe",
+      "sha256": "33d33caed66c45ae3dde66c248bd13ea404f60d0796c905a7406a910d3b7bb1e"
+    },
+    {
+      "name": "editor_project.lib",
+      "sha256": "cb1dc62d3d9d55b816be705e046280e67ef46aa03daf54386e4b83184b8e7325"
+    },
+    {
+      "name": "editor_playback.lib",
+      "sha256": "5fa3946e9bcd4e9c3810f9b05a1dc94e4ac03d22e7945add0bb053577759db12"
+    },
+    {
+      "name": "editor_export.lib",
+      "sha256": "651a4c3ed9ad2979b13ac0df43097d1289777a97fc38e38c25d3f7d7e8f03965"
+    },
+    {
+      "name": "editor_timeline.lib",
+      "sha256": "636303046acf5475c195ad5358d332f1739e9a5d8557118e505bd9af1f427113"
+    },
+    {
+      "name": "editor_timeline_ui.lib",
+      "sha256": "b9b559e08e7a4d42802bf9befb02ad5f042c827dff724d43d6e4d9773597e1b0"
+    }
+  ],
+  "sources": [
+    {
+      "path": "src\\BuildInfo.h.in",
+      "sha256": "5fb666d437aa7263a9f55cfb7e5d19d8006cd34230aa097e2d2b882ba168d0e8"
+    },
+    {
+      "path": "src\\Diagnostics.cpp",
+      "sha256": "8a01a9adfdaa7a7ba85120ac1f26bf343a3b4ac9773e586e1e5e2494313adcfb"
+    },
+    {
+      "path": "src\\Diagnostics.h",
+      "sha256": "9dff7a9b64de3072909466a47d13841876c4860fbf6a4a3853455920aeb1c580"
+    },
+    {
+      "path": "src\\main.cpp",
+      "sha256": "7d9b7965fca164e3f46c758a343094329ef810997726ec5ab1419a24b6dfa11a"
+    },
+    {
+      "path": "src\\MainWindow.cpp",
+      "sha256": "ac46c1651dddc2adaed3060423ef25e0d87c327b3e35f2e1060f32ead43b64a2"
+    },
+    {
+      "path": "src\\MainWindow.h",
+      "sha256": "9d8a47cbd90dc2a796db1ec42d637caefb46006dacc962843fd693acadf78072"
+    },
+    {
+      "path": "src\\export\\ExportDialog.cpp",
+      "sha256": "2ac5af4c3dd77506ad10df30b755825c1633084cdb0b46684df9af2e69cc5d1d"
+    },
+    {
+      "path": "src\\export\\ExportDialog.h",
+      "sha256": "3b6bba87c1ce097bf20f9ca41bde6cb0d2fd51aabdda9d99ebf134c9599a15eb"
+    },
+    {
+      "path": "src\\export\\ExportWorker.cpp",
+      "sha256": "19fe0fc87177af8a0e67dac8f4f39dbfcd663e3868bc71d6475a61441c64b01e"
+    },
+    {
+      "path": "src\\export\\ExportWorker.h",
+      "sha256": "69684bd1fde7ce7f2223f9d7927fc613753f601fc3614542dcf75327f501d0d4"
+    },
+    {
+      "path": "src\\export\\presets.json",
+      "sha256": "5dfe0c74c0bcd927750c75ba240920415e0213a2d98f67a03c364c8c56805e28"
+    },
+    {
+      "path": "src\\media\\AidCache.cpp",
+      "sha256": "e9c5d9d4db23e51bec48d1ee0a5403f3d20163a26e992619a236bb671267ad17"
+    },
+    {
+      "path": "src\\media\\AidCache.h",
+      "sha256": "e49ae987754614ad24c2c940e3582e9b36bc2dff6d4d199f41b9023589026a9f"
+    },
+    {
+      "path": "src\\media\\Inspection.cpp",
+      "sha256": "93da659ea3bf480521907b6ad14d094c3553959457eb5b1ea37c77801b709982"
+    },
+    {
+      "path": "src\\media\\Inspection.h",
+      "sha256": "98e8c32078dbeb8981002bdf3df00bfef360b6e29278d180d9bb1c1d3df111d4"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.cpp",
+      "sha256": "ecd4ee948b54270c3931d8f18ec9cbe0c2dbf462758b0235e690c82dc2714136"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.h",
+      "sha256": "6ff7476effafdfb50eaf02964d636aad5d6b446de04eecf6e5c6fdb85c5ce0bb"
+    },
+    {
+      "path": "src\\media\\WaveformWidget.h",
+      "sha256": "10022b6d3172a5fa76cea4b9d3712e082fe7cce194b5d639f5ac423e441d7467"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.cpp",
+      "sha256": "d2032a85261145bcf9b9ad293fd78c9c56885c6020e6150c7348f2135ce4d917"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.h",
+      "sha256": "7a5c397721e35405aada4c2dec5606078cc036a0d656b326ee36a97e1af55297"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.cpp",
+      "sha256": "9d163081d19cc4ac8a5d94af82d5aea5852734ecb039083021144f4a02319f36"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.h",
+      "sha256": "dc1c42f4fe1e287c8b5cc1604443ce9e5369a30bc4831d23f4db6b8e12ce8632"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.cpp",
+      "sha256": "27f307cea06dcd7a8a324e638c3382ae7eadbd45afc973ed4fba97d2fb997443"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.h",
+      "sha256": "f702d31d15bdca814d9bedee66185713b4b1a92149ab85670707e48aac579e8f"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.cpp",
+      "sha256": "8a5de850e56354c20803d20bd2597cfba3c21498bf6234b6b6f3ab8940541c41"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.h",
+      "sha256": "d24b34974fee0aca7291f7e066c0582020608d8f2522bde65f8fa555cefa0e39"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.cpp",
+      "sha256": "3c4fd46a1c77a6d3da10b614298ece40a459fa82cfa763eba49b279e9bf37520"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.h",
+      "sha256": "371e60e582c1b4cf8ca81ac5af88a8deb5d2794d9db7e66541188c371c86bfc2"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.cpp",
+      "sha256": "98ab0f99583afc5538a050541d5a3c1f4cda9d38b2a048974c39ebbc4617d50c"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.h",
+      "sha256": "261def5f43a20e2bdc47e6263ad0c8fb6ed18862006e6965501682957c9080e4"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.cpp",
+      "sha256": "e6aa61ada11291aab9d2570bc8fa36e5fd25f2d804f5192a6e471a539a566425"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.h",
+      "sha256": "68094643d37e911ddf63b8af3893c55603884507bd92e0bf1a90b66228ff488c"
+    },
+    {
+      "path": "src\\project\\Effects.cpp",
+      "sha256": "d8b80e588b66286fe1f1fbb9817ef9caa85644809438d78e06b440f1e34e10a7"
+    },
+    {
+      "path": "src\\project\\Effects.h",
+      "sha256": "4cfd9dcf0a6d854efacbba3b955d70d85dd4694f7e7f83bb01dd23d430b38bbe"
+    },
+    {
+      "path": "src\\project\\Project.cpp",
+      "sha256": "7cddc2fd66dd67667be08f7c1d518e1775198c44d16653ca99c7eac47a34f2ff"
+    },
+    {
+      "path": "src\\project\\Project.h",
+      "sha256": "c3f7eead8f9c23f59b75c4897f0ac4e880b83079f1898042ae1c2a91fd52e8cd"
+    },
+    {
+      "path": "src\\project\\ProjectStore.cpp",
+      "sha256": "9033a7893e2e2f9eb4876661a71b3db51bc1cafaaa22d8a78fc481b90bcfa826"
+    },
+    {
+      "path": "src\\project\\ProjectStore.h",
+      "sha256": "37eacebeed2771ad6bd84aa15b90e329578de55360475710bc4fc53f7e95b772"
+    },
+    {
+      "path": "src\\project\\Recovery.cpp",
+      "sha256": "d95fb18581acba49cae1026e5fc5091205378d1cc78aac3bb596bac6a71bab82"
+    },
+    {
+      "path": "src\\project\\Recovery.h",
+      "sha256": "0ad761cd07b13691a3386ad7e5129e4de02e8392431253e1655012579dc03aff"
+    },
+    {
+      "path": "src\\project\\Time.cpp",
+      "sha256": "26209eab4671fbed9670eec3320a1cc41e953e3f46a690bc6daadb1616c10c90"
+    },
+    {
+      "path": "src\\timeline\\EffectDialog.cpp",
+      "sha256": "2de6aca57df00514079ea2f335da9ff34886f932e5f3ef168962ca4e4f8ed12c"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.cpp",
+      "sha256": "115971c3c766c3a74477aa9b753442c986e260ad26ce79e2a355d4bcaa64ed69"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.h",
+      "sha256": "75f386a3f43b1c816740970971a0bae630905e1a54103c46e87c7c8e4224219f"
+    },
+    {
+      "path": "src\\timeline\\Timeline.cpp",
+      "sha256": "a5f448e3d61248aa429b3c5d804fca6388817dacb235e488eabbe755fe4dbeed"
+    },
+    {
+      "path": "src\\timeline\\Timeline.h",
+      "sha256": "beb4fdcece3e66e9aece3087d0034894a41a2a1f744444250a8876467b2d17ce"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.cpp",
+      "sha256": "a9eaefd16cd38b8e06498350853089934c20a2a19ba1967e5316bdefa0d70998"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.h",
+      "sha256": "46f1ed63e3fccfe7bc8108b68bb468a294c9b92931ca0aae480c36b0979ef41a"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.cpp",
+      "sha256": "56e39f034a79d4144989125cc63265cec2b26a10d4e53c4b02a29ee1b9f5b381"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.h",
+      "sha256": "f869ebd970430d56035e5e71dbf56d3010c90e599b3f204a7b012157524f511d"
+    },
+    {
+      "path": "src\\ui\\TimeDisplay.h",
+      "sha256": "c112a7c18d4f1ccb6423143931bb6f9200cb867aaa200780476b054e0898c01b"
+    },
+    {
+      "path": "tests\\AdvancedEffectsTests.cpp",
+      "sha256": "d08cae567cc334821d76b5540cac7202580f769260dd135000c46674c95dab52"
+    },
+    {
+      "path": "tests\\AudioTitleTests.cpp",
+      "sha256": "5cc55a2b2032162c18f41c7c57fc8bf9e1716c96b58d73384d8f83e90edea5bf"
+    },
+    {
+      "path": "tests\\EffectsTests.cpp",
+      "sha256": "4e39264d3573da8f6e6fee2700de0dd20b868c2723c80d4c7a7885f82c585b7d"
+    },
+    {
+      "path": "tests\\ExportTests.cpp",
+      "sha256": "c4b3db5df925697e334e97d33da954b02359b2776c8f5d3756888774c38d2ff1"
+    },
+    {
+      "path": "tests\\MediaTests.cpp",
+      "sha256": "81f925b4208bde9e8aff96932cb94deaefd78ed0dd5992fae56a3fd3a1897d59"
+    },
+    {
+      "path": "tests\\PerformanceTests.cpp",
+      "sha256": "f766697c9d442a02c824df8a0fed340d10682706390bbba602d4c6b3830dd949"
+    },
+    {
+      "path": "tests\\PlaybackBenchmark.cpp",
+      "sha256": "c6b5fb1ea7b326b9c3ce524d9f54de09bdba8458ae191939bb157bbb6e91f08b"
+    },
+    {
+      "path": "tests\\PlaybackTests.cpp",
+      "sha256": "46f0070956f154564d7b2de96cfb2651250079e2054bb04ce80830e4f5910ad1"
+    },
+    {
+      "path": "tests\\ProjectTests.cpp",
+      "sha256": "2f4331f71b133e9062bd027ea7c493cf73223db6842ca411a32ceaeccb8e0844"
+    },
+    {
+      "path": "tests\\RecoveryTests.cpp",
+      "sha256": "f7c352a2ed31e4673bb8de9f1dfb8253e6b5384cd7a3a374d8c5b56b60dd8a9c"
+    },
+    {
+      "path": "tests\\TimelineTests.cpp",
+      "sha256": "0db684133dbfe57ef3540d991caca94333c46e0272caf619855c46f2b427fc65"
+    },
+    {
+      "path": "tests\\TimelineUiTests.cpp",
+      "sha256": "1e653c6c18a9dcd39da91dacbfd62b7cb5c05f6c7c108dc86d987122e6b4e7ea"
+    }
+  ],
+  "originals": [
+    {
+      "path": "B:\\Videos\\Acu - 100% Clicks.mkv",
+      "sizeBytes": 364130642,
+      "lastWriteTimeUtc": "2026-02-16T20:11:06.9301901Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 100%.mkv",
+      "sizeBytes": 373827119,
+      "lastWriteTimeUtc": "2026-02-03T22:11:26.5838809Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 38% to 100%.mkv",
+      "sizeBytes": 227894614,
+      "lastWriteTimeUtc": "2026-01-31T18:19:11.1418226Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "sizeBytes": 121576575,
+      "lastWriteTimeUtc": "2026-01-30T23:54:38.1969532Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 88%.mkv",
+      "sizeBytes": 348821371,
+      "lastWriteTimeUtc": "2026-02-01T17:02:24.2150807Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Bloodbath - 54% to 100%.mp4",
+      "sizeBytes": 203017843,
+      "lastWriteTimeUtc": "2026-09-22T23:22:07.4450633Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 100%.mp4",
+      "sizeBytes": 1461796138,
+      "lastWriteTimeUtc": "2025-12-24T18:24:38.4631578Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "sizeBytes": 390903672,
+      "lastWriteTimeUtc": "2025-12-24T17:06:17.3937812Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "sizeBytes": 188404410,
+      "lastWriteTimeUtc": "2025-12-23T20:01:41.3818787Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 91%.mp4",
+      "sizeBytes": 1329124022,
+      "lastWriteTimeUtc": "2025-12-24T17:47:33.4411327Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 100%.mkv",
+      "sizeBytes": 1098511320,
+      "lastWriteTimeUtc": "2026-01-04T18:34:29.3836472Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 28% to 100%.mkv",
+      "sizeBytes": 729751046,
+      "lastWriteTimeUtc": "2026-01-02T17:19:12.4219285Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 45% to 100%.mkv",
+      "sizeBytes": 590643388,
+      "lastWriteTimeUtc": "2026-01-01T20:12:09.7362071Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Map packs.mp4",
+      "sizeBytes": 8483364,
+      "lastWriteTimeUtc": "2026-03-22T23:45:07.5462511Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 100%.mp4",
+      "sizeBytes": 672937391,
+      "lastWriteTimeUtc": "2026-02-24T23:30:53.4744149Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 26% to 100%.mkv",
+      "sizeBytes": 582295598,
+      "lastWriteTimeUtc": "2026-02-18T22:58:06.7046533Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 56% to 100%.mkv",
+      "sizeBytes": 332912747,
+      "lastWriteTimeUtc": "2026-02-17T23:50:39.0640053Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Swords & Souls End.mp4",
+      "sizeBytes": 389243182,
+      "lastWriteTimeUtc": "2026-03-30T21:05:52.7545435Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 100%.mkv",
+      "sizeBytes": 399206430,
+      "lastWriteTimeUtc": "2026-01-21T22:16:40.2338547Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 50% to 100%.mkv",
+      "sizeBytes": 159699022,
+      "lastWriteTimeUtc": "2026-01-15T16:53:41.1089380Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100% Clicks.mkv",
+      "sizeBytes": 151002301,
+      "lastWriteTimeUtc": "2026-02-11T00:19:43.9020943Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100%.mkv",
+      "sizeBytes": 153254415,
+      "lastWriteTimeUtc": "2026-02-10T22:45:14.2017486Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 58% to 100%.mp4",
+      "sizeBytes": 60971478,
+      "lastWriteTimeUtc": "2026-07-15T22:51:09.1418508Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 67% to 100%.mp4",
+      "sizeBytes": 37840519,
+      "lastWriteTimeUtc": "2026-07-13T17:20:38.1047895Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 2.mp4",
+      "sizeBytes": 1015093,
+      "lastWriteTimeUtc": "2026-03-22T23:56:53.8229502Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 3.mp4",
+      "sizeBytes": 3537016,
+      "lastWriteTimeUtc": "2026-03-23T00:00:52.4189192Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "sizeBytes": 5978512,
+      "lastWriteTimeUtc": "2026-03-23T00:17:58.5936732Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato.mp4",
+      "sizeBytes": 831837,
+      "lastWriteTimeUtc": "2026-03-22T23:53:54.2458652Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "sizeBytes": 925480314,
+      "lastWriteTimeUtc": "2026-05-04T23:46:36.1253964Z",
+      "matchesSession0": true
+    },
+    {
+      "path": "B:\\Videos\\Tung Tung Sahurcles Macro.mp4",
+      "sizeBytes": 635403463,
+      "lastWriteTimeUtc": "2026-08-06T21:28:52.1794247Z",
+      "matchesSession0": true
+    }
+  ],
+  "deployedRuntimes": [
+    {
+      "name": "avformat-63.dll",
+      "sha256": "360e66109b2ce3f02d56cd940e625a6909304eea1f4d0fcbbbb2d40d74308ee0",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "avcodec-63.dll",
+      "sha256": "4d458a276fda363709ed2ac4ad14aea122c536e61919feebd919d5f8490be7a9",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "avutil-61.dll",
+      "sha256": "9230e42b6b8e1fa20ec83af1eb4c4b2ae90b0c8d7c29093369250eed562372df",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "swscale-10.dll",
+      "sha256": "af91db7f45644157469a110438a8c648314927ec83e334d4cacac3870d99fabe",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "swresample-7.dll",
+      "sha256": "1f2a0bdca315f1a05fe398e7a0d97db8d0e34ba2a86ec59303bf32bbd9430123",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "avfilter-12.dll",
+      "sha256": "4ec6eb2db944740c364d93b29d91c9137beb38d09e923f6ed14f31aa039851de",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "Qt6Core.dll",
+      "sha256": "b20757be279b4e074c89be1f183a40975bf867b9a2a4e0ca4ea34a95fe2bb39e",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "Qt6Gui.dll",
+      "sha256": "695ee5e5a7ac83b7a1f7d397ccb0dda39b84f8369fd2237d90c1229b78af0cd5",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "Qt6Widgets.dll",
+      "sha256": "16e181e86e4084ca26de4daaf9a32ab61c1eed9c4649e6176dbddc7849ea1e06",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "Qt6OpenGL.dll",
+      "sha256": "9f2866a8d10992ccf7f565fdd48562f44249be11a351681869458e86687297ce",
+      "matchesPinnedFile": true
+    },
+    {
+      "name": "Qt6OpenGLWidgets.dll",
+      "sha256": "169cd0f0946d962965bd2654587217bff2d71d0d864cb910130df669d71c59e2",
+      "matchesPinnedFile": true
+    }
+  ],
+  "scriptsParsed": true,
+  "documentationLinksChecked": true,
+  "userVisualAcceptance": "not separately reported",
+  "sessionCompletion": "User-authorized complete",
+  "limitations": [
+    "Encoded 8-bit SDR creative correction; no professional color management",
+    "pitch-preserving time stretch has perceptual artifacts and approximate ramp transient timing",
+    "late seeks decode retimed audio from clip start and may exceed prior seek target",
+    "Windows scaling, perceived AV sync, real HDR/log and sustained effects-heavy 4K unverified",
+    "queue limits exclude codec/effect/filter allocations",
+    "original preservation checked by size and mtime"
+  ],
+  "failures": []
+}

@@ -1,0 +1,198 @@
+{
+    "checks": 799,
+    "evidenceLevel": "Model, native offscreen controls, shared PCM, independently decoded MP4 video/audio; no human visual acceptance",
+    "exports": [
+        {
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.018105214461684227,
+                "mixedSamples": 144000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "733909ac-af77-419b-8d76-de71777cc7f7/a2f02937-d6c3-4bf1-8118-eb6978ef00a7": 0.018105214876011015
+                }
+            },
+            "cancelled": false,
+            "elapsedMs": 221,
+            "error": "",
+            "frames": 90,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/nested.mp4",
+            "samples": 144000
+        },
+        {
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.018105214461684227,
+                "mixedSamples": 144000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "af6c3678-af8f-40d6-a46e-fe8dfafb213c/733909ac-af77-419b-8d76-de71777cc7f7/a2f02937-d6c3-4bf1-8118-eb6978ef00a7": 0.018105214876011015
+                }
+            },
+            "cancelled": false,
+            "elapsedMs": 224,
+            "error": "",
+            "frames": 90,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/two-level-nesting.mp4",
+            "samples": 144000
+        },
+        {
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.018105214461684227,
+                "mixedSamples": 176000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "733909ac-af77-419b-8d76-de71777cc7f7/a2f02937-d6c3-4bf1-8118-eb6978ef00a7": 0.018105214876011015
+                }
+            },
+            "cancelled": false,
+            "elapsedMs": 273,
+            "error": "",
+            "frames": 110,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/repeated-child.mp4",
+            "samples": 176000
+        },
+        {
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.01810288056731224,
+                "mixedSamples": 144144,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "733909ac-af77-419b-8d76-de71777cc7f7/a2f02937-d6c3-4bf1-8118-eb6978ef00a7": 0.0181028798950936
+                }
+            },
+            "cancelled": false,
+            "elapsedMs": 228,
+            "error": "",
+            "frames": 90,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/fractional-nesting.mp4",
+            "samples": 144144
+        },
+        {
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.018105214461684227,
+                "mixedSamples": 144000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "733909ac-af77-419b-8d76-de71777cc7f7/a2f02937-d6c3-4bf1-8118-eb6978ef00a7": 0.018105214876011015
+                }
+            },
+            "cancelled": false,
+            "elapsedMs": 325,
+            "error": "",
+            "frames": 90,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/nested-effects-titles.mp4",
+            "samples": 144000
+        },
+        {
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.012950396165251732,
+                "mixedSamples": 144000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "733909ac-af77-419b-8d76-de71777cc7f7/a2f02937-d6c3-4bf1-8118-eb6978ef00a7": 0.012950395964107967
+                }
+            },
+            "cancelled": false,
+            "elapsedMs": 178,
+            "error": "",
+            "frames": 90,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/nested-retimed-audio.mp4",
+            "samples": 144000
+        },
+        {
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.08836676925420761,
+                "mixedSamples": 144000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "eaf6e2e9-b1a6-4d31-a947-f12e4ba9b706": 0.08836676925420761
+                }
+            },
+            "cancelled": false,
+            "elapsedMs": 131,
+            "error": "",
+            "frames": 90,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/multicam.mp4",
+            "samples": 144000
+        },
+        {
+            "audioMix": {
+            },
+            "cancelled": false,
+            "elapsedMs": 230,
+            "error": "",
+            "frames": 2,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/sequences-test-data/nested-4k.mp4",
+            "samples": 0
+        }
+    ],
+    "failures": [
+    ],
+    "nestedPcmRmsError": 2.7769008565612465e-15,
+    "passed": true,
+    "worstAudioRmsError": 0.0009366446161067821,
+    "worstPixelMeanError": 5.603125
+}

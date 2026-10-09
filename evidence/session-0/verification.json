@@ -1,0 +1,16 @@
+{
+  "checkedAtUtc": "2026-10-06T19:11:03.2150259Z",
+  "powershellSyntax": "passed",
+  "metadataFiles": 30,
+  "selectedOriginals": 6,
+  "generatedFixtures": 4,
+  "sourceSizeAndMtime": "unchanged for six originals",
+  "fixtureChecksums": "passed",
+  "originalFullPacketTiming": "CFR within rounding",
+  "vfr10bitRotationCoverage": "passed",
+  "successfulCpuDecodeChecks": 10,
+  "documentationLinks": "passed",
+  "dependencyRestore": "both pinned SHA256 archives verified and re-extracted",
+  "dependencyBuildAndRuntime": "passed; see dependencies/toolchain-check.txt",
+  "gpuAndGui": "unverified"
+}

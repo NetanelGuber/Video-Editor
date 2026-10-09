@@ -1,0 +1,15 @@
+{
+  "session": "15.2",
+  "status": "complete",
+  "acceptedAtUtc": "2026-10-09T11:45:01.4854392Z",
+  "acceptedBy": "user",
+  "userStatement": "Ok, good, mark 15.2 as complete",
+  "acceptanceScope": "Explicit acceptance of the implemented Simple/Advanced export dialog and authorization to mark Session 15.2 complete. Individual Windows appearance-check outcomes were not separately reported.",
+  "retainedLimits": [
+    "Other Windows display scales/screens remain untested",
+    "Physical playback devices and long hardware stability retain existing limits",
+    "Subjective encoded quality and audible sync remain unmeasured",
+    "BT.709 SDR and 8-bit composition; 10-bit storage does not provide HDR",
+    "Packaging/redistribution remains Session 16"
+  ]
+}

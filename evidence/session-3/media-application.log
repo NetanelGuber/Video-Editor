@@ -1,0 +1,23 @@
+2026-10-06T20:18:04.018Z [WARNING] [default] QFontDatabase: Cannot find font directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/Release/lib/fonts.\nNote that Qt no longer ships fonts. Deploy some (from https://dejavu-fonts.github.io/ for example) or switch to fontconfig.
+2026-10-06T20:18:04.020Z [INFO] [default] Workspace created: media bin, sequence viewer, timeline, toolbar, status/progress
+2026-10-06T20:18:04.528Z [WARNING] [default] Media import failed: B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-3/import/corrupt.mp4 Invalid data found when processing input
+2026-10-06T20:18:04.537Z [WARNING] [default] Media import failed: B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-3/missing.mp4 File is missing or unreadable: B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-3/missing.mp4
+2026-10-06T20:18:04.541Z [INFO] [default] Media batch 14 duplicates 2 failures 2 cancelled false ""
+2026-10-06T20:18:04.557Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/media-test-data/imported.veproject" id "280ab058-9952-4f10-a96a-af3993e0f8d6"
+2026-10-06T20:18:04.561Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/media-test-data/imported.veproject" id "280ab058-9952-4f10-a96a-af3993e0f8d6" migratedFrom 0 offline media 0
+2026-10-06T20:18:05.072Z [INFO] [default] Media batch 12 duplicates 0 failures 0 cancelled false ""
+2026-10-06T20:18:05.088Z [INFO] [default] Project opened "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-3/offline.veproject" id "8a976b29-241f-415b-b789-9db85a7f1f04" migratedFrom 0 offline media 1
+2026-10-06T20:18:05.095Z [INFO] [default] Media batch 1 duplicates 0 failures 0 cancelled false ""
+2026-10-06T20:18:05.137Z [WARNING] [default] Media inspection/relink failed: B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/pinned/synthetic-4k-h264-aac.mp4 Replacement stream 0 does not match the original format/timing. Choose the moved original file.
+2026-10-06T20:18:05.138Z [INFO] [default] Media batch 1 duplicates 0 failures 1 cancelled false ""
+2026-10-06T20:18:05.140Z [WARNING] [default] Media inspection/relink failed: B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-3/missing.mp4 File is missing or unreadable: B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-3/missing.mp4
+2026-10-06T20:18:05.141Z [INFO] [default] Media batch 1 duplicates 0 failures 1 cancelled false ""
+2026-10-06T20:18:05.156Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/media-test-data/relinked.veproject" id "8a976b29-241f-415b-b789-9db85a7f1f04"
+2026-10-06T20:18:05.164Z [INFO] [default] Media batch 0 duplicates 0 failures 0 cancelled true ""
+2026-10-06T20:18:05.172Z [INFO] [default] New project "9c49e2fc-a708-4605-b34a-f68c2c221092"
+2026-10-06T20:18:05.233Z [INFO] [default] Media batch 1 duplicates 0 failures 0 cancelled true ""
+2026-10-06T20:18:05.237Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/media-test-data/partial.veproject" id "9c49e2fc-a708-4605-b34a-f68c2c221092"
+2026-10-06T20:18:05.237Z [INFO] [default] New project "22713102-58b0-4ae3-b1e8-9370f7d3aa29"
+2026-10-06T20:18:07.258Z [INFO] [default] Media batch 30 duplicates 0 failures 0 cancelled false ""
+2026-10-06T20:18:07.284Z [INFO] [default] Project saved atomically "B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/media-test-data/all-real.veproject" id "22713102-58b0-4ae3-b1e8-9370f7d3aa29"
+2026-10-06T20:18:07.291Z [INFO] [default] Workspace settings saved: B:/Coding/02-Projects/Tools/Video-Editor/build/session-3/media-test-data/settings.ini

@@ -1,0 +1,81 @@
+{
+    "cpuOneCorePercent": 45.6,
+    "decoder": {
+        "conversionUs": 252429,
+        "decoded": 60,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 48,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 22118400,
+        "queueBytesHighWater": 22118400,
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "AMD Radeon RX 9070",
+    "lastPresentedPtsUs": 1766667,
+    "meanPresentationUs": 1337.111111111111,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 238039040,
+        "privateBytes": 338653184,
+        "workingSetBytes": 159698944
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 137293824,
+        "privateBytes": 188121088,
+        "workingSetBytes": 74260480
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 9,
+            "peakWorkingSetBytes": 196268032,
+            "privateBytes": 384204800,
+            "workingSetBytes": 196268032
+        },
+        {
+            "elapsedMs": 500,
+            "peakWorkingSetBytes": 237678592,
+            "privateBytes": 416415744,
+            "workingSetBytes": 237678592
+        },
+        {
+            "elapsedMs": 1001,
+            "peakWorkingSetBytes": 237760512,
+            "privateBytes": 416415744,
+            "workingSetBytes": 237740032
+        },
+        {
+            "elapsedMs": 1501,
+            "peakWorkingSetBytes": 237965312,
+            "privateBytes": 416415744,
+            "workingSetBytes": 237916160
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-hevc10-aac.mp4",
+    "playbackWallMs": 1800,
+    "presentation": "OpenGL FBO / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 54,
+    "requestedDecode": "d3d11",
+    "requestedPresentation": "gl",
+    "seekDecoder": {
+        "conversionUs": 8610,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 112,
+        "path": "D3D11VA + CPU transfer/conversion",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 0,
+        "queueBytesHighWater": 3686400,
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 113,
+    "startupMs": 50
+}

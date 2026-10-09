@@ -1,0 +1,701 @@
+{
+  "passed": true,
+  "collectedAtUtc": "2026-10-08T20:11:09.7310439Z",
+  "version": "0.14.0",
+  "schemaVersion": 6,
+  "automatedSuiteCount": 13,
+  "focusedChecks": 799,
+  "worstPixelMeanError": 5.603125,
+  "worstAudioRmsError": 0.0009366446161067821,
+  "benchmark": [
+    {
+      "controller": {
+        "buffering": false,
+        "dropped": 1329,
+        "maxUiTickGapMs": 32,
+        "pipelineStarts": 3,
+        "playing": false,
+        "positionUs": 6000000,
+        "presented": 182,
+        "previewFpsLimit": 30,
+        "previewHeight": 720,
+        "previewWidth": 1280,
+        "synchronizedBufferWaits": 16,
+        "video": {
+          "conversionUs": 1798867,
+          "decoded": 863,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 7,
+          "path": "CPU",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 3686400,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        "videoBudgetBytes": 33554432,
+        "videoLayers": [
+          {
+            "conversionUs": 1798867,
+            "decoded": 863,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 7,
+            "path": "CPU",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 3686400,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          },
+          {
+            "conversionUs": 1776851,
+            "decoded": 864,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 11,
+            "path": "CPU",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 2764800,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          },
+          {
+            "conversionUs": 1787248,
+            "decoded": 864,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 13,
+            "path": "CPU",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 2764800,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          },
+          {
+            "conversionUs": 762428,
+            "decoded": 360,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 39,
+            "path": "CPU",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 921600,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          }
+        ],
+        "videoPtsUs": {},
+        "visualError": ""
+      },
+      "decode": "CPU",
+      "lastVideoLayers": [
+        {
+          "conversionUs": 1798867,
+          "decoded": 863,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 7,
+          "path": "CPU",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 3686400,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        {
+          "conversionUs": 1776851,
+          "decoded": 864,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 11,
+          "path": "CPU",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 2764800,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        {
+          "conversionUs": 1787248,
+          "decoded": 864,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 13,
+          "path": "CPU",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 2764800,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        {
+          "conversionUs": 762428,
+          "decoded": 360,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 39,
+          "path": "CPU",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 921600,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        }
+      ],
+      "maxCameraSkewUs": 23667,
+      "peakWorkingSetBytes": 191746048,
+      "presented": 179,
+      "seekMs": [
+        730,
+        76
+      ],
+      "startupMs": 58,
+      "synchronizedSamples": 861,
+      "wallMs": 6435
+    },
+    {
+      "controller": {
+        "buffering": false,
+        "dropped": 1755,
+        "maxUiTickGapMs": 32,
+        "pipelineStarts": 3,
+        "playing": false,
+        "positionUs": 6000000,
+        "presented": 182,
+        "previewFpsLimit": 30,
+        "previewHeight": 720,
+        "previewWidth": 1280,
+        "synchronizedBufferWaits": 6,
+        "video": {
+          "conversionUs": 2286507,
+          "decoded": 864,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 73,
+          "path": "D3D11VA + CPU transfer/conversion",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 3686400,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        "videoBudgetBytes": 33554432,
+        "videoLayers": [
+          {
+            "conversionUs": 2286507,
+            "decoded": 864,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 73,
+            "path": "D3D11VA + CPU transfer/conversion",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 3686400,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          },
+          {
+            "conversionUs": 2243427,
+            "decoded": 864,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 113,
+            "path": "D3D11VA + CPU transfer/conversion",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 1843200,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          },
+          {
+            "conversionUs": 2214447,
+            "decoded": 864,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 152,
+            "path": "D3D11VA + CPU transfer/conversion",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 1843200,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          },
+          {
+            "conversionUs": 907803,
+            "decoded": 360,
+            "error": "",
+            "fallback": "",
+            "firstFrameMs": 181,
+            "path": "D3D11VA + CPU transfer/conversion",
+            "queueBudgetBytes": 8388608,
+            "queueBytes": 921600,
+            "queueBytesHighWater": 5529600,
+            "queueHighWater": 6,
+            "queueLimit": 6
+          }
+        ],
+        "videoPtsUs": {},
+        "visualError": ""
+      },
+      "decode": "D3D11VA",
+      "lastVideoLayers": [
+        {
+          "conversionUs": 2286507,
+          "decoded": 864,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 73,
+          "path": "D3D11VA + CPU transfer/conversion",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 3686400,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        {
+          "conversionUs": 2243427,
+          "decoded": 864,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 113,
+          "path": "D3D11VA + CPU transfer/conversion",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 1843200,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        {
+          "conversionUs": 2214447,
+          "decoded": 864,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 152,
+          "path": "D3D11VA + CPU transfer/conversion",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 1843200,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        },
+        {
+          "conversionUs": 907803,
+          "decoded": 360,
+          "error": "",
+          "fallback": "",
+          "firstFrameMs": 181,
+          "path": "D3D11VA + CPU transfer/conversion",
+          "queueBudgetBytes": 8388608,
+          "queueBytes": 921600,
+          "queueBytesHighWater": 5529600,
+          "queueHighWater": 6,
+          "queueLimit": 6
+        }
+      ],
+      "maxCameraSkewUs": 21222,
+      "peakWorkingSetBytes": 267812864,
+      "presented": 179,
+      "seekMs": [
+        482,
+        263
+      ],
+      "startupMs": 237,
+      "synchronizedSamples": 287,
+      "wallMs": 6197
+    }
+  ],
+  "originals": [
+    {
+      "path": "B:\\Videos\\Acu - 100% Clicks.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 38% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Acu - 88%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Bloodbath - 54% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Butiti II - 91%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 28% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Hyper Beam - 45% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Map packs.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 26% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Pointiercrate - 56% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Swords & Souls End.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thanatophobia - 50% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100% Clicks.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\The Grotto - 50% to 100%.mkv",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 58% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Thoughtless Space - 67% to 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 2.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 3.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tomato.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "unchanged": true
+    },
+    {
+      "path": "B:\\Videos\\Tung Tung Sahurcles Macro.mp4",
+      "unchanged": true
+    }
+  ],
+  "sources": [
+    {
+      "path": "src\\BuildInfo.h.in",
+      "sha256": "5fb666d437aa7263a9f55cfb7e5d19d8006cd34230aa097e2d2b882ba168d0e8"
+    },
+    {
+      "path": "src\\Diagnostics.cpp",
+      "sha256": "8a01a9adfdaa7a7ba85120ac1f26bf343a3b4ac9773e586e1e5e2494313adcfb"
+    },
+    {
+      "path": "src\\Diagnostics.h",
+      "sha256": "9dff7a9b64de3072909466a47d13841876c4860fbf6a4a3853455920aeb1c580"
+    },
+    {
+      "path": "src\\main.cpp",
+      "sha256": "7d9b7965fca164e3f46c758a343094329ef810997726ec5ab1419a24b6dfa11a"
+    },
+    {
+      "path": "src\\MainWindow.cpp",
+      "sha256": "412b14de223dceb0e0f4314476e820b9fc74735c7475902fb1696c9be6e3f2bf"
+    },
+    {
+      "path": "src\\MainWindow.h",
+      "sha256": "9d8a47cbd90dc2a796db1ec42d637caefb46006dacc962843fd693acadf78072"
+    },
+    {
+      "path": "src\\export\\ExportDialog.cpp",
+      "sha256": "6854f2384ad92e82345dee5bafea838ec056e43a08df1ce3056dab623c4e5e08"
+    },
+    {
+      "path": "src\\export\\ExportDialog.h",
+      "sha256": "3b6bba87c1ce097bf20f9ca41bde6cb0d2fd51aabdda9d99ebf134c9599a15eb"
+    },
+    {
+      "path": "src\\export\\ExportWorker.cpp",
+      "sha256": "f4fbf230acd29c7d046fa9a8b1dee44457a8c5db48a62625d54c21f53e6c0c29"
+    },
+    {
+      "path": "src\\export\\ExportWorker.h",
+      "sha256": "f72fd3c01bfbfce121ce68cba8f4717e6ff2374c48a337bb3fff965b3f97e070"
+    },
+    {
+      "path": "src\\export\\presets.json",
+      "sha256": "5dfe0c74c0bcd927750c75ba240920415e0213a2d98f67a03c364c8c56805e28"
+    },
+    {
+      "path": "src\\media\\AidCache.cpp",
+      "sha256": "e9c5d9d4db23e51bec48d1ee0a5403f3d20163a26e992619a236bb671267ad17"
+    },
+    {
+      "path": "src\\media\\AidCache.h",
+      "sha256": "e49ae987754614ad24c2c940e3582e9b36bc2dff6d4d199f41b9023589026a9f"
+    },
+    {
+      "path": "src\\media\\Inspection.cpp",
+      "sha256": "93da659ea3bf480521907b6ad14d094c3553959457eb5b1ea37c77801b709982"
+    },
+    {
+      "path": "src\\media\\Inspection.h",
+      "sha256": "98e8c32078dbeb8981002bdf3df00bfef360b6e29278d180d9bb1c1d3df111d4"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.cpp",
+      "sha256": "ecd4ee948b54270c3931d8f18ec9cbe0c2dbf462758b0235e690c82dc2714136"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.h",
+      "sha256": "6ff7476effafdfb50eaf02964d636aad5d6b446de04eecf6e5c6fdb85c5ce0bb"
+    },
+    {
+      "path": "src\\media\\WaveformWidget.h",
+      "sha256": "10022b6d3172a5fa76cea4b9d3712e082fe7cce194b5d639f5ac423e441d7467"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.cpp",
+      "sha256": "698b817d482afaa7a5a8b8170c68d1f7d532448e8f7480786a9c765c063c3625"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.h",
+      "sha256": "ca9c190c137f75015caa3b75acf8f91df9ab206ab300e6d9753d6ec2b819543d"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.cpp",
+      "sha256": "9d163081d19cc4ac8a5d94af82d5aea5852734ecb039083021144f4a02319f36"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.h",
+      "sha256": "dc1c42f4fe1e287c8b5cc1604443ce9e5369a30bc4831d23f4db6b8e12ce8632"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.cpp",
+      "sha256": "77aee2d3aa302852db2174a35131a315a1b25b8bf56a9b15d11f04be1a3e7592"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.h",
+      "sha256": "10241623561e224518bd018f2c872d8a193f52c466fd60f574da90df6c3b7e42"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.cpp",
+      "sha256": "8a5de850e56354c20803d20bd2597cfba3c21498bf6234b6b6f3ab8940541c41"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.h",
+      "sha256": "d24b34974fee0aca7291f7e066c0582020608d8f2522bde65f8fa555cefa0e39"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.cpp",
+      "sha256": "414e64121967a7d995e97dfd3264c85c4a9ac285442100831dd847ba71e68350"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.h",
+      "sha256": "df1808cce748473dcf69241fe18bc0af2cbd157e636d39ee06310bfe07c2b808"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.cpp",
+      "sha256": "bb2464f0881e61c16fd51ab714509416f6a8125e9f9c95224afb9238de167ab2"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.h",
+      "sha256": "786d9148c9eb28c467f88850822f753713cdddaa98f4296c99e8a005339fbcd5"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.cpp",
+      "sha256": "e6aa61ada11291aab9d2570bc8fa36e5fd25f2d804f5192a6e471a539a566425"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.h",
+      "sha256": "68094643d37e911ddf63b8af3893c55603884507bd92e0bf1a90b66228ff488c"
+    },
+    {
+      "path": "src\\project\\Effects.cpp",
+      "sha256": "d8b80e588b66286fe1f1fbb9817ef9caa85644809438d78e06b440f1e34e10a7"
+    },
+    {
+      "path": "src\\project\\Effects.h",
+      "sha256": "4cfd9dcf0a6d854efacbba3b955d70d85dd4694f7e7f83bb01dd23d430b38bbe"
+    },
+    {
+      "path": "src\\project\\Project.cpp",
+      "sha256": "dc6fcf6da2b9ba55505d30b168db10505143ff1dc618885102ae539d62f8b4ae"
+    },
+    {
+      "path": "src\\project\\Project.h",
+      "sha256": "4385cd7f39798a217f4a49fa61a2ce07f5aa2c08aaa6cfa1ebef26c32ba6245c"
+    },
+    {
+      "path": "src\\project\\ProjectStore.cpp",
+      "sha256": "9033a7893e2e2f9eb4876661a71b3db51bc1cafaaa22d8a78fc481b90bcfa826"
+    },
+    {
+      "path": "src\\project\\ProjectStore.h",
+      "sha256": "37eacebeed2771ad6bd84aa15b90e329578de55360475710bc4fc53f7e95b772"
+    },
+    {
+      "path": "src\\project\\Recovery.cpp",
+      "sha256": "d95fb18581acba49cae1026e5fc5091205378d1cc78aac3bb596bac6a71bab82"
+    },
+    {
+      "path": "src\\project\\Recovery.h",
+      "sha256": "0ad761cd07b13691a3386ad7e5129e4de02e8392431253e1655012579dc03aff"
+    },
+    {
+      "path": "src\\project\\Time.cpp",
+      "sha256": "26209eab4671fbed9670eec3320a1cc41e953e3f46a690bc6daadb1616c10c90"
+    },
+    {
+      "path": "src\\timeline\\EffectDialog.cpp",
+      "sha256": "2de6aca57df00514079ea2f335da9ff34886f932e5f3ef168962ca4e4f8ed12c"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.cpp",
+      "sha256": "29def7377f3f905ac87b5e84e99f70c31098d816f709e5a4b1dd27818e9b3ba2"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.h",
+      "sha256": "133a10b60628d0a4e13c2656720d0cff0a3b6a7c377823aca7fef9cc9dedd9b9"
+    },
+    {
+      "path": "src\\timeline\\Timeline.cpp",
+      "sha256": "46a1ec5ea72cbfb13e2aff8013d741123dc4c8a54d1e143fa3fb735b6c68ce84"
+    },
+    {
+      "path": "src\\timeline\\Timeline.h",
+      "sha256": "9e4c95898fbf8072a4aace6ab101300a80425bde7336529156482422da66c2ab"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.cpp",
+      "sha256": "e8a7f328f4a91f3fb98975dad0972a46fd1ed157edd645f1396dbdbea12868d3"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.h",
+      "sha256": "46f1ed63e3fccfe7bc8108b68bb468a294c9b92931ca0aae480c36b0979ef41a"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.cpp",
+      "sha256": "11fca3922b8904000a3c35516691910b4c7e09236ad9845fd56caa9c47d35b4d"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.h",
+      "sha256": "6bda81a9df3ec964a26435de16072c13755caa65f539ae0fb3d1d8702e132ebe"
+    },
+    {
+      "path": "src\\ui\\TimeDisplay.h",
+      "sha256": "25ac02d9c0547058108f70c572388e0bef897f4abc1fbf89b744254c01b3daa8"
+    },
+    {
+      "path": "tests\\AdvancedEffectsTests.cpp",
+      "sha256": "d08cae567cc334821d76b5540cac7202580f769260dd135000c46674c95dab52"
+    },
+    {
+      "path": "tests\\AudioTitleTests.cpp",
+      "sha256": "335c11bc78156dc59ab1de1d6d864caad7e40b4fec4d9d48dc0071d04a37ca8e"
+    },
+    {
+      "path": "tests\\EffectsTests.cpp",
+      "sha256": "f55c136a5f99a32fb71e94e0d5bbd13fc9aee80bb68b2dc9bee68b3f30d743ed"
+    },
+    {
+      "path": "tests\\ExportTests.cpp",
+      "sha256": "6089d90b4ecc6d3c67865115420ba4fc45f0946b98c5e7e9e4707cc547ae9968"
+    },
+    {
+      "path": "tests\\MediaTests.cpp",
+      "sha256": "81f925b4208bde9e8aff96932cb94deaefd78ed0dd5992fae56a3fd3a1897d59"
+    },
+    {
+      "path": "tests\\PerformanceTests.cpp",
+      "sha256": "f766697c9d442a02c824df8a0fed340d10682706390bbba602d4c6b3830dd949"
+    },
+    {
+      "path": "tests\\PlaybackBenchmark.cpp",
+      "sha256": "c6b5fb1ea7b326b9c3ce524d9f54de09bdba8458ae191939bb157bbb6e91f08b"
+    },
+    {
+      "path": "tests\\PlaybackTests.cpp",
+      "sha256": "46f0070956f154564d7b2de96cfb2651250079e2054bb04ce80830e4f5910ad1"
+    },
+    {
+      "path": "tests\\ProjectTests.cpp",
+      "sha256": "2f4331f71b133e9062bd027ea7c493cf73223db6842ca411a32ceaeccb8e0844"
+    },
+    {
+      "path": "tests\\RecoveryTests.cpp",
+      "sha256": "f7c352a2ed31e4673bb8de9f1dfb8253e6b5384cd7a3a374d8c5b56b60dd8a9c"
+    },
+    {
+      "path": "tests\\SequenceTests.cpp",
+      "sha256": "f2bb4dc1ba5faf220ee9f453595a645d87fdb15cc13339e6a3612b6d7f7c63ea"
+    },
+    {
+      "path": "tests\\TimelineTests.cpp",
+      "sha256": "0db684133dbfe57ef3540d991caca94333c46e0272caf619855c46f2b427fc65"
+    },
+    {
+      "path": "tests\\TimelineUiTests.cpp",
+      "sha256": "019785b5048464849703c6ddc81e7bd7a370423da4e26bd7616af211fc060bc2"
+    }
+  ],
+  "executableSha256": "dd6351aa6072764ccaa2909c930dda63a22628503adcc52baf9c9d00590f29ad",
+  "evidenceLevel": "Pinned native Windows build, thirteen automated suites, real-source CPU/D3D11VA synchronized playback, native offscreen controls and independent MP4 video/audio decoding",
+  "humanVisualAcceptance": "not performed",
+  "limitations": [
+    "Matching frame rates and 1x nested sources",
+    "Four-camera decode preview capped at 360p per camera; exports use originals",
+    "No automatic camera sync, real multi-camera recording or perceived AV sync acceptance",
+    "Offscreen presentation does not verify Windows display scaling"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "generatedAtUtc": "2026-10-06T19:06:23.1399456Z",
+  "ffmpegPath": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\ffmpeg.exe",
+  "ffmpegVersion": "ffmpeg version 9.0.2-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "ffmpegSha256": "b1a495a71491bf208f95043ca06654ad76d59738533ec8ff237a759e29abd2a3",
+  "generatorScriptSha256": "845aba506cc72721ccc759208dfd6e35f4db84bde004ee950406e772f40e63d7",
+  "provenance": "FFmpeg testsrc2 and sine generators; not user footage; 10-bit fixture is SDR"
+}

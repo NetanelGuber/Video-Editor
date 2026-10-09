@@ -1,0 +1,216 @@
+{
+  "passed": true,
+  "version": "0.16.0",
+  "verifiedUtc": "2026-10-09T12:10:41.7090795Z",
+  "archive": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\out\\release\\VideoEditor-0.16.0-windows-x64-local.zip",
+  "archiveSha256": "f76f14cd15d6920881264d5bf1aa7649feae935a6144d2c8d3d79c9dc1be2055",
+  "regressionSuites": 19,
+  "packagedWorkflowChecks": 23,
+  "payloadFiles": 80,
+  "originals": [
+    {
+      "bytes": 364130642,
+      "lastWriteTimeUtc": "2026-02-16T20:11:06.9301901Z",
+      "path": "B:\\Videos\\Acu - 100% Clicks.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 373827119,
+      "lastWriteTimeUtc": "2026-02-03T22:11:26.5838809Z",
+      "path": "B:\\Videos\\Acu - 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 227894614,
+      "lastWriteTimeUtc": "2026-01-31T18:19:11.1418226Z",
+      "path": "B:\\Videos\\Acu - 38% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 121576575,
+      "lastWriteTimeUtc": "2026-01-30T23:54:38.1969532Z",
+      "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 348821371,
+      "lastWriteTimeUtc": "2026-02-01T17:02:24.2150807Z",
+      "path": "B:\\Videos\\Acu - 88%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 203017843,
+      "lastWriteTimeUtc": "2026-09-22T23:22:07.4450633Z",
+      "path": "B:\\Videos\\Bloodbath - 54% to 100%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 1461796138,
+      "lastWriteTimeUtc": "2025-12-24T18:24:38.4631578Z",
+      "path": "B:\\Videos\\Butiti II - 100%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 390903672,
+      "lastWriteTimeUtc": "2025-12-24T17:06:17.3937812Z",
+      "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 188404410,
+      "lastWriteTimeUtc": "2025-12-23T20:01:41.3818787Z",
+      "path": "B:\\Videos\\Butiti II - 66% to 100%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 1329124022,
+      "lastWriteTimeUtc": "2025-12-24T17:47:33.4411327Z",
+      "path": "B:\\Videos\\Butiti II - 91%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 1098511320,
+      "lastWriteTimeUtc": "2026-01-04T18:34:29.3836472Z",
+      "path": "B:\\Videos\\Hyper Beam - 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 729751046,
+      "lastWriteTimeUtc": "2026-01-02T17:19:12.4219285Z",
+      "path": "B:\\Videos\\Hyper Beam - 28% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 590643388,
+      "lastWriteTimeUtc": "2026-01-01T20:12:09.7362071Z",
+      "path": "B:\\Videos\\Hyper Beam - 45% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 8483364,
+      "lastWriteTimeUtc": "2026-03-22T23:45:07.5462511Z",
+      "path": "B:\\Videos\\Map packs.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 672937391,
+      "lastWriteTimeUtc": "2026-02-24T23:30:53.4744149Z",
+      "path": "B:\\Videos\\Pointiercrate - 100%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 582295598,
+      "lastWriteTimeUtc": "2026-02-18T22:58:06.7046533Z",
+      "path": "B:\\Videos\\Pointiercrate - 26% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 332912747,
+      "lastWriteTimeUtc": "2026-02-17T23:50:39.0640053Z",
+      "path": "B:\\Videos\\Pointiercrate - 56% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 389243182,
+      "lastWriteTimeUtc": "2026-03-30T21:05:52.7545435Z",
+      "path": "B:\\Videos\\Swords & Souls End.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 399206430,
+      "lastWriteTimeUtc": "2026-01-21T22:16:40.2338547Z",
+      "path": "B:\\Videos\\Thanatophobia - 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 159699022,
+      "lastWriteTimeUtc": "2026-01-15T16:53:41.108938Z",
+      "path": "B:\\Videos\\Thanatophobia - 50% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 151002301,
+      "lastWriteTimeUtc": "2026-02-11T00:19:43.9020943Z",
+      "path": "B:\\Videos\\The Grotto - 50% to 100% Clicks.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 153254415,
+      "lastWriteTimeUtc": "2026-02-10T22:45:14.2017486Z",
+      "path": "B:\\Videos\\The Grotto - 50% to 100%.mkv",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 60971478,
+      "lastWriteTimeUtc": "2026-07-15T22:51:09.1418508Z",
+      "path": "B:\\Videos\\Thoughtless Space - 58% to 100%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 37840519,
+      "lastWriteTimeUtc": "2026-07-13T17:20:38.1047895Z",
+      "path": "B:\\Videos\\Thoughtless Space - 67% to 100%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 1015093,
+      "lastWriteTimeUtc": "2026-03-22T23:56:53.8229502Z",
+      "path": "B:\\Videos\\Tomato 2.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 3537016,
+      "lastWriteTimeUtc": "2026-03-23T00:00:52.4189192Z",
+      "path": "B:\\Videos\\Tomato 3.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 5978512,
+      "lastWriteTimeUtc": "2026-03-23T00:17:58.5936732Z",
+      "path": "B:\\Videos\\Tomato 4.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 831837,
+      "lastWriteTimeUtc": "2026-03-22T23:53:54.2458652Z",
+      "path": "B:\\Videos\\Tomato.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 925480314,
+      "lastWriteTimeUtc": "2026-05-04T23:46:36.1253964Z",
+      "path": "B:\\Videos\\Troll Madness - 100%.mp4",
+      "sizeAndMtimeUnchanged": true
+    },
+    {
+      "bytes": 635403463,
+      "lastWriteTimeUtc": "2026-08-06T21:28:52.1794247Z",
+      "path": "B:\\Videos\\Tung Tung Sahurcles Macro.mp4",
+      "sizeAndMtimeUnchanged": true
+    }
+  ],
+  "externalDistributionApproved": false,
+  "humanVisualAcceptance": "Session accepted by user; individual native launch/readability outcomes not separately reported",
+  "cleanOsOrNewWindowsAccount": "unverified",
+  "evidenceLevel": "Fresh ZIP extraction on target PC; restricted PATH; exact packaged DLLs and actual module paths; offscreen production UI; isolated settings/recovery/cache",
+  "limits": [
+    "No separate Windows account or clean OS/VM",
+    "Native Windows platform plugin inventoried but not visually exercised",
+    "Physical playback devices and subjective AV sync unverified"
+  ],
+  "userAcceptance": {
+    "session": "16",
+    "status": "complete",
+    "acceptedAtUtc": "2026-10-09T12:14:53.5431274Z",
+    "acceptedBy": "user",
+    "userStatement": "Alright it's good. Mark session 16 as complete.",
+    "acceptanceScope": "Explicit acceptance of the implemented personal local Windows release and authorization to mark Session 16 complete. Individual native launch/readability outcomes were not separately reported.",
+    "retainedLimits": [
+      "A genuinely new Windows account or clean OS and other computers remain unverified",
+      "Other display scales and individual native appearance outcomes are not separately verified",
+      "Physical playback devices, subjective AV sync and long hardware stability retain existing limits",
+      "Maximum-layer 4K memory and real phone/HDR media retain existing limits",
+      "External distribution remains unapproved pending application licensing, exact corresponding source and supplier dependency notices"
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+.tools/
+fixtures/generated/
+build/
+out/
+backups/
+
+# Generated media retained as local validation evidence, not source assets.
+evidence/**/*.mp4
+evidence/**/*.mkv
+evidence/**/*.mov
+evidence/**/*.avi
+evidence/**/*.ts
+evidence/**/*.ivf
+evidence/**/*.image2pipe
+
+# Credentials and local editor state.
+.env
+.env.*
+!.env.example
+*.pem
+*.pfx
+*.key
+.vs/

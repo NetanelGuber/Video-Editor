@@ -1,0 +1,312 @@
+{
+  "passed": true,
+  "collectedAtUtc": "2026-10-08T19:18:20.2354914Z",
+  "version": "0.13.0",
+  "schemaVersion": 5,
+  "buildDirectory": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\session-13",
+  "automatedSuiteCount": 12,
+  "focusedCheckCounts": {
+    "audioTitle": 66,
+    "independentExport": 162,
+    "timelineUi": 114
+  },
+  "independentExportAudioRmsError": 0.00010506399468450305,
+  "referenceMix": {
+    "frames": 180,
+    "samples": 288000,
+    "masterPeak": 0.16344214975833893,
+    "clippedSamples": 0,
+    "trackPeaks": {
+      "610e5d71-c064-42b8-a14e-20bd2e85e37d": 0.16344214975833893,
+      "b5e6445f-b147-4a78-9af0-caa0fcd0d1c5": 0.007855460833533395
+    },
+    "busPeaks": {
+      "05d6a894-05d5-4365-b794-3a724a2555b2": 0.007855460833533395
+    }
+  },
+  "audioTestMixSampleError": [
+    4.6491622912592234E-09
+  ],
+  "evidenceLevel": "Windows x64 MSVC build; twelve automated suites; native WASAPI shared-output API exercise; exact mix, automation, routing, migration, offscreen controls and independent export decode checks.",
+  "humanVisualAcceptance": "not reported",
+  "perceivedAudioAcceptance": "not reported",
+  "endToEndOutputLatency": "not measured; WASAPI initialization requests a 100 ms shared buffer",
+  "artifacts": [
+    {
+      "name": "VideoEditor.exe",
+      "sha256": "d29ccb74c72f6ebf05505c2975d13b5a90dc9ed3ba96d8e9ba25f25e88061705"
+    },
+    {
+      "name": "AudioTitleTests.exe",
+      "sha256": "4bfda469d50c87e6ece6c86c8c7e771b4a03327af692d9fbe54d3a74eac5b2d7"
+    },
+    {
+      "name": "ExportTests.exe",
+      "sha256": "7b4e7159e59c18a3abff565671af02402c033e89f8d28b5909e67550f240fb66"
+    },
+    {
+      "name": "TimelineUiTests.exe",
+      "sha256": "bb5d478f28c12b1d718abbf97e8c9ef4c3d0b4a2fef0b9a4623aba389cca91f4"
+    }
+  ],
+  "sources": [
+    {
+      "path": "src\\BuildInfo.h.in",
+      "sha256": "5fb666d437aa7263a9f55cfb7e5d19d8006cd34230aa097e2d2b882ba168d0e8"
+    },
+    {
+      "path": "src\\Diagnostics.cpp",
+      "sha256": "8a01a9adfdaa7a7ba85120ac1f26bf343a3b4ac9773e586e1e5e2494313adcfb"
+    },
+    {
+      "path": "src\\Diagnostics.h",
+      "sha256": "9dff7a9b64de3072909466a47d13841876c4860fbf6a4a3853455920aeb1c580"
+    },
+    {
+      "path": "src\\main.cpp",
+      "sha256": "7d9b7965fca164e3f46c758a343094329ef810997726ec5ab1419a24b6dfa11a"
+    },
+    {
+      "path": "src\\MainWindow.cpp",
+      "sha256": "2f0861550e03422ed080e5fd1e80df0189e0c348b90e1ffafc42342caa5fce36"
+    },
+    {
+      "path": "src\\MainWindow.h",
+      "sha256": "9d8a47cbd90dc2a796db1ec42d637caefb46006dacc962843fd693acadf78072"
+    },
+    {
+      "path": "src\\export\\ExportDialog.cpp",
+      "sha256": "6854f2384ad92e82345dee5bafea838ec056e43a08df1ce3056dab623c4e5e08"
+    },
+    {
+      "path": "src\\export\\ExportDialog.h",
+      "sha256": "3b6bba87c1ce097bf20f9ca41bde6cb0d2fd51aabdda9d99ebf134c9599a15eb"
+    },
+    {
+      "path": "src\\export\\ExportWorker.cpp",
+      "sha256": "f4fbf230acd29c7d046fa9a8b1dee44457a8c5db48a62625d54c21f53e6c0c29"
+    },
+    {
+      "path": "src\\export\\ExportWorker.h",
+      "sha256": "f72fd3c01bfbfce121ce68cba8f4717e6ff2374c48a337bb3fff965b3f97e070"
+    },
+    {
+      "path": "src\\export\\presets.json",
+      "sha256": "5dfe0c74c0bcd927750c75ba240920415e0213a2d98f67a03c364c8c56805e28"
+    },
+    {
+      "path": "src\\media\\AidCache.cpp",
+      "sha256": "e9c5d9d4db23e51bec48d1ee0a5403f3d20163a26e992619a236bb671267ad17"
+    },
+    {
+      "path": "src\\media\\AidCache.h",
+      "sha256": "e49ae987754614ad24c2c940e3582e9b36bc2dff6d4d199f41b9023589026a9f"
+    },
+    {
+      "path": "src\\media\\Inspection.cpp",
+      "sha256": "93da659ea3bf480521907b6ad14d094c3553959457eb5b1ea37c77801b709982"
+    },
+    {
+      "path": "src\\media\\Inspection.h",
+      "sha256": "98e8c32078dbeb8981002bdf3df00bfef360b6e29278d180d9bb1c1d3df111d4"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.cpp",
+      "sha256": "ecd4ee948b54270c3931d8f18ec9cbe0c2dbf462758b0235e690c82dc2714136"
+    },
+    {
+      "path": "src\\media\\RuntimeInfo.h",
+      "sha256": "6ff7476effafdfb50eaf02964d636aad5d6b446de04eecf6e5c6fdb85c5ce0bb"
+    },
+    {
+      "path": "src\\media\\WaveformWidget.h",
+      "sha256": "10022b6d3172a5fa76cea4b9d3712e082fe7cce194b5d639f5ac423e441d7467"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.cpp",
+      "sha256": "698b817d482afaa7a5a8b8170c68d1f7d532448e8f7480786a9c765c063c3625"
+    },
+    {
+      "path": "src\\playback\\AudioMixer.h",
+      "sha256": "ca9c190c137f75015caa3b75acf8f91df9ab206ab300e6d9753d6ec2b819543d"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.cpp",
+      "sha256": "9d163081d19cc4ac8a5d94af82d5aea5852734ecb039083021144f4a02319f36"
+    },
+    {
+      "path": "src\\playback\\AudioOutput.h",
+      "sha256": "dc1c42f4fe1e287c8b5cc1604443ce9e5369a30bc4831d23f4db6b8e12ce8632"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.cpp",
+      "sha256": "27f307cea06dcd7a8a324e638c3382ae7eadbd45afc973ed4fba97d2fb997443"
+    },
+    {
+      "path": "src\\playback\\DecodeWorker.h",
+      "sha256": "f702d31d15bdca814d9bedee66185713b4b1a92149ab85670707e48aac579e8f"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.cpp",
+      "sha256": "8a5de850e56354c20803d20bd2597cfba3c21498bf6234b6b6f3ab8940541c41"
+    },
+    {
+      "path": "src\\playback\\MonitorWidget.h",
+      "sha256": "d24b34974fee0aca7291f7e066c0582020608d8f2522bde65f8fa555cefa0e39"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.cpp",
+      "sha256": "c4f4e712bf549a620512561a3397da789ba7b90a4ea6977a66df34c7f3539aac"
+    },
+    {
+      "path": "src\\playback\\PlaybackController.h",
+      "sha256": "3c1730af529fca6530577d8e267e9d214c74966a83750771d7fda75603985ad3"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.cpp",
+      "sha256": "f24964d6bddc95caa2d652e834ef8ff570eeda7d617785246aa1a4f480bc22af"
+    },
+    {
+      "path": "src\\playback\\RenderDescription.h",
+      "sha256": "4eb8d0e9b7721ddb2053a59181d3bf2c24f5e4622b6e07f06896aea1304144f1"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.cpp",
+      "sha256": "e6aa61ada11291aab9d2570bc8fa36e5fd25f2d804f5192a6e471a539a566425"
+    },
+    {
+      "path": "src\\playback\\VisualEffects.h",
+      "sha256": "68094643d37e911ddf63b8af3893c55603884507bd92e0bf1a90b66228ff488c"
+    },
+    {
+      "path": "src\\project\\Effects.cpp",
+      "sha256": "d8b80e588b66286fe1f1fbb9817ef9caa85644809438d78e06b440f1e34e10a7"
+    },
+    {
+      "path": "src\\project\\Effects.h",
+      "sha256": "4cfd9dcf0a6d854efacbba3b955d70d85dd4694f7e7f83bb01dd23d430b38bbe"
+    },
+    {
+      "path": "src\\project\\Project.cpp",
+      "sha256": "022f0e1476d3970095ad5c23092aac874715e04fd3381413b64d6106d0b472a4"
+    },
+    {
+      "path": "src\\project\\Project.h",
+      "sha256": "3831bb911eaa8a2de128158fa2b6fe17280d44a0eda78718f6da2d04c466fddc"
+    },
+    {
+      "path": "src\\project\\ProjectStore.cpp",
+      "sha256": "9033a7893e2e2f9eb4876661a71b3db51bc1cafaaa22d8a78fc481b90bcfa826"
+    },
+    {
+      "path": "src\\project\\ProjectStore.h",
+      "sha256": "37eacebeed2771ad6bd84aa15b90e329578de55360475710bc4fc53f7e95b772"
+    },
+    {
+      "path": "src\\project\\Recovery.cpp",
+      "sha256": "d95fb18581acba49cae1026e5fc5091205378d1cc78aac3bb596bac6a71bab82"
+    },
+    {
+      "path": "src\\project\\Recovery.h",
+      "sha256": "0ad761cd07b13691a3386ad7e5129e4de02e8392431253e1655012579dc03aff"
+    },
+    {
+      "path": "src\\project\\Time.cpp",
+      "sha256": "26209eab4671fbed9670eec3320a1cc41e953e3f46a690bc6daadb1616c10c90"
+    },
+    {
+      "path": "src\\timeline\\EffectDialog.cpp",
+      "sha256": "2de6aca57df00514079ea2f335da9ff34886f932e5f3ef168962ca4e4f8ed12c"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.cpp",
+      "sha256": "8f0654073d6e8021a3344ed521b21811f9645304f7bb1ad0d17bc284d868fe99"
+    },
+    {
+      "path": "src\\timeline\\PropertyDialogs.h",
+      "sha256": "86d9e846a5254aed56b2f1b9bd01fae2e17fd349d0b234c1fb44e90f9247c521"
+    },
+    {
+      "path": "src\\timeline\\Timeline.cpp",
+      "sha256": "dd2801a820c4e97145b88390edff7cbb62504afa1c16d869ac45c0b55e112e43"
+    },
+    {
+      "path": "src\\timeline\\Timeline.h",
+      "sha256": "0d539cfd48ece20fe2b80c2d0085774ba7f7897e16ecaae862b469d8952b3246"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.cpp",
+      "sha256": "a9eaefd16cd38b8e06498350853089934c20a2a19ba1967e5316bdefa0d70998"
+    },
+    {
+      "path": "src\\timeline\\TimelineCanvas.h",
+      "sha256": "46f1ed63e3fccfe7bc8108b68bb468a294c9b92931ca0aae480c36b0979ef41a"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.cpp",
+      "sha256": "85beabbc53722952984e8a5c20bcbca4c517d717279eb08ff86022732d4629df"
+    },
+    {
+      "path": "src\\timeline\\TimelineWidget.h",
+      "sha256": "6bffc62ea27e2a6f9c993cebbef5d348fbb268ae678c84c382a0300fa6bf852c"
+    },
+    {
+      "path": "src\\ui\\TimeDisplay.h",
+      "sha256": "c112a7c18d4f1ccb6423143931bb6f9200cb867aaa200780476b054e0898c01b"
+    },
+    {
+      "path": "tests\\AdvancedEffectsTests.cpp",
+      "sha256": "d08cae567cc334821d76b5540cac7202580f769260dd135000c46674c95dab52"
+    },
+    {
+      "path": "tests\\AudioTitleTests.cpp",
+      "sha256": "335c11bc78156dc59ab1de1d6d864caad7e40b4fec4d9d48dc0071d04a37ca8e"
+    },
+    {
+      "path": "tests\\EffectsTests.cpp",
+      "sha256": "f55c136a5f99a32fb71e94e0d5bbd13fc9aee80bb68b2dc9bee68b3f30d743ed"
+    },
+    {
+      "path": "tests\\ExportTests.cpp",
+      "sha256": "6089d90b4ecc6d3c67865115420ba4fc45f0946b98c5e7e9e4707cc547ae9968"
+    },
+    {
+      "path": "tests\\MediaTests.cpp",
+      "sha256": "81f925b4208bde9e8aff96932cb94deaefd78ed0dd5992fae56a3fd3a1897d59"
+    },
+    {
+      "path": "tests\\PerformanceTests.cpp",
+      "sha256": "f766697c9d442a02c824df8a0fed340d10682706390bbba602d4c6b3830dd949"
+    },
+    {
+      "path": "tests\\PlaybackBenchmark.cpp",
+      "sha256": "c6b5fb1ea7b326b9c3ce524d9f54de09bdba8458ae191939bb157bbb6e91f08b"
+    },
+    {
+      "path": "tests\\PlaybackTests.cpp",
+      "sha256": "46f0070956f154564d7b2de96cfb2651250079e2054bb04ce80830e4f5910ad1"
+    },
+    {
+      "path": "tests\\ProjectTests.cpp",
+      "sha256": "2f4331f71b133e9062bd027ea7c493cf73223db6842ca411a32ceaeccb8e0844"
+    },
+    {
+      "path": "tests\\RecoveryTests.cpp",
+      "sha256": "f7c352a2ed31e4673bb8de9f1dfb8253e6b5384cd7a3a374d8c5b56b60dd8a9c"
+    },
+    {
+      "path": "tests\\TimelineTests.cpp",
+      "sha256": "0db684133dbfe57ef3540d991caca94333c46e0272caf619855c46f2b427fc65"
+    },
+    {
+      "path": "tests\\TimelineUiTests.cpp",
+      "sha256": "019785b5048464849703c6ddc81e7bd7a370423da4e26bd7616af211fc060bc2"
+    }
+  ],
+  "limitations": [
+    "Offscreen Qt checks do not establish Windows display scaling or visual polish",
+    "Host WASAPI API checks do not measure physical output latency or perceived audio quality",
+    "Optional audio effects, dynamics processing and loudness normalization are deferred"
+  ],
+  "failures": []
+}

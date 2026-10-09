@@ -1,0 +1,9 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/session-15
+    Start 14: export-device-compatibility
+1/2 Test #14: export-device-compatibility ......   Passed   12.84 sec
+    Start 15: export-encoder-catalog
+2/2 Test #15: export-encoder-catalog ...........   Passed   21.81 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =  34.69 sec

@@ -1,0 +1,825 @@
+{
+    "audioRmsError": 0.00010506399468450305,
+    "checkCount": 164,
+    "exports": [
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                    "bedbcc70-b6c9-4c7a-ad34-c5057de67dc0": 0.007855460833533395
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 2,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.16344214975833893,
+                "mixedSamples": 288000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "e54bd5a4-70db-41ad-9eee-9beb203d15ff": 0.007855460833533395,
+                    "fd0fe617-cfa2-4bde-a4aa-dc485821f2b3": 0.16344214975833893
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 350,
+            "error": "",
+            "frames": 180,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/reference.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 288000
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": true,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 1080,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "slow",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 1920
+            },
+            "elapsedMs": 154,
+            "error": "Export cancelled.",
+            "frames": 4,
+            "passed": false,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/cancelled.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 5120
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                    "bedbcc70-b6c9-4c7a-ad34-c5057de67dc0": 0.007855460833533395
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 2,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.16344214975833893,
+                "mixedSamples": 288000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "e54bd5a4-70db-41ad-9eee-9beb203d15ff": 0.007855460833533395,
+                    "fd0fe617-cfa2-4bde-a4aa-dc485821f2b3": 0.16344214975833893
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 337,
+            "error": "",
+            "frames": 180,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/cancelled.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 288000
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 206,
+            "error": "",
+            "frames": 180,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/video-only.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 0,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0,
+                "mixedSamples": 145746,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 24,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 66,
+            "error": "",
+            "frames": 73,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/fractional.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 145746
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.036264657974243164,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "51e52c69-817d-42e5-88cb-9bdd7f74b6bd": 0.036264657974243164
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 636,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-0.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.06978821754455566,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "115a21e4-4157-481c-bf2c-fe04cecab42f": 0.06978821754455566
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 460,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-1.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.06367405503988266,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "15686d64-518b-4966-a97d-4945bba222c3": 0.06367405503988266
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 352,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-2.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.03640199452638626,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "5b52a4f3-1570-4c3c-a603-c574e7b0a3e6": 0.03640199452638626
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 151,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-3.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "d01e03ad-9cf6-4867-bfe5-1e6595a1424e": 0
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 567,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-4.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.0350569486618042,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "f3f62bc7-b076-485b-b2e4-abc5c1eea5a6": 0.0350569486618042
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 243,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-5.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.08855707198381424,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "e1592999-1221-4d49-b017-bb654795a17b": 0.08855707198381424
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 225,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-6.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+                "busPeaks": {
+                },
+                "clippedSamples": 0,
+                "decoderHighWater": 1,
+                "decoderLimit": 64,
+                "error": "",
+                "masterPeak": 0.0910998210310936,
+                "mixedSamples": 19200,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8,
+                "trackPeaks": {
+                    "165d871d-13b1-4daf-b25a-a87de6821f14": 0.0910998210310936
+                }
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": true,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 474,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-7.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 19200
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 171,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-8.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 162,
+            "error": "",
+            "frames": 12,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/sample-9.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 1080,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 18,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 1920
+            },
+            "elapsedMs": 233,
+            "error": "",
+            "frames": 3,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-15.1/export-test-data/full-resolution.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        }
+    ],
+    "failures": [
+    ],
+    "limits": "RGB mean error <8/255; AAC RMS error <0.012; AAC tail <1024 samples; duration <2 ms at matching rate or <1 output frame when converting fps; human separate-player check pending",
+    "passed": true,
+    "pixelComparisons": [
+        {
+            "frame": 0,
+            "meanRgbError": 3.1327314814814815
+        },
+        {
+            "frame": 29,
+            "meanRgbError": 3.7917708333333335
+        },
+        {
+            "frame": 30,
+            "meanRgbError": 3.591730324074074
+        },
+        {
+            "frame": 59,
+            "meanRgbError": 3.9828125
+        },
+        {
+            "frame": 60,
+            "meanRgbError": 0.5311574074074074
+        },
+        {
+            "frame": 89,
+            "meanRgbError": 0.5305613425925926
+        },
+        {
+            "frame": 90,
+            "meanRgbError": 3.7850289351851854
+        },
+        {
+            "frame": 119,
+            "meanRgbError": 4.373449074074074
+        },
+        {
+            "frame": 120,
+            "meanRgbError": 0.0012962962962962963
+        },
+        {
+            "frame": 149,
+            "meanRgbError": 0.0012962962962962963
+        },
+        {
+            "frame": 150,
+            "meanRgbError": 3.794866898148148
+        },
+        {
+            "frame": 179,
+            "meanRgbError": 4.375219907407407
+        }
+    ]
+}

@@ -1,0 +1,273 @@
+-- The CXX compiler identification is MSVC 19.51.36244.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Performing Test HAVE_STDATOMIC
+-- Performing Test HAVE_STDATOMIC - Success
+-- Found WrapAtomic: TRUE
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (3.3s)
+-- Generating done (0.3s)
+-- Build files have been written to: B:/Coding/02-Projects/Tools/Video-Editor/build/session-10
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  qrc_export_presets_init.cpp
+  editor_export_resources_1.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\editor_export_resources_1.dir\Release\editor_export_resources_1.lib
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Recovery.cpp
+  Project.cpp
+  Time.cpp
+  ProjectStore.cpp
+  Compiling...
+  Project.cpp
+  Time.cpp
+  Recovery.cpp
+  ProjectStore.cpp
+  editor_project.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\editor_project.lib
+  Automatic MOC for target editor_media
+  Automatic MOC for target editor_playback
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Timeline.cpp
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Compiling...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Timeline.cpp
+  RuntimeInfo.cpp
+  AidCache.cpp
+  AudioMixer.cpp
+  AudioOutput.cpp
+  Inspection.cpp
+  RenderDescription.cpp
+  MonitorWidget.cpp
+  DecodeWorker.cpp
+  PlaybackController.cpp
+  Compiling...
+  Inspection.cpp
+  RuntimeInfo.cpp
+  AidCache.cpp
+  Compiling...
+  AudioOutput.cpp
+  AudioMixer.cpp
+  PlaybackController.cpp
+  MonitorWidget.cpp
+  DecodeWorker.cpp
+  RenderDescription.cpp
+  editor_timeline.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\editor_timeline.lib
+  Automatic MOC for target editor_timeline_ui
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  mocs_compilation_Release.cpp
+  TimelineCanvas.cpp
+  TimelineWidget.cpp
+  PropertyDialogs.cpp
+  mocs_compilation_Release.cpp
+  Compiling...
+  PropertyDialogs.cpp
+  TimelineWidget.cpp
+  TimelineCanvas.cpp
+  editor_playback.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\editor_playback.lib
+  Automatic MOC for target editor_export
+  editor_media.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\editor_media.lib
+  Running rcc for resource export_presets
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  qrc_export_presets.cpp
+  ExportDialog.cpp
+  ExportWorker.cpp
+  Compiling...
+  qrc_export_presets.cpp
+  ExportWorker.cpp
+  ExportDialog.cpp
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  editor_timeline_ui.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\editor_timeline_ui.lib
+  editor_export.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\editor_export.lib
+  Automatic MOC for target VideoEditor
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  main.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  mocs_compilation_Release.cpp
+  Generating Code...
+  VideoEditor.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\VideoEditor.exe
+EXEC : warning : Translations will not be available due to the following error. [B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\VideoEditor.vcxproj]
+  Cannot open B:/Coding/02-Projects/Tools/Video-Editor/.tools/qt/translations/catalogs.json
+  B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\VideoEditor.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Skipping plugin qtuiotouchplugin.dll due to skipped plugin type generic
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Direct dependencies: Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  Skipping system library C:/WINDOWS/system32/icuuc.dll
+  Updating Qt6Core.dll.
+  Updating Qt6Gui.dll.
+  Updating Qt6OpenGL.dll.
+  Updating Qt6OpenGLWidgets.dll.
+  Updating Qt6Widgets.dll.
+  Updating dxcompiler.dll.
+  Updating dxil.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-10/Release/imageformats.
+  Updating qgif.dll.
+  Updating qico.dll.
+  Updating qjpeg.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-10/Release/platforms.
+  Updating qwindows.dll.
+  Creating directory B:/Coding/02-Projects/Tools/Video-Editor/build/session-10/Release/styles.
+  Updating qmodernwindowsstyle.dll.
+  Automatic MOC for target ExportTests
+  Automatic MOC for target TimelineUiTests
+  Automatic MOC for target MediaTests
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  PlaybackTests.cpp
+  ProjectTests.cpp
+  AudioTitleTests.cpp
+  TimelineTests.cpp
+  PlaybackBenchmark.cpp
+  PerformanceTests.cpp
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Compiling...
+  Scanning sources for module dependencies...
+  Compiling...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Compiling...
+  Compiling...
+  TimelineTests.cpp
+  ProjectTests.cpp
+  MediaTests.cpp
+  Diagnostics.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  MainWindow.cpp
+  TimelineUiTests.cpp
+  AudioTitleTests.cpp
+  PlaybackTests.cpp
+  MainWindow.cpp
+  Diagnostics.cpp
+  ExportTests.cpp
+  Compiling...
+  Compiling...
+  PerformanceTests.cpp
+  PlaybackBenchmark.cpp
+  Compiling...
+  Compiling...
+  MediaTests.cpp
+  MainWindow.cpp
+  Diagnostics.cpp
+  MainWindow.cpp
+  TimelineUiTests.cpp
+  Compiling...
+  Diagnostics.cpp
+  MainWindow.cpp
+  Diagnostics.cpp
+  ExportTests.cpp
+B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(84,36): warning C4834: discarding return value of function with [[nodiscard]] attribute [B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\PerformanceTests.vcxproj]
+B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14): error C2672: 'std::erase_if': no matching overloaded function found [B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\PerformanceTests.vcxproj]
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\deque(1840,31):
+      could be 'deque<_Ty,_Alloc>::size_type std::erase_if(std::deque<_Ty,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'deque<_Ty,_Alloc>::size_type std::erase_if(std::deque<_Ty,_Alloc> &,_Pr)': could not deduce template argument for 'std::deque<_Ty,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\unordered_set(724,62):
+      or       'unordered_multiset<_Kty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_multiset<_Kty,_Hasher,_Keyeq,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'unordered_multiset<_Kty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_multiset<_Kty,_Hasher,_Keyeq,_Alloc> &,_Pr)': could not deduce template argument for 'std::unordered_multiset<_Kty,_Hasher,_Keyeq,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\unordered_set(381,57):
+      or       'unordered_set<_Kty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_set<_Kty,_Hasher,_Keyeq,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'unordered_set<_Kty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_set<_Kty,_Hasher,_Keyeq,_Alloc> &,_Pr)': could not deduce template argument for 'std::unordered_set<_Kty,_Hasher,_Keyeq,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\set(470,43):
+      or       'multiset<_Kty,_Pr,_Alloc>::size_type std::erase_if(std::multiset<_Kty,_Pr,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'multiset<_Kty,_Pr,_Alloc>::size_type std::erase_if(std::multiset<_Kty,_Pr,_Alloc> &,_Pr)': could not deduce template argument for 'std::multiset<_Kty,_Pr,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\set(255,38):
+      or       'set<_Kty,_Pr,_Alloc>::size_type std::erase_if(std::set<_Kty,_Pr,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'set<_Kty,_Pr,_Alloc>::size_type std::erase_if(std::set<_Kty,_Pr,_Alloc> &,_Pr)': could not deduce template argument for 'std::set<_Kty,_Pr,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\forward_list(1635,38):
+      or       'forward_list<_Ty,_Alloc>::size_type std::erase_if(std::forward_list<_Ty,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'forward_list<_Ty,_Alloc>::size_type std::erase_if(std::forward_list<_Ty,_Alloc> &,_Pr)': could not deduce template argument for 'std::forward_list<_Ty,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\map(683,48):
+      or       'multimap<_Kty,_Ty,_Pr,_Alloc>::size_type std::erase_if(std::multimap<_Kty,_Ty,_Pr,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'multimap<_Kty,_Ty,_Pr,_Alloc>::size_type std::erase_if(std::multimap<_Kty,_Ty,_Pr,_Alloc> &,_Pr)': could not deduce template argument for 'std::multimap<_Kty,_Ty,_Pr,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\map(447,43):
+      or       'map<_Kty,_Ty,_Pr,_Alloc>::size_type std::erase_if(std::map<_Kty,_Ty,_Pr,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'map<_Kty,_Ty,_Pr,_Alloc>::size_type std::erase_if(std::map<_Kty,_Ty,_Pr,_Alloc> &,_Pr)': could not deduce template argument for 'std::map<_Kty,_Ty,_Pr,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\xstring(3616,59):
+      or       'basic_string<_Elem,_Traits,_Alloc>::size_type std::erase_if(std::basic_string<_Elem,_Traits,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'basic_string<_Elem,_Traits,_Alloc>::size_type std::erase_if(std::basic_string<_Elem,_Traits,_Alloc> &,_Pr)': could not deduce template argument for 'std::basic_string<_Elem,_Traits,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\unordered_map(896,67):
+      or       'unordered_multimap<_Kty,_Ty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_multimap<_Kty,_Ty,_Hasher,_Keyeq,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'unordered_multimap<_Kty,_Ty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_multimap<_Kty,_Ty,_Hasher,_Keyeq,_Alloc> &,_Pr)': could not deduce template argument for 'std::unordered_multimap<_Kty,_Ty,_Hasher,_Keyeq,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\unordered_map(525,62):
+      or       'unordered_map<_Kty,_Ty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_map<_Kty,_Ty,_Hasher,_Keyeq,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'unordered_map<_Kty,_Ty,_Hasher,_Keyeq,_Alloc>::size_type std::erase_if(std::unordered_map<_Kty,_Ty,_Hasher,_Keyeq,_Alloc> &,_Pr)': could not deduce template argument for 'std::unordered_map<_Kty,_Ty,_Hasher,_Keyeq,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\vector(2417,42):
+      or       'vector<_Ty,_Alloc>::size_type std::erase_if(std::vector<_Ty,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'vector<_Ty,_Alloc>::size_type std::erase_if(std::vector<_Ty,_Alloc> &,_Pr)': could not deduce template argument for 'std::vector<_Ty,_Alloc> &' from 'QList<editor::project::Clip>'
+      C:\Program Files\Microsoft Visual Studio\18\Community\VC\Tools\MSVC\14.51.36231\include\list(1936,30):
+      or       'list<_Ty,_Alloc>::size_type std::erase_if(std::list<_Ty,_Alloc> &,_Pr)'
+          B:\Coding\02-Projects\Tools\Video-Editor\tests\PerformanceTests.cpp(157,14):
+          'list<_Ty,_Alloc>::size_type std::erase_if(std::list<_Ty,_Alloc> &,_Pr)': could not deduce template argument for 'std::list<_Ty,_Alloc> &' from 'QList<editor::project::Clip>'
+  
+  ProjectTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\ProjectTests.exe
+  PlaybackBenchmark.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\PlaybackBenchmark.exe
+  TimelineTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\TimelineTests.exe
+  PlaybackTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\PlaybackTests.exe
+  AudioTitleTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\AudioTitleTests.exe
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  mocs_compilation_Release.cpp
+  MediaTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\MediaTests.exe
+  TimelineUiTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\TimelineUiTests.exe
+  Automatic MOC for target RecoveryTests
+  ExportTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\ExportTests.exe
+  Building Custom Rule B:/Coding/02-Projects/Tools/Video-Editor/CMakeLists.txt
+  Scanning sources for module dependencies...
+  RecoveryTests.cpp
+  MainWindow.cpp
+  Diagnostics.cpp
+  Compiling...
+  Diagnostics.cpp
+  RecoveryTests.cpp
+  MainWindow.cpp
+  mocs_compilation_Release.cpp
+  RecoveryTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-10\Release\RecoveryTests.exe

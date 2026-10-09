@@ -1,0 +1,327 @@
+{
+  "format": "LocalVideoTools.VideoEditor",
+  "schemaVersion": 2,
+  "id": "00000000-0000-4000-8000-000000000001",
+  "name": "Session 4 deterministic editing fixture",
+  "activeSequenceId": "00000000-0000-4000-8000-000000000002",
+  "media": [
+    {
+      "id": "00000000-0000-4000-8000-000000000010",
+      "name": "Synthetic 23.976 video with 48 kHz audio",
+      "path": "synthetic/film.mp4",
+      "container": "mp4",
+      "sizeBytes": "1000",
+      "streams": [
+        {
+          "index": 0,
+          "kind": "video",
+          "codec": "h264",
+          "timeBase": {
+            "numerator": "1",
+            "denominator": "90000"
+          },
+          "frameRate": {
+            "numerator": "24000",
+            "denominator": "1001"
+          },
+          "startTicks": "-9000",
+          "durationTicks": "9000000",
+          "width": 1920,
+          "height": 1080,
+          "bitDepth": 8,
+          "sampleRate": 0,
+          "channels": 0,
+          "rotation": 0,
+          "variableFrameRate": false
+        },
+        {
+          "index": 1,
+          "kind": "audio",
+          "codec": "aac",
+          "timeBase": {
+            "numerator": "1",
+            "denominator": "48000"
+          },
+          "frameRate": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "startTicks": "0",
+          "durationTicks": "4800000",
+          "width": 0,
+          "height": 0,
+          "bitDepth": 0,
+          "sampleRate": 48000,
+          "channels": 2,
+          "rotation": 0,
+          "variableFrameRate": false
+        }
+      ]
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000011",
+      "name": "Synthetic 44.1 kHz audio",
+      "path": "synthetic/music.flac",
+      "container": "flac",
+      "sizeBytes": "1000",
+      "streams": [
+        {
+          "index": 0,
+          "kind": "audio",
+          "codec": "flac",
+          "timeBase": {
+            "numerator": "1",
+            "denominator": "44100"
+          },
+          "frameRate": {
+            "numerator": "0",
+            "denominator": "1"
+          },
+          "startTicks": "0",
+          "durationTicks": "4410000",
+          "width": 0,
+          "height": 0,
+          "bitDepth": 24,
+          "sampleRate": 44100,
+          "channels": 2,
+          "rotation": 0,
+          "variableFrameRate": false
+        }
+      ]
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000012",
+      "name": "Synthetic 144 fps video",
+      "path": "synthetic/high-rate.mp4",
+      "container": "mp4",
+      "sizeBytes": "1000",
+      "streams": [
+        {
+          "index": 0,
+          "kind": "video",
+          "codec": "h264",
+          "timeBase": {
+            "numerator": "1",
+            "denominator": "144000"
+          },
+          "frameRate": {
+            "numerator": "144",
+            "denominator": "1"
+          },
+          "startTicks": "-9000",
+          "durationTicks": "14400000",
+          "width": 1920,
+          "height": 1080,
+          "bitDepth": 8,
+          "sampleRate": 0,
+          "channels": 0,
+          "rotation": 0,
+          "variableFrameRate": false
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "id": "00000000-0000-4000-8000-000000000020",
+      "text": "First cut\nשלום",
+      "fontFamily": "Segoe UI",
+      "fontSize": 48,
+      "alignment": "center",
+      "color": "#fffefefe",
+      "background": "#80000000",
+      "x": 0.5,
+      "y": 0.75,
+      "shadow": true
+    }
+  ],
+  "sequences": [
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "name": "Mixed-rate edit",
+      "frameRate": {
+        "numerator": "30000",
+        "denominator": "1001"
+      },
+      "durationFrames": "180",
+      "width": 1920,
+      "height": 1080,
+      "sampleRate": 48000,
+      "tracks": [
+        {
+          "id": "00000000-0000-4000-8000-000000000030",
+          "name": "Video 1",
+          "kind": "video",
+          "enabled": true,
+          "locked": false,
+          "muted": false,
+          "solo": false,
+          "gain": 1,
+          "clips": [
+            {
+              "id": "00000000-0000-4000-8000-000000000040",
+              "name": "Film clip",
+              "kind": "video",
+              "mediaId": "00000000-0000-4000-8000-000000000010",
+              "titleId": "",
+              "streamIndex": 0,
+              "startFrame": "10",
+              "durationFrames": "60",
+              "sourceInTicks": "90090",
+              "sourceDurationTicks": "180180",
+              "gain": 1,
+              "muted": false,
+              "effects": [
+                {
+                  "id": "00000000-0000-4000-8000-000000000050",
+                  "type": "opacity",
+                  "version": 1,
+                  "enabled": true,
+                  "parameters": {
+                    "value": 0.75,
+                    "futurePayload": {
+                      "label": "preserved",
+                      "values": [
+                        1,
+                        true,
+                        null
+                      ]
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "00000000-0000-4000-8000-000000000044",
+              "name": "High-rate clip after gap",
+              "kind": "video",
+              "mediaId": "00000000-0000-4000-8000-000000000012",
+              "titleId": "",
+              "streamIndex": 0,
+              "startFrame": "100",
+              "durationFrames": "30",
+              "sourceInTicks": "144144",
+              "sourceDurationTicks": "144144",
+              "gain": 1,
+              "muted": false,
+              "effects": []
+            },
+            {
+              "id": "00000000-0000-4000-8000-000000000045",
+              "name": "Overlap",
+              "kind": "video",
+              "mediaId": "00000000-0000-4000-8000-000000000012",
+              "titleId": "",
+              "streamIndex": 0,
+              "startFrame": "50",
+              "durationFrames": "40",
+              "sourceInTicks": "144144",
+              "sourceDurationTicks": "192192",
+              "gain": 1,
+              "muted": false,
+              "effects": []
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-4000-8000-000000000031",
+          "name": "Recorded audio",
+          "kind": "audio",
+          "enabled": true,
+          "locked": false,
+          "muted": false,
+          "solo": false,
+          "gain": 0.75,
+          "clips": [
+            {
+              "id": "00000000-0000-4000-8000-000000000041",
+              "name": "Sound",
+              "kind": "audio",
+              "mediaId": "00000000-0000-4000-8000-000000000010",
+              "titleId": "",
+              "streamIndex": 1,
+              "startFrame": "0",
+              "durationFrames": "150",
+              "sourceInTicks": "48000",
+              "sourceDurationTicks": "240240",
+              "gain": 0.5,
+              "muted": false,
+              "effects": []
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-4000-8000-000000000032",
+          "name": "Music",
+          "kind": "audio",
+          "enabled": false,
+          "locked": false,
+          "muted": true,
+          "solo": true,
+          "gain": 1.25,
+          "clips": [
+            {
+              "id": "00000000-0000-4000-8000-000000000042",
+              "name": "Music bed",
+              "kind": "audio",
+              "mediaId": "00000000-0000-4000-8000-000000000011",
+              "titleId": "",
+              "streamIndex": 0,
+              "startFrame": "30",
+              "durationFrames": "120",
+              "sourceInTicks": "0",
+              "sourceDurationTicks": "176576",
+              "gain": 0.25,
+              "muted": true,
+              "effects": []
+            }
+          ]
+        },
+        {
+          "id": "00000000-0000-4000-8000-000000000033",
+          "name": "Titles",
+          "kind": "title",
+          "enabled": true,
+          "locked": false,
+          "muted": false,
+          "solo": false,
+          "gain": 1,
+          "clips": [
+            {
+              "id": "00000000-0000-4000-8000-000000000043",
+              "name": "Opening title",
+              "kind": "title",
+              "mediaId": "",
+              "titleId": "00000000-0000-4000-8000-000000000020",
+              "streamIndex": 0,
+              "startFrame": "0",
+              "durationFrames": "30",
+              "sourceInTicks": "0",
+              "sourceDurationTicks": "0",
+              "gain": 1,
+              "muted": false,
+              "effects": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exportSettings": {
+    "container": "mp4",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "preset": "medium",
+    "outputPath": "exports/result.mp4",
+    "width": 1920,
+    "height": 1080,
+    "sampleRate": 48000,
+    "channels": 2,
+    "quality": 20,
+    "frameRate": {
+      "numerator": "30000",
+      "denominator": "1001"
+    },
+    "audioEnabled": true
+  }
+}

@@ -1,0 +1,3 @@
+Input: B:\Coding\02-Projects\Tools\Video-Editor\fixtures\generated\pinned\synthetic-rotation90-h264.mp4
+Scope: first 5 seconds (whole file for shorter fixtures); CPU video and all audio streams
+Exit code: 0

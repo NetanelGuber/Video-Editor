@@ -1,0 +1,123 @@
+{
+    "cpuOneCorePercent": 81.07,
+    "decoder": {
+        "conversionUs": 1202807,
+        "decoded": 726,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 9,
+        "path": "CPU",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 22118400,
+        "queueBytesHighWater": 22118400,
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 4993000,
+    "meanPresentationUs": 340.4875,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 108556288,
+        "privateBytes": 96342016,
+        "workingSetBytes": 108556288
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 37011456,
+        "privateBytes": 23535616,
+        "workingSetBytes": 35639296
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 2,
+            "peakWorkingSetBytes": 70905856,
+            "privateBytes": 60141568,
+            "workingSetBytes": 70905856
+        },
+        {
+            "elapsedMs": 501,
+            "peakWorkingSetBytes": 101289984,
+            "privateBytes": 89067520,
+            "workingSetBytes": 101289984
+        },
+        {
+            "elapsedMs": 1001,
+            "peakWorkingSetBytes": 101294080,
+            "privateBytes": 89067520,
+            "workingSetBytes": 101294080
+        },
+        {
+            "elapsedMs": 1500,
+            "peakWorkingSetBytes": 102338560,
+            "privateBytes": 90116096,
+            "workingSetBytes": 102338560
+        },
+        {
+            "elapsedMs": 2001,
+            "peakWorkingSetBytes": 102764544,
+            "privateBytes": 90537984,
+            "workingSetBytes": 102764544
+        },
+        {
+            "elapsedMs": 2501,
+            "peakWorkingSetBytes": 103813120,
+            "privateBytes": 91590656,
+            "workingSetBytes": 103813120
+        },
+        {
+            "elapsedMs": 3001,
+            "peakWorkingSetBytes": 103813120,
+            "privateBytes": 91590656,
+            "workingSetBytes": 103813120
+        },
+        {
+            "elapsedMs": 3501,
+            "peakWorkingSetBytes": 103813120,
+            "privateBytes": 91590656,
+            "workingSetBytes": 103813120
+        },
+        {
+            "elapsedMs": 4000,
+            "peakWorkingSetBytes": 103813120,
+            "privateBytes": 91594752,
+            "workingSetBytes": 103813120
+        },
+        {
+            "elapsedMs": 4500,
+            "peakWorkingSetBytes": 104861696,
+            "privateBytes": 92647424,
+            "workingSetBytes": 104861696
+        },
+        {
+            "elapsedMs": 5000,
+            "peakWorkingSetBytes": 104861696,
+            "privateBytes": 92643328,
+            "workingSetBytes": 104861696
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Videos\\Butiti II - 37% to 100%.mkv",
+    "playbackWallMs": 5000,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 720,
+    "requestedDecode": "cpu",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 3367,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 392,
+        "path": "CPU",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 0,
+        "queueBytesHighWater": 3686400,
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 394,
+    "startupMs": 11
+}

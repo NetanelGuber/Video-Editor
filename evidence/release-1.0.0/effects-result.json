@@ -1,0 +1,303 @@
+{
+    "checks": 979,
+    "comparisons": [
+        {
+            "frame": 0,
+            "meanRgbError": 0.6370370370370371
+        },
+        {
+            "frame": 29,
+            "meanRgbError": 0.6370370370370371
+        },
+        {
+            "frame": 30,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 59,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 60,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 89,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 90,
+            "meanRgbError": 1.651851851851852
+        },
+        {
+            "frame": 119,
+            "meanRgbError": 1.6666666666666667
+        },
+        {
+            "frame": 120,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 149,
+            "meanRgbError": 1.6666666666666667
+        },
+        {
+            "frame": 150,
+            "meanRgbError": 0.6370370370370371
+        },
+        {
+            "frame": 179,
+            "meanRgbError": 0.6370370370370371
+        },
+        {
+            "frame": 180,
+            "meanRgbError": 0.6370370370370371
+        },
+        {
+            "frame": 209,
+            "meanRgbError": 0.6222222222222222
+        },
+        {
+            "frame": 210,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 239,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 240,
+            "meanRgbError": 0.3333333333333333
+        },
+        {
+            "frame": 269,
+            "meanRgbError": 0.3333333333333333
+        },
+        {
+            "frame": 270,
+            "meanRgbError": 0.6370370370370371
+        },
+        {
+            "frame": 299,
+            "meanRgbError": 0.6666666666666666
+        },
+        {
+            "frame": 300,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 329,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 330,
+            "meanRgbError": 0
+        },
+        {
+            "frame": 359,
+            "meanRgbError": 1.6666666666666667
+        }
+    ],
+    "evidence": "Native deterministic model, raster pixels, production Qt offscreen dialog/playback, independently decoded H.264 exports. No computer use or human visual acceptance.",
+    "exports": [
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 257,
+            "error": "",
+            "frames": 360,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/effects-test-data/effects-reference.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 217,
+            "error": "",
+            "frames": 360,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/effects-test-data/split.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 219,
+            "error": "",
+            "frames": 360,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/effects-test-data/trim-move.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1001,
+                "rateNum": 30000,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 64,
+            "error": "",
+            "frames": 30,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/effects-test-data/fractional.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        },
+        {
+            "actualEncoder": "libx264",
+            "audioMix": {
+            },
+            "cancelled": false,
+            "capabilityWarning": "",
+            "compatibilityProfile": "compatible-mp4",
+            "configuration": {
+                "audio": false,
+                "audioBitrate": 192000,
+                "audioCodec": "aac",
+                "audioEncoder": "aac",
+                "channels": 2,
+                "codec": "h264",
+                "container": "mp4",
+                "encoder": "libx264",
+                "height": 180,
+                "options": {
+                },
+                "pixel": "auto",
+                "preset": "veryfast",
+                "quality": 10,
+                "qualityMode": "native",
+                "rateDen": 1,
+                "rateNum": 30,
+                "requestedEncoder": "software",
+                "sampleRate": 48000,
+                "target": "compatible-mp4",
+                "width": 320
+            },
+            "elapsedMs": 57,
+            "error": "",
+            "frames": 30,
+            "passed": true,
+            "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.0/effects-test-data/title-effects.mp4",
+            "pixelFormat": "yuv420p",
+            "requestedEncoder": "software",
+            "samples": 0
+        }
+    ],
+    "failures": [
+    ],
+    "passed": true,
+    "worstExportMeanRgbError": 2
+}

@@ -1,0 +1,63 @@
+MSBuild version 18.6.3+84d3e95b4 for .NET Framework
+
+  Scanning sources for module dependencies...
+  editor_project.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\editor_project.lib
+  Automatic MOC for target editor_playback
+  Automatic MOC for target editor_media
+  Scanning sources for module dependencies...
+  editor_timeline.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\editor_timeline.lib
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  editor_media.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\editor_media.lib
+  MonitorWidget.cpp
+  DecodeWorker.cpp
+  Compiling...
+  MonitorWidget.cpp
+  DecodeWorker.cpp
+  editor_playback.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\editor_playback.lib
+  Automatic MOC for target VideoEditor
+  main.cpp
+  VideoEditor.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\VideoEditor.exe
+EXEC : warning : Translations will not be available due to the following error. [B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\VideoEditor.vcxproj]
+  Cannot open B:/Coding/02-Projects/Tools/Video-Editor/.tools/qt/translations/catalogs.json
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-5/Release/avutil-61.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-5/Release/avformat-63.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-5/Release/avcodec-63.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-5/Release/swscale-10.dll
+  Adding local dependencyB:/Coding/02-Projects/Tools/Video-Editor/build/session-5/Release/swresample-7.dll
+  B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\VideoEditor.exe 64 bit, release executable
+  Adding in plugin type generic for module: Qt6Gui
+  Skipping plugin qtuiotouchplugin.dll due to skipped plugin type generic
+  Adding in plugin type imageformats for module: Qt6Gui
+  Adding in plugin type platforms for module: Qt6Gui
+  Adding in plugin type styles for module: Qt6Widgets
+  Direct dependencies: Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  All dependencies   : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  To be deployed     : Qt6Core Qt6Gui Qt6OpenGL Qt6OpenGLWidgets Qt6Widgets
+  Skipping system library C:/WINDOWS/system32/icuuc.dll
+  Qt6Core.dll is up to date.
+  Qt6Gui.dll is up to date.
+  Qt6OpenGL.dll is up to date.
+  Qt6OpenGLWidgets.dll is up to date.
+  Qt6Widgets.dll is up to date.
+  dxcompiler.dll is up to date.
+  dxil.dll is up to date.
+  qgif.dll is up to date.
+  qico.dll is up to date.
+  qjpeg.dll is up to date.
+  qwindows.dll is up to date.
+  qmodernwindowsstyle.dll is up to date.
+  Automatic MOC for target MediaTests
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  Scanning sources for module dependencies...
+  TimelineTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\TimelineTests.exe
+  ProjectTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\ProjectTests.exe
+  PlaybackTests.cpp
+  Scanning sources for module dependencies...
+  PlaybackBenchmark.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\PlaybackBenchmark.exe
+  Compiling...
+  PlaybackTests.cpp
+  MediaTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\MediaTests.exe
+  PlaybackTests.vcxproj -> B:\Coding\02-Projects\Tools\Video-Editor\build\session-5\Release\PlaybackTests.exe

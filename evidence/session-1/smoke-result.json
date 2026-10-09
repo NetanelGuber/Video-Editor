@@ -1,0 +1,13 @@
+{
+    "errorDialogVerified": true,
+    "evidenceLevel": "Automated offscreen Qt Widgets startup/error/layout persistence; no visual or human acceptance",
+    "failures": [
+    ],
+    "ffmpeg": "9.0.2-full_build-www.gyan.dev",
+    "log": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/smoke-data/logs/video-editor-20261006-192032-477-16624.log",
+    "passed": true,
+    "platform": "offscreen",
+    "qt": "6.11.3",
+    "settings": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-1/smoke-data/settings.ini",
+    "version": "0.1.0"
+}

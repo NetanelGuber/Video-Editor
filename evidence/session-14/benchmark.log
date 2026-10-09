@@ -1,0 +1,3 @@
+Passed; summary of the verified measurements in multicam-benchmark.json.
+CPU: 179 frames in 6435 ms; maximum camera skew 23667 us; seeks 730, 76 ms; working set 191746048 bytes.
+D3D11VA: 179 frames in 6197 ms; maximum camera skew 21222 us; seeks 482, 263 ms; working set 267812864 bytes.

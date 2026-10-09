@@ -1,0 +1,542 @@
+{
+    "benchmarks": [
+        {
+            "controller": {
+                "audioDecode": {
+                    "busPeaks": {
+                    },
+                    "clippedSamples": 0,
+                    "decoderHighWater": 2,
+                    "decoderLimit": 64,
+                    "error": "",
+                    "masterPeak": 0,
+                    "mixedSamples": 960000,
+                    "path": "48 kHz stereo sequence mixer",
+                    "queueHighWater": 8,
+                    "queueLimit": 8,
+                    "trackPeaks": {
+                    }
+                },
+                "audioOutput": {
+                    "available": true,
+                    "backend": "WASAPI shared / 48 kHz float stereo",
+                    "error": "",
+                    "positionUs": 20000000,
+                    "underruns": 0
+                },
+                "buffering": false,
+                "dropped": 0,
+                "maxUiTickGapMs": 8,
+                "pipelineStarts": 5,
+                "playing": false,
+                "positionUs": 20000000,
+                "presented": 604,
+                "previewFpsLimit": 30,
+                "previewHeight": 720,
+                "previewWidth": 1280,
+                "synchronizedBufferWaits": 0,
+                "videoBudgetBytes": 33554432,
+                "videoLayers": [
+                ],
+                "videoPtsUs": {
+                },
+                "visualError": ""
+            },
+            "cpuOneCorePercent": 62.24695091472558,
+            "decode": "CPU",
+            "lastVideo": {
+                "conversionUs": 254711,
+                "decoded": 60,
+                "error": "",
+                "fallback": "",
+                "firstFrameMs": 47,
+                "path": "CPU",
+                "queueBudgetBytes": 33554432,
+                "queueBytes": 0,
+                "queueBytesHighWater": 22118400,
+                "queueHighWater": 6,
+                "queueLimit": 6
+            },
+            "memorySamples": [
+                {
+                    "ms": 0,
+                    "workingSetBytes": 120836096
+                },
+                {
+                    "ms": 500,
+                    "workingSetBytes": 144281600
+                },
+                {
+                    "ms": 1000,
+                    "workingSetBytes": 144281600
+                },
+                {
+                    "ms": 1500,
+                    "workingSetBytes": 142303232
+                },
+                {
+                    "ms": 2000,
+                    "workingSetBytes": 53010432
+                },
+                {
+                    "ms": 2501,
+                    "workingSetBytes": 297013248
+                },
+                {
+                    "ms": 3000,
+                    "workingSetBytes": 297013248
+                },
+                {
+                    "ms": 3501,
+                    "workingSetBytes": 295907328
+                },
+                {
+                    "ms": 4001,
+                    "workingSetBytes": 53641216
+                },
+                {
+                    "ms": 4500,
+                    "workingSetBytes": 144125952
+                },
+                {
+                    "ms": 5001,
+                    "workingSetBytes": 144125952
+                },
+                {
+                    "ms": 5500,
+                    "workingSetBytes": 142168064
+                },
+                {
+                    "ms": 6000,
+                    "workingSetBytes": 52944896
+                },
+                {
+                    "ms": 6500,
+                    "workingSetBytes": 296923136
+                },
+                {
+                    "ms": 7000,
+                    "workingSetBytes": 295215104
+                },
+                {
+                    "ms": 7500,
+                    "workingSetBytes": 296030208
+                },
+                {
+                    "ms": 8001,
+                    "workingSetBytes": 53669888
+                },
+                {
+                    "ms": 8501,
+                    "workingSetBytes": 144130048
+                },
+                {
+                    "ms": 9000,
+                    "workingSetBytes": 144130048
+                },
+                {
+                    "ms": 9500,
+                    "workingSetBytes": 142143488
+                },
+                {
+                    "ms": 10000,
+                    "workingSetBytes": 53161984
+                },
+                {
+                    "ms": 10500,
+                    "workingSetBytes": 297046016
+                },
+                {
+                    "ms": 11001,
+                    "workingSetBytes": 297046016
+                },
+                {
+                    "ms": 11501,
+                    "workingSetBytes": 296124416
+                },
+                {
+                    "ms": 12003,
+                    "workingSetBytes": 51961856
+                },
+                {
+                    "ms": 12500,
+                    "workingSetBytes": 145100800
+                },
+                {
+                    "ms": 13001,
+                    "workingSetBytes": 145104896
+                },
+                {
+                    "ms": 13501,
+                    "workingSetBytes": 143110144
+                },
+                {
+                    "ms": 14000,
+                    "workingSetBytes": 53161984
+                },
+                {
+                    "ms": 14500,
+                    "workingSetBytes": 295362560
+                },
+                {
+                    "ms": 15000,
+                    "workingSetBytes": 295546880
+                },
+                {
+                    "ms": 15500,
+                    "workingSetBytes": 296181760
+                },
+                {
+                    "ms": 16001,
+                    "workingSetBytes": 53846016
+                },
+                {
+                    "ms": 16501,
+                    "workingSetBytes": 144830464
+                },
+                {
+                    "ms": 17001,
+                    "workingSetBytes": 144850944
+                },
+                {
+                    "ms": 17501,
+                    "workingSetBytes": 142614528
+                },
+                {
+                    "ms": 18001,
+                    "workingSetBytes": 51687424
+                },
+                {
+                    "ms": 18501,
+                    "workingSetBytes": 297078784
+                },
+                {
+                    "ms": 19001,
+                    "workingSetBytes": 297033728
+                },
+                {
+                    "ms": 19500,
+                    "workingSetBytes": 296259584
+                },
+                {
+                    "ms": 20001,
+                    "workingSetBytes": 51642368
+                }
+            ],
+            "peakQueueBytes": 22118400,
+            "peakWorkingSetBytes": 297078784,
+            "presented": 599,
+            "presentedFps": 29.941017694691592,
+            "seekMs": [
+                89,
+                469,
+                449,
+                61
+            ],
+            "startupMs": 42,
+            "wallMs": 20006
+        },
+        {
+            "controller": {
+                "audioDecode": {
+                    "busPeaks": {
+                    },
+                    "clippedSamples": 0,
+                    "decoderHighWater": 2,
+                    "decoderLimit": 64,
+                    "error": "",
+                    "masterPeak": 0,
+                    "mixedSamples": 960000,
+                    "path": "48 kHz stereo sequence mixer",
+                    "queueHighWater": 8,
+                    "queueLimit": 8,
+                    "trackPeaks": {
+                    }
+                },
+                "audioOutput": {
+                    "available": true,
+                    "backend": "WASAPI shared / 48 kHz float stereo",
+                    "error": "",
+                    "positionUs": 20000000,
+                    "underruns": 0
+                },
+                "buffering": false,
+                "dropped": 0,
+                "maxUiTickGapMs": 9,
+                "pipelineStarts": 5,
+                "playing": false,
+                "positionUs": 20000000,
+                "presented": 604,
+                "previewFpsLimit": 30,
+                "previewHeight": 720,
+                "previewWidth": 1280,
+                "synchronizedBufferWaits": 0,
+                "videoBudgetBytes": 33554432,
+                "videoLayers": [
+                ],
+                "videoPtsUs": {
+                },
+                "visualError": ""
+            },
+            "cpuOneCorePercent": 45.13368315842079,
+            "decode": "D3D11VA",
+            "lastVideo": {
+                "conversionUs": 273897,
+                "decoded": 60,
+                "error": "",
+                "fallback": "",
+                "firstFrameMs": 60,
+                "path": "D3D11VA + CPU transfer/conversion",
+                "queueBudgetBytes": 33554432,
+                "queueBytes": 0,
+                "queueBytesHighWater": 22118400,
+                "queueHighWater": 6,
+                "queueLimit": 6
+            },
+            "memorySamples": [
+                {
+                    "ms": 0,
+                    "workingSetBytes": 159518720
+                },
+                {
+                    "ms": 501,
+                    "workingSetBytes": 188870656
+                },
+                {
+                    "ms": 1001,
+                    "workingSetBytes": 188862464
+                },
+                {
+                    "ms": 1501,
+                    "workingSetBytes": 187355136
+                },
+                {
+                    "ms": 2001,
+                    "workingSetBytes": 106958848
+                },
+                {
+                    "ms": 2501,
+                    "workingSetBytes": 216727552
+                },
+                {
+                    "ms": 3000,
+                    "workingSetBytes": 216760320
+                },
+                {
+                    "ms": 3501,
+                    "workingSetBytes": 216743936
+                },
+                {
+                    "ms": 4001,
+                    "workingSetBytes": 108945408
+                },
+                {
+                    "ms": 4501,
+                    "workingSetBytes": 190689280
+                },
+                {
+                    "ms": 5001,
+                    "workingSetBytes": 188706816
+                },
+                {
+                    "ms": 5501,
+                    "workingSetBytes": 187097088
+                },
+                {
+                    "ms": 6000,
+                    "workingSetBytes": 107077632
+                },
+                {
+                    "ms": 6501,
+                    "workingSetBytes": 241475584
+                },
+                {
+                    "ms": 7000,
+                    "workingSetBytes": 223424512
+                },
+                {
+                    "ms": 7500,
+                    "workingSetBytes": 223416320
+                },
+                {
+                    "ms": 8000,
+                    "workingSetBytes": 115621888
+                },
+                {
+                    "ms": 8500,
+                    "workingSetBytes": 197152768
+                },
+                {
+                    "ms": 9001,
+                    "workingSetBytes": 197124096
+                },
+                {
+                    "ms": 9501,
+                    "workingSetBytes": 197156864
+                },
+                {
+                    "ms": 10000,
+                    "workingSetBytes": 115240960
+                },
+                {
+                    "ms": 10500,
+                    "workingSetBytes": 248954880
+                },
+                {
+                    "ms": 11000,
+                    "workingSetBytes": 248938496
+                },
+                {
+                    "ms": 11501,
+                    "workingSetBytes": 248913920
+                },
+                {
+                    "ms": 12001,
+                    "workingSetBytes": 148189184
+                },
+                {
+                    "ms": 12501,
+                    "workingSetBytes": 221888512
+                },
+                {
+                    "ms": 13001,
+                    "workingSetBytes": 198094848
+                },
+                {
+                    "ms": 13501,
+                    "workingSetBytes": 181002240
+                },
+                {
+                    "ms": 14001,
+                    "workingSetBytes": 101220352
+                },
+                {
+                    "ms": 14500,
+                    "workingSetBytes": 224866304
+                },
+                {
+                    "ms": 15000,
+                    "workingSetBytes": 224882688
+                },
+                {
+                    "ms": 15501,
+                    "workingSetBytes": 224817152
+                },
+                {
+                    "ms": 16000,
+                    "workingSetBytes": 124891136
+                },
+                {
+                    "ms": 16501,
+                    "workingSetBytes": 199499776
+                },
+                {
+                    "ms": 17000,
+                    "workingSetBytes": 199483392
+                },
+                {
+                    "ms": 17500,
+                    "workingSetBytes": 197865472
+                },
+                {
+                    "ms": 18000,
+                    "workingSetBytes": 117182464
+                },
+                {
+                    "ms": 18501,
+                    "workingSetBytes": 224768000
+                },
+                {
+                    "ms": 19001,
+                    "workingSetBytes": 224727040
+                },
+                {
+                    "ms": 19501,
+                    "workingSetBytes": 224731136
+                },
+                {
+                    "ms": 20001,
+                    "workingSetBytes": 114286592
+                }
+            ],
+            "peakQueueBytes": 22118400,
+            "peakWorkingSetBytes": 248954880,
+            "presented": 599,
+            "presentedFps": 29.93503248375812,
+            "seekMs": [
+                135,
+                173,
+                190,
+                105
+            ],
+            "startupMs": 96,
+            "wallMs": 20010
+        }
+    ],
+    "cacheColdMs": 65,
+    "cacheWarmMs": 22,
+    "checkCount": 78,
+    "evidenceLevel": "Native target-PC CPU/D3D11VA, production Qt offscreen monitor, WASAPI timing and independent 4K export decode; no visible-display or audible perception claims",
+    "export": {
+        "audioMix": {
+            "busPeaks": {
+            },
+            "clippedSamples": 0,
+            "decoderHighWater": 2,
+            "decoderLimit": 64,
+            "error": "",
+            "masterPeak": 0.02790548838675022,
+            "mixedSamples": 192000,
+            "path": "48 kHz stereo sequence mixer",
+            "queueHighWater": 8,
+            "queueLimit": 8,
+            "trackPeaks": {
+                "304f83fc-fc80-409c-9be4-de6dea6eecd4": 0.02790548801422119
+            }
+        },
+        "cancelled": false,
+        "elapsedMs": 6683,
+        "error": "",
+        "frames": 120,
+        "passed": true,
+        "path": "B:/Coding/02-Projects/Tools/Video-Editor/build/session-14/performance-test-data/4k-original-export.mp4",
+        "samples": 192000
+    },
+    "exportMs": 6686,
+    "exportPeakWorkingSetBytes": 751378432,
+    "exportPixelChecks": [
+        {
+            "frame": 0,
+            "meanRgbError": 5.17129050925926
+        },
+        {
+            "frame": 59,
+            "meanRgbError": 5.230462962962963
+        },
+        {
+            "frame": 60,
+            "meanRgbError": 5.510943287037037
+        },
+        {
+            "frame": 119,
+            "meanRgbError": 5.4870833333333335
+        }
+    ],
+    "failures": [
+    ],
+    "passed": true,
+    "proxyDecision": "Original CPU and D3D11VA preview meet the agreed 4K profile; optional proxy generation not warranted by this corpus.",
+    "queueBudgetTest": {
+        "conversionUs": 7324,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 26,
+        "path": "CPU",
+        "queueBudgetBytes": 4194304,
+        "queueBytes": 3686400,
+        "queueBytesHighWater": 3686400,
+        "queueHighWater": 1,
+        "queueLimit": 6
+    }
+}

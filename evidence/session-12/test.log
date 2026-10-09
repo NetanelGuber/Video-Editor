@@ -1,0 +1,29 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/session-12
+      Start  1: project-persistence
+ 1/12 Test  #1: project-persistence ..............   Passed    0.28 sec
+      Start  2: application-shell
+ 2/12 Test  #2: application-shell ................   Passed    0.22 sec
+      Start  3: media-import-inspection
+ 3/12 Test  #3: media-import-inspection ..........   Passed    2.38 sec
+      Start  4: timeline-editing
+ 4/12 Test  #4: timeline-editing .................   Passed    1.09 sec
+      Start  5: playback-decode-render
+ 5/12 Test  #5: playback-decode-render ...........   Passed   15.43 sec
+      Start  6: timeline-interface
+ 6/12 Test  #6: timeline-interface ...............   Passed    0.40 sec
+      Start  7: audio-title-basics
+ 7/12 Test  #7: audio-title-basics ...............   Passed    4.23 sec
+      Start  8: sequence-export
+ 8/12 Test  #8: sequence-export ..................   Passed    7.76 sec
+      Start  9: project-recovery-relink
+ 9/12 Test  #9: project-recovery-relink ..........   Passed    0.90 sec
+      Start 10: performance-4k-cache
+10/12 Test #10: performance-4k-cache .............   Passed   52.72 sec
+      Start 11: effects-keyframes-fades
+11/12 Test #11: effects-keyframes-fades ..........   Passed    3.45 sec
+      Start 12: color-speed-masks
+12/12 Test #12: color-speed-masks ................   Passed   13.55 sec
+
+100% tests passed, 0 tests failed out of 12
+
+Total Test time (real) = 102.62 sec

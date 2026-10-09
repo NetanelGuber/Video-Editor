@@ -1,0 +1,51 @@
+Encoder ac3 [ATSC A/52A (AC-3)]:
+    General capabilities: dr1 reorderedopaque 
+    Threading capabilities: none
+    Supported sample rates: 48000 44100 32000
+    Supported sample formats: fltp
+    Supported channel layouts: mono stereo 3.0(back) 3.0 quad(side) quad 4.0 5.0(side) 5.0 2 channels (FC+LFE) 2.1 4 channels (FL+FR+LFE+BC) 3.1 4.1 5.1(side) 5.1
+AC-3 Encoder AVOptions:
+  -center_mixlev     <float>      E...A...... Center Mix Level (from 0 to 1) (default 0.594604)
+  -surround_mixlev   <float>      E...A...... Surround Mix Level (from 0 to 1) (default 0.5)
+  -mixing_level      <int>        E...A...... Mixing Level (from -1 to 111) (default -1)
+  -room_type         <int>        E...A...... Room Type (from -1 to 2) (default -1)
+     notindicated    0            E...A...... Not Indicated (default)
+     large           1            E...A...... Large Room
+     small           2            E...A...... Small Room
+  -per_frame_metadata <boolean>    E...A...... Allow Changing Metadata Per-Frame (default false)
+  -copyright         <int>        E...A...... Copyright Bit (from -1 to 1) (default -1)
+  -dialnorm          <int>        E...A...... Dialogue Level (dB) (from -31 to -1) (default -31)
+  -dsur_mode         <int>        E...A...... Dolby Surround Mode (from -1 to 2) (default -1)
+     notindicated    0            E...A...... Not Indicated (default)
+     on              2            E...A...... Dolby Surround Encoded
+     off             1            E...A...... Not Dolby Surround Encoded
+  -original          <int>        E...A...... Original Bit Stream (from -1 to 1) (default -1)
+  -dmix_mode         <int>        E...A...... Preferred Stereo Downmix Mode (from -1 to 3) (default -1)
+     notindicated    0            E...A...... Not Indicated (default)
+     ltrt            1            E...A...... Lt/Rt Downmix Preferred
+     loro            2            E...A...... Lo/Ro Downmix Preferred
+     dplii           3            E...A...... Dolby Pro Logic II Downmix Preferred
+  -ltrt_cmixlev      <float>      E...A...... Lt/Rt Center Mix Level (from -1 to 2) (default -1)
+  -ltrt_surmixlev    <float>      E...A...... Lt/Rt Surround Mix Level (from -1 to 2) (default -1)
+  -loro_cmixlev      <float>      E...A...... Lo/Ro Center Mix Level (from -1 to 2) (default -1)
+  -loro_surmixlev    <float>      E...A...... Lo/Ro Surround Mix Level (from -1 to 2) (default -1)
+  -dsurex_mode       <int>        E...A...... Dolby Surround EX Mode (from -1 to 3) (default -1)
+     notindicated    0            E...A...... Not Indicated (default)
+     on              2            E...A...... Dolby Surround EX Encoded
+     off             1            E...A...... Not Dolby Surround EX Encoded
+     dpliiz          3            E...A...... Dolby Pro Logic IIz-encoded
+  -dheadphone_mode   <int>        E...A...... Dolby Headphone Mode (from -1 to 2) (default -1)
+     notindicated    0            E...A...... Not Indicated (default)
+     on              2            E...A...... Dolby Headphone Encoded
+     off             1            E...A...... Not Dolby Headphone Encoded
+  -ad_conv_type      <int>        E...A...... A/D Converter Type (from -1 to 1) (default -1)
+     standard        0            E...A...... Standard (default)
+     hdcd            1            E...A...... HDCD
+  -stereo_rematrixing <boolean>    E...A...... Stereo Rematrixing (default true)
+  -channel_coupling  <int>        E...A...... Channel Coupling (from -1 to 1) (default auto)
+     auto            -1           E...A...... Selected by the Encoder
+  -cpl_start_band    <int>        E...A...... Coupling Start Band (from -1 to 15) (default auto)
+     auto            -1           E...A...... Selected by the Encoder
+
+
+Exiting with exit code 0

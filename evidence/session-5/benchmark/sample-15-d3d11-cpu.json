@@ -1,0 +1,77 @@
+{
+  "cpuOneCorePercent": 34.23,
+  "decoder": {
+    "conversionUs": 253041,
+    "decoded": 60,
+    "error": "",
+    "fallback": "",
+    "firstFrameMs": 70,
+    "path": "D3D11VA + CPU transfer/conversion",
+    "queueHighWater": 6,
+    "queueLimit": 6
+  },
+  "dropped": 0,
+  "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+  "glRenderer": "",
+  "lastPresentedPtsUs": 1766667,
+  "meanPresentationUs": 543.2962962962963,
+  "memoryAfter": {
+    "peakWorkingSetBytes": 182280192,
+    "privateBytes": 126373888,
+    "workingSetBytes": 98484224
+  },
+  "memoryBefore": {
+    "peakWorkingSetBytes": 164630528,
+    "privateBytes": 23265280,
+    "workingSetBytes": 36274176
+  },
+  "memorySamples": [
+    {
+      "elapsedMs": 2,
+      "peakWorkingSetBytes": 164630528,
+      "privateBytes": 177897472,
+      "workingSetBytes": 125411328
+    },
+    {
+      "elapsedMs": 500,
+      "peakWorkingSetBytes": 182239232,
+      "privateBytes": 209817600,
+      "workingSetBytes": 182222848
+    },
+    {
+      "elapsedMs": 1000,
+      "peakWorkingSetBytes": 182280192,
+      "privateBytes": 209850368,
+      "workingSetBytes": 182239232
+    },
+    {
+      "elapsedMs": 1501,
+      "peakWorkingSetBytes": 182280192,
+      "privateBytes": 209862656,
+      "workingSetBytes": 182263808
+    }
+  ],
+  "passed": true,
+  "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-hevc10-aac.mp4",
+  "playbackWallMs": 1800,
+  "presentation": "CPU QImage / QPainter",
+  "presentationFallback": "",
+  "presentationPixelMeanAbsoluteDifference": 0,
+  "presented": 54,
+  "requestedDecode": "d3d11",
+  "requestedPresentation": "cpu",
+  "seekDecoder": {
+    "conversionUs": 8577,
+    "decoded": 1,
+    "error": "",
+    "fallback": "",
+    "firstFrameMs": 115,
+    "path": "D3D11VA + CPU transfer/conversion",
+    "queueHighWater": 1,
+    "queueLimit": 6
+  },
+  "seekMs": 117,
+  "startupMs": 71,
+  "gpuSamples": [],
+  "gpuCountersAvailable": false
+}

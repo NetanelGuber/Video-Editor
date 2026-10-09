@@ -1,0 +1,75 @@
+{
+    "cpuOneCorePercent": 55.92,
+    "decoder": {
+        "conversionUs": 226908,
+        "decoded": 60,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 43,
+        "path": "CPU",
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 1766667,
+    "meanPresentationUs": 551.1296296296297,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 284803072,
+        "privateBytes": 53100544,
+        "workingSetBytes": 66310144
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 164638720,
+        "privateBytes": 23715840,
+        "workingSetBytes": 36376576
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 2,
+            "peakWorkingSetBytes": 195661824,
+            "privateBytes": 187613184,
+            "workingSetBytes": 195661824
+        },
+        {
+            "elapsedMs": 500,
+            "peakWorkingSetBytes": 284737536,
+            "privateBytes": 271917056,
+            "workingSetBytes": 284737536
+        },
+        {
+            "elapsedMs": 1000,
+            "peakWorkingSetBytes": 284741632,
+            "privateBytes": 271921152,
+            "workingSetBytes": 284741632
+        },
+        {
+            "elapsedMs": 1500,
+            "peakWorkingSetBytes": 284803072,
+            "privateBytes": 271978496,
+            "workingSetBytes": 284803072
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\pinned\\synthetic-4k-hevc10-aac.mp4",
+    "playbackWallMs": 1800,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 54,
+    "requestedDecode": "cpu",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 3751,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 247,
+        "path": "CPU",
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 250,
+    "startupMs": 44
+}

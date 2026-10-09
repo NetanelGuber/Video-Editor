@@ -1,0 +1,51 @@
+{
+    "checkCount": 55,
+    "evidenceLevel": "Native PCM sample oracle, rational scheduling, queue/cancellation, undo/persistence and offscreen production property dialogs/title pixels; human audibility/display acceptance pending",
+    "failures": [
+    ],
+    "humanFixture": "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-7/audio-titles.veproject",
+    "mixes": [
+        {
+            "firstMismatch": -1,
+            "maxSampleError": 4.6491622912592234e-09,
+            "mismatches": 0,
+            "stats": {
+                "decoderHighWater": 2,
+                "decoderLimit": 64,
+                "error": "",
+                "mixedSamples": 288000,
+                "path": "48 kHz stereo sequence mixer",
+                "queueHighWater": 8,
+                "queueLimit": 8
+            }
+        },
+        {
+            "controller": {
+                "audioDecode": {
+                    "decoderHighWater": 2,
+                    "decoderLimit": 64,
+                    "error": "",
+                    "mixedSamples": 144000,
+                    "path": "48 kHz stereo sequence mixer",
+                    "queueHighWater": 8,
+                    "queueLimit": 8
+                },
+                "audioOutput": {
+                    "available": true,
+                    "backend": "WASAPI shared / 48 kHz float stereo",
+                    "error": "",
+                    "positionUs": 3000000,
+                    "underruns": 0
+                },
+                "buffering": false,
+                "dropped": 0,
+                "maxUiTickGapMs": 7,
+                "pipelineStarts": 1,
+                "playing": false,
+                "positionUs": 3000000,
+                "presented": 60
+            }
+        }
+    ],
+    "passed": true
+}

@@ -1,0 +1,303 @@
+{
+    "cpuOneCorePercent": 125.58,
+    "decoder": {
+        "conversionUs": 4681452,
+        "decoded": 2886,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 4,
+        "path": "CPU",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 22118400,
+        "queueBytesHighWater": 22118400,
+        "queueHighWater": 6,
+        "queueLimit": 6
+    },
+    "dropped": 0,
+    "evidenceLevel": "Paced native decoder plus CPU image or hardware OpenGL offscreen FBO; no visible QOpenGLWidget/display-refresh/audibility acceptance",
+    "glRenderer": "",
+    "lastPresentedPtsUs": 19993000,
+    "meanPresentationUs": 342.6111111111111,
+    "memoryAfter": {
+        "peakWorkingSetBytes": 90103808,
+        "privateBytes": 77492224,
+        "workingSetBytes": 90103808
+    },
+    "memoryBefore": {
+        "peakWorkingSetBytes": 45387776,
+        "privateBytes": 23703552,
+        "workingSetBytes": 36036608
+    },
+    "memorySamples": [
+        {
+            "elapsedMs": 1,
+            "peakWorkingSetBytes": 63561728,
+            "privateBytes": 54464512,
+            "workingSetBytes": 63561728
+        },
+        {
+            "elapsedMs": 500,
+            "peakWorkingSetBytes": 85852160,
+            "privateBytes": 73089024,
+            "workingSetBytes": 85852160
+        },
+        {
+            "elapsedMs": 1001,
+            "peakWorkingSetBytes": 85921792,
+            "privateBytes": 73154560,
+            "workingSetBytes": 85921792
+        },
+        {
+            "elapsedMs": 1500,
+            "peakWorkingSetBytes": 86044672,
+            "privateBytes": 73277440,
+            "workingSetBytes": 86044672
+        },
+        {
+            "elapsedMs": 2000,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73519104,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 2500,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73519104,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 3001,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73519104,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 3500,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73519104,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 4000,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73523200,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 4500,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73519104,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 5001,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73523200,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 5501,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73523200,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 6002,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73523200,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 6500,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73523200,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 7000,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73519104,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 7501,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73523200,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 8001,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73519104,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 8500,
+            "peakWorkingSetBytes": 86286336,
+            "privateBytes": 73523200,
+            "workingSetBytes": 86286336
+        },
+        {
+            "elapsedMs": 9001,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73801728,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 9500,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 10001,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 10501,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 70098944,
+            "workingSetBytes": 82714624
+        },
+        {
+            "elapsedMs": 11001,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 11500,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 12000,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 12501,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 13001,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 13501,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 14000,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 14501,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 15000,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 15501,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 16001,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 16500,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73801728,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 17000,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 17500,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 18001,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 18500,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 19000,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 19500,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73797632,
+            "workingSetBytes": 86405120
+        },
+        {
+            "elapsedMs": 20001,
+            "peakWorkingSetBytes": 86405120,
+            "privateBytes": 73793536,
+            "workingSetBytes": 86405120
+        }
+    ],
+    "passed": true,
+    "path": "B:\\Videos\\Acu - 68% to 100%.mkv",
+    "playbackWallMs": 20000,
+    "presentation": "CPU QImage / QPainter",
+    "presentationFallback": "",
+    "presentationPixelMeanAbsoluteDifference": 0,
+    "presented": 2880,
+    "requestedDecode": "cpu",
+    "requestedPresentation": "cpu",
+    "seekDecoder": {
+        "conversionUs": 1819,
+        "decoded": 1,
+        "error": "",
+        "fallback": "",
+        "firstFrameMs": 587,
+        "path": "CPU",
+        "queueBudgetBytes": 67108864,
+        "queueBytes": 0,
+        "queueBytesHighWater": 3686400,
+        "queueHighWater": 1,
+        "queueLimit": 6
+    },
+    "seekMs": 589,
+    "startupMs": 6
+}

@@ -1,0 +1,27 @@
+{
+  "session": 13,
+  "date": "2026-10-08",
+  "correction": "Track and clip audio automation key positions now honor View > Time display. Seconds-mode edits round to the nearest sequence frame; stored positions remain integer frames.",
+  "build": {
+    "command": "scripts/Build.ps1 -BuildDirectory build/session-13",
+    "passed": true,
+    "application": "build/session-13/Release/VideoEditor.exe",
+    "sha256": "f32685129575005cd02ed6bd469b1ce9defdcf74915614e8ce46cb6ca98a976d"
+  },
+  "regressionTests": "Not rerun after this correction. verification.json records the earlier twelve-suite run and its tested source fingerprints.",
+  "userInterfaceVisualCheck": "Not performed",
+  "sourceFiles": [
+    {
+      "path": "src/ui/TimeDisplay.h",
+      "sha256": "25ac02d9c0547058108f70c572388e0bef897f4abc1fbf89b744254c01b3daa8"
+    },
+    {
+      "path": "src/timeline/PropertyDialogs.cpp",
+      "sha256": "29def7377f3f905ac87b5e84e99f70c31098d816f709e5a4b1dd27818e9b3ba2"
+    },
+    {
+      "path": "src/timeline/PropertyDialogs.h",
+      "sha256": "133a10b60628d0a4e13c2656720d0cff0a3b6a7c377823aca7fef9cc9dedd9b9"
+    }
+  ]
+}

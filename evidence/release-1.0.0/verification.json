@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "version": "1.0.0",
+  "verifiedUtc": "2026-10-09T12:27:03.7984213Z",
+  "archiveName": "VideoEditor-1.0.0-windows-x64.zip",
+  "archiveBytes": 110781917,
+  "archiveSha256": "daba0273abf44f413d9bfcce5b9461071f2ae43a54e126c260d4681d55b056a4",
+  "applicationExeSha256": "a2e3f6f59116ff78971d390b48933884d4c8a98fd2a1d68674e0c0bf38e5226f",
+  "applicationLicense": "GPL-3.0-or-later",
+  "regressionSuites": 19,
+  "packagedWorkflowChecks": 23,
+  "payloadFiles": 82,
+  "binaryImportResolutions": 396,
+  "releaseState": "private-draft",
+  "externalDistributionApproved": false,
+  "evidenceLevel": "Fresh ZIP extraction on target PC; restricted PATH; exact packaged DLLs and actual module paths; offscreen production UI; isolated settings/recovery/cache",
+  "limits": [
+    "No separate Windows account or clean OS/VM",
+    "Native Windows platform plugin inventoried but not visually exercised",
+    "Physical playback devices and subjective AV sync unverified",
+    "Unsigned binary",
+    "Exact dependency corresponding-source/build material pending"
+  ]
+}
