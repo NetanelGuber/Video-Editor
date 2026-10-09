@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "reviewedUtc": "2026-10-09T13:11:55.3236425Z",
+  "release": "1.0.0",
+  "completeCorrespondingSource": false,
+  "externalDistributionApproved": false,
+  "qtFiles": [
+    {
+      "path": "imageformats/qgif.dll",
+      "sha256": "ab27920999dbe30c8b49ebdaefcc4740f931afc23f137ee9c77822d9069c4e59",
+      "spdxFile": "SPDXRef-PackagedFile-qt-plugin-QGifPlugin-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "2e2847a3f1723a64cb299e151ec3b8e031094c7d",
+      "expectedSha1": "2e2847a3f1723a64cb299e151ec3b8e031094c7d",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "imageformats/qico.dll",
+      "sha256": "9cb3025a26c2e5a6225b601ca89c62bfa4dffc17f258cc10d439b1c3ac6d6256",
+      "spdxFile": "SPDXRef-PackagedFile-qt-plugin-QICOPlugin-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "ab40b99fef5c25ef2fd343173c346eefa23370bc",
+      "expectedSha1": "ab40b99fef5c25ef2fd343173c346eefa23370bc",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "imageformats/qjpeg.dll",
+      "sha256": "efa72d5df5eafac48021b2e7ab501668989944b1fd84e902e21f17ddeac4bdfb",
+      "spdxFile": "SPDXRef-PackagedFile-qt-plugin-QJpegPlugin-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "cb74eb3c5f55a9a1a9a4ba98afaaf353cbc70483",
+      "expectedSha1": "cb74eb3c5f55a9a1a9a4ba98afaaf353cbc70483",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "platforms/qoffscreen.dll",
+      "sha256": "1b0b08da8de36bfc12ac8c6ad394ada12595de4f2d1d5e5d3c893198258009ae",
+      "spdxFile": "SPDXRef-PackagedFile-qt-plugin-QOffscreenIntegrationPlugin-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "ff8fb81cb384ee95b7defa07872c6397e1007d79",
+      "expectedSha1": "ff8fb81cb384ee95b7defa07872c6397e1007d79",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "platforms/qwindows.dll",
+      "sha256": "e8c633f1c5054ec2972ea5dd85062d1078a6b1011cbeb3dd1fb6ed954da78765",
+      "spdxFile": "SPDXRef-PackagedFile-qt-plugin-QWindowsIntegrationPlugin-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "be89c443ceadb807c76651f8a7bea9550cd4d0cb",
+      "expectedSha1": "be89c443ceadb807c76651f8a7bea9550cd4d0cb",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "Qt6Core.dll",
+      "sha256": "b20757be279b4e074c89be1f183a40975bf867b9a2a4e0ca4ea34a95fe2bb39e",
+      "spdxFile": "SPDXRef-PackagedFile-qt-module-Core-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "7b758af8ec3a11844e447000b9d82a8e82c1b277",
+      "expectedSha1": "7b758af8ec3a11844e447000b9d82a8e82c1b277",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "Qt6Gui.dll",
+      "sha256": "695ee5e5a7ac83b7a1f7d397ccb0dda39b84f8369fd2237d90c1229b78af0cd5",
+      "spdxFile": "SPDXRef-PackagedFile-qt-module-Gui-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "38b436f03fb0241194aa3cddaefc5c7038bcafec",
+      "expectedSha1": "38b436f03fb0241194aa3cddaefc5c7038bcafec",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "Qt6OpenGL.dll",
+      "sha256": "9f2866a8d10992ccf7f565fdd48562f44249be11a351681869458e86687297ce",
+      "spdxFile": "SPDXRef-PackagedFile-qt-module-OpenGL-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "106502468f11e8a578213187d5e1d8721a5c4e8b",
+      "expectedSha1": "106502468f11e8a578213187d5e1d8721a5c4e8b",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "Qt6OpenGLWidgets.dll",
+      "sha256": "169cd0f0946d962965bd2654587217bff2d71d0d864cb910130df669d71c59e2",
+      "spdxFile": "SPDXRef-PackagedFile-qt-module-OpenGLWidgets-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "9c13d319f52e3ec2fa79c977831f0f4a29e97d8d",
+      "expectedSha1": "9c13d319f52e3ec2fa79c977831f0f4a29e97d8d",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "Qt6Widgets.dll",
+      "sha256": "16e181e86e4084ca26de4daaf9a32ab61c1eed9c4649e6176dbddc7849ea1e06",
+      "spdxFile": "SPDXRef-PackagedFile-qt-module-Widgets-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "6c72d4978bb666a62ce32b6f7eae481136f61e19",
+      "expectedSha1": "6c72d4978bb666a62ce32b6f7eae481136f61e19",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    },
+    {
+      "path": "styles/qmodernwindowsstyle.dll",
+      "sha256": "180d8c0b5cdce42ebaf26cd96f2582200784cde069dac487534e755eb6b581fb",
+      "spdxFile": "SPDXRef-PackagedFile-qt-plugin-QModernWindowsStylePlugin-RelWithDebInfo-e83941472cba",
+      "unsignedSha1": "589f56c5531a90668c9342ef30746e6dc9498adc",
+      "expectedSha1": "589f56c5531a90668c9342ef30746e6dc9498adc",
+      "signature": "Valid",
+      "signer": "CN=The QT Company Oy, O=The QT Company Oy, L=Espoo, S=Uusimaa, C=FI, SERIALNUMBER=2637805-2, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.3=FI",
+      "matchesSupplier": true
+    }
+  ],
+  "qtDependencyCount": 59,
+  "qtSourceRevision": "5a1194b2d368e2d72c230205c464b04a2f23eccd",
+  "microsoftFiles": [
+    {
+      "path": "concrt140.dll",
+      "sha256": "a5b9af428829ab7b61ceae9d88a37ce1053551379ee007d8df53a7ba4d33c251",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\concrt140.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "msvcp140_1.dll",
+      "sha256": "456aebccb449fcba35f1109c259ba0aa10923e660f4de812a490d35f37f54fc9",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_1.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "msvcp140_2.dll",
+      "sha256": "7a403abf753d0bdf09776cf4bcb13b5a6ebe3a47670de124a3c621aa4b952f82",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_2.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "msvcp140_atomic_wait.dll",
+      "sha256": "d759dd381bdbd6142372de4cb57acc382e1b80c106b7414a408816564ee1eb6a",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_atomic_wait.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "msvcp140_codecvt_ids.dll",
+      "sha256": "f781e1e0133c397c3a2c73fd4dbcdb442378ba20fced56a2f7db5822436ddd2a",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_codecvt_ids.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "msvcp140.dll",
+      "sha256": "639342ea9a67c0009122238ce070a8257e2e04d367d627509fec29f8442afb42",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "vccorlib140.dll",
+      "sha256": "9ce6f235791450717f8e05ecd729e95ec98e9630a9caae661ba6773b669ecbf7",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vccorlib140.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "vcruntime140_1.dll",
+      "sha256": "a253a12e4a8e9e23ebfe0ced829f7751e4f42c60066986bf20515ced8dcc68cd",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vcruntime140_1.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "vcruntime140_threads.dll",
+      "sha256": "cd05a48a1183b074e81275d6c6472ecb5b09db8a0db8d1850b009ad041907ce9",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vcruntime140_threads.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "sha256": "19c293ac482fdb882cd29d2b0e6d807419efdcada04068f03e5723670895e17d",
+      "signature": "Valid",
+      "origin": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vcruntime140.dll",
+      "listedDirectory": "VC/Redist (excluding debug_nonredist)"
+    }
+  ],
+  "ffmpegSourceRevision": "946fcce07b6dcd0331c8cc609192aeff5e1924f8",
+  "ffmpegFiles": [
+    {
+      "path": "avcodec-63.dll",
+      "sha256": "4d458a276fda363709ed2ac4ad14aea122c536e61919feebd919d5f8490be7a9",
+      "fileVersion": "63.1.102",
+      "matchesRelease": true
+    },
+    {
+      "path": "avfilter-12.dll",
+      "sha256": "4ec6eb2db944740c364d93b29d91c9137beb38d09e923f6ed14f31aa039851de",
+      "fileVersion": "12.1.102",
+      "matchesRelease": true
+    },
+    {
+      "path": "avformat-63.dll",
+      "sha256": "360e66109b2ce3f02d56cd940e625a6909304eea1f4d0fcbbbb2d40d74308ee0",
+      "fileVersion": "63.1.102",
+      "matchesRelease": true
+    },
+    {
+      "path": "avutil-61.dll",
+      "sha256": "9230e42b6b8e1fa20ec83af1eb4c4b2ae90b0c8d7c29093369250eed562372df",
+      "fileVersion": "61.1.102",
+      "matchesRelease": true
+    },
+    {
+      "path": "swresample-7.dll",
+      "sha256": "1f2a0bdca315f1a05fe398e7a0d97db8d0e34ba2a86ec59303bf32bbd9430123",
+      "fileVersion": "7.1.102",
+      "matchesRelease": true
+    },
+    {
+      "path": "swscale-10.dll",
+      "sha256": "af91db7f45644157469a110438a8c648314927ec83e334d4cacac3870d99fabe",
+      "fileVersion": "10.1.102",
+      "matchesRelease": true
+    }
+  ],
+  "ffmpegConfiguredIntegrationCount": 96,
+  "ffmpegMissingSupplierVersions": [
+    "bzlib",
+    "fontconfig",
+    "gmp",
+    "gnutls",
+    "iconv",
+    "libmysofa",
+    "libxml2",
+    "lzma",
+    "opencl",
+    "zlib"
+  ],
+  "deviceIntegrationEvidence": [
+    {
+      "component": "libcaca",
+      "source": "libavdevice/Makefile",
+      "lines": [
+        "OBJS-$(CONFIG_CACA_OUTDEV)               += caca.o"
+      ]
+    },
+    {
+      "component": "libcdio",
+      "source": "libavdevice/Makefile",
+      "lines": [
+        "OBJS-$(CONFIG_LIBCDIO_INDEV)             += libcdio.o"
+      ]
+    },
+    {
+      "component": "openal",
+      "source": "libavdevice/Makefile",
+      "lines": [
+        "OBJS-$(CONFIG_OPENAL_INDEV)              += openal-dec.o"
+      ]
+    }
+  ],
+  "limits": [
+    "Qt normalized SHA1 verifies the unsigned SPDX input; archive and shipped binaries have independent SHA256 pins",
+    "Version labels alone do not establish supplier patches, transitive linkage or build scripts",
+    "No fresh dependency rebuild performed by this review",
+    "Source links must remain available when binary downloads are public"
+  ]
+}

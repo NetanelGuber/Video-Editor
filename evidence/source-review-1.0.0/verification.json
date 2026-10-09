@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "verifiedUtc": "2026-10-09T13:14:05.0614767Z",
+  "archiveName": "VideoEditor-1.0.0-windows-x64.zip",
+  "archiveBytes": 110927666,
+  "archiveSha256": "9cc66575e9b63bd8d6e05df6f1c6144d9677d43b4dd5874700e399ba14fc2077",
+  "payloadFiles": 94,
+  "binaryImports": 396,
+  "workflowChecks": 23,
+  "passed": true,
+  "dependencyBinariesChanged": false,
+  "sourceInventoryMatches": true,
+  "externalDistributionApproved": false,
+  "completeCorrespondingSource": false,
+  "previousRegression": "evidence/release-1.0.0/verification.json (19 suites; unchanged application/dependency binaries)",
+  "limits": [
+    "No separate Windows account or clean OS/VM",
+    "Native Windows platform plugin inventoried but not visually exercised",
+    "Physical playback devices and subjective AV sync unverified"
+  ]
+}

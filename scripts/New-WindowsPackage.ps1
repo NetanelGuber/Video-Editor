@@ -46,7 +46,7 @@ Plugins=.
 "@ | Set-Content -LiteralPath (Join-Path $stage 'qt.conf') -Encoding ascii
 # qt.conf keeps the unmodified Qt DLLs relocatable. DXC is optional for D3D12;
 # this editor uses QPainter/OpenGL and D3D11VA, so it is deliberately omitted.
-foreach ($doc in @('quick-start.md','supported-formats.md','release-license-review.md')) { Copy-Payload (Join-Path $root "docs/$doc") "docs/$doc" }
+foreach ($doc in @('quick-start.md','supported-formats.md','release-license-review.md','dependency-source-review.md','ffmpeg-supplier-source-request.md')) { Copy-Payload (Join-Path $root "docs/$doc") "docs/$doc" }
 Copy-Payload (Join-Path $root 'LICENSE') 'LICENSE'
 Copy-Payload (Join-Path $root 'COPYRIGHT.md') 'COPYRIGHT.md'
 Copy-Payload (Join-Path $root 'dependencies.lock.json') 'build/dependencies.lock.json'
@@ -56,6 +56,11 @@ Copy-Payload (Join-Path $ffmpeg 'LICENSE') 'notices/FFmpeg-GPL.txt'
 Copy-Payload (Join-Path $ffmpeg 'README.txt') 'notices/FFmpeg-supplier-README.txt'
 Copy-Payload (Join-Path $lock.buildTools.visualStudio.path 'Licenses/1033/Redist.txt') 'notices/Microsoft-Redist.txt'
 foreach ($notice in Get-ChildItem -LiteralPath (Join-Path $root 'docs/notices') -File) { Copy-Payload $notice.FullName "notices/$($notice.Name)" }
+# Preserve the relative links used by the repository's source review document.
+foreach ($notice in @('dependency-sources.json','qt-runtime-source-coverage.json','qt-runtime-attributions.txt','ffmpeg-external-review.json')) {
+    Copy-Payload (Join-Path $root "docs/notices/$notice") "docs/notices/$notice"
+}
+Copy-Payload (Join-Path $root 'evidence/source-review-1.0.0/dependency-source-review.json') 'evidence/source-review-1.0.0/dependency-source-review.json'
 Copy-Payload (Join-Path $root 'fixtures/generated/session-5/flash-beep.mp4') 'examples/flash-beep.mp4'
 @"
 Video Editor $version - Windows x64 - DRAFT RELEASE PACKAGE
@@ -70,6 +75,8 @@ Projects/media are separate from the package. Settings/logs/cache use your profi
 
 Application source: https://github.com/NetanelGuber/Video-Editor/tree/v$version
 Application license: GPL-3.0-or-later (see LICENSE and COPYRIGHT.md).
+Dependency source URLs, revisions and hashes: notices/dependency-sources.json.
+Microsoft runtime DLLs have separate terms: notices/Microsoft-VC14-Runtime.txt.
 This draft package is for local review. Public binary distribution remains
 pending exact dependency source/build material; see docs/release-license-review.md.
 build/package-manifest.json inventories every payload file except itself.

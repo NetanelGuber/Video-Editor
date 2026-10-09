@@ -1,0 +1,130 @@
+[
+  {
+    "path": "cmake/3rdparty/extra-cmake-modules/COPYING-CMAKE-SCRIPTS",
+    "sha256": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b"
+  },
+  {
+    "path": "cmake/3rdparty/kwin/COPYING-CMAKE-SCRIPTS",
+    "sha256": "46cde7dc11e64c78d650b4851b88f6704b4665ff60f22a1caf68ceb15e217e5b"
+  },
+  {
+    "path": "src/3rdparty/blake2/COPYING",
+    "sha256": "4103f471877ed0bae500752c5fcd7ecca409d4a4a8dc2ad40437daba60f1a2bc"
+  },
+  {
+    "path": "src/3rdparty/D3D12MemoryAllocator/LICENSE.txt",
+    "sha256": "1b3941c52b26d42c510afbdf205a8b96a6d64f5a7b8ebff0287979fd91dfd52f"
+  },
+  {
+    "path": "src/3rdparty/double-conversion/LICENSE",
+    "sha256": "4af93c12062c58058378de2397dc1c92bbff9ddfb1d583a01c84127557ce97ca"
+  },
+  {
+    "path": "src/3rdparty/easing/LICENSE",
+    "sha256": "92fac99458f1754b73edf50f9c9983e0efaa06ad96e2afd5e538c79f45b4b191"
+  },
+  {
+    "path": "src/3rdparty/freetype/BDF-LICENSE.txt",
+    "sha256": "e4e792f29e66750f2e410fd7b50a567652c180f6ee15e1a4dfa0bb5cde524537"
+  },
+  {
+    "path": "src/3rdparty/freetype/LICENSE.txt",
+    "sha256": "bf543cdda11864477b8d2ca2aa9afc2aaa8f9133461b4d962ed6ec73646256a1"
+  },
+  {
+    "path": "src/3rdparty/freetype/PCF-LICENSE.txt",
+    "sha256": "6938597bfdeca0db191a8f9ede52eaf2482c2c71a0094c084747a1235f9958fe"
+  },
+  {
+    "path": "src/3rdparty/freetype/ZLIB-LICENSE.txt",
+    "sha256": "2b1f5d615382a151af3eb71462ad17d89e2efee8fa7664058d35d3d9237ebb19"
+  },
+  {
+    "path": "src/3rdparty/harfbuzz-ng/COPYING",
+    "sha256": "ba8f810f2455c2f08e2d56bb49b72f37fcf68f1f4fade38977cfd7372050ad64"
+  },
+  {
+    "path": "src/3rdparty/icc/LICENSE.txt",
+    "sha256": "9e34ff47b3a44814e183342e7e198d127a6740e29d20e8381fba7688dafc79dd"
+  },
+  {
+    "path": "src/3rdparty/libjpeg/COPYRIGHT.txt",
+    "sha256": "e5b349c6a98d997a8d0f5fcfe5cc900b1f76bbc32743674c52a70981498748c0"
+  },
+  {
+    "path": "src/3rdparty/libjpeg/ijg-license.txt",
+    "sha256": "1cb448f5e2e6d3aca60943f4eee1a04675628dc0266a074a42bc1560ebc28d61"
+  },
+  {
+    "path": "src/3rdparty/libjpeg/LICENSE",
+    "sha256": "ba6bceebcba0fdd35488477c2cca8c4632ce82c74dbfbc87d886ce6fc4433579"
+  },
+  {
+    "path": "src/3rdparty/libpng/LICENSE",
+    "sha256": "bdb0a645ea18c60507d0368379b1ac5474b92255fcc2d115e07486a7672ba526"
+  },
+  {
+    "path": "src/3rdparty/md4c/LICENSE.md",
+    "sha256": "d30937367d5413e7eaa218b1640b8946ff76fd34d97152f6979fd96169d5d0fc"
+  },
+  {
+    "path": "src/3rdparty/pcre2/LICENCE.md",
+    "sha256": "197d8a73ffee0d6b09adba2f9c677b5f5aede24edf89258a68e48248d010d811"
+  },
+  {
+    "path": "src/3rdparty/pcre2/LICENSE-SLJIT",
+    "sha256": "5f216505c0f6ea3273caec89e766eef93cdeb7bbb0c429f9360116d7c938feeb"
+  },
+  {
+    "path": "src/3rdparty/rfc6234/LICENSE",
+    "sha256": "7ccebd514aaabc86192f957d773cebf06577c12fe9f25ecd419c6cac5da7a14c"
+  },
+  {
+    "path": "src/3rdparty/sha3/BRG_ENDIAN_LICENSE",
+    "sha256": "2fed6f252ca4a7e813811de3cd3cd08183edd4138bdee909410ef6eee394e82c"
+  },
+  {
+    "path": "src/3rdparty/sha3/CC0_LICENSE",
+    "sha256": "1f2786e2c5befeb4dcba6638db6528bf96ef5d2cf24bc85ab5a81ef00abef59d"
+  },
+  {
+    "path": "src/3rdparty/tinycbor/LICENSE",
+    "sha256": "3c6ba0b5bfa7830505301ffb336a17b0748e0d61c4d34216e9dc98f10e40395e"
+  },
+  {
+    "path": "src/3rdparty/VulkanMemoryAllocator/LICENSE.txt",
+    "sha256": "846d97c8b74ccaa92b9ad031140a04363b3b3985f318094552f297b8bda1c68e"
+  },
+  {
+    "path": "src/3rdparty/zlib/LICENSE",
+    "sha256": "d7e3139972874dc8abdbbfce27ec1e6f942b28279dd7d27453630a8b4610e080"
+  },
+  {
+    "path": "src/gui/opengl/LICENSE.KHRONOS.txt",
+    "sha256": "2e484f3c26ff5008c704a3ca9dd809d43f24a004a1abb6c202660fbff0d19715"
+  },
+  {
+    "path": "src/gui/painting/LICENSE.QIMAGETRANSFORM.txt",
+    "sha256": "46b3cbfa2f2946b93291506351e9be1dd0a28d2a53260f5aa488abd36fbeca9d"
+  },
+  {
+    "path": "src/gui/painting/LICENSE.XCONSORTIUM.txt",
+    "sha256": "a216b01291eb38fc1af93cfccf1fc67b48d9923612e517c2a695e95b3f03c22c"
+  },
+  {
+    "path": "src/gui/rhi/LICENSE.MiniEngine.txt",
+    "sha256": "cf248820bf1178370bb4f1670a59f8748d46bc96d0f64080cd631511c6046409"
+  },
+  {
+    "path": "src/gui/text/LICENSE.AGLFN.txt",
+    "sha256": "40818155548ff41c67d3a40edf355e9658992b292c227f4c1147425cedc746c6"
+  },
+  {
+    "path": "src/gui/vulkan/LICENSE.txt",
+    "sha256": "5f618873b0cdd1e84c611c5529212c2524bfc887bdfd7d1f3b568bad3c649612"
+  },
+  {
+    "path": "util/gradientgen/LICENSE.WEBGRADIENTS.txt",
+    "sha256": "9be732e45b638c74f9c0e5248541dd54dc7e8e9a5545df96b5c4b7c9ac0c68ba"
+  }
+]

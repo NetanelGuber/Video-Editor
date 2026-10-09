@@ -2,559 +2,769 @@
   {
     "component": "amf",
     "configurationFlag": "--enable-amf",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.5.2-2-gc35f613",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "avisynth",
     "configurationFlag": "--enable-avisynth",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v3.7.5-383-g5c82777b",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "bzlib",
     "configurationFlag": "--enable-bzlib",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "cairo",
+    "configurationFlag": "--enable-cairo",
+    "supplierVersion": "1.18.5",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "chromaprint",
     "configurationFlag": "--enable-chromaprint",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.6.1",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "cuda-llvm",
     "configurationFlag": "--enable-cuda-llvm",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "cuvid",
     "configurationFlag": "--enable-cuvid",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "d3d11va",
     "configurationFlag": "--enable-d3d11va",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "d3d12va",
     "configurationFlag": "--enable-d3d12va",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "dxva2",
     "configurationFlag": "--enable-dxva2",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "ffnvcodec",
     "configurationFlag": "--enable-ffnvcodec",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "n13.1.15.0-1-geddcea9",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "fontconfig",
+    "configurationFlag": "--enable-fontconfig",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "frei0r",
     "configurationFlag": "--enable-frei0r",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v3.5.0-4-g5585a36",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "gmp",
     "configurationFlag": "--enable-gmp",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "gnutls",
     "configurationFlag": "--enable-gnutls",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "iconv",
     "configurationFlag": "--enable-iconv",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "ladspa",
     "configurationFlag": "--enable-ladspa",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.17",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
+    "externalDistributionApproved": false
+  },
+  {
+    "component": "lcms2",
+    "configurationFlag": "--enable-lcms2",
+    "supplierVersion": "2.16",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libaom",
     "configurationFlag": "--enable-libaom",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v3.15.0-25-g023743a7d7",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libaribb24",
     "configurationFlag": "--enable-libaribb24",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.0.3-5-g5e9be27",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libaribcaption",
     "configurationFlag": "--enable-libaribcaption",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.1.2",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libass",
     "configurationFlag": "--enable-libass",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.17.5-8-gb2fe9d8",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libbluray",
     "configurationFlag": "--enable-libbluray",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.5.1",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libbs2b",
     "configurationFlag": "--enable-libbs2b",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "3.1.0",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libcaca",
     "configurationFlag": "--enable-libcaca",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.99.",
+    "scope": "Direct integration is confined to unshipped avdevice/ffplay; transitive linkage still requires supplier link inputs",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libcdio",
     "configurationFlag": "--enable-libcdio",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "10.2",
+    "scope": "Direct integration is confined to unshipped avdevice/ffplay; transitive linkage still requires supplier link inputs",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libcodec2",
     "configurationFlag": "--enable-libcodec2",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.2.0-108-g310777b1",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libdav1d",
     "configurationFlag": "--enable-libdav1d",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.5.4-4-ga34e0685",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libdavs2",
     "configurationFlag": "--enable-libdavs2",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.7-1-gb41cf11",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libdvdnav",
     "configurationFlag": "--enable-libdvdnav",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "7.0.0-18-g8147ccd",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libdvdread",
     "configurationFlag": "--enable-libdvdread",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "7.1.1-125-g0f30df5",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libflite",
     "configurationFlag": "--enable-libflite",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v2.2-55-g6c9f20d",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libfreetype",
     "configurationFlag": "--enable-libfreetype",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "VER-2-14-3",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libfribidi",
     "configurationFlag": "--enable-libfribidi",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.0.16-19-gc928e4c",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libgme",
     "configurationFlag": "--enable-libgme",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.6.6",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libgsm",
     "configurationFlag": "--enable-libgsm",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.0.24",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libharfbuzz",
     "configurationFlag": "--enable-libharfbuzz",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "14.4.0-108-g64e2b532",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libilbc",
     "configurationFlag": "--enable-libilbc",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v3.0.4-346-g6adb26d4a4",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libjxl",
     "configurationFlag": "--enable-libjxl",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v0.12-snapshot-14-g0754c260",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "liblc3",
     "configurationFlag": "--enable-liblc3",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.1.3",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "liblensfun",
     "configurationFlag": "--enable-liblensfun",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v0.3.95-2012-g12f5976c",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libmodplug",
     "configurationFlag": "--enable-libmodplug",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.8.9.0",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libmp3lame",
     "configurationFlag": "--enable-libmp3lame",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "3.100",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libmysofa",
     "configurationFlag": "--enable-libmysofa",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "liboapv",
     "configurationFlag": "--enable-liboapv",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v0.3.0.0-9-ga5312e4",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libopencore-amrnb",
     "configurationFlag": "--enable-libopencore-amrnb",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.1.6",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libopencore-amrwb",
     "configurationFlag": "--enable-libopencore-amrwb",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.1.6",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libopenjpeg",
     "configurationFlag": "--enable-libopenjpeg",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "2.5.4",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libopenmpt",
     "configurationFlag": "--enable-libopenmpt",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "libopenmpt-0.6.30-3-g6c0a06bc",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libopus",
     "configurationFlag": "--enable-libopus",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.6.1-68-g503d81b1",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libplacebo",
     "configurationFlag": "--enable-libplacebo",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v7.360.0-124-g3330a51",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libqrencode",
     "configurationFlag": "--enable-libqrencode",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "4.1.1",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libquirc",
     "configurationFlag": "--enable-libquirc",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.2",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "librav1e",
     "configurationFlag": "--enable-librav1e",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "p20250624-8-g31435de",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "librist",
     "configurationFlag": "--enable-librist",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.2.20",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "librubberband",
     "configurationFlag": "--enable-librubberband",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v4.0.0",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libshine",
     "configurationFlag": "--enable-libshine",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "3.1.1",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libsnappy",
     "configurationFlag": "--enable-libsnappy",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.2.2",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libsoxr",
     "configurationFlag": "--enable-libsoxr",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.1.3",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libspeex",
     "configurationFlag": "--enable-libspeex",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "Speex-1.2.1-51-g0589522",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libsrt",
     "configurationFlag": "--enable-libsrt",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.5.7-7-gcae8f62",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libssh",
     "configurationFlag": "--enable-libssh",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.12.2",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libsvtav1",
     "configurationFlag": "--enable-libsvtav1",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v4.2.0-cqp-extended-52-g0c1c4deca",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libsvtjpegxs",
     "configurationFlag": "--enable-libsvtjpegxs",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v0.9.0-96-g43cc4b4",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libtheora",
     "configurationFlag": "--enable-libtheora",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.2.0",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libtwolame",
     "configurationFlag": "--enable-libtwolame",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.4.0",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libuavs3d",
     "configurationFlag": "--enable-libuavs3d",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.2",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libvidstab",
     "configurationFlag": "--enable-libvidstab",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.1.2-214-ge2445c4",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libvmaf",
     "configurationFlag": "--enable-libvmaf",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v3.2.0-13-gf85a8536",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libvo-amrwbenc",
     "configurationFlag": "--enable-libvo-amrwbenc",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.1.3",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libvorbis",
     "configurationFlag": "--enable-libvorbis",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.3.7-37-g1b75110b",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libvpl",
     "configurationFlag": "--enable-libvpl",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "2.17",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libvpx",
     "configurationFlag": "--enable-libvpx",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.17.0-57-gd2413e2ca",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libvvenc",
     "configurationFlag": "--enable-libvvenc",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.14.0-177-g8370641",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libwebp",
     "configurationFlag": "--enable-libwebp",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.6.0-249-g1f34635",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libx264",
     "configurationFlag": "--enable-libx264",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v0.165.3223",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libx265",
     "configurationFlag": "--enable-libx265",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "4.3-45-g116b875",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libxavs2",
     "configurationFlag": "--enable-libxavs2",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.4",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libxevd",
     "configurationFlag": "--enable-libxevd",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.7.0",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libxeve",
     "configurationFlag": "--enable-libxeve",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "0.7.0",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libxml2",
     "configurationFlag": "--enable-libxml2",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "libxvid",
     "configurationFlag": "--enable-libxvid",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.3.7",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libzimg",
     "configurationFlag": "--enable-libzimg",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "release-3.0.6-253-g67e0603",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libzmq",
     "configurationFlag": "--enable-libzmq",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "4.3.5",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "libzvbi",
     "configurationFlag": "--enable-libzvbi",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v0.2.45",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "lzma",
     "configurationFlag": "--enable-lzma",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "mediafoundation",
     "configurationFlag": "--enable-mediafoundation",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "nvdec",
     "configurationFlag": "--enable-nvdec",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "nvenc",
     "configurationFlag": "--enable-nvenc",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "openal",
     "configurationFlag": "--enable-openal",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.25.2-48-g7532541",
+    "scope": "Direct integration is confined to unshipped avdevice/ffplay; transitive linkage still requires supplier link inputs",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "opencl",
     "configurationFlag": "--enable-opencl",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   },
   {
     "component": "sdl2",
     "configurationFlag": "--enable-sdl2",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "release-2.32.0-234-gb90ac9502",
+    "scope": "Direct integration is confined to unshipped avdevice/ffplay; transitive linkage still requires supplier link inputs",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "vaapi",
     "configurationFlag": "--enable-vaapi",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "2.25.0.",
+    "scope": "Hardware/compiler feature; not a separately identified linked library",
+    "sourceStatus": "Review applicable headers/runtime dependencies separately",
     "externalDistributionApproved": false
   },
   {
     "component": "vulkan",
     "configurationFlag": "--enable-vulkan",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "v1.4.362-11-gbde79ad2",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "whisper",
     "configurationFlag": "--enable-whisper",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": "1.9.4",
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version identified; exact patched source/build/notices not yet established",
     "externalDistributionApproved": false
   },
   {
     "component": "zlib",
     "configurationFlag": "--enable-zlib",
-    "exactSourceLicenseReview": "Unresolved: supplier source revision, static dependency terms and notices required before external distribution",
+    "supplierVersion": null,
+    "scope": "Enabled external integration in shipped FFmpeg libraries",
+    "sourceStatus": "Supplier version missing; exact source/build/notices not established",
     "externalDistributionApproved": false
   }
 ]

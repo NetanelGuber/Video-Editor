@@ -6,6 +6,14 @@ GPL-3.0-or-later application license on 2026-10-09. The binary release is a
 material described in [the distribution review](release-license-review.md).
 There is no public binary download yet.
 
+The [follow-up source review](dependency-source-review.md) recovered the exact
+supplier-identified FFmpeg/Qt source archives, verified all eleven shipped Qt
+files against the supplier inventory, collected their runtime notices, and
+checked the ten Microsoft runtime files and current redistribution terms.
+FFmpeg's missing external/transitive inputs and build recipe remain unresolved;
+the [prepared supplier request](ffmpeg-supplier-source-request.md) has not been
+sent. Source recovery scripts and evidence retain the verified coverage.
+
 ## Artifacts and commands
 
 ```powershell

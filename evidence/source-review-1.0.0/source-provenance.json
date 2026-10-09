@@ -1,0 +1,41 @@
+{
+  "reviewedUtc": "2026-10-09T13:09:31.3210306Z",
+  "sources": [
+    {
+      "component": "FFmpeg",
+      "revision": "946fcce07b6dcd0331c8cc609192aeff5e1924f8",
+      "provenance": "GyanD/codexffmpeg release 9.0.2 identifies 946fcce07b; expanded using the official FFmpeg repository",
+      "url": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/946fcce07b6dcd0331c8cc609192aeff5e1924f8",
+      "archive": "FFmpeg-946fcce07b6dcd0331c8cc609192aeff5e1924f8.tar.gz",
+      "bytes": 17333895,
+      "sha256": "0aa2b1de2a5698b20a23e93d539a9a8e82ca0117496c5bdf05d198805f42bb3b",
+      "directory": "FFmpeg-946fcce07b6dcd0331c8cc609192aeff5e1924f8",
+      "coverage": "FFmpeg source, configure and Makefiles only; external libraries and supplier build inputs remain incomplete"
+    },
+    {
+      "component": "Qt base",
+      "revision": "5a1194b2d368e2d72c230205c464b04a2f23eccd",
+      "provenance": "Exact downloadLocation in the binary supplier SPDX inventory; confirmed in the official qt/qtbase mirror",
+      "url": "https://codeload.github.com/qt/qtbase/tar.gz/5a1194b2d368e2d72c230205c464b04a2f23eccd",
+      "archive": "qtbase-5a1194b2d368e2d72c230205c464b04a2f23eccd.tar.gz",
+      "bytes": 67864389,
+      "sha256": "eb79a9425ca4818e0cb993d30dd3c43821a2e42a643f66d167fd32350373c9e4",
+      "directory": "qtbase-5a1194b2d368e2d72c230205c464b04a2f23eccd",
+      "coverage": "Qt base and embedded third-party sources, attribution and license files; supplier configuration retained in evidence/session-0/dependencies"
+    }
+  ],
+  "visualStudioChannel": "VisualStudio.18.Release",
+  "visualStudioIsPrerelease": false,
+  "MicrosoftCommunityLicenseSha256": "02ac07637f4a513a807cd3721c7620433fc483bc049d25784b0c10c54b05e1fb",
+  "MicrosoftRuntimeLicenseSha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783",
+  "supplierRelease": "https://github.com/GyanD/codexffmpeg/releases/tag/9.0.2",
+  "supplierAssets": [
+    "ffmpeg-9.0.2-essentials_build.7z",
+    "ffmpeg-9.0.2-essentials_build.zip",
+    "ffmpeg-9.0.2-full_build-shared.7z",
+    "ffmpeg-9.0.2-full_build-shared.zip",
+    "ffmpeg-9.0.2-full_build.7z",
+    "ffmpeg-9.0.2-full_build.zip"
+  ],
+  "externalDistributionApproved": false
+}
