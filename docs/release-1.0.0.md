@@ -1,10 +1,16 @@
-# 1.0.0 release preparation
+# 1.0.0 release
 
 The author approved a public `NetanelGuber/Video-Editor` source repository and
-GPL-3.0-or-later application license on 2026-10-09. The binary release is a
-**private GitHub draft** pending the dependency corresponding-source/build
-material described in [the distribution review](release-license-review.md).
-There is no public binary download yet.
+GPL-3.0-or-later application license on 2026-10-09. At the author's subsequent
+instruction, the existing tested ZIP was published on 2026-10-09 at 13:36:31 UTC:
+[public release and download](https://github.com/NetanelGuber/Video-Editor/releases/tag/v1.0.0).
+The dependency source/build gaps described in
+[the distribution review](release-license-review.md) remain open and are
+disclosed in the release notes. The ZIP retains its preparation-time draft
+labels and `externalDistributionApproved=false` source-review flag.
+Unauthenticated release access, ZIP download access/size and checksum were
+verified; [publication evidence](../evidence/release-1.0.0/publication.json)
+records the result. Application and dependency binary bytes are unchanged.
 
 The [follow-up source review](dependency-source-review.md) recovered the exact
 supplier-identified FFmpeg/Qt source archives, verified all eleven shipped Qt

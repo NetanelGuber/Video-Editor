@@ -1,0 +1,11 @@
+{
+  "releaseUrl": "https://github.com/NetanelGuber/Video-Editor/releases/tag/v1.0.0",
+  "publishedAt": "2026-10-09T13:36:31Z",
+  "unauthenticatedReleaseAccess": true,
+  "zipDownloadStatus": 200,
+  "zipBytes": 110927666,
+  "zipSha256": "sha256:9cc66575e9b63bd8d6e05df6f1c6144d9677d43b4dd5874700e399ba14fc2077",
+  "checksumMatches": true,
+  "applicationAndDependencyBinariesChanged": false,
+  "sourceCoverageComplete": false
+}

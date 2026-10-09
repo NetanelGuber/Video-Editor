@@ -4,7 +4,8 @@ The 2026-10-09 review recovered the supplier-identified FFmpeg and Qt source
 archives, verified their downloads, checked the shipped Qt code against the
 supplier SPDX inventory, and collected the Qt and Microsoft runtime notices.
 The existing FFmpeg binary build still lacks complete corresponding source.
-The binary release remains a private GitHub draft.
+This review was completed while the binary was a private GitHub draft; subsequent
+publication is recorded in [release status](release-1.0.0.md).
 
 ## Exact source downloads
 
@@ -138,8 +139,8 @@ requires fresh regression and extracted-package tests before publishing.
 
 [ffmpeg-supplier-source-request.md](ffmpeg-supplier-source-request.md) is the
 prepared request. It has not been sent. No unsupported source offer is made.
-The draft package must retain `externalDistributionApproved=false` until the
-remaining source/build coverage and final package are verified.
+The package retains `externalDistributionApproved=false` while the remaining
+source/build coverage is unresolved.
 
 Primary references: [GPLv3 section 6](https://www.gnu.org/licenses/gpl-3.0.html#section6),
 [Gyan build information](https://www.gyan.dev/ffmpeg/builds/),

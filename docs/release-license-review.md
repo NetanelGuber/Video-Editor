@@ -3,9 +3,9 @@
 Reviewed on 2026-10-09 against the shipped binaries, supplier inventories,
 recovered source archives and published license terms. The application source
 is **GPL-3.0-or-later**, selected by the author; see [COPYRIGHT.md](../COPYRIGHT.md).
-The source repository is public. The portable binary remains a **private draft**
-because the current FFmpeg supplier build still lacks complete dependency source
-and build material. [The detailed source review](dependency-source-review.md)
+The source repository and portable binary are public. The author instructed
+publication of the tested package with the current FFmpeg supplier build's
+dependency source/build gaps still open. [The detailed source review](dependency-source-review.md)
 records what was recovered and verified.
 
 | Component | Verified evidence | Remaining work |
@@ -29,7 +29,7 @@ programs/avdevice, optional DXC binaries and unrelated build outputs. The manife
 retains `externalDistributionApproved=false`. Automated build/export success does
 not establish complete corresponding-source coverage.
 
-## Before publishing the binary draft
+## Outstanding source and distribution work
 
 1. Complete FFmpeg source/patch/build/notices coverage for the actual DLLs, or
    replace them with a controlled build whose inputs we retain.
@@ -44,7 +44,7 @@ not establish complete corresponding-source coverage.
 
 [The prepared supplier request](ffmpeg-supplier-source-request.md) identifies
 the missing inputs. It has not been sent. No unsupported written source offer is
-made. The private draft stays unpublished until these steps are complete.
+made. Publication does not change the unresolved findings or source-review flags.
 
 Primary references: [GPLv3 section 6](https://www.gnu.org/licenses/gpl-3.0.html#section6),
 [FFmpeg legal guidance](https://ffmpeg.org/legal.html),

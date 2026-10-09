@@ -4,10 +4,9 @@ A native Windows video editor built with C++20, Qt Widgets and FFmpeg. The
 workspace includes searchable Project Media, a live Sequence viewer, a multitrack
 timeline and an Inspector. Editing, preview and export share frame-exact timing.
 
-Version **1.0.0** is the first versioned source release. The Windows binary ZIP
-is being prepared as a **private draft release** while exact dependency
-corresponding-source and build material is resolved. There is no public binary
-download yet. See [release status](docs/release-1.0.0.md) and
+Version **1.0.0** is available from the [GitHub release](https://github.com/NetanelGuber/Video-Editor/releases/tag/v1.0.0).
+The Windows binary was published with the remaining FFmpeg dependency source
+and build gaps disclosed in the release notes. See [release status](docs/release-1.0.0.md) and
 [the distribution review](docs/release-license-review.md).
 
 ## Features
@@ -23,7 +22,7 @@ download yet. See [release status](docs/release-1.0.0.md) and
 
 ## Portable Windows package
 
-The draft ZIP is `VideoEditor-1.0.0-windows-x64.zip`. Extract the entire ZIP to a
+Download [VideoEditor-1.0.0-windows-x64.zip](https://github.com/NetanelGuber/Video-Editor/releases/download/v1.0.0/VideoEditor-1.0.0-windows-x64.zip). Extract the entire ZIP to a
 writable folder and open `VideoEditor.exe`. Keep its DLLs, helper executable,
 plugin folders and `qt.conf` together. No developer tools, administrator access
 or PATH changes are needed to run. Windows 11 x64 is the tested platform. The
