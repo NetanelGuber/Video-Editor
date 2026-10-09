@@ -1,8 +1,8 @@
-# Video Editor 1.0.0 quick start
+# Video Editor 1.0.1 quick start
 
 ## Install and open
 
-Extract the entire `VideoEditor-1.0.0-windows-x64.zip` into a folder you own, such as `Documents\Video Editor`. Open `VideoEditor.exe` inside that folder. Windows 11 x64 is the tested platform. You do not need Visual Studio, Qt, FFmpeg, an administrator account or a PATH change. Keep the DLLs, plugin folders, `qt.conf` and `ExportCapabilityProbe.exe` beside the app. This draft package is unsigned and remains private pending dependency-source completion.
+Extract the entire `VideoEditor-1.0.1-windows-x64.zip` into a folder you own, such as `Documents\Video Editor`. Open `VideoEditor.exe` inside that folder. Windows 11 x64 is the tested platform. You do not need Visual Studio, Qt, FFmpeg, an administrator account or a PATH change. Keep the DLLs, plugin folders, `qt.conf` and `ExportCapabilityProbe.exe` beside the app. The package is unsigned.
 
 To update, extract the new version into a new folder. To remove the app, delete its extracted folder; projects and source media stay where you saved them. Layout, logs, caches and recovery snapshots stay in your Windows profile. **Help → Diagnostics locations** shows the actual settings/log paths. Back up any recovery work before removing profile data.
 
@@ -14,6 +14,27 @@ To update, extract the new version into a new folder. To remove the app, delete 
 4. The **Sequence** viewer shows your edits. Press **Space** to play or pause. Selecting a clip exposes its properties in **Inspector**. **View → Reset workspace** restores the panels.
 5. Choose **File → Save project** (Ctrl+S), choose a writable folder outside the app folder, and save a `.veproject`. Media is referenced rather than copied: keep the original files. **File → Open project…** reopens it.
 6. Choose **File → Export video…** (Ctrl+E), select a destination, and use **Simple** for ordinary video. Wait for the compatibility check to finish, then click **Export**. **Cancel export** leaves an existing destination unchanged. A successful export replaces it atomically.
+
+## Choose where the video ends
+
+New projects and sequences use **Automatic end (fit to clips)** by default.
+The dashed end marker follows the last clip after trims, moves, inserts,
+deletes and track removal. Preview and export end at that same point.
+Audio, titles, nested clips, and disabled or locked tracks all count.
+
+For a specific end, click the timeline ruler at the desired position, then use
+**Sequence → Set sequence end to playhead**. Alternatively, choose **Set sequence
+end manually…** and enter a duration, including a longer end with an intentional
+trailing gap. The field uses **View → Time display** units (frames or seconds).
+Both commands switch to manual mode. Clips extending past the chosen end must be
+trimmed or deleted first. Shortening clips then keeps your manual end; adding or
+extending clips beyond it still grows the sequence to fit them.
+
+Choose **Sequence → Automatic end (fit to clips)** to resume following clips.
+The same commands are in the **Sequence end: Auto/Manual** menu above the timeline.
+All end and mode changes support **Ctrl+Z**, redo and project save/reopen.
+An empty automatic sequence has zero duration. Older projects open in manual
+mode to preserve their saved duration; enable automatic mode to remove their tail.
 
 ## Simple or Advanced export
 
@@ -29,4 +50,4 @@ Offline media remains listed. Use **Locate file…** on the source or **Media �
 
 Unsaved changes prompt on New/Open/Close. Autosave runs every two minutes; two prior explicit-save backups are retained. After a crash, reopening the app offers recoverable snapshots. Recover and save to a new project path before continuing. Autosave cannot recover edits made since the latest snapshot or repair lost source media.
 
-Read [format and performance limits](supported-formats.md) before relying on a new format or playback device. Application source is GPL-3.0-or-later. The binary is a private draft; [license review](release-license-review.md) records the remaining dependency-source requirements before public distribution.
+Read [format and performance limits](supported-formats.md) before relying on a new format or playback device. Application source is GPL-3.0-or-later. The [license review](release-license-review.md) records the remaining dependency-source/build gaps disclosed with the public binary release.

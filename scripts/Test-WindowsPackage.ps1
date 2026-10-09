@@ -1,6 +1,6 @@
 #requires -Version 7.0
 [CmdletBinding()]
-param([Parameter(Mandatory)][string]$Archive, [string]$BuildDirectory = 'build/1.0.0', [string]$OutputDirectory = 'build/1.0.0-package-test')
+param([Parameter(Mandatory)][string]$Archive, [string]$BuildDirectory = 'build/1.0.1', [string]$OutputDirectory = 'build/1.0.1-package-test')
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 $lock = Get-Content -LiteralPath (Join-Path $root 'dependencies.lock.json') -Raw | ConvertFrom-Json
@@ -84,11 +84,12 @@ $ffmpeg = Join-Path $root "$($lock.packages[1].prefix)/bin"
 $exports=@()
 foreach ($filename in @('simple.mp4','advanced.mkv')) {
     $media = Join-Path $workflow.runDirectory $filename
-    $probe = & (Join-Path $ffmpeg 'ffprobe.exe') -v error -show_streams -show_format -of json $media
+    $probe = & (Join-Path $ffmpeg 'ffprobe.exe') -v error -count_frames -show_streams -show_format -of json $media
     if ($LASTEXITCODE -ne 0) { throw "Independent inspection failed: $filename" }
     $metadata = $probe | ConvertFrom-Json
     $video = $metadata.streams | Where-Object codec_type -eq 'video'; $audio = $metadata.streams | Where-Object codec_type -eq 'audio'
     if ($video.codec_name -ne 'h264' -or $video.width -ne 320 -or $video.height -ne 180 -or $video.r_frame_rate -ne '60/1' -or $audio.codec_name -ne 'aac') { throw "Export metadata differs: $filename" }
+    if ([int]$video.nb_read_frames -ne 60 -or [double]$metadata.format.duration -lt 1.0 -or [double]$metadata.format.duration -gt 1.1) { throw "Fitted sequence export includes an empty tail or loses frames: $filename" }
     & (Join-Path $ffmpeg 'ffmpeg.exe') -v error -nostdin -i $media -f null NUL 2>&1 | Set-Content (Join-Path $output "$filename-decode.txt")
     if ($LASTEXITCODE -ne 0) { throw "Full independent decode failed: $filename" }
     $exports += @{file=$filename; metadata=$metadata; sha256=(Get-FileHash -LiteralPath $media -Algorithm SHA256).Hash}

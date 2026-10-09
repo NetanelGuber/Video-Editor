@@ -1,6 +1,6 @@
 # Build and run the native application
 
-The app uses C++20, CMake, MSVC, and Qt Widgets. Version 1.0.0 establishes the GPL-3.0-or-later source release and private portable binary draft; see [release status](release-1.0.0.md). [Session 16](session-16.md) describes the original packaging implementation. [Session 15.2](session-15.2.md) covers Simple/Advanced export; [Session 15.1](session-15.1.md) covers the workspace and Inspector. Earlier session reports retain detailed feature evidence and limits.
+The app uses C++20, CMake, MSVC, and Qt Widgets. Version 1.0.1 adds sequence end controls to the GPL-3.0-or-later source release and portable Windows package; see [release status](release-1.0.1.md). [Session 16](session-16.md) describes the original packaging implementation. [Session 15.2](session-15.2.md) covers Simple/Advanced export; [Session 15.1](session-15.1.md) covers the workspace and Inspector. Earlier session reports retain detailed feature evidence and limits.
 
 ## Prerequisites and pins
 
@@ -22,7 +22,7 @@ Run in ordinary PowerShell; a Developer PowerShell prompt is not required:
 ```powershell
 ./scripts/Build.ps1
 ./scripts/Test-Application.ps1
-Start-Process -FilePath './build/1.0.0/Release/VideoEditor.exe'
+Start-Process -FilePath './build/1.0.1/Release/VideoEditor.exe'
 ```
 
 `Build.ps1` configures and builds Release, then deploys Qt runtime libraries/plugins and the pinned FFmpeg avformat/avcodec/avutil/swscale/swresample/avfilter DLLs beside the executable. Keep the Release directory together, including ExportCapabilityProbe.exe for isolated runtime driver checks. This development directory also contains test executables/libraries; it is not the release package. [Session 16](session-16.md) provides an allowlisted portable ZIP with app-local MSVC runtime, inventory and notices. Windows 11 supplies UCRT and system/driver DLLs.
@@ -48,7 +48,7 @@ The pinned qtbase archive does not contain translation catalogs. `windeployqt` w
 
 ## Settings and diagnostics
 
-- App identity/version: `LocalVideoTools / VideoEditor`, version `1.0.0`; also shown in the title, executable resource and **Help → About Video Editor**.
+- App identity/version: `LocalVideoTools / VideoEditor`, version `1.0.1`; also shown in the title, executable resource and **Help → About Video Editor**.
 - Layout settings: QSettings INI format, normally `%APPDATA%\LocalVideoTools\VideoEditor.ini`. Window geometry, dock/toolbar state, and preview/timeline splitter position are saved on a normal close.
 - **View → Time display → Frames / Seconds** changes time units throughout the editor and remembers the choice on normal close. Frames is the default. Seconds mode covers the timeline ruler and position, sequence duration, source/sequence monitor clocks, title duration, audio/video fades, and effect keyframe times. Frame rates remain fps, and previous/next-frame buttons still step one frame.
 - The seconds ruler chooses readable decimal intervals as you zoom, including fractions of a second. Timing fields accept decimal seconds and round edits to the nearest sequence frame (half-frame ties round up). Accepting unchanged fields preserves their exact stored frames, including fractional frame rates. Project timing and undo history are unaffected by changing display units.

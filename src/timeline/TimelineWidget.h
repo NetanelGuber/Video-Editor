@@ -52,6 +52,9 @@ public:
     void splitAtPlayhead();
     void deleteSelected();
     void closeGapAtPlayhead();
+    void setSequenceEndToPlayhead();
+    void fitSequenceToClips();
+    void editSequenceEnd();
     void trimToPlayhead(bool in);
     void requestProperties(const QString& section);
     void setSelectedPrimaryVideo();
@@ -68,7 +71,7 @@ signals:
     void propertiesRequested(const QString& section);
 private:
     friend class TimelineCanvas;
-    TimelineEditor editor_{newProject()};
+    TimelineEditor editor_{newProject(QStringLiteral("Untitled"), true)};
     TimelineCanvas* canvas_;
     QSlider* zoom_;
     QComboBox* stream_;

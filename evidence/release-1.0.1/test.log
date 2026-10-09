@@ -1,0 +1,43 @@
+Test project B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.1
+      Start  1: project-persistence
+ 1/19 Test  #1: project-persistence ..............   Passed    0.39 sec
+      Start  2: application-shell
+ 2/19 Test  #2: application-shell ................   Passed    0.51 sec
+      Start  3: media-import-inspection
+ 3/19 Test  #3: media-import-inspection ..........   Passed    4.90 sec
+      Start  4: timeline-editing
+ 4/19 Test  #4: timeline-editing .................   Passed    1.11 sec
+      Start  5: playback-decode-render
+ 5/19 Test  #5: playback-decode-render ...........   Passed   14.40 sec
+      Start  6: timeline-interface
+ 6/19 Test  #6: timeline-interface ...............   Passed    0.57 sec
+      Start  7: audio-title-basics
+ 7/19 Test  #7: audio-title-basics ...............   Passed    4.51 sec
+      Start  8: sequence-export
+ 8/19 Test  #8: sequence-export ..................   Passed   12.09 sec
+      Start  9: project-recovery-relink
+ 9/19 Test  #9: project-recovery-relink ..........   Passed    0.96 sec
+      Start 10: performance-4k-cache
+10/19 Test #10: performance-4k-cache .............   Passed   52.46 sec
+      Start 11: effects-keyframes-fades
+11/19 Test #11: effects-keyframes-fades ..........   Passed    3.83 sec
+      Start 12: color-speed-masks
+12/19 Test #12: color-speed-masks ................   Passed   13.34 sec
+      Start 13: nested-multicamera
+13/19 Test #13: nested-multicamera ...............   Passed    8.75 sec
+      Start 14: export-device-compatibility
+14/19 Test #14: export-device-compatibility ......   Passed   19.85 sec
+      Start 15: export-encoder-catalog
+15/19 Test #15: export-encoder-catalog ...........   Passed   27.47 sec
+      Start 16: export-capability-cache
+16/19 Test #16: export-capability-cache ..........   Passed    0.11 sec
+      Start 17: workspace-organization
+17/19 Test #17: workspace-organization ...........   Passed    2.89 sec
+      Start 18: export-simple-advanced
+18/19 Test #18: export-simple-advanced ...........   Passed   11.40 sec
+      Start 19: packaged-first-workflow
+19/19 Test #19: packaged-first-workflow ..........   Passed   10.51 sec
+
+100% tests passed, 0 tests failed out of 19
+
+Total Test time (real) = 190.35 sec

@@ -293,6 +293,8 @@ MainWindow::MainWindow(QSettings& settings, Diagnostics& diagnostics)
     exit->setShortcut(QKeySequence::Quit);
     auto* sequenceMenu = menuBar()->addMenu(tr("&Sequence")); sequenceMenu->setObjectName("sequenceMenu");
     for (const auto* name : {"newSequenceAction", "nestSequenceAction", "openChildAction", "newMulticamAction", "ungroupCamerasAction", "cameraOverviewAction", "camera1Action", "camera2Action", "camera3Action", "camera4Action"}) sequenceMenu->addAction(timeline_->findChild<QAction*>(name));
+    sequenceMenu->addSeparator();
+    for (const auto* name : {"fitSequenceToClipsAction", "setSequenceEndToPlayheadAction", "manualSequenceEndAction"}) sequenceMenu->addAction(timeline_->findChild<QAction*>(name));
     auto* viewMenu = menuBar()->addMenu(tr("&View")); viewMenu->setObjectName("viewMenu");
     auto* timeMenu = viewMenu->addMenu(tr("Time display"));
     auto* timeGroup = new QActionGroup(this);
@@ -436,7 +438,7 @@ void MainWindow::newDocument() {
     cancelImport(); ++mediaGeneration_;
     inspections_.clear(); inspectionOrder_.clear(); importFailures_.clear();
     pendingInspection_.clear();
-    project_ = editor::project::newProject();
+    project_ = editor::project::newProject(QStringLiteral("Untitled"), true);
     savedProject_ = project_; forceDirty_ = true;
     projectPath_.clear(); autosavePath_.clear(); dirty_ = true;
     refreshProject();

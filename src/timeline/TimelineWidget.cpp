@@ -112,6 +112,22 @@ TimelineWidget::TimelineWidget(QWidget* parent) : QWidget(parent) {
     // Sequence management lives in the Sequence menu. Only relevant camera/child actions
     // join the sequence header, leaving routine edits easy to scan.
     for (auto* a : sequenceTools->actions()) if (!a->objectName().isEmpty()) sequenceTools->removeAction(a);
+    auto* endMenu = new QMenu(this);
+    auto* endAtPlayhead = endMenu->addAction(tr("Set sequence end to playhead"));
+    endAtPlayhead->setObjectName("setSequenceEndToPlayheadAction");
+    endAtPlayhead->setToolTip(tr("End preview and export at the playhead. Trim any clips extending past it first."));
+    connect(endAtPlayhead, &QAction::triggered, this, &TimelineWidget::setSequenceEndToPlayhead);
+    auto* fitEnd = endMenu->addAction(tr("Automatic end (fit to clips)"));
+    fitEnd->setObjectName("fitSequenceToClipsAction");
+    fitEnd->setCheckable(true);
+    fitEnd->setToolTip(tr("Keep preview and export ending at the last clip after every edit, including disabled tracks."));
+    connect(fitEnd, &QAction::triggered, this, &TimelineWidget::fitSequenceToClips);
+    auto* manualEnd = endMenu->addAction(tr("Set sequence end manually…"));
+    manualEnd->setObjectName("manualSequenceEndAction");
+    connect(manualEnd, &QAction::triggered, this, &TimelineWidget::editSequenceEnd);
+    auto* endButton = new QPushButton(tr("Sequence end"), this);
+    endButton->setObjectName("sequenceEndButton"); endButton->setMenu(endMenu);
+    sequenceTools->addWidget(endButton);
     canvas_ = new TimelineCanvas(*this); layout->addWidget(canvas_, 1);
     connect(zoom_, &QSlider::valueChanged, canvas_, &TimelineCanvas::setZoom);
     auto shortcut = [this](QKeySequence key, auto callback) {
@@ -155,6 +171,8 @@ void TimelineWidget::redo() { const auto before = editor_.state().project; if (e
 void TimelineWidget::refresh() {
     { QSignalBlocker block(sequences_); sequences_->clear(); const auto& p = editor_.state().project; for (const auto& s : p.sequences) sequences_->addItem(s.name, s.id); sequences_->setCurrentIndex(sequences_->findData(p.activeSequenceId)); }
     const auto* s = sequence(); const auto count = s && s->multicam ? s->multicam->cameraTrackIds.size() : 0;
+    findChild<QAction*>("fitSequenceToClipsAction")->setChecked(s && s->automaticEnd);
+    findChild<QPushButton*>("sequenceEndButton")->setText(s && s->automaticEnd ? tr("Sequence end: Auto") : tr("Sequence end: Manual"));
     overview_->setEnabled(count > 0); if (!count) overview_->setChecked(false);
     for (int i = 0; i < 4; ++i) findChild<QAction*>(QString("camera%1Action").arg(i + 1))->setEnabled(i < count);
     undo_->setEnabled(editor_.canUndo()); redo_->setEnabled(editor_.canRedo());
@@ -210,7 +228,7 @@ void TimelineWidget::refresh() {
 }
 bool TimelineWidget::cameraOverview() const { return overview_->isChecked(); }
 void TimelineWidget::newSequence(const QString& name) {
-    auto child = newProject().sequences[0]; child.name = name;
+    auto child = newProject(QStringLiteral("Untitled"), true).sequences[0]; child.name = name;
     if (const auto* s = sequence()) { child.frameRate = s->frameRate; child.width = s->width; child.height = s->height; child.sampleRate = s->sampleRate; }
     const auto id = child.id; playhead_ = 0; emit activated(); executeBatch({AddSequence{child}, ActivateSequence{id}}, "New sequence");
 }
@@ -252,7 +270,7 @@ void TimelineWidget::createMulticam() {
     QDialogButtonBox buttons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel); form.addRow(&buttons);
     connect(&buttons, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
     connect(&buttons, &QDialogButtonBox::accepted, &dialog, [&] {
-        auto s = newProject().sequences[0]; s.name = name.text().trimmed(); s.frameRate = time.rate; s.width = settings.width; s.height = settings.height; s.sampleRate = settings.sampleRate; s.tracks.clear();
+        auto s = newProject(QStringLiteral("Untitled"), true).sequences[0]; s.name = name.text().trimmed(); s.frameRate = time.rate; s.width = settings.width; s.height = settings.height; s.sampleRate = settings.sampleRate; s.tracks.clear();
         Multicam group; qint64 duration = std::numeric_limits<qint64>::max(); QSet<QString> used;
         const Media* audioMedia = nullptr; qint64 audioOffset = 0;
         for (int i = 0; i < cameras.size(); ++i) {
@@ -316,6 +334,46 @@ void TimelineWidget::stepPlayhead(int direction) {
     const auto* s = sequence(); if (!s) return;
     const auto target = direction < 0 ? std::max<qint64>(0, playhead_ - 1) : playhead_ < s->durationFrames ? playhead_ + 1 : playhead_;
     setPlayhead(target, true); canvas_->ensurePlayheadVisible();
+}
+void TimelineWidget::setSequenceEndToPlayhead() {
+    const auto* s = sequence(); if (!s || (!s->automaticEnd && s->durationFrames == playhead_)) return;
+    for (const auto& t : s->tracks) for (const auto& c : t.clips) {
+        if (c.startFrame + c.durationFrames > playhead_) {
+            emit editError(tr("A clip extends beyond the playhead. Trim or delete clips on every track past the desired end, then set the sequence end again."));
+            return;
+        }
+    }
+    const auto id = s->id;
+    emit activated();
+    execute(ResizeSequence{id, playhead_});
+}
+void TimelineWidget::fitSequenceToClips() {
+    const auto* s = sequence(); if (!s) return;
+    const auto id = s->id;
+    emit activated();
+    if (execute(SetAutomaticSequenceEnd{id}).isEmpty()) canvas_->ensurePlayheadVisible();
+}
+void TimelineWidget::editSequenceEnd() {
+    const auto* s = sequence(); if (!s) return;
+    const auto id = s->id; const TimeFormat time{s->frameRate, timeDisplay_};
+    QDialog dialog(this); dialog.setObjectName("sequenceEndDialog"); dialog.setWindowTitle(tr("Manual sequence end"));
+    QFormLayout form(&dialog);
+    QLineEdit endField; endField.setObjectName("sequenceEndValue"); time.initialize(&endField, s->durationFrames);
+    form.addRow(time.caption(tr("End")), &endField);
+    QLabel help(tr("Sets manual mode. Trim clips extending past this end first. Adding or extending clips past a manual end still grows the sequence."));
+    help.setWordWrap(true); form.addRow(&help);
+    QLabel error; error.setObjectName("sequenceEndError"); error.setWordWrap(true); form.addRow(&error);
+    QDialogButtonBox buttons(QDialogButtonBox::Ok | QDialogButtonBox::Cancel); form.addRow(&buttons);
+    connect(&buttons, &QDialogButtonBox::rejected, &dialog, &QDialog::reject);
+    connect(&buttons, &QDialogButtonBox::accepted, &dialog, [&] {
+        qint64 end;
+        if (!time.read(&endField, end)) { error.setText(tr("Enter a nonnegative end in the displayed time units.")); return; }
+        emit activated();
+        const auto result = execute(ResizeSequence{id, end});
+        if (!result.isEmpty()) { error.setText(result); return; }
+        dialog.accept();
+    });
+    dialog.exec();
 }
 void TimelineWidget::setSelectedMedia(const QString& id) {
     const auto oldStream = stream_->currentData().toInt(); const bool same = id == selectedMedia_;

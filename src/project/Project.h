@@ -7,7 +7,7 @@
 #include <optional>
 
 namespace editor::project {
-inline constexpr int SchemaVersion = 11;
+inline constexpr int SchemaVersion = 12;
 inline constexpr qint64 MaxDocumentBytes = 16 * 1024 * 1024;
 
 struct Rational {
@@ -117,6 +117,7 @@ struct Sequence {
     std::optional<Multicam> multicam;
     QString primaryVideoMediaId;
     int primaryVideoStreamIndex = -1;
+    bool automaticEnd = false;
     bool operator==(const Sequence&) const = default;
 };
 struct ExportSettings {
@@ -143,7 +144,8 @@ struct Project {
     bool operator==(const Project&) const = default;
 };
 QString newId();
-Project newProject(const QString& name = QStringLiteral("Untitled"));
+// Explicit-duration fixtures use manual mode; UI creation requests automatic mode.
+Project newProject(const QString& name = QStringLiteral("Untitled"), bool automaticEnd = false);
 QByteArray serialize(const Project& project);
 struct LoadResult {
     std::optional<Project> project;

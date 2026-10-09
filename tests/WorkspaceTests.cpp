@@ -68,6 +68,9 @@ int main(int argc, char** argv) {
     auto* mediaState = window.findChild<QLabel*>("mediaTaskState");
     auto menuContains = [&](const char* menu, const char* name) { return window.findChild<QMenu*>(menu)->actions().contains(action(name)); };
     check(window.menuBar()->actions().size() == 6 && menuContains("fileMenu", "exportSequenceAction") && menuContains("mediaMenu", "importFilesAction") && menuContains("editMenu", "timelineUndo") && menuContains("sequenceMenu", "nestSequenceAction"), "Six task menus route the existing production actions");
+    check(menuContains("sequenceMenu", "setSequenceEndToPlayheadAction") && menuContains("sequenceMenu", "fitSequenceToClipsAction") && menuContains("sequenceMenu", "manualSequenceEndAction") &&
+        window.findChild<QPushButton*>("sequenceEndButton")->isVisible(),
+        "Sequence menu and visible timeline header expose sequence end controls");
     check(!menuContains("fileMenu", "importFilesAction") && !action("diagnosticErrorAction"), "Media lives in Media; test error command is absent from production");
     check(mediaDock->windowTitle() == "Project Media" && inspectorDock->isVisible(), "Project Media and optional Inspector use the concept names");
     check(action("exportSequenceAction")->text() == "Export video…" && action("exportSequenceAction")->shortcut() == QKeySequence(Qt::CTRL | Qt::Key_E) && window.findChild<QToolBar*>("workspaceToolbar")->actions().contains(action("exportSequenceAction")), "Export video is prominent and retains Ctrl+E");

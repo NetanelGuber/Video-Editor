@@ -34,6 +34,8 @@
 #include <QTabWidget>
 #include <QTest>
 #include <QThread>
+#include <QTimer>
+#include <QMenu>
 #include <memory>
 #include <cstdio>
 #include <cmath>
@@ -84,6 +86,92 @@ int main(int argc, char** argv) {
     check(waitFor([&] { return !window.mediaBusy(); }), "Background inspection completes");
     auto* ui = window.findChild<timeline::TimelineWidget*>("timelineArea");
     auto* canvas = ui->canvas(); auto* surface = canvas->viewport();
+    {
+        auto endProject = project;
+        endProject.sequences[0].tracks[2].enabled = false;
+        endProject.sequences[0].tracks[2].locked = true;
+        endProject.sequences[0].tracks[2].clips[0].startFrame = 30;
+        timeline::TimelineWidget endWidget; endWidget.setProject(endProject);
+        auto* fit = endWidget.findChild<QAction*>("fitSequenceToClipsAction");
+        auto* setEnd = endWidget.findChild<QAction*>("setSequenceEndToPlayheadAction");
+        auto* endButton = endWidget.findChild<QPushButton*>("sequenceEndButton");
+        check(fit && setEnd && endButton && endButton->menu() &&
+            endButton->menu()->actions().contains(fit) && endButton->menu()->actions().contains(setEnd),
+            "Sequence end menu exposes both production resize actions");
+        if (!fit || !setEnd) return 1;
+        endWidget.setPlayhead(330);
+        fit->trigger();
+        const auto fitted = endWidget.editor().state().project;
+        check(endWidget.sequence()->durationFrames == 120 && endWidget.playhead() == 120 &&
+            endWidget.sequence()->tracks == endProject.sequences[0].tracks,
+            "Fit removes the empty tail, clamps playhead and preserves all clips including disabled locked audio");
+        endWidget.undo();
+        check(endWidget.editor().state().project == endProject, "Undo fit restores the exact explicit sequence duration");
+        endWidget.redo();
+        check(endWidget.editor().state().project == fitted, "Redo fit restores the frame-exact end");
+        endWidget.undo(); endWidget.setPlayhead(150);
+        setEnd->trigger();
+        check(endWidget.sequence()->durationFrames == 150 && endWidget.sequence()->tracks == endProject.sequences[0].tracks,
+            "Set end to playhead retains intentional trailing space without retiming clips");
+        const auto endAt150 = endWidget.editor().state().project;
+        QString resizeError;
+        QObject::connect(&endWidget, &timeline::TimelineWidget::editError, [&](const QString& message) { resizeError = message; });
+        endWidget.setPlayhead(100); setEnd->trigger();
+        check(endWidget.editor().state().project == endAt150 && resizeError.contains("Trim or delete"),
+            "Set end refuses to cut disabled locked clips and provides actionable trim instructions");
+        endWidget.setPlayhead(120); setEnd->trigger();
+        check(endWidget.sequence()->durationFrames == 120, "Set end accepts the exact exclusive clip boundary");
+        setEnd->trigger(); endWidget.undo();
+        check(endWidget.editor().state().project == endAt150, "Repeated unchanged resize actions add no undo entries");
+        endWidget.redo(); fit->trigger(); fit->trigger(); endWidget.undo();
+        check(!endWidget.sequence()->automaticEnd && endWidget.sequence()->durationFrames == 120,
+            "Automatic mode is undoable even at the same end and repeated activation adds no history");
+        endWidget.redo();
+        endWidget.execute(timeline::SetTrackLocked{sid, audio, false});
+        auto added = first; added.id = project::newId(); added.startFrame = 150;
+        check(endWidget.execute(timeline::InsertClip{sid, video, added}).isEmpty() && endWidget.sequence()->durationFrames == 240,
+            "Automatic mode grows when a later clip is inserted");
+        check(endWidget.execute(timeline::DeleteClip{sid, video, added.id}).isEmpty() && endWidget.sequence()->durationFrames == 120,
+            "Automatic mode shrinks when the last clip is deleted");
+        check(endWidget.execute(timeline::RemoveTrack{sid, audio}).isEmpty() && endWidget.sequence()->durationFrames == 90,
+            "Automatic mode follows removal of the last occupied track");
+        check(endWidget.execute(timeline::TrimClip{sid, video, first.id, 0, 45}).isEmpty() && endWidget.sequence()->durationFrames == 45,
+            "Automatic mode follows a clip out-point trim");
+        check(endWidget.execute(timeline::MoveClip{sid, video, first.id, video, 30}).isEmpty() && endWidget.sequence()->durationFrames == 75,
+            "Automatic mode follows clip moves with frame-exact duration");
+        endWidget.undo();
+        check(endWidget.sequence()->automaticEnd && endWidget.sequence()->durationFrames == 45,
+            "Undo restores the automatic end with the clip edit");
+        endWidget.execute(timeline::ResizeSequence{sid, 150});
+        endWidget.execute(timeline::TrimClip{sid, video, first.id, 0, 30});
+        check(!endWidget.sequence()->automaticEnd && endWidget.sequence()->durationFrames == 150,
+            "Manual end remains after later clips are shortened");
+        check(project::ProjectStore::save(fitted, output.filePath("fitted-end.veproject")).isEmpty() &&
+            project::ProjectStore::load(output.filePath("fitted-end.veproject")).project == fitted,
+            "Resized sequence end survives atomic save and reopen");
+        auto empty = project::newProject("Empty sequence end"); empty.sequences[0].durationFrames = 90;
+        endWidget.setProject(empty); fit->trigger();
+        check(endWidget.sequence()->durationFrames == 0 && endWidget.playhead() == 0,
+            "Fit an empty sequence removes all trailing space");
+        endWidget.undo(); endWidget.setPlayhead(0); setEnd->trigger();
+        check(endWidget.sequence()->durationFrames == 0, "An empty sequence can end at frame zero");
+        endWidget.newSequence("Automatic new sequence");
+        check(endWidget.sequence()->automaticEnd && endWidget.sequence()->durationFrames == 0,
+            "New sequences default to automatic end");
+        endWidget.setTimeDisplay(TimeDisplay::Seconds);
+        QTimer::singleShot(0, [&] {
+            auto* dialog = endWidget.findChild<QDialog*>("sequenceEndDialog");
+            dialog->findChild<QLineEdit*>("sequenceEndValue")->setText("2.5");
+            dialog->findChild<QDialogButtonBox*>()->button(QDialogButtonBox::Ok)->click();
+        });
+        endWidget.findChild<QAction*>("manualSequenceEndAction")->trigger();
+        check(!endWidget.sequence()->automaticEnd && endWidget.sequence()->durationFrames == 75,
+            "Native manual end dialog accepts seconds and extends beyond the current playhead range");
+        const auto beforeCancel = endWidget.editor().state().project;
+        QTimer::singleShot(0, [&] { endWidget.findChild<QDialog*>("sequenceEndDialog")->reject(); });
+        endWidget.findChild<QAction*>("manualSequenceEndAction")->trigger();
+        check(endWidget.editor().state().project == beforeCancel, "Cancel manual end leaves mode and duration unchanged");
+    }
     {
         timeline::TimelineWidget primaryWidget; primaryWidget.setProject(project);
         primaryWidget.execute(timeline::SetSelection{{sid, {video}, {first.id}}});

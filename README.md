@@ -4,14 +4,16 @@ A native Windows video editor built with C++20, Qt Widgets and FFmpeg. The
 workspace includes searchable Project Media, a live Sequence viewer, a multitrack
 timeline and an Inspector. Editing, preview and export share frame-exact timing.
 
-Version **1.0.0** is available from the [GitHub release](https://github.com/NetanelGuber/Video-Editor/releases/tag/v1.0.0).
+Version **1.0.1** is available from the [GitHub release](https://github.com/NetanelGuber/Video-Editor/releases/tag/v1.0.1).
 The Windows binary was published with the remaining FFmpeg dependency source
-and build gaps disclosed in the release notes. See [release status](docs/release-1.0.0.md) and
+and build gaps disclosed in the release notes. See [release status](docs/release-1.0.1.md) and
 [the distribution review](docs/release-license-review.md).
 
 ## Features
 
 - Import video/audio, preview sources, trim, split, move and undo/redo edits.
+- Automatic sequence end follows the last clip; manual end controls preserve
+  intentional duration or trailing space.
 - Titles, effect stacks, keyframes, fades, color/LUTs, masks, chroma key and speed
   changes; audio mixing, automation and buses.
 - Nested sequences and camera switching.
@@ -22,7 +24,7 @@ and build gaps disclosed in the release notes. See [release status](docs/release
 
 ## Portable Windows package
 
-Download [VideoEditor-1.0.0-windows-x64.zip](https://github.com/NetanelGuber/Video-Editor/releases/download/v1.0.0/VideoEditor-1.0.0-windows-x64.zip). Extract the entire ZIP to a
+Download [VideoEditor-1.0.1-windows-x64.zip](https://github.com/NetanelGuber/Video-Editor/releases/download/v1.0.1/VideoEditor-1.0.1-windows-x64.zip). Extract the entire ZIP to a
 writable folder and open `VideoEditor.exe`. Keep its DLLs, helper executable,
 plugin folders and `qt.conf` together. No developer tools, administrator access
 or PATH changes are needed to run. Windows 11 x64 is the tested platform. The
@@ -30,7 +32,7 @@ package is unsigned.
 
 - [First-use quick start](docs/quick-start.md)
 - [Format and performance limits](docs/supported-formats.md)
-- [1.0.0 release preparation and validation](docs/release-1.0.0.md)
+- [1.0.1 release preparation and validation](docs/release-1.0.1.md)
 - [Changelog](CHANGELOG.md)
 
 ## Build from source
@@ -44,7 +46,7 @@ git clone https://github.com/NetanelGuber/Video-Editor.git
 cd Video-Editor
 ./scripts/Install-Dependencies.ps1
 ./scripts/Build.ps1
-Start-Process -FilePath './build/1.0.0/Release/VideoEditor.exe'
+Start-Process -FilePath './build/1.0.1/Release/VideoEditor.exe'
 
 # Create a fresh draft package; refuses existing package outputs.
 ./scripts/Prepare-Session5Tests.ps1

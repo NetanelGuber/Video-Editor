@@ -1,6 +1,6 @@
 #requires -Version 7.0
 [CmdletBinding()]
-param([string]$BuildDirectory = 'build/1.0.0', [string]$OutputDirectory = 'out/release')
+param([string]$BuildDirectory = 'build/1.0.1', [string]$OutputDirectory = 'out/release')
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 $lock = Get-Content -LiteralPath (Join-Path $root 'dependencies.lock.json') -Raw | ConvertFrom-Json

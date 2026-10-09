@@ -58,6 +58,19 @@ int main(int argc, char** argv) {
                 e.undoLabel() == undoLabel && e.redoLabel() == redoLabel, name + " fails usefully without altering state/history: " + error);
         };
         auto straight = p;
+        {
+            TimelineEditor automatic(p);
+            exec(automatic, SetAutomaticSequenceEnd{sid}, "Enable automatic end at fractional sequence FPS");
+            qint64 expectedEnd = 0;
+            for (const auto& track : automatic.state().project.sequences[0].tracks)
+                for (const auto& c : track.clips) expectedEnd = std::max(expectedEnd, c.startFrame + c.durationFrames);
+            check(automatic.state().project.sequences[0].automaticEnd && automatic.state().project.sequences[0].durationFrames == expectedEnd,
+                "Automatic end counts title, video and audio clips without rounding fractional frame rates");
+            exec(automatic, ResizeSequence{sid, expectedEnd + 30}, "Switch automatic sequence to a manual trailing gap");
+            check(!automatic.state().project.sequences[0].automaticEnd && automatic.state().project.sequences[0].durationFrames == expectedEnd + 30,
+                "Manual mode retains the exact requested gap");
+            reject(automatic, ResizeSequence{sid, expectedEnd - 1}, "Manual end cannot cut the final clip");
+        }
         straight.sequences[0].tracks[0].clips.removeLast(); // Separate non-overlapping lane for ripple checks.
         check(gaps(p.sequences[0], p.sequences[0].tracks[0]) == QVector<FrameRange>{{0, 10}, {90, 10}, {130, 50}},
             "Gap query unions overlapping clips and includes leading/trailing gaps");

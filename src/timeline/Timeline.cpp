@@ -192,7 +192,9 @@ QString apply(State& state, const Command& command) {
                 require(op.durationFrames >= 0, "Sequence duration cannot be negative.");
                 for (const auto& t : s.tracks) for (const auto& c : t.clips)
                     require(end(c) <= op.durationFrames, "Sequence end would cut off an existing clip.");
-                s.durationFrames = op.durationFrames; return "Resize sequence";
+                s.durationFrames = op.durationFrames; s.automaticEnd = false; return "Set manual sequence end";
+            } else if constexpr (std::is_same_v<T, SetAutomaticSequenceEnd>) {
+                s.automaticEnd = true; return "Use automatic sequence end";
             } else {
                 auto& t = track(s, op.trackId, !std::is_same_v<T, SetTrackLocked>);
                 if constexpr (std::is_same_v<T, RemoveTrack>) {
@@ -374,6 +376,13 @@ QString TimelineEditor::executeBatch(const QVector<Command>& commands, const QSt
     QString label;
     try {
         for (const auto& command : commands) label = apply(next, command);
+        // Recompute in the same transaction as the edit so undo restores both
+        // the clips and their end. Manual ends retain the existing grow policy.
+        for (auto& s : next.project.sequences) if (s.automaticEnd) {
+            qint64 lastEnd = 0;
+            for (const auto& t : s.tracks) for (const auto& c : t.clips) lastEnd = std::max(lastEnd, end(c));
+            s.durationFrames = lastEnd;
+        }
         if (!requestedLabel.isEmpty()) label = requestedLabel;
         const auto error = validate(next.project);
         require(error.isEmpty(), error);

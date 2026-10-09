@@ -7,6 +7,7 @@
 #include <QSet>
 #include <QUuid>
 #include <cmath>
+#include <algorithm>
 #include <climits>
 #include <limits>
 #include <numeric>
@@ -81,7 +82,7 @@ Object json(const AudioBus& b) {
 }
 Object json(const Sequence& s) {
     Object result{{"id", s.id}, {"name", s.name}, {"primaryVideoMediaId", s.primaryVideoMediaId}, {"primaryVideoStreamIndex", s.primaryVideoStreamIndex},
-        {"frameRate", json(s.frameRate)}, {"durationFrames", integer(s.durationFrames)},
+        {"frameRate", json(s.frameRate)}, {"durationFrames", integer(s.durationFrames)}, {"automaticEnd", s.automaticEnd},
         {"width", s.width}, {"height", s.height}, {"sampleRate", s.sampleRate}, {"tracks", array(s.tracks)},
         {"audioBuses", array(s.audioBuses)}};
     if (s.multicam) {
@@ -295,11 +296,12 @@ AudioBus audioBus(const QJsonValue& value, const QString& path) {
 Sequence sequence(const QJsonValue& value, const QString& path) {
     require(value.isObject(), path, "expected an object");
     auto object = value.toObject(); if (!object.contains("multicam")) object["multicam"] = QJsonValue::Null;
-    Reader r(object, path, {"id", "name", "primaryVideoMediaId", "primaryVideoStreamIndex", "frameRate", "durationFrames", "width", "height", "sampleRate", "tracks", "audioBuses", "multicam"});
+    Reader r(object, path, {"id", "name", "primaryVideoMediaId", "primaryVideoStreamIndex", "frameRate", "durationFrames", "automaticEnd", "width", "height", "sampleRate", "tracks", "audioBuses", "multicam"});
     Sequence result{r.str("id"), r.str("name", true), rational(r, "frameRate"), r.big("durationFrames"), r.small("width", 1, 32768),
         r.small("height", 1, 32768), r.small("sampleRate", 8000, 384000), readArray<Track>(r, "tracks", track), readArray<AudioBus>(r, "audioBuses", audioBus)};
     result.primaryVideoMediaId = r.str("primaryVideoMediaId");
     result.primaryVideoStreamIndex = r.small("primaryVideoStreamIndex", -1, std::numeric_limits<int>::max());
+    result.automaticEnd = r.boolean("automaticEnd");
     if (!r.o["multicam"].isNull()) {
         Reader m(r.o["multicam"], r.at("multicam"), {"cameraTrackIds", "cuts"});
         Multicam group;
@@ -402,6 +404,11 @@ void references(const Project& p) {
                     if (e.type == "speed") require(c.durationFrames <= 10000000, path + ".durationFrames", "speed limit is 10 million frames");
                 }
             }
+        }
+        if (s.automaticEnd) {
+            qint64 lastEnd = 0;
+            for (const auto& t : s.tracks) for (const auto& c : t.clips) lastEnd = std::max(lastEnd, c.startFrame + c.durationFrames);
+            require(s.durationFrames == lastEnd, "sequences.automaticEnd", "automatic duration must equal the last clip end");
         }
         if (s.multicam) {
             const auto& m = *s.multicam; QSet<QString> cameras;
@@ -547,9 +554,9 @@ Object migrateV4(Object o) {
 }
 }
 QString newId() { return QUuid::createUuid().toString(QUuid::WithoutBraces); }
-Project newProject(const QString& name) {
+Project newProject(const QString& name, bool automaticEnd) {
     Project p; p.id = newId(); p.name = name;
-    Sequence s; s.id = newId(); s.name = QStringLiteral("Sequence 1");
+    Sequence s; s.id = newId(); s.name = QStringLiteral("Sequence 1"); s.automaticEnd = automaticEnd;
     Track v; v.id = newId(); v.name = QStringLiteral("Video 1");
     Track a; a.id = newId(); a.name = QStringLiteral("Audio 1"); a.kind = QStringLiteral("audio");
     s.tracks = {v, a}; p.activeSequenceId = s.id; p.sequences = {s};
@@ -568,7 +575,7 @@ LoadResult deserialize(const QByteArray& bytes) {
         require(o["format"] == QJsonValue("LocalVideoTools.VideoEditor"), "format", "not a Video Editor project");
         const auto version = o["schemaVersion"];
         require(version.isDouble() && version.toDouble() >= 1 && version.toDouble() <= SchemaVersion && std::floor(version.toDouble()) == version.toDouble(), "schemaVersion",
-            "unsupported schema version; supported versions are 1 through 10 (future versions require a newer app)");
+            "unsupported schema version; supported versions are 1 through " + QString::number(SchemaVersion) + " (future versions require a newer app)");
         if (version.toInt() == 1) { o = migrateV1(o); result.migratedFrom = 1; }
         if (o["schemaVersion"].toInt() == 2) { o = migrateV2(o); if (!result.migratedFrom) result.migratedFrom = 2; }
         if (o["schemaVersion"].toInt() == 3) { o = migrateV3(o); if (!result.migratedFrom) result.migratedFrom = 3; }
@@ -641,6 +648,15 @@ LoadResult deserialize(const QByteArray& bytes) {
             auto e = o["exportSettings"].toObject();
             require(!e.contains("audioBitrate") || e["audioBitrate"] == 192000, "exportSettings.audioBitrate", "unexpected schema 11 bitrate in older schema");
             e["audioBitrate"] = 192000; o["exportSettings"] = e; o["schemaVersion"] = 11; if (!result.migratedFrom) result.migratedFrom = 10;
+        }
+        if (o["schemaVersion"].toInt() == 11) {
+            auto sequences = o["sequences"].toArray();
+            for (qsizetype i = 0; i < sequences.size(); ++i) {
+                auto s = sequences[i].toObject();
+                require(!s.contains("automaticEnd") || s["automaticEnd"] == false, "sequences.automaticEnd", "unexpected automatic end in older schema");
+                s["automaticEnd"] = false; sequences[i] = s;
+            }
+            o["sequences"] = sequences; o["schemaVersion"] = 12; if (!result.migratedFrom) result.migratedFrom = 11;
         }
         Reader r(o, "project", {"format", "schemaVersion", "id", "name", "activeSequenceId", "media", "titles", "sequences", "exportSettings"});
         Project p{r.str("id"), r.str("name", true), r.str("activeSequenceId"), readArray<Media>(r, "media", media),

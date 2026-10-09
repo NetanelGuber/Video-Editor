@@ -1,6 +1,6 @@
 #requires -Version 7.0
 [CmdletBinding()]
-param([string]$BuildDirectory = 'build/1.0.0', [string]$PackageTestDirectory = 'build/1.0.0-package-test')
+param([string]$BuildDirectory = 'build/1.0.1', [string]$PackageTestDirectory = 'build/1.0.1-package-test')
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 function Absolute([string]$path) {

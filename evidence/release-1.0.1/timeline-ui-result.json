@@ -1,0 +1,8 @@
+{
+    "checkCount": 138,
+    "evidenceLevel": "Automated offscreen Qt mouse/drop/keyboard events, live render graph/decoded frame/title pixels, command history and atomic save/reopen; human interaction/rendering acceptance pending",
+    "failures": [
+    ],
+    "humanFixture": "B:/Coding/02-Projects/Tools/Video-Editor/fixtures/generated/session-6/first-cut.veproject",
+    "passed": true
+}

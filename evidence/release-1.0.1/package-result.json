@@ -1,0 +1,2394 @@
+{
+  "passed": true,
+  "version": "1.0.1",
+  "archive": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\out\\release-1.0.1\\VideoEditor-1.0.1-windows-x64.zip",
+  "archiveSha256": "4ae5f978aadebb0ee45c8a12506b13c40b4abf9a0904a8d7a34d78d13b722762",
+  "verifiedUtc": "2026-10-09T14:20:50.8953199Z",
+  "payloadFiles": 94,
+  "binaryImports": [
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-core-synch-l1-2-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avcodec-63.dll",
+      "dependency": "ADVAPI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avcodec-63.dll",
+      "dependency": "d2d1.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avcodec-63.dll",
+      "dependency": "DWrite.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avcodec-63.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-filesystem-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-private-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avcodec-63.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avcodec-63.dll",
+      "dependency": "ntdll.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avcodec-63.dll",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avcodec-63.dll",
+      "dependency": "avutil-61.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avcodec-63.dll",
+      "dependency": "swresample-7.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "ADVAPI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "CFGMGR32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "GDI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "IPHLPAPI.DLL"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "MSIMG32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-filesystem-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-multibyte-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-private-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-process-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avfilter-12.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "SHELL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "SHLWAPI.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avfilter-12.dll",
+      "dependency": "WS2_32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avfilter-12.dll",
+      "dependency": "avcodec-63.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avfilter-12.dll",
+      "dependency": "avformat-63.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avfilter-12.dll",
+      "dependency": "avutil-61.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avfilter-12.dll",
+      "dependency": "swresample-7.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avfilter-12.dll",
+      "dependency": "swscale-10.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "ADVAPI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "bcrypt.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "CRYPT32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "IPHLPAPI.DLL"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-filesystem-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-private-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avformat-63.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "ncrypt.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "SHELL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avformat-63.dll",
+      "dependency": "WS2_32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avformat-63.dll",
+      "dependency": "avcodec-63.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "avformat-63.dll",
+      "dependency": "avutil-61.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avutil-61.dll",
+      "dependency": "ADVAPI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avutil-61.dll",
+      "dependency": "bcrypt.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avutil-61.dll",
+      "dependency": "CFGMGR32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avutil-61.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-filesystem-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-private-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "avutil-61.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avutil-61.dll",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "avutil-61.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "concrt140.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "concrt140.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "concrt140.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "concrt140.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "concrt140.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "concrt140.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "concrt140.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "concrt140.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "concrt140.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "avutil-61.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "avformat-63.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "avcodec-63.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "swscale-10.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "swresample-7.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "ExportCapabilityProbe.exe",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_1.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_1.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_1.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_1.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "msvcp140_1.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_2.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_2.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_2.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_2.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_2.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_2.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_2.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_2.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_2.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "msvcp140_2.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "ADVAPI32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "api-ms-win-core-synch-l1-2-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "msvcp140_atomic_wait.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140_codecvt_ids.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140_codecvt_ids.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "msvcp140_codecvt_ids.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "msvcp140.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-filesystem-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "msvcp140.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "msvcp140.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-core-synch-l1-2-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "MPR.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "USERENV.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "ADVAPI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "AUTHZ.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "NETAPI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "ntdll.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "SHELL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "VERSION.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "WINMM.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "WS2_32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "icuuc.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Core.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Core.dll",
+      "dependency": "MSVCP140_1.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Core.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Core.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-crt-filesystem-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-core-winrt-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Core.dll",
+      "dependency": "api-ms-win-core-winrt-error-l1-1-1.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Core.dll",
+      "dependency": "OLEAUT32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "d3d11.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "dxgi.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "d3d12.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "GDI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "SHELL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "UxTheme.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "DWrite.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Gui.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Gui.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Gui.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Gui.dll",
+      "dependency": "MSVCP140_1.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Gui.dll",
+      "dependency": "MSVCP140_2.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Gui.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Gui.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Gui.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6OpenGL.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "Qt6OpenGL.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "Qt6Widgets.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6OpenGLWidgets.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "dwmapi.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "UxTheme.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "GDI32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "MSVCP140_1.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "Qt6Widgets.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "swresample-7.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-private-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swresample-7.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "swresample-7.dll",
+      "dependency": "avutil-61.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "swscale-10.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-private-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "swscale-10.dll",
+      "dependency": "api-ms-win-crt-utility-l1-1-0.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "swscale-10.dll",
+      "dependency": "avutil-61.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "vccorlib140.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "vccorlib140.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "vccorlib140.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "vccorlib140.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "vccorlib140.dll",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "vccorlib140.dll",
+      "dependency": "OLEAUT32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-core-winrt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-core-winrt-error-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-core-winrt-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vccorlib140.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140_1.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140_1.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140_1.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "vcruntime140_1.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "vcruntime140_1.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140_threads.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140_threads.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140_threads.dll",
+      "dependency": "api-ms-win-crt-time-l1-1-0.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "vcruntime140_threads.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "vcruntime140_threads.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "vcruntime140.dll",
+      "dependency": "api-ms-win-crt-convert-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "vcruntime140.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "Qt6OpenGLWidgets.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "Qt6Widgets.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "avfilter-12.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "VideoEditor.exe",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "avutil-61.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "avformat-63.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "avcodec-63.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "swscale-10.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "swresample-7.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "VideoEditor.exe",
+      "dependency": "dxgi.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "VideoEditor.exe",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "VideoEditor.exe",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "VideoEditor.exe",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "VideoEditor.exe",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "VideoEditor.exe",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "VideoEditor.exe",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "VideoEditor.exe",
+      "dependency": "api-ms-win-crt-locale-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "VideoEditor.exe",
+      "dependency": "SHELL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "VideoEditor.exe",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qgif.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qgif.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qgif.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qgif.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qgif.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qgif.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "imageformats\\qgif.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qico.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qico.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qico.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qico.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qico.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qico.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "imageformats\\qico.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "api-ms-win-crt-environment-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "imageformats\\qjpeg.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qoffscreen.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qoffscreen.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qoffscreen.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qoffscreen.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qoffscreen.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qoffscreen.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qoffscreen.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "ADVAPI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "dwmapi.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "GDI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "IMM32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "ole32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "OLEAUT32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "SETUPAPI.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "SHELL32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "SHLWAPI.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "WINMM.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "WTSAPI32.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-shcore-scaling-l1-1-1.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "COMDLG32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "d3d9.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-core-winrt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-core-winrt-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "UIAutomationCore.DLL"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "VCRUNTIME140_1.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-crt-stdio-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "platforms\\qwindows.dll",
+      "dependency": "api-ms-win-core-winrt-error-l1-1-1.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "dwmapi.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "GDI32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "USER32.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "UxTheme.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "Qt6Widgets.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "Qt6Gui.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "Qt6Core.dll"
+    },
+    {
+      "resolution": "Windows system/driver",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "KERNEL32.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "MSVCP140.dll"
+    },
+    {
+      "resolution": "package",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "VCRUNTIME140.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "api-ms-win-crt-string-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "api-ms-win-crt-heap-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "api-ms-win-crt-math-l1-1-0.dll"
+    },
+    {
+      "resolution": "Windows API contract",
+      "binary": "styles\\qmodernwindowsstyle.dll",
+      "dependency": "api-ms-win-crt-runtime-l1-1-0.dll"
+    }
+  ],
+  "workflow": {
+    "checks": [
+      "Start with empty isolated settings and capabilities",
+      "Create project with automatic sequence end through production action",
+      "Background import completes",
+      "Imported media is online",
+      "Place video through production timeline",
+      "Place audio through production timeline",
+      "Split action edits the selected video",
+      "Undo restores placed content exactly",
+      "Prepare a trailing gap after the edited clips",
+      "Packaged end-at-playhead command shortens the sequence without changing clips",
+      "Packaged fit-to-clips command removes the remaining empty export tail",
+      "Undo restores the previous sequence end",
+      "Redo restores the fitted sequence end",
+      "Atomic first save succeeds",
+      "Reopen preserves saved edits and normalized media paths",
+      "Packaged dialog provides both export tabs",
+      "Packaged capability helper validates Simple settings from an empty cache",
+      "Simple produces H.264/AAC export",
+      "Advanced validates the packaged custom encoder and container",
+      "Advanced export completes",
+      "Prepare an existing cancellation destination",
+      "Cancellation configuration validates",
+      "Cancellation preserves existing destination atomically",
+      "Launch packaged crash child",
+      "Production autosave writes crash snapshot",
+      "Terminated process preserves last good save",
+      "Restart offers production recovery and saves recovered edit",
+      "Enumerate actual loaded DLL paths"
+    ],
+    "evidenceLevel": "Automated production Qt widgets offscreen, isolated profile data, packaged DLLs; no new Windows account or human visual validation",
+    "failures": [],
+    "modules": [
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\PackageWorkflowTests.exe",
+      "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+      "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+      "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+      "C:\\WINDOWS\\SYSTEM32\\apphelp.dll",
+      "C:\\WINDOWS\\System32\\ole32.dll",
+      "C:\\WINDOWS\\System32\\msvcp_win.dll",
+      "C:\\WINDOWS\\System32\\ucrtbase.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\Qt6OpenGLWidgets.dll",
+      "C:\\WINDOWS\\System32\\GDI32.dll",
+      "C:\\WINDOWS\\System32\\win32u.dll",
+      "C:\\WINDOWS\\System32\\gdi32full.dll",
+      "C:\\WINDOWS\\System32\\USER32.dll",
+      "C:\\WINDOWS\\System32\\combase.dll",
+      "C:\\WINDOWS\\System32\\RPCRT4.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\Qt6OpenGL.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\Qt6Widgets.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\VCRUNTIME140.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\avfilter-12.dll",
+      "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+      "C:\\WINDOWS\\System32\\msvcrt.dll",
+      "C:\\WINDOWS\\System32\\sechost.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\swresample-7.dll",
+      "C:\\WINDOWS\\System32\\SHELL32.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\avutil-61.dll",
+      "C:\\WINDOWS\\System32\\SHLWAPI.dll",
+      "C:\\WINDOWS\\System32\\WS2_32.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\Qt6Core.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\Qt6Gui.dll",
+      "C:\\WINDOWS\\System32\\OLEAUT32.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\swscale-10.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\avformat-63.dll",
+      "C:\\WINDOWS\\SYSTEM32\\dxgi.dll",
+      "C:\\WINDOWS\\System32\\CRYPT32.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\MSVCP140.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\VCRUNTIME140_1.dll",
+      "C:\\WINDOWS\\SYSTEM32\\UxTheme.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\MSVCP140_1.dll",
+      "C:\\WINDOWS\\SYSTEM32\\dwmapi.dll",
+      "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+      "C:\\WINDOWS\\SYSTEM32\\CFGMGR32.dll",
+      "C:\\WINDOWS\\SYSTEM32\\MSIMG32.dll",
+      "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\avcodec-63.dll",
+      "C:\\WINDOWS\\SYSTEM32\\MPR.dll",
+      "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+      "C:\\WINDOWS\\SYSTEM32\\AUTHZ.dll",
+      "C:\\WINDOWS\\SYSTEM32\\VERSION.dll",
+      "C:\\WINDOWS\\SYSTEM32\\NETAPI32.dll",
+      "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+      "C:\\WINDOWS\\SYSTEM32\\d3d11.dll",
+      "C:\\WINDOWS\\SYSTEM32\\d3d12.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\MSVCP140_2.dll",
+      "C:\\WINDOWS\\SYSTEM32\\DWrite.dll",
+      "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+      "C:\\WINDOWS\\SYSTEM32\\ncrypt.dll",
+      "C:\\WINDOWS\\SYSTEM32\\d2d1.dll",
+      "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+      "C:\\WINDOWS\\SYSTEM32\\icuuc.dll",
+      "C:\\WINDOWS\\SYSTEM32\\SRVCLI.DLL",
+      "C:\\WINDOWS\\SYSTEM32\\NETUTILS.DLL",
+      "C:\\WINDOWS\\SYSTEM32\\icu.DLL",
+      "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+      "C:\\WINDOWS\\System32\\IMM32.DLL",
+      "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+      "C:\\WINDOWS\\SYSTEM32\\NTASN1.dll",
+      "C:\\WINDOWS\\SYSTEM32\\windows.storage.dll",
+      "C:\\WINDOWS\\System32\\SHCORE.dll",
+      "C:\\WINDOWS\\SYSTEM32\\vulkan-1.dll",
+      "C:\\WINDOWS\\SYSTEM32\\profapi.dll",
+      "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\VideoEditor-1.0.1-windows-x64\\platforms\\qoffscreen.dll",
+      "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+      "C:\\WINDOWS\\System32\\clbcatq.dll",
+      "C:\\WINDOWS\\System32\\MMDevApi.dll",
+      "C:\\WINDOWS\\System32\\DEVOBJ.dll",
+      "C:\\WINDOWS\\SYSTEM32\\AUDIOSES.DLL",
+      "C:\\WINDOWS\\SYSTEM32\\resourcepolicyclient.dll",
+      "C:\\WINDOWS\\SYSTEM32\\dxcore.dll",
+      "C:\\WINDOWS\\SYSTEM32\\directxdatabasehelper.dll"
+    ],
+    "passed": true,
+    "runDirectory": "B:/Coding/02-Projects/Tools/Video-Editor/build/1.0.1-package-test-final/fresh-profile/workflow/run-5c6fc420-df6d-46ff-a50c-552cee0178bd",
+    "version": "1.0.1"
+  },
+  "exports": [
+    {
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "mime_codec_string": "avc1.640015",
+            "width": 320,
+            "height": 180,
+            "coded_width": 320,
+            "coded_height": 192,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv420p",
+            "level": 21,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 3,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/15360",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 15360,
+            "duration": "1.000000",
+            "bit_rate": "472272",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "60",
+            "nb_read_frames": "60",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "mp4a",
+            "codec_tag": "0x6134706d",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "id": "0x2",
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/48000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 48000,
+            "duration": "1.000000",
+            "bit_rate": "26216",
+            "nb_frames": "48",
+            "nb_read_frames": "47",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "SoundHandler"
+            }
+          }
+        ],
+        "format": {
+          "filename": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\fresh-profile\\workflow\\run-5c6fc420-df6d-46ff-a50c-552cee0178bd\\simple.mp4",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "1.000000",
+          "size": "64927",
+          "bit_rate": "519416",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf63.1.102"
+          }
+        }
+      },
+      "file": "simple.mp4",
+      "sha256": "5A6F96786160DFD4095B5F43E7171A1031A49C153C12B84B39D9D74386FF46D9"
+    },
+    {
+      "metadata": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "avc1.640015",
+            "width": 320,
+            "height": 180,
+            "coded_width": 320,
+            "coded_height": 192,
+            "has_b_frames": 0,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "16:9",
+            "pix_fmt": "yuv420p",
+            "level": 21,
+            "color_range": "tv",
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "chroma_location": "left",
+            "field_order": "progressive",
+            "refs": 3,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "r_frame_rate": "60/1",
+            "avg_frame_rate": "60/1",
+            "time_base": "1/1000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "bits_per_raw_sample": "8",
+            "nb_read_frames": "60",
+            "extradata_size": 50,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "DURATION": "00:00:01.000000000"
+            }
+          },
+          {
+            "index": 1,
+            "codec_name": "aac",
+            "codec_long_name": "AAC (Advanced Audio Coding)",
+            "profile": "LC",
+            "codec_type": "audio",
+            "codec_tag_string": "[0][0][0][0]",
+            "codec_tag": "0x0000",
+            "mime_codec_string": "mp4a.40.2",
+            "sample_fmt": "fltp",
+            "sample_rate": "48000",
+            "channels": 2,
+            "channel_layout": "stereo",
+            "bits_per_sample": 0,
+            "initial_padding": 1024,
+            "r_frame_rate": "0/0",
+            "avg_frame_rate": "0/0",
+            "time_base": "1/1000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "nb_read_frames": "47",
+            "extradata_size": 5,
+            "disposition": {
+              "default": 0,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "DURATION": "00:00:01.021000000"
+            }
+          }
+        ],
+        "format": {
+          "filename": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1-package-test-final\\fresh-profile\\workflow\\run-5c6fc420-df6d-46ff-a50c-552cee0178bd\\advanced.mkv",
+          "nb_streams": 2,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "matroska,webm",
+          "format_long_name": "Matroska / WebM",
+          "start_time": "0.000000",
+          "duration": "1.021000",
+          "size": "63856",
+          "bit_rate": "500340",
+          "probe_score": 100,
+          "tags": {
+            "ENCODER": "Lavf63.1.102"
+          }
+        }
+      },
+      "file": "advanced.mkv",
+      "sha256": "211245A6953301EC81962C4CE9C681856A78B4EF4A564A20DF68769185D5564F"
+    }
+  ],
+  "evidenceLevel": "Fresh ZIP extraction on target PC; restricted PATH; exact packaged DLLs and actual module paths; offscreen production UI; isolated settings/recovery/cache",
+  "limits": [
+    "No separate Windows account or clean OS/VM",
+    "Native Windows platform plugin inventoried but not visually exercised",
+    "Physical playback devices and subjective AV sync unverified"
+  ],
+  "externalDistributionApproved": false
+}

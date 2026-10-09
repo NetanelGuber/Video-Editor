@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 4.2)
-project(VideoEditor VERSION 1.0.0 LANGUAGES CXX)
+project(VideoEditor VERSION 1.0.1 LANGUAGES CXX)
 
 file(READ "${CMAKE_CURRENT_SOURCE_DIR}/dependencies.lock.json" dependency_lock)
 string(JSON pinned_cmake GET "${dependency_lock}" buildTools cmake version)

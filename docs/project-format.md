@@ -1,8 +1,16 @@
 # Project format and persistence
 
-Session 2 introduces `.veproject`: UTF-8, indented JSON with `format: "LocalVideoTools.VideoEditor"` and integer `schemaVersion: 9`. Media remains in its original files. [Project.h](../src/project/Project.h) is the typed model; [the effect fixture](../fixtures/projects/effects-v4.veproject) demonstrates schema-4 animated effects and independent video fades. The project library uses Qt Core and has no Widgets or FFmpeg dependency.
+`.veproject` files use UTF-8, indented JSON with `format: "LocalVideoTools.VideoEditor"` and integer `schemaVersion: 12`. Media remains in its original files. [Project.h](../src/project/Project.h) is the typed model; [the effect fixture](../fixtures/projects/effects-v4.veproject) demonstrates schema-4 animated effects and independent video fades. The project library uses Qt Core and has no Widgets or FFmpeg dependency.
 
 Schema 6 adds optional clip `sequenceId` and optional sequence `multicam` (ordered camera track IDs and ordered frame/track cuts). Absent fields retain plain timeline behavior; schema 1–5 migration adds no timeline features. Nested source ticks are child frames at matching frame rate and 1×, with cycle/depth/source-bound validation. Camera cuts use canonical decimal int64 strings and begin at frame zero. See [Session 14 mapping and limits](session-14.md).
+
+Schema 12 adds sequence `automaticEnd` (boolean). New UI projects and sequences
+use automatic mode: every editing transaction recomputes duration from the
+maximum clip end across all tracks. Explicit resizing switches to manual mode.
+Schema 1–11 projects migrate with `automaticEnd=false` and retain their saved
+duration. Automatic duration must equal the last clip end (zero when empty);
+mode and duration are saved and restored together by undo/redo. Projects saved
+by 1.0.1 require 1.0.1 or newer.
 
 ## Records and identity
 

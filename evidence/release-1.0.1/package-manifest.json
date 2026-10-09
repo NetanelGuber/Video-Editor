@@ -1,0 +1,1518 @@
+{
+  "schemaVersion": 1,
+  "product": "Video Editor",
+  "version": "1.0.1",
+  "architecture": "windows-x64",
+  "configuration": "Release",
+  "createdUtc": "2026-10-09T14:20:34.8772017Z",
+  "distribution": "draft-local-review",
+  "externalDistributionApproved": false,
+  "applicationLicense": "GPL-3.0-or-later",
+  "sourceUrl": "https://github.com/NetanelGuber/Video-Editor/tree/v1.0.1",
+  "dependencies": {
+    "schemaVersion": 1,
+    "architecture": "windows-x64",
+    "cxxStandard": 20,
+    "targetWindows": "Windows 11 Pro 26H2 26300.9550",
+    "buildTools": {
+      "visualStudio": {
+        "version": "18.6.1",
+        "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community"
+      },
+      "msvc": {
+        "toolsetDirectoryVersion": "14.51.36231",
+        "compilerVersion": "19.51.36244",
+        "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\Hostx64\\x64\\cl.exe"
+      },
+      "windowsSdkVersion": "10.0.26100.0",
+      "cmake": {
+        "version": "4.2.3-msvc3",
+        "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe"
+      },
+      "ninja": {
+        "version": "1.13.2",
+        "path": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja.exe"
+      }
+    },
+    "packages": [
+      {
+        "name": "Qt base (Core/Gui/Widgets)",
+        "version": "6.11.3",
+        "build": "6.11.3-0-202609240253",
+        "abi": "msvc2022_64",
+        "url": "https://download.qt.io/online/qtsdkrepository/windows_x86/desktop/qt6_6113/qt6_6113_msvc2022_64/qt.qt6.6113.win64_msvc2022_64/6.11.3-0-202609240253qtbase-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-X86_64.7z",
+        "archiveName": "6.11.3-0-202609240253qtbase-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-X86_64.7z",
+        "sha256": "3ddf0017b4b67cb56018ed5a6af6a54865a40bdc735111a50e5e169e893558e5",
+        "publisherSha1": "fed33357645f1a562c5c9790fcee23ab16d7d313",
+        "extractDirectory": "qt",
+        "prefix": ".tools/qt",
+        "license": "LGPL-3.0 or GPL/commercial; see Qt module and third-party notices"
+      },
+      {
+        "name": "FFmpeg full shared",
+        "version": "9.0.2",
+        "supplier": "Gyan",
+        "url": "https://github.com/GyanD/codexffmpeg/releases/download/9.0.2/ffmpeg-9.0.2-full_build-shared.7z",
+        "archiveName": "ffmpeg-9.0.2-full_build-shared.7z",
+        "sha256": "4d2060a8b34a940aa47d785142055bb92a63053781e55f2ace4546edd519a8f5",
+        "extractDirectory": "ffmpeg",
+        "prefix": ".tools/ffmpeg/ffmpeg-9.0.2-full_build-shared",
+        "license": "GPL-3.0-or-later; personal development selection, distribution review required"
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "avcodec-63.dll",
+      "bytes": 98216448,
+      "sha256": "4d458a276fda363709ed2ac4ad14aea122c536e61919feebd919d5f8490be7a9",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\avcodec-63.dll",
+      "fileVersion": "63.1.102"
+    },
+    {
+      "path": "avfilter-12.dll",
+      "bytes": 106941952,
+      "sha256": "4ec6eb2db944740c364d93b29d91c9137beb38d09e923f6ed14f31aa039851de",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\avfilter-12.dll",
+      "fileVersion": "12.1.102"
+    },
+    {
+      "path": "avformat-63.dll",
+      "bytes": 22877696,
+      "sha256": "360e66109b2ce3f02d56cd940e625a6909304eea1f4d0fcbbbb2d40d74308ee0",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\avformat-63.dll",
+      "fileVersion": "63.1.102"
+    },
+    {
+      "path": "avutil-61.dll",
+      "bytes": 3157504,
+      "sha256": "9230e42b6b8e1fa20ec83af1eb4c4b2ae90b0c8d7c29093369250eed562372df",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\avutil-61.dll",
+      "fileVersion": "61.1.102"
+    },
+    {
+      "path": "build/dependencies.lock.json",
+      "bytes": 2386,
+      "sha256": "7a04af983cfb2bedc38ac458693fb03ca2fc2a4bef4438302a05faa34eb7d59b",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\dependencies.lock.json",
+      "fileVersion": null
+    },
+    {
+      "path": "build/export-presets.json",
+      "bytes": 1329,
+      "sha256": "d69588c97302026a682eca00496744bdc95d7d06b7d1d0579a2485f05c8b7d54",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\src\\export\\presets.json",
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-buildconf.txt",
+      "bytes": 4627,
+      "sha256": "c1adc7190f304720dfda81701f27bf9b9205f9235bfd9b74a479cfe5502650b0",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-decoders.txt",
+      "bytes": 33776,
+      "sha256": "8c0792e3b8d19c60f7e887ac111338880abf7c4ae6194fa8301c7a3387169447",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-encoders.txt",
+      "bytes": 16980,
+      "sha256": "7e74ec4d81ef506dc365729f0d03e9d1b0b4d1d3685354d71a1b35de98f213bf",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-filters.txt",
+      "bytes": 44253,
+      "sha256": "bd4c068066028c46c60d4e761742437ffc75643bea17aa43850b0f459073c6b2",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-formats.txt",
+      "bytes": 20140,
+      "sha256": "809bc2b6ceb245a2b5a6e0be8f841bec956aa8b799125782c18b68314af214f1",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-hwaccels.txt",
+      "bytes": 2365,
+      "sha256": "bb2531f4ace483a639f5dedbd3d1c1dbc983bded3441eccc9d8ed13b513f1ca5",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-L.txt",
+      "bytes": 2873,
+      "sha256": "c27d9cb6a478d240d9a60e00bc225eb1f3c04d983be3f95eedfecb5c870247f6",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-runtime.json",
+      "bytes": 63588,
+      "sha256": "3812cbcad5fae2361ad3ee8726ee768bb75c442628f6355eccb856581b17962d",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "build/ffmpeg-version.txt",
+      "bytes": 2277,
+      "sha256": "58b9951fbaf39b04d942e7f3397c655343a99a4381950c0a19c6e2a6b3d0c29d",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "concrt140.dll",
+      "bytes": 374352,
+      "sha256": "a5b9af428829ab7b61ceae9d88a37ce1053551379ee007d8df53a7ba4d33c251",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\concrt140.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "COPYRIGHT.md",
+      "bytes": 814,
+      "sha256": "b22eed4cecc91f3460a49f6cfa16be058e7243a96d01013122f46cf0c26db51c",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\COPYRIGHT.md",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/dependency-source-review.md",
+      "bytes": 8637,
+      "sha256": "ef787f60c1cca9bd1aa6e07a5577dad55cd2df28ce6cd003b643df5a42d5d792",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\dependency-source-review.md",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/ffmpeg-supplier-source-request.md",
+      "bytes": 2271,
+      "sha256": "acc8555cb2e59bd2c0e7a6c7c8489de55499da4da05ba1322a0b5726c6096565",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\ffmpeg-supplier-source-request.md",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/notices/dependency-sources.json",
+      "bytes": 2852,
+      "sha256": "09525fa0309f403f1aa852bf04db869d5512a94870417340b637453f2b0b13c2",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\dependency-sources.json",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/notices/ffmpeg-external-review.json",
+      "bytes": 33705,
+      "sha256": "05294d7051cbb4f9e024576b98da577221af29dde8a11e0bc0484c69eeff4716",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\ffmpeg-external-review.json",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/notices/qt-runtime-attributions.txt",
+      "bytes": 134926,
+      "sha256": "fe3db51fc802c665295d93960fb892219580396b786284de3f3738f3feaf0eba",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\qt-runtime-attributions.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/notices/qt-runtime-source-coverage.json",
+      "bytes": 60387,
+      "sha256": "5b36b6cbee69a0473f215d394c961149699f4a7a6f9dde814bb39ad1f94bc8e7",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\qt-runtime-source-coverage.json",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/quick-start.md",
+      "bytes": 5542,
+      "sha256": "ece34b548e74ae9f09504f562d6ee7c35ab450047980adef568c617cf68c2e9a",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\quick-start.md",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/release-license-review.md",
+      "bytes": 5224,
+      "sha256": "3713268292c2612f97a9cff7fbc3c606c4341cc0e9377295b056863c5a8aada7",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\release-license-review.md",
+      "fileVersion": null
+    },
+    {
+      "path": "docs/supported-formats.md",
+      "bytes": 4198,
+      "sha256": "8531081b0022c6b0e660df4e1464739c8cb5004ed50c3a17f92fe33a8bf6c914",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\supported-formats.md",
+      "fileVersion": null
+    },
+    {
+      "path": "evidence/source-review-1.0.0/dependency-source-review.json",
+      "bytes": 13326,
+      "sha256": "d7606cba05d3055d6d9004ba601dc064105e6e3a36c74fdc2b77868c7beeb501",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\evidence\\source-review-1.0.0\\dependency-source-review.json",
+      "fileVersion": null
+    },
+    {
+      "path": "examples/flash-beep.mp4",
+      "bytes": 2924075,
+      "sha256": "eac4d6d2e83f34369d475ee7be53b2c611f5f544ba178c43fc38925bb1b68791",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\fixtures\\generated\\session-5\\flash-beep.mp4",
+      "fileVersion": null
+    },
+    {
+      "path": "ExportCapabilityProbe.exe",
+      "bytes": 134656,
+      "sha256": "d909944dbd7f9c3b126d75663525da76621216ba2918e3c4fbb44663b4a3e320",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1\\Release\\ExportCapabilityProbe.exe",
+      "fileVersion": null
+    },
+    {
+      "path": "imageformats/qgif.dll",
+      "bytes": 47928,
+      "sha256": "ab27920999dbe30c8b49ebdaefcc4740f931afc23f137ee9c77822d9069c4e59",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\plugins\\imageformats\\qgif.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "imageformats/qico.dll",
+      "bytes": 46904,
+      "sha256": "9cb3025a26c2e5a6225b601ca89c62bfa4dffc17f258cc10d439b1c3ac6d6256",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\plugins\\imageformats\\qico.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "imageformats/qjpeg.dll",
+      "bytes": 592184,
+      "sha256": "efa72d5df5eafac48021b2e7ab501668989944b1fd84e902e21f17ddeac4bdfb",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\plugins\\imageformats\\qjpeg.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 34674,
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\LICENSE",
+      "fileVersion": null
+    },
+    {
+      "path": "msvcp140_1.dll",
+      "bytes": 35920,
+      "sha256": "456aebccb449fcba35f1109c259ba0aa10923e660f4de812a490d35f37f54fc9",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_1.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "msvcp140_2.dll",
+      "bytes": 274512,
+      "sha256": "7a403abf753d0bdf09776cf4bcb13b5a6ebe3a47670de124a3c621aa4b952f82",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_2.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "msvcp140_atomic_wait.dll",
+      "bytes": 57936,
+      "sha256": "d759dd381bdbd6142372de4cb57acc382e1b80c106b7414a408816564ee1eb6a",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_atomic_wait.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "msvcp140_codecvt_ids.dll",
+      "bytes": 31312,
+      "sha256": "f781e1e0133c397c3a2c73fd4dbcdb442378ba20fced56a2f7db5822436ddd2a",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140_codecvt_ids.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "msvcp140.dll",
+      "bytes": 642720,
+      "sha256": "639342ea9a67c0009122238ce070a8257e2e04d367d627509fec29f8442afb42",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\msvcp140.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "notices/AFL-2.1.txt",
+      "bytes": 8948,
+      "sha256": "93bb4f7417aa775bab9026cc3d0af28aeb64451fc5a8ec651876785edd8eaf9b",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\AFL-2.1.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Apache-2.0.txt",
+      "bytes": 10280,
+      "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Apache-2.0.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/blessing.txt",
+      "bytes": 244,
+      "sha256": "592db1199aab67aafe4515db9808b420db122083807c5329b2f061951e79acbe",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\blessing.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/BSD-2-Clause.txt",
+      "bytes": 1267,
+      "sha256": "f32fb3b417a194167cfad068223fc975ba96c5960513a10f66a3c28720aec1df",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\BSD-2-Clause.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/BSD-3-Clause.txt",
+      "bytes": 1460,
+      "sha256": "5a93d5831e1297ab10fe643e1a631e83be392896da14ee2951285a79012df69d",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\BSD-3-Clause.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/BSD-4-Clause.txt",
+      "bytes": 1618,
+      "sha256": "c80d927f03db7212ba43a869a383e249c19b40859ff0d9e2e2f968e4fdcf005f",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\BSD-4-Clause.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/BSL-1.0.txt",
+      "bytes": 1338,
+      "sha256": "84c6ef3ea9e3254a54d0acf5d3e0c61ae011b8fef7dd6940591cf060e6380a8f",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\BSL-1.0.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/CC0-1.0.txt",
+      "bytes": 7048,
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\CC0-1.0.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/dependency-sources.json",
+      "bytes": 2852,
+      "sha256": "09525fa0309f403f1aa852bf04db869d5512a94870417340b637453f2b0b13c2",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\dependency-sources.json",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/ffmpeg-external-review.json",
+      "bytes": 33705,
+      "sha256": "05294d7051cbb4f9e024576b98da577221af29dde8a11e0bc0484c69eeff4716",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\ffmpeg-external-review.json",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/FFmpeg-GPL.txt",
+      "bytes": 35147,
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\LICENSE",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/FFmpeg-supplier-README.txt",
+      "bytes": 45523,
+      "sha256": "cbcae33269014fc49e61fc81c24e3c7c69ae4c1c92f5a9e9ea0e9f90c95dbf11",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\README.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/FTL.txt",
+      "bytes": 5979,
+      "sha256": "ced6622122ce451cb1ea0c3c3f507a640e2a44c075c04900ddd9fae8acb5369f",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\FTL.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/GPL-2.0-only.txt",
+      "bytes": 17337,
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\GPL-2.0-only.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/GPL-2.0-or-later.txt",
+      "bytes": 17337,
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\GPL-2.0-or-later.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/GPL-3.0-only.txt",
+      "bytes": 34674,
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\GPL-3.0-only.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/HPND.txt",
+      "bytes": 1187,
+      "sha256": "4d9ae4a36816338dfa153d1d6f92645c45f25eaa46908d3096922e2431fb571e",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\HPND.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/IJG.txt",
+      "bytes": 4244,
+      "sha256": "7658542977bfdced9e1059a6c934ce4281de76d103b831007b825917dc62511a",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\IJG.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Imlib2.txt",
+      "bytes": 2002,
+      "sha256": "19d21c4402df7020d631511274d991393267fd56b59aa014c0be90becd7631e4",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Imlib2.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/LGPL-3.0-only.txt",
+      "bytes": 42098,
+      "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\LGPL-3.0-only.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/libpng-2.0.txt",
+      "bytes": 1551,
+      "sha256": "f207d0f7375b977f76ce2437962c1c12a646f15cda3df48d5472ac95eb68e8ff",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\libpng-2.0.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Libpng.txt",
+      "bytes": 4218,
+      "sha256": "7667a8c88c7a63690244988d626bcddd27ed895526e2c3ab1a9adb463a5fa287",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Libpng.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/license-text-sources.json",
+      "bytes": 5815,
+      "sha256": "d0b69fe1d17d9fc73d8cce8320162310076a6b99ed67ae925e97733dc98f310f",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\license-text-sources.json",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Linux-syscall-note.txt",
+      "bytes": 638,
+      "sha256": "5bcef4fedbfc08776630e65d5d0d074dd31208037eddb167ca46a9ec4f737764",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Linux-syscall-note.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Microsoft-Redist.txt",
+      "bytes": 190,
+      "sha256": "2d69e3b0ac782d5513b503bafdf269a93c4fec0f1f8efac82bfbfa4b6296aef5",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Licenses\\1033\\Redist.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Microsoft-VC14-Runtime.docx",
+      "bytes": 39553,
+      "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Microsoft-VC14-Runtime.docx",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Microsoft-VC14-Runtime.txt",
+      "bytes": 11945,
+      "sha256": "c15f0776c632b97bc3b01dbc3090ae347bb406235ae7132601bbaba91624e4fc",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Microsoft-VC14-Runtime.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/MIT-open-group.txt",
+      "bytes": 1136,
+      "sha256": "d5942d51b7e079b0eab4d6f9e06f1b8625f918b8802117a9c3127c004c5df9b6",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\MIT-open-group.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/MIT.txt",
+      "bytes": 1078,
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\MIT.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/MPL-2.0.txt",
+      "bytes": 16727,
+      "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\MPL-2.0.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/qt-component-attributions.json",
+      "bytes": 170297,
+      "sha256": "e3586e1da5a204ee044207958d6ad889a43e6419b454161eb5a2d751704c7a35",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\qt-component-attributions.json",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/qt-custom-licenses.txt",
+      "bytes": 3247,
+      "sha256": "47daf934b26f507a7055a4b6dad8b027ecf68206f86005bf230041ff99ba0ea1",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\qt-custom-licenses.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Qt-GPL-exception-1.0.txt",
+      "bytes": 964,
+      "sha256": "fad799fdc248a52b9c0fa17823b6d4bc9907a19d6e8c78b8a071c9b551ea9c60",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Qt-GPL-exception-1.0.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/qt-runtime-attributions.txt",
+      "bytes": 134926,
+      "sha256": "fe3db51fc802c665295d93960fb892219580396b786284de3f3738f3feaf0eba",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\qt-runtime-attributions.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/qt-runtime-source-coverage.json",
+      "bytes": 60387,
+      "sha256": "5b36b6cbee69a0473f215d394c961149699f4a7a6f9dde814bb39ad1f94bc8e7",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\qt-runtime-source-coverage.json",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/qtbase-sbom.spdx.json",
+      "bytes": 3860260,
+      "sha256": "4bf4f863a430a3b4a8506b80423b3451e29b41ec23383aa259420b514716bb3c",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\evidence\\session-0\\dependencies\\qtbase-sbom.spdx.json",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Unicode-3.0.txt",
+      "bytes": 1995,
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Unicode-3.0.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/X11.txt",
+      "bytes": 1338,
+      "sha256": "e1963c9958b93bc2578b34f8ae22cfe205e8c0e7d5be7235cfdbdefbf92a5423",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\X11.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "notices/Zlib.txt",
+      "bytes": 838,
+      "sha256": "bfb1112d49db5b1daecdfef24bd7e2f3ea0bafb33aa67aa0ab51e2bf8407c03d",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\docs\\notices\\Zlib.txt",
+      "fileVersion": null
+    },
+    {
+      "path": "platforms/qoffscreen.dll",
+      "bytes": 110904,
+      "sha256": "1b0b08da8de36bfc12ac8c6ad394ada12595de4f2d1d5e5d3c893198258009ae",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\plugins\\platforms\\qoffscreen.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "platforms/qwindows.dll",
+      "bytes": 992056,
+      "sha256": "e8c633f1c5054ec2972ea5dd85062d1078a6b1011cbeb3dd1fb6ed954da78765",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\plugins\\platforms\\qwindows.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "qt.conf",
+      "bytes": 28,
+      "sha256": "398bf77e917e09bb1aef3a644b97c3096d27159e11c889725521284098186a8f",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "Qt6Core.dll",
+      "bytes": 10370872,
+      "sha256": "b20757be279b4e074c89be1f183a40975bf867b9a2a4e0ca4ea34a95fe2bb39e",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\bin\\Qt6Core.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "Qt6Gui.dll",
+      "bytes": 9576248,
+      "sha256": "695ee5e5a7ac83b7a1f7d397ccb0dda39b84f8369fd2237d90c1229b78af0cd5",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\bin\\Qt6Gui.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "Qt6OpenGL.dll",
+      "bytes": 1988408,
+      "sha256": "9f2866a8d10992ccf7f565fdd48562f44249be11a351681869458e86687297ce",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\bin\\Qt6OpenGL.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "Qt6OpenGLWidgets.dll",
+      "bytes": 65336,
+      "sha256": "169cd0f0946d962965bd2654587217bff2d71d0d864cb910130df669d71c59e2",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\bin\\Qt6OpenGLWidgets.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "Qt6Widgets.dll",
+      "bytes": 6501176,
+      "sha256": "16e181e86e4084ca26de4daaf9a32ab61c1eed9c4649e6176dbddc7849ea1e06",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\bin\\Qt6Widgets.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "README.txt",
+      "bytes": 1124,
+      "sha256": "14427553e26e4fe564286fa447592858683f409acae0787d39f0ee326b85d650",
+      "source": null,
+      "fileVersion": null
+    },
+    {
+      "path": "styles/qmodernwindowsstyle.dll",
+      "bytes": 240952,
+      "sha256": "180d8c0b5cdce42ebaf26cd96f2582200784cde069dac487534e755eb6b581fb",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\qt\\plugins\\styles\\qmodernwindowsstyle.dll",
+      "fileVersion": "6.11.3.0"
+    },
+    {
+      "path": "swresample-7.dll",
+      "bytes": 484352,
+      "sha256": "1f2a0bdca315f1a05fe398e7a0d97db8d0e34ba2a86ec59303bf32bbd9430123",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\swresample-7.dll",
+      "fileVersion": "7.1.102"
+    },
+    {
+      "path": "swscale-10.dll",
+      "bytes": 2423808,
+      "sha256": "af91db7f45644157469a110438a8c648314927ec83e334d4cacac3870d99fabe",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\.tools\\ffmpeg\\ffmpeg-9.0.2-full_build-shared\\bin\\swscale-10.dll",
+      "fileVersion": "10.1.102"
+    },
+    {
+      "path": "vccorlib140.dll",
+      "bytes": 350800,
+      "sha256": "9ce6f235791450717f8e05ecd729e95ec98e9630a9caae661ba6773b669ecbf7",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vccorlib140.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "vcruntime140_1.dll",
+      "bytes": 50256,
+      "sha256": "a253a12e4a8e9e23ebfe0ced829f7751e4f42c60066986bf20515ced8dcc68cd",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vcruntime140_1.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "vcruntime140_threads.dll",
+      "bytes": 38560,
+      "sha256": "cd05a48a1183b074e81275d6c6472ecb5b09db8a0db8d1850b009ad041907ce9",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vcruntime140_threads.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "vcruntime140.dll",
+      "bytes": 178848,
+      "sha256": "19c293ac482fdb882cd29d2b0e6d807419efdcada04068f03e5723670895e17d",
+      "source": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Redist\\MSVC\\14.51.36231\\x64\\Microsoft.VC145.CRT\\vcruntime140.dll",
+      "fileVersion": "14.51.36231.0"
+    },
+    {
+      "path": "VideoEditor.exe",
+      "bytes": 1467392,
+      "sha256": "2d6e5736baf8913679ada8dfff3d4bd517359beb9cbf5ba9eaebf87bb133e751",
+      "source": "B:\\Coding\\02-Projects\\Tools\\Video-Editor\\build\\1.0.1\\Release\\VideoEditor.exe",
+      "fileVersion": "1.0.1"
+    }
+  ],
+  "sourceInventory": [
+    {
+      "path": ".gitignore",
+      "sha256": "f9b2f867031e02f6aaf8954a41ecc0b4c5eefd002c221869abbb5e36a0f3fb8b"
+    },
+    {
+      "path": "CMakeLists.txt",
+      "sha256": "66ee3d4afe1b35225f1dcf881a60217e9e13181b30f5fbb587a3b12388490603"
+    },
+    {
+      "path": "COPYRIGHT.md",
+      "sha256": "b22eed4cecc91f3460a49f6cfa16be058e7243a96d01013122f46cf0c26db51c"
+    },
+    {
+      "path": "dependencies.lock.json",
+      "sha256": "7a04af983cfb2bedc38ac458693fb03ca2fc2a4bef4438302a05faa34eb7d59b"
+    },
+    {
+      "path": "docs/build.md",
+      "sha256": "49e1cc6b8eca4521a97217407a42aa2ba4a40f95e6cddb036109081aeb677a33"
+    },
+    {
+      "path": "docs/dependencies.md",
+      "sha256": "9ce4ca39c9c2e70f619c967ddc89a5be273799bd223cd8967e30334f12bfa390"
+    },
+    {
+      "path": "docs/dependency-source-review.md",
+      "sha256": "ef787f60c1cca9bd1aa6e07a5577dad55cd2df28ce6cd003b643df5a42d5d792"
+    },
+    {
+      "path": "docs/ffmpeg-supplier-source-request.md",
+      "sha256": "acc8555cb2e59bd2c0e7a6c7c8489de55499da4da05ba1322a0b5726c6096565"
+    },
+    {
+      "path": "docs/notices/AFL-2.1.txt",
+      "sha256": "93bb4f7417aa775bab9026cc3d0af28aeb64451fc5a8ec651876785edd8eaf9b"
+    },
+    {
+      "path": "docs/notices/Apache-2.0.txt",
+      "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff"
+    },
+    {
+      "path": "docs/notices/blessing.txt",
+      "sha256": "592db1199aab67aafe4515db9808b420db122083807c5329b2f061951e79acbe"
+    },
+    {
+      "path": "docs/notices/BSD-2-Clause.txt",
+      "sha256": "f32fb3b417a194167cfad068223fc975ba96c5960513a10f66a3c28720aec1df"
+    },
+    {
+      "path": "docs/notices/BSD-3-Clause.txt",
+      "sha256": "5a93d5831e1297ab10fe643e1a631e83be392896da14ee2951285a79012df69d"
+    },
+    {
+      "path": "docs/notices/BSD-4-Clause.txt",
+      "sha256": "c80d927f03db7212ba43a869a383e249c19b40859ff0d9e2e2f968e4fdcf005f"
+    },
+    {
+      "path": "docs/notices/BSL-1.0.txt",
+      "sha256": "84c6ef3ea9e3254a54d0acf5d3e0c61ae011b8fef7dd6940591cf060e6380a8f"
+    },
+    {
+      "path": "docs/notices/CC0-1.0.txt",
+      "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+    },
+    {
+      "path": "docs/notices/dependency-sources.json",
+      "sha256": "09525fa0309f403f1aa852bf04db869d5512a94870417340b637453f2b0b13c2"
+    },
+    {
+      "path": "docs/notices/ffmpeg-external-review.json",
+      "sha256": "05294d7051cbb4f9e024576b98da577221af29dde8a11e0bc0484c69eeff4716"
+    },
+    {
+      "path": "docs/notices/FTL.txt",
+      "sha256": "ced6622122ce451cb1ea0c3c3f507a640e2a44c075c04900ddd9fae8acb5369f"
+    },
+    {
+      "path": "docs/notices/GPL-2.0-only.txt",
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+    },
+    {
+      "path": "docs/notices/GPL-2.0-or-later.txt",
+      "sha256": "aaf135472f81c5b4a0dca9367e5bb5e9750032b5bebe5442b36e4c0a47430df3"
+    },
+    {
+      "path": "docs/notices/GPL-3.0-only.txt",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "docs/notices/HPND.txt",
+      "sha256": "4d9ae4a36816338dfa153d1d6f92645c45f25eaa46908d3096922e2431fb571e"
+    },
+    {
+      "path": "docs/notices/IJG.txt",
+      "sha256": "7658542977bfdced9e1059a6c934ce4281de76d103b831007b825917dc62511a"
+    },
+    {
+      "path": "docs/notices/Imlib2.txt",
+      "sha256": "19d21c4402df7020d631511274d991393267fd56b59aa014c0be90becd7631e4"
+    },
+    {
+      "path": "docs/notices/LGPL-3.0-only.txt",
+      "sha256": "996af0513df21f7496288951c41428a03c174e9e4a9d63665c57d670f845ccb1"
+    },
+    {
+      "path": "docs/notices/libpng-2.0.txt",
+      "sha256": "f207d0f7375b977f76ce2437962c1c12a646f15cda3df48d5472ac95eb68e8ff"
+    },
+    {
+      "path": "docs/notices/Libpng.txt",
+      "sha256": "7667a8c88c7a63690244988d626bcddd27ed895526e2c3ab1a9adb463a5fa287"
+    },
+    {
+      "path": "docs/notices/license-text-sources.json",
+      "sha256": "d0b69fe1d17d9fc73d8cce8320162310076a6b99ed67ae925e97733dc98f310f"
+    },
+    {
+      "path": "docs/notices/Linux-syscall-note.txt",
+      "sha256": "5bcef4fedbfc08776630e65d5d0d074dd31208037eddb167ca46a9ec4f737764"
+    },
+    {
+      "path": "docs/notices/Microsoft-VC14-Runtime.docx",
+      "sha256": "08651651a7602fc7c0e2763de0fde1ff9f868df2780597cd1775ee9d6441c783"
+    },
+    {
+      "path": "docs/notices/Microsoft-VC14-Runtime.txt",
+      "sha256": "c15f0776c632b97bc3b01dbc3090ae347bb406235ae7132601bbaba91624e4fc"
+    },
+    {
+      "path": "docs/notices/MIT-open-group.txt",
+      "sha256": "d5942d51b7e079b0eab4d6f9e06f1b8625f918b8802117a9c3127c004c5df9b6"
+    },
+    {
+      "path": "docs/notices/MIT.txt",
+      "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+    },
+    {
+      "path": "docs/notices/MPL-2.0.txt",
+      "sha256": "66a3107d5ad6a058aab753eaac2047ccb2ed0e39465dd0fe5844da3e300d5172"
+    },
+    {
+      "path": "docs/notices/qt-component-attributions.json",
+      "sha256": "e3586e1da5a204ee044207958d6ad889a43e6419b454161eb5a2d751704c7a35"
+    },
+    {
+      "path": "docs/notices/qt-custom-licenses.txt",
+      "sha256": "47daf934b26f507a7055a4b6dad8b027ecf68206f86005bf230041ff99ba0ea1"
+    },
+    {
+      "path": "docs/notices/Qt-GPL-exception-1.0.txt",
+      "sha256": "fad799fdc248a52b9c0fa17823b6d4bc9907a19d6e8c78b8a071c9b551ea9c60"
+    },
+    {
+      "path": "docs/notices/qt-runtime-attributions.txt",
+      "sha256": "fe3db51fc802c665295d93960fb892219580396b786284de3f3738f3feaf0eba"
+    },
+    {
+      "path": "docs/notices/qt-runtime-source-coverage.json",
+      "sha256": "5b36b6cbee69a0473f215d394c961149699f4a7a6f9dde814bb39ad1f94bc8e7"
+    },
+    {
+      "path": "docs/notices/Unicode-3.0.txt",
+      "sha256": "f7db81051789b729fea528a63ec4c938fdcb93d9d61d97dc8cc2e9df6d47f2a1"
+    },
+    {
+      "path": "docs/notices/X11.txt",
+      "sha256": "e1963c9958b93bc2578b34f8ae22cfe205e8c0e7d5be7235cfdbdefbf92a5423"
+    },
+    {
+      "path": "docs/notices/Zlib.txt",
+      "sha256": "bfb1112d49db5b1daecdfef24bd7e2f3ea0bafb33aa67aa0ab51e2bf8407c03d"
+    },
+    {
+      "path": "docs/project-format.md",
+      "sha256": "18059ca948e94914eb4cbd7e8b3eb2ff6da14eb6dc3238b1e88ffb13517cd3a7"
+    },
+    {
+      "path": "docs/quick-start.md",
+      "sha256": "ece34b548e74ae9f09504f562d6ee7c35ab450047980adef568c617cf68c2e9a"
+    },
+    {
+      "path": "docs/release-1.0.0.md",
+      "sha256": "15777ac88e4f6764e1ab11606b68ac06a0bd0419d135bd731e8da4320e01de2b"
+    },
+    {
+      "path": "docs/release-1.0.1.md",
+      "sha256": "44ec6352c55c5ded756ba9c6b499ce944336bba407aa83b3c8945d2d26418954"
+    },
+    {
+      "path": "docs/release-license-review.md",
+      "sha256": "3713268292c2612f97a9cff7fbc3c606c4341cc0e9377295b056863c5a8aada7"
+    },
+    {
+      "path": "docs/rendering-decision.md",
+      "sha256": "0d059c32a34efbd5b1f157fd82b7aca3d6fd8dd3d26997d43063b77f3c3d8cf3"
+    },
+    {
+      "path": "docs/session-0.md",
+      "sha256": "ce858949960fd759aeace135d85d164c7224cfd3d6c2bf1c81bdefa70368c128"
+    },
+    {
+      "path": "docs/session-1.md",
+      "sha256": "ee718fd6d12a457695e7d8073ca850a587723a8e04e9733e27466e2f46ed1498"
+    },
+    {
+      "path": "docs/session-10.md",
+      "sha256": "92d385d202ab233162e1516bdce61e52918dfe4e731d5f5b41225baffdaa741a"
+    },
+    {
+      "path": "docs/session-11.md",
+      "sha256": "7e77b61f2e940976426c649f8cbdbcb1e9c4eeba9727a27558e61a3eaaa6d96a"
+    },
+    {
+      "path": "docs/session-12.md",
+      "sha256": "3195e7e300cb9ab5563c0b241952931d7fff2a48108b163fd75e02d3e182c78c"
+    },
+    {
+      "path": "docs/session-13.md",
+      "sha256": "006671a8989040f946d8b87c64ebed0d171898acf8aade553ba3c1949e0026ef"
+    },
+    {
+      "path": "docs/session-14.md",
+      "sha256": "5702c5a920a06b801be0929db9049f6d9d0e7c5d9b7df9e5a1be7d54d2f788a0"
+    },
+    {
+      "path": "docs/session-15-concept.md",
+      "sha256": "62ca60350ada69572487401fbb41a0b24f99b1c790305bf55ef2f7fe6227b037"
+    },
+    {
+      "path": "docs/session-15-encoder-concept.md",
+      "sha256": "4dad7262737915e2c2f6946af4da4a783e7b9f50fd3f36bf4f301a5134446860"
+    },
+    {
+      "path": "docs/session-15.1.md",
+      "sha256": "43e26e5e2446c01fd9e26767cdb4e054a336b116cd19dab4f4a47b478b63d9c2"
+    },
+    {
+      "path": "docs/session-15.2-concept.md",
+      "sha256": "3b28272af8bd848fe679eb123853dc96e80453688e876b87d57a345a2754ead8"
+    },
+    {
+      "path": "docs/session-15.2.md",
+      "sha256": "07d853a2b6aedb6f5b22e273eed91b8ea793673fb0666e8e53298b5e8740f0f5"
+    },
+    {
+      "path": "docs/session-15.md",
+      "sha256": "4a6454163f277579f67e7d288ab639f8503a6f1a1bc2d93774168bd6b601962f"
+    },
+    {
+      "path": "docs/session-16.md",
+      "sha256": "2581ce4639ebbc656e62bb732b1f9ce17e5d18055e8185be40330720b1d128fe"
+    },
+    {
+      "path": "docs/session-2.md",
+      "sha256": "26e22d7e075c2edf7d80d458ed040ba0becfa24762a3f009c4612b0683702a09"
+    },
+    {
+      "path": "docs/session-3.md",
+      "sha256": "cd5f795f9b4564c34b9165b0033b535033f2cb176210c74891abd629e0c8d7f3"
+    },
+    {
+      "path": "docs/session-4.md",
+      "sha256": "5c527c64a8bff8794a64e44c17e7abbab66b86a78aa6757ad2f632900909e713"
+    },
+    {
+      "path": "docs/session-5.md",
+      "sha256": "14170c113c789b971791fe95ff5d9851aa2397676b4ddeb67801224eac04b7cd"
+    },
+    {
+      "path": "docs/session-6.md",
+      "sha256": "9fa803c9972961f4de43f66a26be3ba181c2c90f4fe8466bce3d4b8c68126d6e"
+    },
+    {
+      "path": "docs/session-7.md",
+      "sha256": "d711d68ee3e59e439b68a1ab97fad9883feec7868f8b8a33f746b32f287f9ecb"
+    },
+    {
+      "path": "docs/session-8.md",
+      "sha256": "c3b24b061753c096b3287800fc5e26cb55551a18d84f186393ba6aae3d20a600"
+    },
+    {
+      "path": "docs/session-9.md",
+      "sha256": "ff5b0b617e44a8edd9da0a58294d20ee4eff5cb68f7201a19bc7442a325e9d06"
+    },
+    {
+      "path": "docs/supported-formats.md",
+      "sha256": "8531081b0022c6b0e660df4e1464739c8cb5004ed50c3a17f92fe33a8bf6c914"
+    },
+    {
+      "path": "docs/time-display.md",
+      "sha256": "088ba25f24375bcd61106850a96ddd0ff06f03d6390fead6541a7485ab3dc3a7"
+    },
+    {
+      "path": "fixtures/projects/editing-v2.veproject",
+      "sha256": "7752db95aa4dc9d1754a41910b8f91355234acc82368e155cf15294f0b0e0c4f"
+    },
+    {
+      "path": "fixtures/projects/effects-v4.veproject",
+      "sha256": "87ca82038b1a45816d4bda016f2df6c384c73ab30ed06078776c7171f7320182"
+    },
+    {
+      "path": "fixtures/projects/empty-v5.veproject",
+      "sha256": "b6c3bd014cad739344b44af9b2022f6309a1860206a49b1a9f7691c9da047c4b"
+    },
+    {
+      "path": "fixtures/projects/multitrack-v1.veproject",
+      "sha256": "62699b7fdff80164123d4204808cd58dcebfc23620b1aa5b6d70461302c3ecaf"
+    },
+    {
+      "path": "fixtures/projects/multitrack-v2.veproject",
+      "sha256": "24b02b1a1734f41669cd95d700622fa2a8fbec31185937747bd702e831eecc3e"
+    },
+    {
+      "path": "fixtures/projects/multitrack-v3.veproject",
+      "sha256": "c37f833bed86b8db53f68854a610810de8ff1885b8679e1933e700c0e01c59aa"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "6a6ca60e16be26d47de8d53708cbe4b6b2a54d91fbbea4d43d32346bb71661c1"
+    },
+    {
+      "path": "scripts/Build.ps1",
+      "sha256": "fe45fe37d5862d20c0c33d054785d14f3ecb9a4927d1d702cb5ebfba276b5759"
+    },
+    {
+      "path": "scripts/Collect-ReleaseEvidence.ps1",
+      "sha256": "8b5cb4b8790ed0c4c3cec6daff808b7fc314a85313db768b79e1ab8f7f9ffd01"
+    },
+    {
+      "path": "scripts/Collect-Session10Evidence.ps1",
+      "sha256": "e51909a5a509d1ac46bfb4fe77c9e939a59dc5ef8f9363e51c08b3b691b832ab"
+    },
+    {
+      "path": "scripts/Collect-Session11Evidence.ps1",
+      "sha256": "77154c62e30225e46aac503230757caad68eee2e05a2ed6044a86688f09e5425"
+    },
+    {
+      "path": "scripts/Collect-Session12Evidence.ps1",
+      "sha256": "c18d7cd23a1f72b739df0a370c5bf7adcc47b90db920c239663220ed48329aa4"
+    },
+    {
+      "path": "scripts/Collect-Session13Evidence.ps1",
+      "sha256": "559cf5c7f0084576fc1b2a021a3764ac134c9497d202d0e3da706fe4313b4e4e"
+    },
+    {
+      "path": "scripts/Collect-Session14Evidence.ps1",
+      "sha256": "8f967302e67e11c2f802e912bee7e2aeb76fadea608db9dea03572191e115e48"
+    },
+    {
+      "path": "scripts/Collect-Session15_1Evidence.ps1",
+      "sha256": "aaf54f86f4c9723c3a0b76729cd336ba39b315459ba93bbf662ab5e47d0e8eee"
+    },
+    {
+      "path": "scripts/Collect-Session15_2Evidence.ps1",
+      "sha256": "e102fc3c31fdee4250e06803941242facd978e64bd552b02a10ed17fbfcd74c6"
+    },
+    {
+      "path": "scripts/Collect-Session15Evidence.ps1",
+      "sha256": "7616e85a04ff3911536753a5adc69f64bb8febac1b2d7019edc0eb2050b66ac0"
+    },
+    {
+      "path": "scripts/Collect-Session16Evidence.ps1",
+      "sha256": "0f136ea143c4a2595f52b63115cd5f67c67067136c8eb655f3aaf2df34ecab97"
+    },
+    {
+      "path": "scripts/Collect-Session3Evidence.ps1",
+      "sha256": "76958b259cddf15ec20cdd2c34cf4edcf4ff1b58c8fd77b4cd8a799c613e3466"
+    },
+    {
+      "path": "scripts/Collect-Session4Evidence.ps1",
+      "sha256": "79ecfe0be8f8a88d5489d250eb8270183764b722589dead0b9797b3dd0bc5864"
+    },
+    {
+      "path": "scripts/Collect-Session5Evidence.ps1",
+      "sha256": "de798163868b7bf63f56c3fd4985fd05dbf852b93415c426f91b1f9d47f5a968"
+    },
+    {
+      "path": "scripts/Collect-Session6Evidence.ps1",
+      "sha256": "a8ad20ce947dbf813bc456b699a101b4963060421d0ae2ce671c89bbf3736f7e"
+    },
+    {
+      "path": "scripts/Collect-Session7Evidence.ps1",
+      "sha256": "a308eadedf5a211d0482baa5824dccf052b18d5fe39bb92cdbbdbe1db6d3e56a"
+    },
+    {
+      "path": "scripts/Collect-Session8Evidence.ps1",
+      "sha256": "88d71bc821146f9e52d14aa851eb7d3d11d08f112991bfa616a1c786671d9354"
+    },
+    {
+      "path": "scripts/Collect-Session9Evidence.ps1",
+      "sha256": "3d59d92884502216d0ff3d21868a57c3d1839c0dd3d4db1451cd55832780519c"
+    },
+    {
+      "path": "scripts/Get-DependencySources.ps1",
+      "sha256": "42cc735e96c8f19df3c2441d410c51a1b236d2b7b1571192036f3bdf73596a70"
+    },
+    {
+      "path": "scripts/Install-Dependencies.ps1",
+      "sha256": "f3b17af9de2eeccfb9c760285d038b6ffd05e8c80b9e0cf904b4dcab31d6aaca"
+    },
+    {
+      "path": "scripts/Measure-Environment.ps1",
+      "sha256": "11c7a7f69afa758809b1c57bf4b499fbb3d68d1d6f77fa5dbfeae59c6f50dcb7"
+    },
+    {
+      "path": "scripts/Measure-Media.ps1",
+      "sha256": "8aa2423cf90d869a47215fc83236e3a6dfc528242ffcb0d5051fb25383a73844"
+    },
+    {
+      "path": "scripts/Measure-Session10Playback.ps1",
+      "sha256": "04d38d32320d95428dfd2a3728739cf649699df93ff08606527e37e24e889d01"
+    },
+    {
+      "path": "scripts/Measure-Session14Playback.ps1",
+      "sha256": "b78a607b2a8defaed54adea2b058f70f07f816df24b4411b3db90bd89a6cbb49"
+    },
+    {
+      "path": "scripts/Measure-Session5Playback.ps1",
+      "sha256": "a709cdf7f67f4367dd3fa90aedb816d57040f27163b2df6a3542088bb23fa055"
+    },
+    {
+      "path": "scripts/New-MediaFixtures.ps1",
+      "sha256": "845aba506cc72721ccc759208dfd6e35f4db84bde004ee950406e772f40e63d7"
+    },
+    {
+      "path": "scripts/New-WindowsPackage.ps1",
+      "sha256": "3c1fdb5ded4284dfe9bc3634a717acab6a6603fcc8b545c74c53cc05f6cd3700"
+    },
+    {
+      "path": "scripts/Prepare-Session3Tests.ps1",
+      "sha256": "11a7fcd09baaee0ad7ba4f88bb73812a0f8571199a025ba0b9b33fde131de79c"
+    },
+    {
+      "path": "scripts/Prepare-Session5Tests.ps1",
+      "sha256": "482f16a5c025a054d1408afc75b25e416b6ded31c81854abd409111eb62b3d77"
+    },
+    {
+      "path": "scripts/Prepare-Session7Tests.ps1",
+      "sha256": "bc3b7cd3708ea7486b9fc727b3f83ca56ee5041308aac4bc1a22e236da958c72"
+    },
+    {
+      "path": "scripts/Review-DependencySources.ps1",
+      "sha256": "3a4d0ae87a0521984c7727c313cf477c19d65b571056db64e6b4b3e0ea6da603"
+    },
+    {
+      "path": "scripts/Test-Application.ps1",
+      "sha256": "4e4314a7881a5f688aec86e21c6843b8b9c67422c6c404d5c519b4e677816d6f"
+    },
+    {
+      "path": "scripts/Test-Dependencies.ps1",
+      "sha256": "68782e72dfab514bc97cb7a77a609686409468e55e3d171dc181371ee8901b5e"
+    },
+    {
+      "path": "scripts/Test-MediaDecode.ps1",
+      "sha256": "51cea71b332d3a0fcdac6ccc1e06096275ffaefb2baa9f0917240b4fcb14fa99"
+    },
+    {
+      "path": "scripts/Test-Session5Encoders.ps1",
+      "sha256": "ebff2fc011704b591822e1a700802123e9a2383a85dfd30769037b8ade224cad"
+    },
+    {
+      "path": "scripts/Test-WindowsPackage.ps1",
+      "sha256": "c64fe5e98757319bed1c2efc2081ca75735243e1152c5c2d375da190cb1162ed"
+    },
+    {
+      "path": "src/BuildInfo.h.in",
+      "sha256": "5fb666d437aa7263a9f55cfb7e5d19d8006cd34230aa097e2d2b882ba168d0e8"
+    },
+    {
+      "path": "src/Diagnostics.cpp",
+      "sha256": "94f35ade5990a19a2f52b3a31229b24847a08322e31b64928ea965c1ced7abd4"
+    },
+    {
+      "path": "src/Diagnostics.h",
+      "sha256": "2faa8cce759134dd19f933041631ffa961e962e08e5534d6728bf0439cb21d1d"
+    },
+    {
+      "path": "src/export/Capabilities.cpp",
+      "sha256": "1f897778ef400d214879df752693c08f9f5a1859288c2b2d73d8b8b8bbf331a9"
+    },
+    {
+      "path": "src/export/Capabilities.h",
+      "sha256": "28f328e4dd9d441ada6032edab393cb101f76e3b404d059fb7279630afb0d449"
+    },
+    {
+      "path": "src/export/CapabilityProbeMain.cpp",
+      "sha256": "c1ca2548ae7c6c5d1b09b40459d46e42bec69a558e64abe7e9781a72fec6a6ba"
+    },
+    {
+      "path": "src/export/EncoderConfig.cpp",
+      "sha256": "3daf49f5c9d638fab6fdfaaef651e2a8b11e889bd4b841674d4e082bf03dc25f"
+    },
+    {
+      "path": "src/export/EncoderConfig.h",
+      "sha256": "692da7896cb2679619a306cea5a2bb7beed8e89aa184f9d36306c3525ae2274d"
+    },
+    {
+      "path": "src/export/EncoderControls.cpp",
+      "sha256": "ab71ee3ece4ea6f2249f998689a6d26f0ec3bbefacf6d4198f0ce53d6f8b8a3e"
+    },
+    {
+      "path": "src/export/ExportDialog.cpp",
+      "sha256": "d2c8c67d15bef548c314aa8f28d6d065abb69e77c86b8d319c9826ccff02645b"
+    },
+    {
+      "path": "src/export/ExportDialog.h",
+      "sha256": "e0acfc814e200953160a949ff9cb05acf3b4fbaf7186ba093d2c70aef9a8cf1e"
+    },
+    {
+      "path": "src/export/ExportWorker.cpp",
+      "sha256": "54da568aec200a2a76a757b473f3ea46f306671b993aef50caf37cc49a657069"
+    },
+    {
+      "path": "src/export/ExportWorker.h",
+      "sha256": "067fac6895e137a1e3b3de6ab998dd728465ebecce85b315bafdb814c0391b81"
+    },
+    {
+      "path": "src/export/presets.json",
+      "sha256": "d69588c97302026a682eca00496744bdc95d7d06b7d1d0579a2485f05c8b7d54"
+    },
+    {
+      "path": "src/main.cpp",
+      "sha256": "55926a2ddfd3063912f4f1fd3364b78f4ee8cd3a74028e64bbc5fbfce70548a2"
+    },
+    {
+      "path": "src/MainWindow.cpp",
+      "sha256": "4a8dbb210222badeab044a55e3473e91739cbe90659d302ba2b491f145873b9d"
+    },
+    {
+      "path": "src/MainWindow.h",
+      "sha256": "4b0b2b618002f8adb17838c50b2a62890fd8b319da1dae552b295b7f4d3ca363"
+    },
+    {
+      "path": "src/media/AidCache.cpp",
+      "sha256": "e9c5d9d4db23e51bec48d1ee0a5403f3d20163a26e992619a236bb671267ad17"
+    },
+    {
+      "path": "src/media/AidCache.h",
+      "sha256": "e49ae987754614ad24c2c940e3582e9b36bc2dff6d4d199f41b9023589026a9f"
+    },
+    {
+      "path": "src/media/Inspection.cpp",
+      "sha256": "93da659ea3bf480521907b6ad14d094c3553959457eb5b1ea37c77801b709982"
+    },
+    {
+      "path": "src/media/Inspection.h",
+      "sha256": "98e8c32078dbeb8981002bdf3df00bfef360b6e29278d180d9bb1c1d3df111d4"
+    },
+    {
+      "path": "src/media/RuntimeInfo.cpp",
+      "sha256": "ecd4ee948b54270c3931d8f18ec9cbe0c2dbf462758b0235e690c82dc2714136"
+    },
+    {
+      "path": "src/media/RuntimeInfo.h",
+      "sha256": "6ff7476effafdfb50eaf02964d636aad5d6b446de04eecf6e5c6fdb85c5ce0bb"
+    },
+    {
+      "path": "src/media/WaveformWidget.h",
+      "sha256": "10022b6d3172a5fa76cea4b9d3712e082fe7cce194b5d639f5ac423e441d7467"
+    },
+    {
+      "path": "src/playback/AudioMixer.cpp",
+      "sha256": "698b817d482afaa7a5a8b8170c68d1f7d532448e8f7480786a9c765c063c3625"
+    },
+    {
+      "path": "src/playback/AudioMixer.h",
+      "sha256": "ca9c190c137f75015caa3b75acf8f91df9ab206ab300e6d9753d6ec2b819543d"
+    },
+    {
+      "path": "src/playback/AudioOutput.cpp",
+      "sha256": "9d163081d19cc4ac8a5d94af82d5aea5852734ecb039083021144f4a02319f36"
+    },
+    {
+      "path": "src/playback/AudioOutput.h",
+      "sha256": "dc1c42f4fe1e287c8b5cc1604443ce9e5369a30bc4831d23f4db6b8e12ce8632"
+    },
+    {
+      "path": "src/playback/DecodeWorker.cpp",
+      "sha256": "77aee2d3aa302852db2174a35131a315a1b25b8bf56a9b15d11f04be1a3e7592"
+    },
+    {
+      "path": "src/playback/DecodeWorker.h",
+      "sha256": "10241623561e224518bd018f2c872d8a193f52c466fd60f574da90df6c3b7e42"
+    },
+    {
+      "path": "src/playback/MonitorWidget.cpp",
+      "sha256": "8a5de850e56354c20803d20bd2597cfba3c21498bf6234b6b6f3ab8940541c41"
+    },
+    {
+      "path": "src/playback/MonitorWidget.h",
+      "sha256": "d24b34974fee0aca7291f7e066c0582020608d8f2522bde65f8fa555cefa0e39"
+    },
+    {
+      "path": "src/playback/PlaybackController.cpp",
+      "sha256": "414e64121967a7d995e97dfd3264c85c4a9ac285442100831dd847ba71e68350"
+    },
+    {
+      "path": "src/playback/PlaybackController.h",
+      "sha256": "df1808cce748473dcf69241fe18bc0af2cbd157e636d39ee06310bfe07c2b808"
+    },
+    {
+      "path": "src/playback/RenderDescription.cpp",
+      "sha256": "bb2464f0881e61c16fd51ab714509416f6a8125e9f9c95224afb9238de167ab2"
+    },
+    {
+      "path": "src/playback/RenderDescription.h",
+      "sha256": "786d9148c9eb28c467f88850822f753713cdddaa98f4296c99e8a005339fbcd5"
+    },
+    {
+      "path": "src/playback/VisualEffects.cpp",
+      "sha256": "e6aa61ada11291aab9d2570bc8fa36e5fd25f2d804f5192a6e471a539a566425"
+    },
+    {
+      "path": "src/playback/VisualEffects.h",
+      "sha256": "68094643d37e911ddf63b8af3893c55603884507bd92e0bf1a90b66228ff488c"
+    },
+    {
+      "path": "src/project/Effects.cpp",
+      "sha256": "d8b80e588b66286fe1f1fbb9817ef9caa85644809438d78e06b440f1e34e10a7"
+    },
+    {
+      "path": "src/project/Effects.h",
+      "sha256": "4cfd9dcf0a6d854efacbba3b955d70d85dd4694f7e7f83bb01dd23d430b38bbe"
+    },
+    {
+      "path": "src/project/Project.cpp",
+      "sha256": "7fb60a323c6927492d6cff8d1e321079aa1681b971c7bb892a4cbe96a25be161"
+    },
+    {
+      "path": "src/project/Project.h",
+      "sha256": "cd9073d68f2180ce8a15ca443c9887e82c4a6e9df6b5f1a96a136f8dc85f75eb"
+    },
+    {
+      "path": "src/project/ProjectStore.cpp",
+      "sha256": "9033a7893e2e2f9eb4876661a71b3db51bc1cafaaa22d8a78fc481b90bcfa826"
+    },
+    {
+      "path": "src/project/ProjectStore.h",
+      "sha256": "37eacebeed2771ad6bd84aa15b90e329578de55360475710bc4fc53f7e95b772"
+    },
+    {
+      "path": "src/project/Recovery.cpp",
+      "sha256": "d95fb18581acba49cae1026e5fc5091205378d1cc78aac3bb596bac6a71bab82"
+    },
+    {
+      "path": "src/project/Recovery.h",
+      "sha256": "0ad761cd07b13691a3386ad7e5129e4de02e8392431253e1655012579dc03aff"
+    },
+    {
+      "path": "src/project/Time.cpp",
+      "sha256": "26209eab4671fbed9670eec3320a1cc41e953e3f46a690bc6daadb1616c10c90"
+    },
+    {
+      "path": "src/timeline/EffectDialog.cpp",
+      "sha256": "e6f3015b4d3a4b2dc9424c4890d4a2652a12a798f8e81fc57a8aa48d2f59e941"
+    },
+    {
+      "path": "src/timeline/PropertyDialogs.cpp",
+      "sha256": "29def7377f3f905ac87b5e84e99f70c31098d816f709e5a4b1dd27818e9b3ba2"
+    },
+    {
+      "path": "src/timeline/PropertyDialogs.h",
+      "sha256": "133a10b60628d0a4e13c2656720d0cff0a3b6a7c377823aca7fef9cc9dedd9b9"
+    },
+    {
+      "path": "src/timeline/Timeline.cpp",
+      "sha256": "cd4070979e51af48399e66c7c85486d0a29553c55eda2a842c2527d8a8d682e3"
+    },
+    {
+      "path": "src/timeline/Timeline.h",
+      "sha256": "d642cb86ac376a9dac40690fb18fea2cd034df62d75011300bc29e29fe07938a"
+    },
+    {
+      "path": "src/timeline/TimelineCanvas.cpp",
+      "sha256": "130c6ebb82438d902c1888a691a8d0299f0509139fbbadf296ac5b0978319bf2"
+    },
+    {
+      "path": "src/timeline/TimelineCanvas.h",
+      "sha256": "46f1ed63e3fccfe7bc8108b68bb468a294c9b92931ca0aae480c36b0979ef41a"
+    },
+    {
+      "path": "src/timeline/TimelineWidget.cpp",
+      "sha256": "17d284670c78b7167a25cb8ecfbce898e3e61df075a860922a9baa182e077287"
+    },
+    {
+      "path": "src/timeline/TimelineWidget.h",
+      "sha256": "fb3d98d2004782f2ea837fa0d7a0d5ab24577398dc9c6d42f573e2011b2722fd"
+    },
+    {
+      "path": "src/ui/InspectorWidget.cpp",
+      "sha256": "2a8f333c7a6cf78adcdf8be3b3c9478b9a94a8a2a5164f19caf2ab7701fc8e5e"
+    },
+    {
+      "path": "src/ui/InspectorWidget.h",
+      "sha256": "89a1756836601818dd36390cdc23853e2f0000f3256d21160bbfc9a43e918ad3"
+    },
+    {
+      "path": "src/ui/TimeDisplay.h",
+      "sha256": "25ac02d9c0547058108f70c572388e0bef897f4abc1fbf89b744254c01b3daa8"
+    },
+    {
+      "path": "src/Version.rc.in",
+      "sha256": "fc6ea27cd88cfe7a3b76ac3a7f66b6c237b667764d6bfd3a41fe0e05b8a64e21"
+    },
+    {
+      "path": "tests/AdvancedEffectsTests.cpp",
+      "sha256": "d08cae567cc334821d76b5540cac7202580f769260dd135000c46674c95dab52"
+    },
+    {
+      "path": "tests/AudioTitleTests.cpp",
+      "sha256": "efe13eebe28292defc4522e610e5d315969fd99ede6b2c9635064be71a04b01f"
+    },
+    {
+      "path": "tests/CapabilityCacheTests.cpp",
+      "sha256": "fdfb51193d4b110654499267062e727f7e381f98caeea6220ded2ffca9bda86c"
+    },
+    {
+      "path": "tests/CapabilityTests.cpp",
+      "sha256": "d5ae12c402485ea78fd7cd02a326b736df855d8becd3e515425104cb922afa73"
+    },
+    {
+      "path": "tests/EffectsTests.cpp",
+      "sha256": "f55c136a5f99a32fb71e94e0d5bbd13fc9aee80bb68b2dc9bee68b3f30d743ed"
+    },
+    {
+      "path": "tests/EncoderCatalogTests.cpp",
+      "sha256": "43d7d62d561a92edcc3b769fdae32c067d45505f33666e6aaa0a83b0071b1dc0"
+    },
+    {
+      "path": "tests/ExportTabsTests.cpp",
+      "sha256": "d3bb9945f2d19c2c1f3bcd55e3bea4925620b5896327617538e627a7536e6e1d"
+    },
+    {
+      "path": "tests/ExportTests.cpp",
+      "sha256": "aac5d54742bdddbb994f1bb22defb04ea2f11fcd19ef7554ecacd68ba4d71bcc"
+    },
+    {
+      "path": "tests/MediaTests.cpp",
+      "sha256": "81f925b4208bde9e8aff96932cb94deaefd78ed0dd5992fae56a3fd3a1897d59"
+    },
+    {
+      "path": "tests/PackageWorkflowTests.cpp",
+      "sha256": "19e21d123f50e6ef4851e12903f22836d72eafa60faa35c28e473a3e88645bd6"
+    },
+    {
+      "path": "tests/PerformanceTests.cpp",
+      "sha256": "f766697c9d442a02c824df8a0fed340d10682706390bbba602d4c6b3830dd949"
+    },
+    {
+      "path": "tests/PlaybackBenchmark.cpp",
+      "sha256": "c6b5fb1ea7b326b9c3ce524d9f54de09bdba8458ae191939bb157bbb6e91f08b"
+    },
+    {
+      "path": "tests/PlaybackTests.cpp",
+      "sha256": "46f0070956f154564d7b2de96cfb2651250079e2054bb04ce80830e4f5910ad1"
+    },
+    {
+      "path": "tests/ProjectTests.cpp",
+      "sha256": "3a66034bd3f82057b39b22e43408887f76b72609657f78db2fe0a1175121fc08"
+    },
+    {
+      "path": "tests/RecoveryTests.cpp",
+      "sha256": "457a2f0531df8a78aa5a735944665922c1521b5416e07f039e50ff805037873f"
+    },
+    {
+      "path": "tests/SequenceTests.cpp",
+      "sha256": "de9ccf3fd76a8fd2c9844798cc3c960f327c0a67799a17762faefa44510c8197"
+    },
+    {
+      "path": "tests/TimelineTests.cpp",
+      "sha256": "a95207f2b63cc85427175051fd3a08d86fa2b84435373de41aa03594b98c333b"
+    },
+    {
+      "path": "tests/TimelineUiTests.cpp",
+      "sha256": "d05895bd410c7911207c676a725ee4a83c20d00eae86b16318d7e45e38c2fc42"
+    },
+    {
+      "path": "tests/WorkspaceTests.cpp",
+      "sha256": "4ca061f56902b809c6993ce9c7601ab1a0d5b225002df30677c87d85f62b50c2"
+    }
+  ],
+  "runtimePolicy": "Qt/FFmpeg/MSVC app-local; UCRT/Windows/graphics drivers supplied by Windows 11 x64",
+  "manifestExclusion": "build/package-manifest.json",
+  "qtDeployment": "unmodified pinned DLLs; qt.conf relative prefix",
+  "evidenceLimits": [
+    "No fresh Windows account or separate machine",
+    "Unsigned",
+    "Exact dependency corresponding source/build material unresolved for public binary distribution"
+  ]
+}

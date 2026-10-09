@@ -1,5 +1,5 @@
 [CmdletBinding()]
-param([string]$BuildDirectory = 'build/1.0.0')
+param([string]$BuildDirectory = 'build/1.0.1')
 $ErrorActionPreference = 'Stop'
 $root = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..')).Path
 $lock = Get-Content -LiteralPath (Join-Path $root 'dependencies.lock.json') -Raw | ConvertFrom-Json

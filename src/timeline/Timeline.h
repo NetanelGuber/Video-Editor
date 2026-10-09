@@ -34,6 +34,7 @@ struct TrimClip { QString sequenceId, trackId, clipId; qint64 startFrame = 0, du
 struct MoveClip { QString sequenceId, trackId, clipId, destinationTrackId; qint64 startFrame = 0; EditMode mode = EditMode::Normal; };
 struct CloseGap { QString sequenceId, trackId; qint64 startFrame = 0, durationFrames = 1; };
 struct ResizeSequence { QString sequenceId; qint64 durationFrames = 0; };
+struct SetAutomaticSequenceEnd { QString sequenceId; };
 struct UpsertMedia { Media media; };
 struct UpsertTitle { Title title; };
 struct RenameProject { QString name; };
@@ -46,7 +47,7 @@ struct SetMulticam { QString sequenceId; std::optional<Multicam> group; };
 struct SwitchCamera { QString sequenceId, trackId; qint64 frame = 0; };
 using Command = std::variant<AddTrack, RemoveTrack, SetTrackEnabled, SetTrackLocked, SetTrackAudio, SetClipAudio, UpsertAudioBus, RemoveAudioBus, SetClipEffects, SetSelection,
     InsertClip, DeleteClip, SplitClip, TrimClip, MoveClip, CloseGap, ResizeSequence, UpsertMedia, UpsertTitle, RenameProject, SetExportSettings,
-    AddSequence, ActivateSequence, RemoveSequence, SetMulticam, SwitchCamera, SetPrimaryVideo>;
+    AddSequence, ActivateSequence, RemoveSequence, SetMulticam, SwitchCamera, SetPrimaryVideo, SetAutomaticSequenceEnd>;
 struct FrameRange {
     qint64 startFrame = 0, durationFrames = 0;
     bool operator==(const FrameRange&) const = default;

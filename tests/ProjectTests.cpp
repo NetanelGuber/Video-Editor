@@ -62,6 +62,19 @@ int main(int argc, char** argv) {
             "Int64 values above 2^53 retain exact precision");
         auto again = deserialize(serialize(p));
         check(again && *again.project == p, "All typed fields and opaque effect parameters round-trip exactly");
+        const auto automaticProject = newProject("Automatic end", true);
+        const auto automaticRoundTrip = deserialize(serialize(automaticProject));
+        check(automaticRoundTrip && *automaticRoundTrip.project == automaticProject,
+            "Automatic sequence end mode persists in schema 12");
+        auto schema11 = QJsonDocument::fromJson(serialize(p)).object(); schema11["schemaVersion"] = 11;
+        auto manualSequences = schema11["sequences"].toArray();
+        for (qsizetype i = 0; i < manualSequences.size(); ++i) { auto s = manualSequences[i].toObject(); s.remove("automaticEnd"); manualSequences[i] = s; }
+        schema11["sequences"] = manualSequences;
+        const auto migrated11 = deserialize(QJsonDocument(schema11).toJson());
+        check(migrated11 && migrated11.migratedFrom == 11 && *migrated11.project == p,
+            "Older projects migrate to manual mode while preserving every existing duration");
+        auto badAutomatic = automaticProject; badAutomatic.sequences[0].durationFrames = 90;
+        check(validate(badAutomatic).contains("automatic duration"), "Automatic mode rejects a duration beyond the last clip");
         auto withPrimary = p; bool foundPrimary = false;
         for (const auto& media : withPrimary.media) for (const auto& stream : media.streams) if (stream.kind == "video") {
             withPrimary.sequences[0].primaryVideoMediaId = media.id; withPrimary.sequences[0].primaryVideoStreamIndex = stream.index; foundPrimary = true; break;

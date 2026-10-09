@@ -52,7 +52,7 @@ private:
     void refreshSequenceSummary();
     void showSequence();
     void previewSelected();
-    editor::project::Project project_ = editor::project::newProject();
+    editor::project::Project project_ = editor::project::newProject(QStringLiteral("Untitled"), true);
     editor::project::Project savedProject_ = project_;
     QString projectPath_, autosavePath_;
     std::unique_ptr<QLockFile> snapshotLease_;

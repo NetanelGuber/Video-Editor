@@ -81,7 +81,7 @@ int main(int argc, char** argv) {
     auto check = [&](bool ok, const QString& label) { checks.append(label); if (!ok) { failures.append(label); std::fprintf(stderr, "FAIL: %s\n", qPrintable(label)); } };
     check(!QFile::exists(settings.fileName()) && !QFile::exists(out.filePath("cache/export-capabilities.json")), "Start with empty isolated settings and capabilities");
     window.findChild<QAction*>("newProjectAction")->trigger();
-    check(window.isProjectDirty(), "Create project through production action");
+    check(window.isProjectDirty() && ui->sequence()->automaticEnd, "Create project with automatic sequence end through production action");
     check(window.importPaths({mode}) && waitFor([&] { return !window.mediaBusy(); }), "Background import completes");
     check(window.project().media.size() == 1 && !window.project().media[0].streams.isEmpty() && QFile::exists(window.project().media[0].path), "Imported media is online");
     if (window.project().media.size() != 1) return 1;
@@ -100,6 +100,17 @@ int main(int argc, char** argv) {
     ui->findChild<QAction*>("timelineSplit")->trigger();
     check(ui->sequence()->tracks[0].clips.size() == 2, "Split action edits the selected video");
     ui->undo(); check(window.project() == placed, "Undo restores placed content exactly"); ui->redo();
+    const auto editedTracks = ui->sequence()->tracks;
+    check(ui->execute(timeline::ResizeSequence{sid, 300}).isEmpty(), "Prepare a trailing gap after the edited clips");
+    ui->setPlayhead(45);
+    ui->findChild<QAction*>("setSequenceEndToPlayheadAction")->trigger();
+    check(!ui->sequence()->automaticEnd && ui->sequence()->durationFrames == 45 && ui->sequence()->tracks == editedTracks,
+        "Packaged end-at-playhead command shortens the sequence without changing clips");
+    ui->findChild<QAction*>("fitSequenceToClipsAction")->trigger();
+    check(ui->sequence()->automaticEnd && ui->sequence()->durationFrames == 30 && ui->sequence()->tracks == editedTracks && ui->playhead() == 30,
+        "Packaged fit-to-clips command removes the remaining empty export tail");
+    ui->undo(); check(ui->sequence()->durationFrames == 45, "Undo restores the previous sequence end");
+    ui->redo(); check(ui->sequence()->durationFrames == 30, "Redo restores the fitted sequence end");
     const auto projectPath = out.filePath("first-cut.veproject");
     check(window.saveProjectPath(projectPath), "Atomic first save succeeds");
     const auto saved = window.project();
