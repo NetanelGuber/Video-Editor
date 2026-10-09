@@ -1,0 +1,45 @@
+{
+  "passed": true,
+  "version": "1.0.1",
+  "releaseState": "public-published",
+  "verifiedUtc": "2026-10-09T14:29:34.3695932Z",
+  "releaseUrl": "https://github.com/NetanelGuber/Video-Editor/releases/tag/v1.0.1",
+  "publishedAt": "2026-10-09T14:28:42Z",
+  "tagCommit": "01e89da222d60df58565fdb54922427ad73efe0a",
+  "repositoryVisibility": "PUBLIC",
+  "assetDigestsMatchVerifiedFiles": true,
+  "archiveSha256": "4ae5f978aadebb0ee45c8a12506b13c40b4abf9a0904a8d7a34d78d13b722762",
+  "checksumAssetSha256": "a3b653aadcaaeea5854ba0d6b1060c8a616b1fea4e04dc4ab202081984acfd05",
+  "assets": [
+    {
+      "apiUrl": "https://api.github.com/repos/NetanelGuber/Video-Editor/releases/assets/625195706",
+      "contentType": "application/zip",
+      "createdAt": "2026-10-09T14:23:02Z",
+      "digest": "sha256:4ae5f978aadebb0ee45c8a12506b13c40b4abf9a0904a8d7a34d78d13b722762",
+      "downloadCount": 0,
+      "id": "RA_kwDOVCZ_BM4lQ7q6",
+      "label": "",
+      "name": "VideoEditor-1.0.1-windows-x64.zip",
+      "size": 110932089,
+      "state": "uploaded",
+      "updatedAt": "2026-10-09T14:28:42Z",
+      "url": "https://github.com/NetanelGuber/Video-Editor/releases/download/v1.0.1/VideoEditor-1.0.1-windows-x64.zip"
+    },
+    {
+      "apiUrl": "https://api.github.com/repos/NetanelGuber/Video-Editor/releases/assets/625195709",
+      "contentType": "application/octet-stream",
+      "createdAt": "2026-10-09T14:23:02Z",
+      "digest": "sha256:a3b653aadcaaeea5854ba0d6b1060c8a616b1fea4e04dc4ab202081984acfd05",
+      "downloadCount": 0,
+      "id": "RA_kwDOVCZ_BM4lQ7q9",
+      "label": "",
+      "name": "VideoEditor-1.0.1-windows-x64.zip.sha256",
+      "size": 101,
+      "state": "uploaded",
+      "updatedAt": "2026-10-09T14:23:03Z",
+      "url": "https://github.com/NetanelGuber/Video-Editor/releases/download/v1.0.1/VideoEditor-1.0.1-windows-x64.zip.sha256"
+    }
+  ],
+  "evidenceLevel": "GitHub release API confirms published release and both uploaded asset sizes and SHA-256 digests; remote tag commit verified",
+  "sourceReviewComplete": false
+}
